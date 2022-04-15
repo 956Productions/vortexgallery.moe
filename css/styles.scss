@@ -1,0 +1,48 @@
+---
+---
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Bomber Escort';
+	src: url('/img/bomber.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Bomber Escort Condensed';
+	src: url('/img/bomber_condensed.ttf') format('truetype');
+}
+
+$cyan: #00ffff;
+$blue: #00a3f8;
+$yellow: #fddc00;
+$radius: 6px;
+
+.front-hero .hero-body .title {
+	font-family: 'Bomber Escort';
+}
+
+.front-hero .hero-bg {
+	background: black;
+	border: 8px solid $blue;
+	border-radius: 0px 50px 0px 0px;
+}
+
+.site-footer {
+	background: linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.front-hero {
+	background: url('/img/hero.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@import 'sass/utilities/initial-variables';
+
+$primary: $blue;
+$danger: $yellow;
+$link-hover: $cyan;
+$content-heading-color: $white;
+
+@import 'bulma.sass';

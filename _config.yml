@@ -1,0 +1,22 @@
+defaults:
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
+    permalink: /:basename
+plugins:
+  - jekyll-seo-tag
+title: Vortex Gallery
+tagline: "Vortex Gallery at EVO 2022"
+description: "Bring Your Own Mix. August 5-7, 2022."
+twitch: https://twitch.tv/956productions
+twitter: 
+  username: 956productions
+  card: summary
+logo: /img/logo.png
+youtube: https://956pro.com/youtube
+nav:
+  - title: FAQ
+    url: /faq
