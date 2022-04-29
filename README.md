@@ -1,1 +1,0 @@
-"# vortexgallery.moe" 
