@@ -9,7 +9,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
 title: Vortex Gallery
-tagline: "Vortex Gallery at EVO 2022"
+tagline: "Vortex Gallery at Evo 2022"
 description: "Bring Your Own Mix. August 5-7, 2022."
 twitch: https://twitch.tv/956productions
 twitter: 

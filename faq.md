@@ -3,9 +3,9 @@ title: Frequently Asked Questions
 ---
 ### Q: What is Vortex Gallery? ／「Vortex Gallery」とは？
 
-A: Vortex Gallery is a series of events run by the collaboration of a group of volunteer tournament organizers, streamers, bracket runners, chat mods, and commentators during the EVO Championship Series, or online as its own separate event.
+A: Vortex Gallery is a series of events run by the collaboration of a group of volunteer tournament organizers, streamers, bracket runners, chat mods, and commentators during the Evo Championship Series, or online as its own separate event.
 
-A: Vortex Galleryは主にボランティアグループ（大会進行者、配信者、トーナメント表管理者、チャット管理者、実況・解説者など）の合同によって主催されているイベントシリーズであり、アメリカ・ラスベガスで行われる格闘ゲーム大会イベント『EVO Championship』で行われるサイドイベント、またはEVOとは無関係の独自のオンラインイベントです。
+A: Vortex Galleryは主にボランティアグループ（大会進行者、配信者、トーナメント表管理者、チャット管理者、実況・解説者など）の合同によって主催されているイベントシリーズであり、アメリカ・ラスベガスで行われる格闘ゲーム大会イベント『Evo Championship』で行われるサイドイベント、またはEvoとは無関係の独自のオンラインイベントです。
 
 ### Q: Why isn’t [Insert Game Here] at Vortex Gallery? ／ 特定のタイトルが含まれていないのは何故ですか？
 
@@ -21,7 +21,7 @@ Vortex Galleryで開催されるイベントは全てボランティアによっ
 
 A: For TO, Streaming, Commentator & Equipment volunteers, check out our volunteer page or check the @956Productions twitter for the volunteer form link we normally drop before we announce our initial line up. For other inquiries, please send a DM to @956Productions.
 
-Sometimes we get volunteer submissions from people who are passionate about their game, but are perhaps not experienced enough to manage the complexity involved in running a tournament at the “largest and longest-running fighting game tournaments in the world” that is EVO, or on the scale we tend to run our online events, which are one of the biggest in the community. We encourage these hopefuls to reach out to their communities to find people with more experience in running side-tournaments at majors, and to assist them at Vortex Gallery to learn the ropes, and perhaps take the reins in the future.
+Sometimes we get volunteer submissions from people who are passionate about their game, but are perhaps not experienced enough to manage the complexity involved in running a tournament at the “largest and longest-running fighting game tournaments in the world” that is Evo, or on the scale we tend to run our online events, which are one of the biggest in the community. We encourage these hopefuls to reach out to their communities to find people with more experience in running side-tournaments at majors, and to assist them at Vortex Gallery to learn the ropes, and perhaps take the reins in the future.
 
 A: トーナメント進行、配信、解説・実況、機材の提供など、ボランティアの応募を行いたい場合は「@956Productions」Twitterページにあるボランティア申請フォームをご確認ください。その他の質問は「@956Productions」TwitterアカウントまでDMでお問い合わせください。
 
