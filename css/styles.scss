@@ -14,14 +14,20 @@ $blue: #00a3f8;
 $yellow: #fddc00;
 $radius: 6px;
 
-.front-hero .hero-body .title {
-	font-family: 'Bomber Escort';
+.bomber {
+	font-family: 'Bomber Escort' !important;
+	font-weight: 400 !important;
+	text-transform: lowercase;
 }
 
-.front-hero .hero-bg {
+.vg-box {
 	background: black;
-	border: 8px solid $blue;
 	border-radius: 0px 50px 0px 0px;
+	border: 2px solid $blue;
+	transition: background 0.5s;
+}
+.vg-box:hover {
+	background: $blue;
 }
 
 .site-footer {
@@ -40,6 +46,7 @@ $radius: 6px;
 
 $primary: $blue;
 $danger: $yellow;
+$text-strong: $white-bis;
 $link-hover: $cyan;
 $content-heading-color: $white;
 

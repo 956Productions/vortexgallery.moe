@@ -7,14 +7,21 @@
   font-family: "Bomber Escort Condensed";
   src: url("/img/bomber_condensed.ttf") format("truetype");
 }
-.front-hero .hero-body .title {
-  font-family: "Bomber Escort";
+.bomber {
+  font-family: "Bomber Escort" !important;
+  font-weight: 400 !important;
+  text-transform: lowercase;
 }
 
-.front-hero .hero-bg {
+.vg-box {
   background: black;
-  border: 8px solid #00a3f8;
   border-radius: 0px 50px 0px 0px;
+  border: 2px solid #00a3f8;
+  transition: background 0.5s;
+}
+
+.vg-box:hover {
+  background: #00a3f8;
 }
 
 .site-footer {
@@ -419,7 +426,7 @@ span {
 }
 
 strong {
-  color: #363636;
+  color: #fafafa;
   font-weight: 700;
 }
 
@@ -453,7 +460,7 @@ table th:not([align]) {
   text-align: inherit;
 }
 table th {
-  color: #363636;
+  color: #fafafa;
 }
 
 @keyframes spinAround {
@@ -485,7 +492,7 @@ a.box:active {
   background-color: white;
   border-color: #dbdbdb;
   border-width: 1px;
-  color: #363636;
+  color: #fafafa;
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
@@ -537,11 +544,11 @@ a.box:active {
 }
 .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
   background-color: whitesmoke;
-  color: #363636;
+  color: #fafafa;
 }
 .button.is-text:active, .button.is-text.is-active {
   background-color: #e8e8e8;
-  color: #363636;
+  color: #fafafa;
 }
 .button.is-text[disabled], fieldset[disabled] .button.is-text {
   background-color: transparent;
@@ -1762,7 +1769,7 @@ a.box:active {
   vertical-align: top;
 }
 .content table th {
-  color: #363636;
+  color: #fafafa;
 }
 .content table th:not([align]) {
   text-align: inherit;
@@ -1770,12 +1777,12 @@ a.box:active {
 .content table thead td,
 .content table thead th {
   border-width: 0 0 2px;
-  color: #363636;
+  color: #fafafa;
 }
 .content table tfoot td,
 .content table tfoot th {
   border-width: 2px 0 0;
-  color: #363636;
+  color: #fafafa;
 }
 .content table tbody tr:last-child td,
 .content table tbody tr:last-child th {
@@ -2228,7 +2235,7 @@ div.icon-text {
 }
 .table {
   background-color: white;
-  color: #363636;
+  color: #fafafa;
 }
 .table td,
 .table th {
@@ -2318,7 +2325,7 @@ div.icon-text {
   vertical-align: middle;
 }
 .table th {
-  color: #363636;
+  color: #fafafa;
 }
 .table th:not([align]) {
   text-align: inherit;
@@ -2342,7 +2349,7 @@ div.icon-text {
 .table thead td,
 .table thead th {
   border-width: 0 0 2px;
-  color: #363636;
+  color: #fafafa;
 }
 .table tfoot {
   background-color: transparent;
@@ -2350,7 +2357,7 @@ div.icon-text {
 .table tfoot td,
 .table tfoot th {
   border-width: 2px 0 0;
-  color: #363636;
+  color: #fafafa;
 }
 .table tbody {
   background-color: transparent;
@@ -2612,7 +2619,7 @@ a.tag:hover {
 }
 
 .title {
-  color: #363636;
+  color: #fafafa;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125;
@@ -2653,7 +2660,7 @@ a.tag:hover {
   line-height: 1.25;
 }
 .subtitle strong {
-  color: #363636;
+  color: #fafafa;
   font-weight: 600;
 }
 .subtitle:not(.is-spaced) + .title {
@@ -2709,19 +2716,19 @@ a.tag:hover {
   background-color: white;
   border-color: #dbdbdb;
   border-radius: 6px;
-  color: #363636;
+  color: #fafafa;
 }
 .select select::-moz-placeholder, .textarea::-moz-placeholder, .input::-moz-placeholder {
-  color: rgba(54, 54, 54, 0.3);
+  color: rgba(250, 250, 250, 0.3);
 }
 .select select::-webkit-input-placeholder, .textarea::-webkit-input-placeholder, .input::-webkit-input-placeholder {
-  color: rgba(54, 54, 54, 0.3);
+  color: rgba(250, 250, 250, 0.3);
 }
 .select select:-moz-placeholder, .textarea:-moz-placeholder, .input:-moz-placeholder {
-  color: rgba(54, 54, 54, 0.3);
+  color: rgba(250, 250, 250, 0.3);
 }
 .select select:-ms-input-placeholder, .textarea:-ms-input-placeholder, .input:-ms-input-placeholder {
-  color: rgba(54, 54, 54, 0.3);
+  color: rgba(250, 250, 250, 0.3);
 }
 .select select:hover, .textarea:hover, .input:hover, .select select.is-hovered, .is-hovered.textarea, .is-hovered.input {
   border-color: #b5b5b5;
@@ -2877,7 +2884,7 @@ a.tag:hover {
   cursor: pointer;
 }
 .radio:hover, .checkbox:hover {
-  color: #363636;
+  color: #fafafa;
 }
 [disabled].radio, [disabled].checkbox, fieldset[disabled] .radio, fieldset[disabled] .checkbox,
 .radio input[disabled],
@@ -2932,7 +2939,7 @@ a.tag:hover {
   padding: 0.5em 1em;
 }
 .select:not(.is-multiple):not(.is-loading):hover::after {
-  border-color: #363636;
+  border-color: #fafafa;
 }
 .select.is-white:not(:hover)::after {
   border-color: white;
@@ -3394,14 +3401,14 @@ a.tag:hover {
 }
 .file-label:hover .file-cta {
   background-color: #eeeeee;
-  color: #363636;
+  color: #fafafa;
 }
 .file-label:hover .file-name {
   border-color: #d5d5d5;
 }
 .file-label:active .file-cta {
   background-color: #e8e8e8;
-  color: #363636;
+  color: #fafafa;
 }
 .file-label:active .file-name {
   border-color: #cfcfcf;
@@ -3456,7 +3463,7 @@ a.tag:hover {
 }
 
 .label {
-  color: #363636;
+  color: #fafafa;
   display: block;
   font-size: 1rem;
   font-weight: 700;
@@ -3765,7 +3772,7 @@ a.tag:hover {
   padding-left: 0;
 }
 .breadcrumb li.is-active a {
-  color: #363636;
+  color: #fafafa;
   cursor: default;
   pointer-events: none;
 }
@@ -3843,7 +3850,7 @@ a.tag:hover {
 
 .card-header-title {
   align-items: center;
-  color: #363636;
+  color: #fafafa;
   display: flex;
   flex-grow: 1;
   font-weight: 700;
@@ -4166,7 +4173,7 @@ button.dropdown-item.is-active {
 }
 .menu-list a:hover {
   background-color: whitesmoke;
-  color: #363636;
+  color: #fafafa;
 }
 .menu-list a.is-active {
   background-color: #00a3f8;
@@ -4427,7 +4434,7 @@ button.dropdown-item.is-active {
 }
 
 .modal-card-title {
-  color: #363636;
+  color: #fafafa;
   flex-grow: 1;
   flex-shrink: 0;
   font-size: 1.5rem;
@@ -5508,7 +5515,7 @@ body.has-spaced-navbar-fixed-bottom {
 .pagination-next,
 .pagination-link {
   border-color: #dbdbdb;
-  color: #363636;
+  color: #fafafa;
   min-width: 2.5em;
 }
 .pagination-previous:hover,
@@ -5745,7 +5752,7 @@ body.has-spaced-navbar-fixed-bottom {
 .panel-heading {
   background-color: #ededed;
   border-radius: 6px 6px 0 0;
-  color: #363636;
+  color: #fafafa;
   font-size: 1.25em;
   font-weight: 700;
   line-height: 1.25;
@@ -5777,7 +5784,7 @@ body.has-spaced-navbar-fixed-bottom {
 
 .panel-block {
   align-items: center;
-  color: #363636;
+  color: #fafafa;
   display: flex;
   justify-content: flex-start;
   padding: 0.5em 0.75em;
@@ -5853,8 +5860,8 @@ label.panel-block:hover {
   vertical-align: top;
 }
 .tabs a:hover {
-  border-bottom-color: #363636;
-  color: #363636;
+  border-bottom-color: #fafafa;
+  color: #fafafa;
 }
 .tabs li {
   display: block;
