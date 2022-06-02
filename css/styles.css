@@ -4167,17 +4167,17 @@ button.dropdown-item.is-active {
 }
 .menu-list a {
   border-radius: 2px;
-  color: #4a4a4a;
+  color: white;
   display: block;
   padding: 0.5em 0.75em;
 }
 .menu-list a:hover {
-  background-color: whitesmoke;
-  color: #fafafa;
+  background-color: #00a3f8;
+  color: #0a0a0a;
 }
 .menu-list a.is-active {
-  background-color: #00a3f8;
-  color: #fff;
+  background-color: #fddc00;
+  color: #0a0a0a;
 }
 .menu-list li ul {
   border-left: 1px solid #dbdbdb;

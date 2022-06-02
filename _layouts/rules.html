@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top has-background-black">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero is-link has-text-centered has-background-black">
+            <div class="hero-body">
+                <h1 class="title titling is-1">
+                    {{ page.title }}
+                </h1>
+                {% if page.date %}
+                <h2 class="subtitle">
+                    Last updated on {{ page.date }}
+                </h2>
+                {% endif %}
+            </div>
+        </section>
+        <section class="section has-background-black-bis">
+            <div class="container is-max-desktop">
+                <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap-reverse">
+                    <div class="column is-two-thirds is-flex-grow-1" style="min-width: 300px;">
+                        <div class="rules-div content has-text-white" id="General">
+                            {{content}}
+                        </div>
+                        {% for i in site.data.games %}
+                        <div class="rules-div content has-text-white is-hidden" id="{{i['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">
+                            <h2>{{i['Game Name']}}</h2>
+                            <hr/>
+                            <h3>General Information</h3>
+                            <ul>
+                                <li>Platform: {{i['Platform (from Game)'] | default: "TBA"}}</li>
+                                <li>Registration Cap: {{i['Cap'] | default: "TBA"}}</li>
+                                <li>Registration Fee: {{i['Entry $'] | default: "TBA"}}</li>
+                                <li>Registration Close: {{i['Reg Ends'] | default: "TBA"}}</li>
+                                <li>Start Time: {{i['Start Time (Local)'] | default: "TBA"}}</li>
+                                <li>Stream Channel: <a href="{{i['Stream']}}">{{i['Stream'] | default: "TBA"}}</a></li>
+                                <li>Stream Start Time: <a href="{{i['Stream']}}">{{i['Stream Start Time'] | default: "TBA"}}</a></li>
+                            </ul>
+                            <h3>Prizing</h3>
+                            <ul>
+                                <li>Pot Split: {{i['Pot Split'] | default: "TBA"}}</li>
+                                {% if i['Matcherino Link'] %}
+                                <li><a href="i['Matcherino Link']">Crowdfunding via Matcherino</a></li>
+                                {% endif %}
+                            </ul>
+                            <h3>Tournament Format</h3>
+                            <ul>
+                                <li>Bracket Format: {{i['Pools-Bracket Type'] | default: "TBA"}}</li>
+                                <li>Rounds per Game: {{i['Pools-Rounds per Game'] | default: "TBA"}}</li>
+                                <li>Pools Games per Set: {{i['Pools-Games per Set'] | default: "TBA"}}</li>
+                                <li>Finals Cut Off: {{i['Finals-Cut Off'] | default: "TBA"}}</li>
+                                <li>Finals Games per Set: {{i['Finals-Games per Set'] | default: "TBA"}}</li>
+                            </ul>
+                            <h3>Tournament Rules</h3>
+                            <ul>
+                                <li>{{i['Rules-Game Settings']}}</li>
+                                <li>{{i['Rules-Chara Change']}}</li>
+                                <li>{{i['Rules-Glitches']}}</li>
+                                <li>{{i['Rules-Disconnect']}}</li>
+                                {% if i['Rules-Notes'] %}
+                                <li>{{i['Rules-Notes']}}</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px;">
+                        <aside class="menu">
+                            <div class="menu-list">
+                                <a class="is-active rules-btn" data-target="General">General</a>
+                            </div>
+                            <p class="menu-label">
+                                All Games
+                            </p>
+                            <div class="menu-list">
+                                {% for n in site.data.games %}
+                                <a class="rules-btn" id="btn-{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}" data-target="{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{n['Game Name']}}</a>
+                                {% endfor %}
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>
