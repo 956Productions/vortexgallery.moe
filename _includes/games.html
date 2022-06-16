@@ -1,5 +1,6 @@
 <div class="columns is-multiline is-centered">
     {% for i in site.data.games %}
+    {% if i['Smash URL'] %}
     <a href="{{i['Smash URL']}}" class="column is-one-quarter is-flex is-flex-direction-column is-align-items-center">
         <div class="block">
             <div style="height:200px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
@@ -10,5 +11,6 @@
             <p class="has-text-white has-text-weight-semibold has-text-centered">{{i['Game Name']}}</p>
         </div>
     </a>
+    {% endif %}
     {% endfor %}
 </div>
