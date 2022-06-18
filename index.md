@@ -6,4 +6,4 @@ Vortex Gallery brings the community tournaments to Evo 2022! Join us at the Mand
 
 Register today on Start.gg and secure your Evo event pass to see us offline. 
 
-[**Volunteer to bring a new game or help out our announced lineup!**](/volunteer)
+[**Sign up to volunteer to help out your favorite game! Commentary, bracket running and support are needed.**](/volunteer)
