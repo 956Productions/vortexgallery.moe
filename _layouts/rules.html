@@ -43,7 +43,9 @@
                                 <li><a href="i['Matcherino Link']">Crowdfunding via Matcherino</a></li>
                                 {% endif %}
                             </ul>
+                            {% if i['Pools-Bracket Type'] %}
                             <h3>Tournament Format</h3>
+                            {% endif %}
                             <ul>
                                 {% if i['Pools-Bracket Type'] %}
                                 <li>Bracket Format: {{i['Pools-Rounds per Game']}}</li>
