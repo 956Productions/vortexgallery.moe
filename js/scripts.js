@@ -1,9 +1,11 @@
 function rulesPage(t) {
-    $(".rules-btn").toggleClass('is-active', false);
-    $("#btn-"+t.replace("#","")).toggleClass('is-active',true);
-    $(".rules-div").toggleClass('is-hidden', true);
-    $(t).toggleClass('is-hidden',false);
-    window.location.hash = t;
+    if ( t != '' ) {
+        $(".rules-btn").toggleClass('is-active', false);
+        $("#btn-"+t.replace("#","")).toggleClass('is-active',true);
+        $(".rules-div").toggleClass('is-hidden', true);
+        $(t).toggleClass('is-hidden',false);
+        window.location.hash = t;
+    }
 }
 
 window.onload = function()

@@ -20,4 +20,10 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
+  - title: Rules
+    url: /rules
+  - title: Staff
+    url: /staff
+  - title: Discord
+    url: https://discord.gg/wTWRM9uBBt
 volunteer: /volunteer

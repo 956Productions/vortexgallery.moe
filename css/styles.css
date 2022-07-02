@@ -153,7 +153,7 @@ fieldset[disabled] .file-name, fieldset[disabled] .select select, .select fields
   width: 20px;
 }
 .modal-close::before, .delete::before, .modal-close::after, .delete::after {
-  background-color: white;
+  background-color: #0a0a0a;
   content: "";
   display: block;
   left: 50%;
@@ -334,7 +334,7 @@ th:not([align]) {
 }
 
 html {
-  background-color: white;
+  background-color: #0a0a0a;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -473,7 +473,7 @@ table th {
 }
 /* Bulma Elements */
 .box {
-  background-color: white;
+  background-color: #0a0a0a;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
@@ -489,7 +489,7 @@ a.box:active {
 }
 
 .button {
-  background-color: white;
+  background-color: #0a0a0a;
   border-color: #dbdbdb;
   border-width: 1px;
   color: #fafafa;
@@ -1495,7 +1495,7 @@ a.box:active {
   font-size: 1.5rem;
 }
 .button[disabled], fieldset[disabled] .button {
-  background-color: white;
+  background-color: #0a0a0a;
   border-color: #dbdbdb;
   box-shadow: none;
   opacity: 0.5;
@@ -1971,7 +1971,7 @@ div.icon-text {
 }
 .notification code,
 .notification pre {
-  background: white;
+  background: #0a0a0a;
 }
 .notification pre code {
   background: transparent;
@@ -2234,7 +2234,7 @@ div.icon-text {
   }
 }
 .table {
-  background-color: white;
+  background-color: #0a0a0a;
   color: #fafafa;
 }
 .table td,
@@ -2713,7 +2713,7 @@ a.tag:hover {
 
 /* Bulma Form */
 .select select, .textarea, .input {
-  background-color: white;
+  background-color: #0a0a0a;
   border-color: #dbdbdb;
   border-radius: 6px;
   color: #fafafa;
@@ -3824,7 +3824,7 @@ a.tag:hover {
 }
 
 .card {
-  background-color: white;
+  background-color: #0a0a0a;
   border-radius: 0.25rem;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
@@ -3950,7 +3950,7 @@ a.tag:hover {
 }
 
 .dropdown-content {
-  background-color: white;
+  background-color: #0a0a0a;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   padding-bottom: 0.5rem;
@@ -4359,7 +4359,7 @@ button.dropdown-item.is-active {
 }
 .message-body code,
 .message-body pre {
-  background-color: white;
+  background-color: #0a0a0a;
 }
 .message-body pre code {
   background-color: transparent;
@@ -4452,7 +4452,7 @@ button.dropdown-item.is-active {
 
 .modal-card-body {
   -webkit-overflow-scrolling: touch;
-  background-color: white;
+  background-color: #0a0a0a;
   flex-grow: 1;
   flex-shrink: 1;
   overflow: auto;
@@ -4460,7 +4460,7 @@ button.dropdown-item.is-active {
 }
 
 .navbar {
-  background-color: white;
+  background-color: #0a0a0a;
   min-height: 3.25rem;
   position: relative;
   z-index: 30;
@@ -5232,7 +5232,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
 
   .navbar-menu {
-    background-color: white;
+    background-color: #0a0a0a;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
   }
@@ -5360,7 +5360,7 @@ body.has-navbar-fixed-bottom-touch {
   }
 
   .navbar-dropdown {
-    background-color: white;
+    background-color: #0a0a0a;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: 2px solid #dbdbdb;
@@ -5914,7 +5914,7 @@ label.panel-block:hover {
   border-bottom-color: #dbdbdb;
 }
 .tabs.is-boxed li.is-active a {
-  background-color: white;
+  background-color: #0a0a0a;
   border-color: #dbdbdb;
   border-bottom-color: transparent !important;
 }
