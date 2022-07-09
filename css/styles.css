@@ -5079,7 +5079,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: #00a3f8;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -5127,7 +5127,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #00a3f8;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
