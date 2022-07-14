@@ -5,6 +5,15 @@ title: Frequently Asked Questions
 
 A: Vortex Gallery is a series of events run by the collaboration of a group of volunteer tournament organizers, streamers, bracket runners, chat mods, and commentators during the Evo Championship Series, or online as its own separate event.
 
+### Q: How do I attend Vortex Gallery at Evo?
+
+A: Vortex Gallery consists of the community tournaments at Evo 2022 hosted at the Mandalay Bay Resort & Casino in Las Vegas, Nevada. Like Evo's main lineup, Vortex Gallery tournaments must be signed up for online at [start.gg/vortexgallery](https://start.gg/vortexgallery) before the cutoff on July 22nd. Vortex Gallery tournaments will NOT have on-site registration.
+
+In order to join us at the venue to compete you must purchase an Evo event pass. You may purchase an Evo event pass online at [start.gg/evo](https://start.gg/evo) before July 15th or buy a day pass on-site upon arriving. You do not have to register for a main tournament if you decide to purchase your Evo event pass online.
+
+### Q: What are Vortex Gallery's safety precautions and requirements?
+
+A: As part of Evo 2022, Vortex Gallery is subject to the event's COVID-19 guidelines. This includes wearing an approved face covering at all times and presenting proof of vaccination against COVID-19 upon entry. [Please refer to Evo's FAQ entry for the full up to date policy.](https://www.evo.gg/faq/#what-are-evo-2022s-safety-precautions-and-requirements)
 
 ### Q: I run side tournaments at Evo every year…do I still need to sign up with Vortex Gallery?
 
