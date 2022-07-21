@@ -1,5 +1,5 @@
 function rulesPage(t) {
-    if ( t != '' ) {
+    if ( t != '' && t != '#' ) {
         $(".rules-btn").toggleClass('is-active', false);
         $("#btn-"+t.replace("#","")).toggleClass('is-active',true);
         $(".rules-div").toggleClass('is-hidden', true);
@@ -31,7 +31,7 @@ $(document).ready(function() {
         $(".navbar-menu").toggleClass("is-active");
     });
     $(".rules-btn").click(function() {
-        rulesPage("#"+$(this).data('target'))
+        rulesPage("#"+$(this).data('target'));
     });
     window.addEventListener('hashchange', rulesPage(location.hash));
 });
