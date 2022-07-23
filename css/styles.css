@@ -36,6 +36,37 @@
   background-repeat: no-repeat;
 }
 
+.schedule-table th {
+  width: 100px !important;
+  min-width: 100px !important;
+  max-width: 100px !important;
+  padding: 0em 0.25em !important;
+  border: 1px solid black !important;
+  white-space: nowrap;
+}
+
+.schedule-table td {
+  width: 100px !important;
+  min-width: 100px !important;
+  max-width: 100px !important;
+  padding: 0em 0.25em !important;
+  border: 1px solid black !important;
+  white-space: nowrap;
+}
+
+.schedule-table tr {
+  padding: 0em 0.25em !important;
+  border: 1px solid black !important;
+}
+
+.bracket {
+  background-color: #00a3f8;
+}
+
+.finals {
+  background-color: #fddc00;
+}
+
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
