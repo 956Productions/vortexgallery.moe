@@ -36,6 +36,10 @@
   background-repeat: no-repeat;
 }
 
+.button.is-dark:hover {
+  background-color: #00a3f8 !important;
+}
+
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
@@ -4395,7 +4399,7 @@ button.dropdown-item.is-active {
 .modal-card {
     margin: 0 auto;
     max-height: calc(100vh - 40px);
-    width: 640px;
+    width: 800px;
   }
 }
 
@@ -4419,7 +4423,7 @@ button.dropdown-item.is-active {
 .modal-card-head,
 .modal-card-foot {
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #00a3f8;
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
@@ -4428,7 +4432,7 @@ button.dropdown-item.is-active {
 }
 
 .modal-card-head {
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 0px solid black;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -4444,7 +4448,7 @@ button.dropdown-item.is-active {
 .modal-card-foot {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  border-top: 1px solid #dbdbdb;
+  border-top: 0px solid black;
 }
 .modal-card-foot .button:not(:last-child) {
   margin-right: 0.5em;

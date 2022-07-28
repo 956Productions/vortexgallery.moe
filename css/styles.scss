@@ -42,6 +42,10 @@ $radius: 6px;
 	background-repeat: no-repeat;
 }
 
+.button.is-dark:hover {
+	background-color: $blue !important;
+}
+
 @import 'bulma/sass/utilities/initial-variables';
 
 $primary: $blue;
@@ -56,5 +60,9 @@ $menu-item-active-color: $black;
 $menu-item-active-background-color: $danger;
 $scheme-main: $black;
 $navbar-item-color: $blue;
+$modal-card-head-background-color: $blue;
+$modal-card-head-border-bottom: 0px solid black;
+$modal-card-foot-border-top: 0px solid black;
+$modal-content-width: 800px;
 
 @import 'bulma/bulma.sass';

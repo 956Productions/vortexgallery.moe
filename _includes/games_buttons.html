@@ -1,0 +1,10 @@
+<div class="columns is-multiline is-centered">
+    {% for i in site.data.games %}
+    {% if i['Smash URL'] %}
+    <div class="column is-4-desktop is-12-tablet is-3-widescreen p-1">
+        <a href="{{ i['Smash URL'] }}" class="button is-dark is-fullwidth" data-target="{{i['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ i['Short Name'] | default: i['Game Name'] }}</a>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+{% include modals.html %}

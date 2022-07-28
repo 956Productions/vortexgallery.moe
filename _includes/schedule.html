@@ -1,0 +1,28 @@
+<h3 class="mt-2">Friday, August 5th</h3>
+<div style="overflow-x: auto;" class="pb-2">
+{% assign hour = '' %}
+{% for s in site.data.streams %}
+{% if s['Stream Start (PST)'] contains '8/5' %}
+{% if s['Stream Start (PST)'] != hour %}
+{% assign hour = s['Stream Start (PST)'] %}
+<h4 class="mt-3">{{ s['Stream Start (PST)'] }}</h4>
+{% endif %}
+<div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; min-width:150px; justify-content: start;">{{ s['Stream Start (PST)'] | remove: ":00" | strip }} to {{ s['Stream End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | remove: ":00" | strip }}</span> <a class="tag is-black" data-target="{{s['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ s['Short Name'] | default: s['Game'] }}</a> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
+{% endif %}
+{% endfor %}
+</div>
+<hr>
+<h3>Saturday, August 6th</h3>
+<div style="overflow-x: auto;" class="pb-2">
+{% assign hour = '' %}
+{% for s in site.data.streams %}
+{% if s['Stream Start (PST)'] contains '8/6' %}
+{% if s['Stream Start (PST)'] != hour %}
+{% assign hour = s['Stream Start (PST)'] %}
+<h4 class="mt-3">{{ s['Stream Start (PST)'] }}</h4>
+{% endif %}
+<div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; min-width:150px; justify-content: start;">{{ s['Stream Start (PST)'] | remove: ":00" | strip }} to {{ s['Stream End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | remove: ":00" | strip }}</span> <a class="tag is-black" data-target="{{s['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ s['Short Name'] | default: s['Game'] }}</a> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
+{% endif %}
+{% endfor %}
+</div>
+{% include modals.html %}

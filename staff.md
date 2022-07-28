@@ -14,13 +14,13 @@ fluid: true
         <div class="card-image">
             <figure class="image is-square" style="margin: 0px !important">
                 {% if s['Pic URL'] %}
-                <img src="{{ s['Pic URL'] }}">
+                <img src="{{ s['Pic URL'] }}" loading='lazy'>
                 {% else %}
                 {% assign min = 1 %}
                 {% assign max = 85 %}
                 {% assign diff = max | minus: min %}
                 {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
-                <img src='/img/staff/staff_{{ randomNumber }}.jpg'>
+                <img src='/img/staff/staff_{{ randomNumber }}.jpg' loading='lazy'>
                 {% endif %}
             </figure>
         </div>

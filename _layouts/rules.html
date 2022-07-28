@@ -24,7 +24,7 @@
                         </div>
                         {% for i in site.data.games %}
                         <div class="rules-div content has-text-white is-hidden" id="{{i['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">
-                            <h2>{{i['Game Name']}}</h2>
+                            <h2>{{ i['Short Name'] | default: i['Game Name'] }}</h2>
                             <hr/>
                             <h3>General Information</h3>
                             <ul>
@@ -33,8 +33,6 @@
                                 <li>Registration Fee: {{i['Entry $'] | default: "TBA"}}</li>
                                 <li>Registration Close: {{i['Reg Ends'] | default: "July 22nd, 2022."}}</li>
                                 <li>Start Time: {{i['Start Time (Local)'] | default: "TBA"}}</li>
-                                <li>Stream Channel: <a href="{{i['Stream']}}">{{i['Stream'] | default: "TBA"}}</a></li>
-                                <li>Stream Start Time: {{i['Stream Start Time'] | default: "TBA"}}</li>
                             </ul>
                             <h3>Prizing</h3>
                             <ul>
@@ -90,7 +88,7 @@
                         </div>
                         {% endfor %}
                     </div>
-                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px;">
+                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px; max-height: 500px; overflow-y: auto;">
                         <aside class="menu">
                             <div class="menu-list">
                                 <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
@@ -100,7 +98,7 @@
                             </p>
                             <div class="menu-list">
                                 {% for n in site.data.games %}
-                                <a class="rules-btn" id="btn-{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}" data-target="{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{n['Game Name']}}</a>
+                                <a class="rules-btn" id="btn-{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}" data-target="{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ n['Short Name'] | default: n['Game Name'] }}</a>
                                 {% endfor %}
                             </div>
                         </aside>
