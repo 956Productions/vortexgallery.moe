@@ -22,13 +22,13 @@
           </div>
         </article>
         <h4 class="mt-3">Stream Schedule (PDT)</h4>
-        <p class="content my-2">
+        <div class="content my-2" style="max-width: 300px; overflow-x: auto;">
             {% for s in site.data.streams %}
             {% if s['Game'] == i['Game Name'] %}
             <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; min-width:150px; justify-content: start;">{{ s['Stream Start (PDT)'] | remove: ":00" | strip }} to {{ s['Stream End (PDT)'] | remove: "8/5/2022" | remove: "8/6/2022" | remove: ":00" | strip }}</span> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
             {% endif %}
             {% endfor %}
-        </p>
+        </div>
         {% for g in site.data.guide %}
         {% if g['Game Name'] == i['Game Name'] %}
         {% assign guide_content = g %}
