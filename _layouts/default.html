@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top has-background-black">
+    {% if page.redirect %}
+    <script>
+        window.location.replace("{{ page.redirect }}" + window.location.hash);
+    </script>
+    {% endif %}
     {% include header.html %}
     <body>
         {% include navbar.html %}
