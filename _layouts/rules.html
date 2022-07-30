@@ -37,13 +37,13 @@
                             <h3>Tournament Phases</h3>
                             {% for p in site.data.phases %}
                             {% if p['Game'] == i['Game Name'] %}
-                            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; justify-content: start;">{{ p['Phase Start (PST)'] |  strip }} to {{ p['Phase End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }}</span> <span class="tag is-primary">{{ p['Phase'] }}</span></div>
+                            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; justify-content: start;">{{ p['Phase Start (PDT)'] |  strip }} to {{ p['Phase End (PDT)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }}</span> <span class="tag is-primary">{{ p['Phase'] }}</span></div>
                             {% endif %}
                             {% endfor %}
                             <h3>Stream Schedule</h3>
                             {% for s in site.data.streams %}
                             {% if s['Game'] == i['Game Name'] %}
-                            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; justify-content: start;">{{ s['Stream Start (PST)'] | strip }} to {{ s['Stream End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }}</span> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
+                            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; justify-content: start;">{{ s['Stream Start (PDT)'] | strip }} to {{ s['Stream End (PDT)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }}</span> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
                             {% endif %}
                             {% endfor %}
                             <h3>Prizing</h3>
