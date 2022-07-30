@@ -32,13 +32,25 @@
                                 <li>Registration Cap: {{i['Cap'] | default: "TBA"}}</li>
                                 <li>Registration Fee: {{i['Entry $'] | default: "TBA"}}</li>
                                 <li>Registration Close: {{i['Reg Ends'] | default: "July 22nd, 2022."}}</li>
-                                <li>Start Time: {{i['Start Time (Local)'] | default: "TBA"}}</li>
+                                <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
                             </ul>
+                            <h3>Tournament Phases</h3>
+                            {% for p in site.data.phases %}
+                            {% if p['Game'] == i['Game Name'] %}
+                            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; justify-content: start;">{{ p['Phase Start (PST)'] |  strip }} to {{ p['Phase End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }}</span> <span class="tag is-primary">{{ p['Phase'] }}</span></div>
+                            {% endif %}
+                            {% endfor %}
+                            <h3>Stream Schedule</h3>
+                            {% for s in site.data.streams %}
+                            {% if s['Game'] == i['Game Name'] %}
+                            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; justify-content: start;">{{ s['Stream Start (PST)'] | strip }} to {{ s['Stream End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }}</span> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
+                            {% endif %}
+                            {% endfor %}
                             <h3>Prizing</h3>
                             <ul>
                                 <li>Pot Split: {{i['Pot Split'] | default: "TBA"}}</li>
-                                {% if i['Matcherino Link'] %}
-                                <li><a href="i['Matcherino Link']">Crowdfunding via Matcherino</a></li>
+                                {% if i['Matcherino URL'] %}
+                                <li><a href="{{ i['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
                                 {% endif %}
                             </ul>
                             {% if i['Pools-Bracket Type'] %}

@@ -4,7 +4,7 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title m-0">{{ i['Abbr. (from Game)'] }}</p>
+        <p class="modal-card-title m-0">{{ i['Abbr. (from Game)'] }} at Vortex Gallery</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
@@ -23,13 +23,11 @@
         </article>
         <h4 class="mt-3">Stream Schedule (PST)</h4>
         <p class="content my-2">
-          <ul>
-          {% for s in site.data.streams %}
+            {% for s in site.data.streams %}
             {% if s['Game'] == i['Game Name'] %}
-            <li>{{ s['Phase'] }}: {{ s['Stream Start (PST)'] }} to {{ s['Stream End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | strip }} on <a href="https://twitch.tv/{{ s['Channel Username'] }}"><b>{{ s['Channel Username'] }}</b></a></li>
+            <div style="white-space: nowrap;"><span class="tag is-dark" style="text-align: left; min-width:150px; justify-content: start;">{{ s['Stream Start (PST)'] | remove: ":00" | strip }} to {{ s['Stream End (PST)'] | remove: "8/5/2022" | remove: "8/6/2022" | remove: ":00" | strip }}</span> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="https://twitch.tv/{{ s['Channel Username'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Channel Username'] }}</span></a></div>
             {% endif %}
-          {% endfor %}
-          </ul>
+            {% endfor %}
         </p>
         {% for g in site.data.guide %}
         {% if g['Game Name'] == i['Game Name'] %}
@@ -47,13 +45,13 @@
         <figure class="image is-16by9 my-1">
             <iframe class="has-ratio" loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/{{ guide_content['Video'] }}" frameborder="0" allowfullscreen></iframe>
         </figure>
-        <p class="content mt-0 has-text-centered">
+        <p class="content mt-2 has-text-centered">
             <i>{{ guide_content['Caption'] | newline_to_br }}</i>
         </p>
       </section>
       <footer class="modal-card-foot" style="background-color: black;">
-        <button class="button is-danger">Matcherino</button>
-        <button class="button is-primary">Rules</button>
+        <a class="button is-danger" href="{{ i['Matcherino URL'] }}">Matcherino</a>
+        <a class="button is-primary" href="/rules#{{i['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">Rules</a>
       </footer>
     </div>
 </div>

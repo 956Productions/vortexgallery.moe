@@ -56,14 +56,16 @@
         <section class="section has-background-black-bis">
             <div class="container-fluid">
                 <div class="content has-text-white has-text-centered">
-                    <h1 class="is-size-2 bomber">Discover Vortex Gallery</h1>
-                    <h2 class="bomber">Vortex Gallery Tournaments</h2>
-                    <hr>
+                    <h1 class="is-size-2 bomber">Vortex Gallery Tournaments</h1>
+                    <div class="block">
+                        <a href="https://supercombo.gg"><img src="/img/supercombo.png"></a>
+                        <p class="content"><span class="icon"><i class="fas fa-newspaper"></i></span><b>Spectator guides presented by SuperCombo.gg, the home of competitive fighting games.</b></p>
+                    </div>
                     {% include games_buttons.html %}
-                    <hr>
                 </div>
             </div>
         </section>
+        {% include sponsors.html %}
     </body>
     {% include footer.html %}
 </html>

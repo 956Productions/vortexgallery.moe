@@ -30,3 +30,7 @@ Long answer: Vortex Gallery tournaments are hosted on a volunteer basis. Every y
 A: For TO, Streaming, Commentator & Equipment volunteers, check out our volunteer page or check the @956Productions twitter for the volunteer form link we normally drop before we announce our initial line up. For other inquiries, please send a DM to @956Productions.
 
 Sometimes we get volunteer submissions from people who are passionate about their game, but are perhaps not experienced enough to manage the complexity involved in running a tournament at the “largest and longest-running fighting game tournaments in the world” that is Evo, or on the scale we tend to run our online events, which are one of the biggest in the community. We encourage these hopefuls to reach out to their communities to find people with more experience in running side-tournaments at majors, and to assist them at Vortex Gallery to learn the ropes, and perhaps take the reins in the future.
+
+### Q: Can I re-stream Vortex Gallery events?
+
+A: Yes! We ask that you include "Vortex Gallery" in the stream title for us to notice. Please know this is not permission to upload VODs/mirrors of footage from Vortex Gallery streamers.

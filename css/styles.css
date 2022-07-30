@@ -7,6 +7,26 @@
   font-family: "Bomber Escort Condensed";
   src: url("/img/bomber_condensed.ttf") format("truetype");
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .bomber {
   font-family: "Bomber Escort" !important;
   font-weight: 400 !important;
