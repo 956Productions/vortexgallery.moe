@@ -34,6 +34,12 @@ $(document).ready(function() {
         rulesPage("#"+$(this).data('target'));
     });
     window.addEventListener('hashchange', rulesPage(location.hash));
+    
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'center',
+      contain: false
+    });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
