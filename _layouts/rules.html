@@ -23,7 +23,7 @@
                             {{content}}
                         </div>
                         {% for i in site.data.games %}
-                        <div class="rules-div content has-text-white is-hidden" id="{{i['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">
+                        <div class="rules-div content has-text-white is-hidden" id="{{i['Tournament'] | replace: '.','' | replace: ' ','-' | replace: '(','' | replace: ')','' }}">
                             <h2>{{ i['Short Name'] | default: i['Game Name'] }}</h2>
                             <hr/>
                             <h3>General Information</h3>
@@ -110,7 +110,7 @@
                             </p>
                             <div class="menu-list">
                                 {% for n in site.data.games %}
-                                <a class="rules-btn" id="btn-{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}" data-target="{{n['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ n['Short Name'] | default: n['Game Name'] }}</a>
+                                <a class="rules-btn" id="btn-{{n['Tournament'] | replace: '.','' | replace: ' ','-' | replace: '(','' | replace: ')','' }}" data-target="{{n['Tournament'] | replace: '.','' | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ n['Short Name'] | default: n['Game Name'] }}</a>
                                 {% endfor %}
                             </div>
                         </aside>
