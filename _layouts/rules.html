@@ -33,6 +33,7 @@
                                 <li>Registration Fee: {{i['Entry $'] | default: "TBA"}}</li>
                                 <li>Registration Close: {{i['Reg Ends'] | default: "July 22nd, 2022."}}</li>
                                 <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
+                                <li>Organizer: {{ i['Lead TO'] | default: '@956Productions'}}</li>
                             </ul>
                             <h3>Tournament Phases</h3>
                             {% for p in site.data.phases %}
