@@ -1,233 +1,201 @@
-Tournament,Game Name,Short Name,Abbr. (from Game),Smash URL,Entry $,Cap,Matcherino URL,Pot Split,Seeding?,Pools-Bracket Type,Pools-Rounds per Game,Pools-Games per Set,Finals-Cut Off,Finals-Games per Set,Rules-Game Settings,Rules-Chara Change,Rules-Glitches,Rules-Disconnect,Lead TO,Game Logo URL,Rules-Notes,Platform (from Game)
-ABK (PC-Fightcade),Akatsuki Blitzkampf Ausf. Achse,,ABK,https://www.start.gg/tournament/vortex-gallery/event/akatsuki-blitzkampf-ausf-achse-abk/overview,$5,None,https://matcherino.com/tournaments/75889,60/30/10,Random,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,blueminder,https://dl.airtable.com/.attachments/561f63751ff01cd4955df9add7a54d39/803ad839/Akatsuki-Blitzkampf-Ausf-Achse-logo.png,,PC-Fightcade
-AP (PS3),Aquapazza,,AP,https://www.start.gg/tournament/vortex-gallery/event/aquapazza-aquaplus-dream-match-ap/overview,$10,32,https://matcherino.com/tournaments/75890,50/30/20,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Winner must keep character and partner; loser may switch both character and/or partner.,Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",Baron,https://dl.airtable.com/.attachments/0aac57d196b724996139f9d51c130b69/ef9ae233/Aquapazza_logo.png,,PS3
-BBCF (PS4),Blazblue Centralfiction,,BBCF,https://www.start.gg/tournament/vortex-gallery/event/blazblue-centralfiction-bbcf/overview,$10,192,https://matcherino.com/tournaments/75891,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",GTek,https://dl.airtable.com/.attachments/b69d50cd63caea1ce07dde8d5f92b8c0/53d701e1/BlazBlue-Central-Fiction-logo.png,,PS4
-BBTAG (PS4),Blazblue Cross Tag Battle,,BBTAG,https://www.start.gg/tournament/vortex-gallery/event/blazblue-cross-tag-battle-bbtag/overview,$10,192,https://matcherino.com/tournaments/75892,60/30/10,Region + Skill,Double Elimination,N/A,3/5,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,GTek,https://dl.airtable.com/.attachments/5046c6464a118f29b4f1a2bb8de1e31a/c75bda1c/BlazBlue_Cross_Tag_Battle_logo.png,,PS4
-CVS2 (DC),Capcom vs. SNK 2,,CVS2,https://www.start.gg/tournament/vortex-gallery/event/capcom-vs-snk-2-cvs2/overview,$10,128,https://matcherino.com/tournaments/75893,40/25/15/10/5/5,Region + Skill,Double Elimination,2/3,2/3,Top 8,"2/3 Games for Losers Finals,2/3 Games for Winners Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,Onikage,https://dl.airtable.com/.attachments/acce9165a0f8e7a0e913e8c613494cf4/75d3cec2/Capcom-vs-SNK-2-traced-logo.png,"Winner must keep team/order/ratio, loser may switch.
-",DC
-CATH (PC-Steam),Catherine Classic,,CATH,https://www.start.gg/tournament/vortex-gallery/event/catherine-classic-cath/overview,$5,None,https://matcherino.com/tournaments/75894,60/30/10,Region + Skill,Double Elimination,2/3,2/3,,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Catherine Classic - PC
-Version 1.1312
-Modified Competitive Version - reduces X-Factor duration from 15s to 10s
-Best of three until Loser's/Winner's/Grand Finals, then best of five
-RPS to determine color
-Stage selection
-First game: players alternate striking stages until one is left, orange strikes first
-Later games: Winner strikes two stages, loser picks from remaining
-In a best of five there is one ban on counterpicks
-Dave's Stupid Rule in effect
-Emperio is legal as counterpick ONLY
-Modded stages to replace their default counterparts:
-Prison of Despair v2
-The bottom center blocks are changed from cracked to immovable.
-Inquisition Full Body v1
-The Inquisition from Full Body's Colosseum has been backported.",,,,Linus,https://dl.airtable.com/.attachments/a29c4aa7f73abc9db91b3f4ad02d62f5/41a5e2d6/catherine-logo.png,,PC-Steam
-CAFB (PS4),Catherine: Full Body,,CAFB,https://www.start.gg/tournament/vortex-gallery/event/catherine-full-body-cafb/overview,$5,None,https://matcherino.com/tournaments/75895,60/30/10,Region + Skill,Double Elimination,2/3,2/3,,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Catherine: Full Body - PS4
-Best of three until Loser's/Winner's/Grand Finals, then best of five
-Stage selection
-First game: players alternate striking stages until one is left with first person striking can be determined by RPS.
-Later games: Winner strikes two stages, loser picks from remaining
-In a best of five there is only one strike on counterpicks
-Dave's Stupid Rule in effect
-Illegal stages are: Prison of Despair and Arrange/Remix",,,,Linus,https://dl.airtable.com/.attachments/c06029e6cebe49f16b571bc1ee2e1ad1/c38b96b7/Catherine-Fullbody-logo.png,,PS4
-CC (PS4),Chaos Code: New Sign of Catastrophe,Chaos Code,CC,https://www.start.gg/tournament/vortex-gallery/event/chaos-code-new-sign-of-catastrophe-cc-nsoc/overview,$5,64,https://matcherino.com/tournaments/75896,70/20/10,Region,Double Elimination,2/3,2/3,,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Default game settings (leave borders on). No bosses. No Chaos Mode. No custom colors.,Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",DJCream,https://dl.airtable.com/.attachments/e8d3580d27c9b40bddf7a1e5d1979f40/09cd4516/Chaos-Code-logo.png,"Winner must keep character, but may switch extra moves.",PS4
-DFCI (PS4),Dengeki Bunko Fighting Climax Ignition,,DFCI,https://www.start.gg/tournament/vortex-gallery/event/dengeki-bunko-fighting-climax-ignition-dfci/overview,$5,64,https://matcherino.com/tournaments/75897,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","'- Default Settings
-- DLC Yuuki & Ako Point Characters, Llenn & Lucien Support Characters are legal, if available on setups.
-- Random stage select (players may opt for an agreed stage).
-- Winner must keep character & assist, Loser may switch.",Winner must keep character. Loser may switch.,Game breaking glitches are banned.,,Tabby,https://dl.airtable.com/.attachments/c06f110d2d2b0f1858f36133619020c6/7a25568f/Dengeki-Bunko-Fighting-Climax-Ignition-logo.png,,PS4
-DNFD (PS4),DNF Duel,,DNFD,https://www.start.gg/tournament/vortex-gallery/event/dnf-duel-dnf/overview,$10,512,https://matcherino.com/tournaments/75898,42/20/13/7/5/5/4/4,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Default game settings,Winner must keep character. Loser may switch.,,,shtkn,https://dl.airtable.com/.attachments/9bcef077bfff49c9ee739f5d905dc293/fc252c80/DNFD_Logo.png,,PS4
-EL2 (PC),E's Laf++,,EL2,https://www.start.gg/tournament/vortex-gallery/event/e-s-laf-el2/overview,$5,64,https://matcherino.com/tournaments/75899,60/30/10,Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Version played will be the version released the week of July 17th, 2022. If there is no version released that week, then the version from the week prior.",Winner must keep character. Loser may switch.,,,Bishop,https://dl.airtable.com/.attachments/aa25e162a2a0f153bb2d56d09719d007/14bf8af1/EL2_Logo.png,,PC
-EFZ (PC-Caster),Eternal Fighter Zero,,EFZ,https://www.start.gg/tournament/vortex-gallery/event/eternal-fighter-zero-efz/overview,$5,64,https://matcherino.com/tournaments/75900,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Matches will be played on EFZRevival 1.02E
+Tag,Twitter,Pronouns,Staff Page Blurb,Staff Page Profile Link,Pic URL
+0-2 Boyz BBoy-CD,CdBboy,he/him,"全機フルブラスト!!!　All units FURU BURASUTO!!  I can speak JP and EN. 日本語と英語話せますよ〜。ウッキーマキオンヤロウや!
+",,
+8ighty6ix,8ighty6ix,he/him,,,https://dl.airtable.com/.attachments/fa60025d672b45bd8f707b3142e43a87/2ec75bfc/8ighty6ix.png
+AALanline,@AALanline,he/him,,,https://dl.airtable.com/.attachments/7f95916fff9d444b731d1dc03e63a9c4/2e7d00b0/PGG_Crew.png
+Aaron Stavely,@mane6dev,he/him,,,
+adapt,@___adapt___,any,Looking forward to working together with everyone!,,
+adct,@adct_ssb,he/him,epic video gamer,,https://dl.airtable.com/.attachments/e2894a4dafbbde0825182426055ec193/724d0d07/cropped.png
+Ailerus,@ailerusvmp,he/him,I help run and stream events for Vampire Savior with my friends under the VampireArcadia twitch channel.,https://twitch.tv/vampirearcadia,https://dl.airtable.com/.attachments/0e1b86c8c6375ae9774d50841ad503a1/7b9ddb33/ailerus.jpg
+ALIANZ,@ALIANZGBL,,,,
+Aligari,,he/him,Event organizer and competitor for SoCal FGC. Always pushing for poverty and trying to build scenes for underrepresented games. See me in +R or Melty.,https://youtu.be/V4YlRovXHMQ,
+Amanda,AmandaTNStevens,"she/her, they/them",Amanda is a former FGC content creator turned diversity & inclusion professional. Currently she is the Gaming Ambassador for Trans Lifeline - coordinating their outreach & fundraising efforts in gaming space. She is also an unapologetic grappler player,,
+Andrew,on9drew,he/him,play gundam,,https://dl.airtable.com/.attachments/af26a5798d619dc0ecb5c371c901842e/c233aae5/on9drew.png
+Aphro Dynamek ,@AphroDynamek ,he/him,"The Crimson Chin... Big Brother Maui (You're welcome)... Vox Populi... the FGC Octavist... the One, the Only, the Voice of KPB... I am Aphro Dynamek! ",,
+Aranlyde,@Aranlyde,they/them,,,
+Arb,@tyler_c9120,he/him,Yes!,,
+Azroix,@Azroix,he/him,Freelance creative. Currently working with Riz0ne/SuperLoreBoys/The Shilluminati.,,https://dl.airtable.com/.attachments/ed7769de6f27355f6ad3c49b4e2aeb53/fc2f2c7f/Azroix_PFP.png
+B.Panda,@BURBEARI,they/them,The Fire in Your Heart is Burning,,https://dl.airtable.com/.attachments/5f5198a9ff955c400a3d210d9989c506/8599682b/Beari.png
+Baron,@Baron_Of_Wastes,he/him,I really like Nitroplus Blasterz and Aquapazza. ,https://twitter.com/Baron_Of_Wastes,https://dl.airtable.com/.attachments/f4c49c7592b585a639d5105088d8918b/4e5a86e1/baron.png
+BBoySonicX,@BBoySonicX,he/him,,,
+Bigpapachunk,@bigpapachunk,he/him,"Hi, I play and organize SCVI in the Norther California Bay Area. I also am a teacher and a musician.",,https://dl.airtable.com/.attachments/b5f46358dfdc1af13a68199ab1403019/471c8c76/Bigpapachunk.png
+Bishop,@CallMiiBishop,he/him,,,
+BjornSonOfBear,@amurderofbears,he/him,Can Shiki kill voidbringers,,
+Blackimar64,@Blackimar64,he/him,,,https://dl.airtable.com/.attachments/8b0e8137983728764941f649672db74f/6772ee8c/blackimar64.jpg
+Bloo,@Bloo4LYFE,he/him,Hello! My name is Bloo and while I'm also helping with Vortex Gallery I'm also the head writer for AFGCNews. I always willing to help the anime fighting game scene grow higher and higher and want to be there every step of the way.,,
+blueminder,@blueminder,"he/him, they/them",,,https://dl.airtable.com/.attachments/3be46b80b9a10f2bbbedb4c04cf2fd37/cd59c80a/blueminder.jpg
+Bored-erlands,@boring_lads,he/him,"Fighting game fan, TOing and spreading the word of MAAB. Examu and French Bread deserve better.",,
+Brett,@HellaBrett,,,twitch.tv/thebrett,https://dl.airtable.com/.attachments/7576710d2af23357a528b47fb8cee1d9/62aaaff9/staff_brett.jpg
+Bulletprccf,,"he/him, ze/hir","♤ TO for the gundam exvs series, including full boost, gundam versus, and maxiboost on: hosts various online charity brackets, lead & creator of the situation is not ideal series, and runs mbon brackets at climax of night & frosty faustings.  ♤  author on archive of our own (Bulletprccf).  ♤  minor voice actor for redmufflerman & checkpoint.  ♤",https://archiveofourown.org/users/Bulletprccf/profile,https://dl.airtable.com/.attachments/8a0ca886b0526e4ce16292694eda9477/8bfc6dba/Bulletprccf_EVO2022.png
+Butt69,@kingbutt69,"he/him, they/them","Butt69 is a fighting game player from Louisville, Kentucky known for playing many ""poverty games"" like Ultra Fight Da! Kyanta 2, Fight of Animals, and many others.",https://youtube.com/user/Xsearsgameplayer,https://dl.airtable.com/.attachments/54c3bc2106d82a59f518c6798e28babc/38e8fe2d/Butt69.jpg
+casey,@casey2161,they/them,PNW Based UNI player and commentator of locals for games I think are cool. ,,
+ChairGTables,@chairgtables,any,Kusoge obsessed lead developer at indie game studio LAME Dimension. Competes and runs tournaments for multiple games at events to take game design notes on funny jank in fighting games and understand the heart of the players. This fake VTuber is currently on a quest to find the legendary ghost of EVO and have a match against him to win burgers and become the ghost of Vortex Gallery.,,https://dl.airtable.com/.attachments/35cc7d047034b4a54d4d6c38beaf5605/3d976c18/chairgtables.png
+Chapter XLVII,ChapterXVII,he/him,www.faustianfgc.com,,https://dl.airtable.com/.attachments/1c8eea67ad7d975218b6c085acca80a0/e354d2c8/ChapterXLVII.jpeg
+Chickzama,@chickzama,Any,"TO for Exceed Assault, The Snake Pit & The World Serpent Championship.
+Also a Vtuber.
+I really like Blazblue: Central Fiction and Hazama.",https://twitter.com/Chickzama,https://dl.airtable.com/.attachments/12eec7166ee9700ad94f540445703559/6ea68d5b/staff_chickzama.jpg
+CodyYuki,@CodyYuki_,any,,,
+Coren,@CxR_Coren,,,https://twitter.com/cxr_coren,https://dl.airtable.com/.attachments/4d524512302d6f7280fb383137c43132/73824dda/staff_coren.jpg
+Crackin Atkins,@CrackinAtkins,he/him,,,https://dl.airtable.com/.attachments/efa5a9ba3b1cb6d16c160826c3409f33/6706bf68/crackinatkins.png
+CrippledRoach,@CrippledRoach,he/him,"Random generated anime fighting game player. Mostly French Bread, with few other anime fighting games on the side. Plays the most poverty of poverty when it comes to French Bread's lineup, Dengeki Bunko Fighting Climax.",https://twitter.com/CrippledRoach,
+D.Owls,@legendofgerry,he/him,"D.Owls is half of the new up and coming amusement event team known as Texas Shottakers. He has been running and streaming ST, Alpha 2, and more events for the better part of 4 years now. ",,https://dl.airtable.com/.attachments/68b65e4bd9949ed6cc818d93115c3ae0/d3dd586e/Dowls.png
+Day,SGNLlost,he/him,Thank you to VG for this opportunity I am grateful for it and will always do my best! ,,
+Dcoy111,@Vegas_ninja,he/him,"Gamer/Ninja/ Former competitor
+Helping out however i can and Enjoying the matches 😁",,
+DJCream,@DarylBunao,,,https://twitter.com/DarylBunao,https://dl.airtable.com/.attachments/027feac13ca5ddeaa4722838b5ba1b21/9dd2eaa6/staff_djcream.jpg
+djHuoshen,@DJHuoshen,he/him,"An old man floating around the aether, waiting to join team FGC Dads.  ",,
+DoctorSc1ence ,@doctorsc1ence,he/him,,,
+Dojima,@Doijma,"he/him, they/them",,,
+Drunk Suika,@vanDrunkSuika,he/him,"Purple blooming rhododendron Oni, please visit http://santiclau.se/vatista/ for the Vatista rundown.",https://twitter.com/VanDrunkSuika,
+DucK47,@WuShuPandaFoo,he/him,Just pick a top tier.,,
+Durdge-o,@DurdgeO,"he/him, any",Very dedicated Kyanta 2 player.,https://twitter.com/DurdgeO,https://dl.airtable.com/.attachments/22f79ec450b14a3751fb04920ef393d5/bf119c53/staff_durdge-o.png
+Ebonic Plague,@ebonicplaguebb,he/him,,,
+EddyDangerous707,@EddyDangerous ,any,,,
+Emperor Paine,@S_R_Studios,he/him,,,
+enpicie,enpicie,any,,,
+F O X,@makotofox_,he/him,"Doing fighting game commentary for 6 years at events like: EVO, Combo Breaker, Arc Revo 2019 Finals, AnimeEvo, CEOtaku and more! ",https://twitter.com/MakotoFOX_,https://dl.airtable.com/.attachments/e229ed8b2ecbf2f785ed63e2f42b8c84/39d7507c/FOX_png.jpg
+Flexiss,Flexiss_,"she/her, they/them","Hello! I am an FGC commentator, content creator, TO (and on occasion, competitor)! I primarily focus in Street Fighter V. Sponsored by XO academy and a lover of all things JoJos! Love helping uplift and build the community to be an even better place for everyone.",,https://dl.airtable.com/.attachments/33b7ca201a39e89ebd65ffa7198a7c6d/ca518b83/Flexiss.png
+Geese Pants,@pantsgeese,he/him,,,
+general_THRILLAH ,Gthrillah,he/him,Jack of all trades that loves helping the community grow! Love is the answer!,,
+Giby,@ManChest,he/him,"What impudence you human being
+",https://twitter.com/ManChest,https://dl.airtable.com/.attachments/141a7d5b6f9ce73e761d995c62b7f4b8/4df56955/staff_giby.jpg
+Gnoz,@davidzong1,he/him,I play Xrd Jam,,https://dl.airtable.com/.attachments/ce2f5504b249cf394af08ff1f5e6bec6/fc66dbce/gnoz.png
+GOS,@tasticgos,he/him,Always excited to meet FGC fellas!,a,
+gpbear4,@gpbear4,he/him,Discuss/play Super DBZ with me,https://twitter.com/gpbear4,https://dl.airtable.com/.attachments/ef0fdb2c4d55875788b8482b23ac215e/aa93cbbc/gpbear4.jpg
+Gracidia,@lydia_sakari,she/her,heya! west coast's littlest baiken that could ,,
+GTek,@GTekTV,he/him,Tournament Organizer for Vegas/ West Coast FGC.  Lead TO and Streamer for BlazBlue Central Fiction and BlazBlue Cross Tag Battle.,,https://dl.airtable.com/.attachments/95d0b66436ce3dbed055d54e39b9245d/7b1ea012/GTek.jpg
+GuileWinQuote,@GuileWinQuote,he/him,Fighting game appreciator. Let's play some games!,https://youtube.com/user/GuileWinQuote,
+GummySharkGuy,@GummySharkGuy,he/him,"Streamer, Content Creator, Gamer, Horror Freak, Pro Wrestling Goober, Matured Earth Larvae",,
+Gyaru,@GyaruGarou,she/her,"Kusoge Vtuber, If there's a hyper niche fighting game no one has ever heard of, I probably play it.  Praise the Sega Saturn and Lord of the Rings trilogy. ",https://twitter.com/GarouGyaru,https://dl.airtable.com/.attachments/8271b93057834a1c50699d6bdeb6d68f/b0819913/gyarugarou.png
+Hagure,@Hagure,they/them,"All roads in the Vortex Gallery leads to the slime. Loves to play lame af. They go to events to TO games, eat good food, & mix drinks. See him in Marvel 2/3, UNI, VSAV or TMNT:TF — first round of drinks is on the loser!",https://linktr.ee/hagure,https://dl.airtable.com/.attachments/9b07bae24168bb7c5989faaa1cdd0b69/ae90d46c/staff_hagure.jpg
+HellSap,@HellSap,he/him,,,
+HeyVictor,@HeyVictorTweets,he/him,"Smash Ultimate/Nick Brawl Tristate T.O! 
+Been running FGC events since 2016 and a current competitor in Nick Brawl!",https://twitter.com/HeyVictorTweets,https://dl.airtable.com/.attachments/07551211b3f59897ebdf7dad80002fa8/e4f82069/heyvictor.png
+iamlee,@punchplanet,he/him,,,
+imouto,kohquette,"she/her, they/them","love your life, be good to one another, play guilty gear. ",,https://dl.airtable.com/.attachments/7f95916fff9d444b731d1dc03e63a9c4/2e7d00b0/PGG_Crew.png
+irish,@irish08slasher,he/him,Long time member of the SOKU SQUAD. Touhou hijack woo hoo!,,
+IronFoxfire,@IronFoxfire,he/him,Mod developer for KLK:IF Restitched,,https://dl.airtable.com/.attachments/a2e132d0409d8132f048ec2ed2fa8625/d8ccf7a6/ironfoxfire.png
+ItzTymeToDul,@Itztymetodul,he/him,I am a Fighting Game competitor and commentator. I am also a full-time lover of anime and manga. My goal is to do what I love (play fighting games) and make it apart of my living.,,
+Jacob,@mundaljacob,he/him,,,
+Jamal Seto,@jamalseto,he/him,,,
+Jeff Vader Jr,@jeffvaderjr,he/him,"Caster, commentator, overall goof, Jeff is keeping the Windjammers dream alive while back in school. Based in Chicago IL",,https://dl.airtable.com/.attachments/42b656424ae7e4411183a3dbc7406dc9/0fb69d20/jeffVaderJr.jpg
+jeffboyardees,jeffboyardees,he/him,1st time ever volunteering at a major event! Thank you for having me!!,,
+Jenny,N/A,she/her,"Meow ? 
+I'm a recent fan turned volunteer. ",,
+JJJ,@JJJ_SC6,he/him,"In the Soul Calibur community for 15 years. Competitive player, commentator, and streamer.  ",,
+jmz,ohitsjmz,he/him,"big fan of the playable video game, even bigger fan of its organizers/players. currently supporting offline Skullgirls and Vampire Savior in Los Angeles. see me in fat tuesday.",,https://dl.airtable.com/.attachments/be8070a8cde5a1e5ad7c286fae5c4bbf/8e51a87b/jmz.png
+Joyces,@EXjoyces,"she/her, they/them",,,
+Kaelis,@KaelisMirage,he/him,Furry FGC TO. (@CatBoxArena) Often forgets to eat. ,,https://dl.airtable.com/.attachments/92b596880e0a0776b675c9ffb58934d9/7ed81ad0/kaelis.png
+KBeast,@kbeast707,he/him,"Hailing from NorCal, this man loves technical execution in fighting games!  Well known to play Marvel vs. Capcom games, he's also a huge supporter for Tatsunoko vs. Capcom, as that game doesn't get as much love as it should.",,
+Ke11y Ann,N/A,she/her,"Prominent member of XboxFighters, worldwide FG Community focused on bringing players together ONLINE casually & competitively no matter the Country. ThrustyZol & I run SamSho Tourney$ on Xbox Series X|S, Supported by SNK- '21 release of 'Samurai Shodown Enhanced' allows True 120fps Gameplay ONLINE w/ US|MX|BR|CAN|EU|JP+",https://www.twitch.tv/ke11yann,https://dl.airtable.com/.attachments/8531d0eb783c368d44beeeb640f28f85/1d4f317d/ke11yann.png
+KemonoAdjacent,TotallyWeebTras,"he/him, they/them",I really do just be playing Sin Kiske occasionally.,,
+kid dracula,@kiddracula_,any,"play for keeps and 'getREWARDS'
 
-In the event of a crash or technical difficulties, the game will be replayed up to the round count, at which point the match will resume (please try to make meters mostly the same as well, if possible).
+I'm a small part of the RTVS Fight Zone and play a lot of MBAACC",,
+Kijui,@KijuiOfDaSaikyo,he/him,"First-time TO and Bracket Runner.
+Let's Play some Street Fighter X Tekken!",,https://dl.airtable.com/.attachments/396be04000f19f0aad975a92edb5e3fc/3fac060a/KijuiRa.png
+Kilomax,@saulsan89838002,he/him,Being part of the gaming community has been a great sense of motivation for me. running tournaments or being part of them is a privilege.,,
+Kinderparty,@GreatKingini,he/him,Marvel vs Capcom enjoyer.,,
+KONMAI,@konmai573,"he/him, they/them",KONMAI is a WNF SOULCALIBURVI volunteer with a love for the great anime communities of SoCal. Easily confused for the company that destroyed your favorite franchises.  The legend of バフお尻P will never die. ,,https://dl.airtable.com/.attachments/2e0d6fbc5fbc22c54ea7faab2a67c475/af052a49/konmai.png
+Kou,@fxckali,he/him,Certified worst SoCal player,,
+Kumubou,@kumubou, he/him,,,https://dl.airtable.com/.attachments/ef2d73da34a92c4451129478f35055af/6f6811d8/76693228_p0_waifu2x_art_scale_tta_1_waifu2x_art_scale_tta_1.png
+Laurie Keller,@The_Laurax_21,she/her,First timer! Super excited to help out! ,,
+Leon Ultra,@Maximumleon,they/them,I just want to hit buttons,,https://dl.airtable.com/.attachments/37523b6a2a787fe1cdf2feadb70078ae/f63b03d5/LeonUltra.png
+Leontes,@FantasyStrike,he/him,Marketing Director/Community Manager for Sirlin Games/Fantasy Strike,,
+Lina the Troll,@LinaTheTroll,she/her,"OG Marvel & GG player, friendly online & offline TO with 10 years of experience who loves helping others and giving back to the community",https://twitch.tv/linathetroll,https://dl.airtable.com/.attachments/abe447085d698a635b93e4ba758d459a/9df2b81c/Lina.png
+Linus,@WasabiLinus,he/him,,https://twitter.com/WasabiLinus,https://dl.airtable.com/.attachments/ef32a37e05c2cd103de866378c8ee37e/050e76e4/staff_linus.jpg
+Lota,xi_lota,"he/him, she/her, etc.",Owner of the KLK:IF Discord server and patch assistant for: KLK:IF Restitched,,
+LP Lombax ,@LP_Lombax,he/him,Here for a good time and a long time ,https://youtube.com/channel/UCnpRojOTT68TbDQxpt8CyIw,
+Macc,@MaccSensei,he/him,Old School FG fan and too old for this sh*t,,https://dl.airtable.com/.attachments/3152b978474de94510cdeb90fe4d98ca/e4f4edd5/Macc.png
+Maki,JulioMorales88,he/him,Bracket runner,,https://dl.airtable.com/.attachments/1a044809b3f60a57f3c38c0dd114d1bf/01d074cc/Maki.png
+MapleJava,@maple_java,he/him,i like green fox i like green fox i like green fox i like green fox i like green fox ,http://mofuti.me,https://dl.airtable.com/.attachments/e61bd90bc593b3cfb7dd80d8aab967be/e5137d78/maplejava.png
+Marine,@baitelephone,she/her,,,
+MatchStick,@matchstickmelee,he/him,,,
+Mcm,@MCM931,he/him,A pleasure to meet you all! Im MCM and I am looking forward to this event.,,https://dl.airtable.com/.attachments/d1b354d3200577b576d6de6407588b9c/0c72c7ed/mm.jpg
+Mech,@ircmech,"he/him, any",Southern California Organizer. Skipping the washed phase to go straight to organizing. :duck:,,https://dl.airtable.com/.attachments/9da64656be6e9fcd2e63689613b8b630/0c9e9bab/Mech.png
+MegaphoneFranke,@MegaphoneFranke,he/him,,,
+melon_125,@THRILLHO_125,he/him,".Leader
+.Artist
+.Visionary
 
-Custom stages or UI (except for eng translation) on setups is not allowed, but voice mod or any palettes you wish to bring over will be fine.
-
-Kanna is banned.",Winner must keep character. Loser may switch.,"No Unknown jab fly infinite.
-No Cello proration bug.","In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",Aligari,https://dl.airtable.com/.attachments/9d2c8909fa62947ded3a98feb778f653/69c83746/EternalFighterZero-logo.png,,PC-Caster
-FOA (PS4),Fight of Animals: The Legend of the Strongest Creature,Fight of Animals,FOA,https://www.start.gg/tournament/vortex-gallery/event/fight-of-animals-foa/overview,$5,None,https://matcherino.com/tournaments/75902,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,"Butt69,Shiburizu",https://dl.airtable.com/.attachments/bce45da680185e12b78a1bd66b48478b/580cf0fa/FightofAnimals.png,,PS4
-GGXRD (PS4),Guilty Gear Xrd REV 2,,GGXRD,https://www.start.gg/tournament/vortex-gallery/event/guilty-gear-xrd-rev2-ggxrd/overview,$10,128,https://matcherino.com/tournaments/75904,50/25/12/7/2/2/1/1,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",pattheflip,https://dl.airtable.com/.attachments/4e1f36a9e166f9b2c22ee81f94405a02/ad770543/Guilty-Gear-Xrd-Rev-2-logo.png,,PS4
-GGACPR (PS3),Guilty Gear XX Accent Core Plus R,,GGACPR,https://www.start.gg/tournament/vortex-gallery/event/guilty-gear-xx-accent-core-r-ggac-r/overview,$10,None,https://matcherino.com/tournaments/75903,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,No activating Aba Danzai Glitch pre match.,,Mech,https://dl.airtable.com/.attachments/5a69cc478ce0d702fe91d9f10bb4c114/75bbcc2c/Guilty-Gear-XX-Accent-Core-Plus-R-logo.png,,PS3
-JCFF (PC-Fightcade),Jackie Chan in Fists of Fire,,JCFF,https://www.start.gg/tournament/vortex-gallery/event/jackie-chan-in-fists-of-fire-jcfof/overview,$5,None,https://matcherino.com/tournaments/75905,60/30/10,Region + Skill,Double Elimination,2/3,3/5,,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,Gyaru,https://dl.airtable.com/.attachments/0cda2a84cb7527b69186bad0117e93e7/3fc0053a/Jackie-Chan-in-Fists-of-Fire-logo.png,"All boss characters banned except Shadow Yeung, Black Sam, Dirty Maree, and Hyper Spiritual Kung Fu Jackie. ",PC-Fightcade
-KLK (PC-Steam),Kill La Kill -IF Restitched,,KLK,https://www.start.gg/tournament/vortex-gallery/event/kill-la-kill-if-restitched-klk/overview,$5,64,https://matcherino.com/tournaments/75906,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Game will be played on the steam modded version know as KLKIF: Restitched
-
-Time: 180 Seconds
-
-Round Format: 2/3, 3/5 for Winner's Loser's and Grand Finals
-
-Stage Selection Rules: 
-
-Game 1: Polling Grounds OR Natural Election Stadium
-
-Game 2: Loser of previous round selects the next map. Winner of round is allowed to ban one map. 
-
-Game 3-5 (if necessary): Follow same rules as round 2
-
-Loser of previous round is allowed to swap characters. Winner is required to stick to their character.",Winner must keep character. Loser may switch.,,,IronFoxfire,https://dl.airtable.com/.attachments/85bfdc4fe9f4620d5468941d3c5d93e0/6759517c/klkifr.png,Story characters are banned. Patch will be played on Restitched version 1.2 https://www.youtube.com/watch?v=6q5TCr-TsNo&t=1s,PC-Steam
-KI (XB1),Killer Instinct,,KI,https://www.start.gg/tournament/vortex-gallery/event/killer-instinct-ki/overview,$10,32,https://matcherino.com/tournaments/75907,60/30/10,Region + Skill,Double Elimination,2/3,3/5,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","'- Default Settings.
-- Random stage select (players may opt for an agreed stage).
-- No accessories.",Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.","Roman22s,Rotendo",https://dl.airtable.com/.attachments/1db128868c5bedf77f9e8c446d197ceb/0d6d380a/Killer-Instinct-logo.png,,XB1
-MVC2 (DC),Marvel vs. Capcom 2,,MVC2,https://www.start.gg/tournament/vortex-gallery/event/marvel-vs-capcom-2-mvc2/overview,$20,128,https://matcherino.com/tournaments/75908,40/25/15/10/5/5,Region + Skill,Double Elimination,N/A,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,Nothing that freezes / locks the game or players.,,Onikage,https://dl.airtable.com/.attachments/80cc6e3b03df9353885d6a36358a078b/c0fb1c2b/Marvel-vs-Capcom-2-logo.png,,DC
-MBAACC (PC-Caster),Melty Blood Actress Again Current Code,Melty Blood AACC,MBAACC,https://www.start.gg/tournament/vortex-gallery/event/melty-blood-actress-again-current-code-mbaacc/overview,$10,128,https://matcherino.com/tournaments/75909,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Matches will be played on Caster, not Steam, unless unresolvable controller issues arise.
-
-In the event of a crash or technical difficulties, the game will be reset up to the previous round count, at which point the match will resume.
-
-Loser may change character on loss, winner may change moon on win.",Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",Aligari,https://dl.airtable.com/.attachments/c1e4e6a1d860f218ee6f014077911b8d/b5d90fb4/Melty-Blood-Actress-Again-Current-Code-logo_png.png,,PC-Caster
-MAAB (PS4),Million Arthur Arcana Blood,,MAAB,https://www.start.gg/tournament/vortex-gallery/event/million-arthur-arcana-blood-maab/overview,$1,64,https://matcherino.com/tournaments/75910,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 4,"2/3 Games for Grand Finals,2/3 Games for Winners Finals,2/3 Games for Losers Finals",,Winner must keep character. Loser may switch.,Stage 1 should be banned for alleged performance issues.,,Bored-erlands,https://dl.airtable.com/.attachments/d9d6d5580b21d7e8c11ef605939e26e5/2f7fc593/Million-Arthur-Arcana-Blood-japan-logo.png,Winner may switch assists between games.,PS4
-MBON (PS4),Mobile Suit Gundam Extreme VS Maxiboost ON,Mobile Suit Gundam EXVS MBON,MBON,https://www.start.gg/tournament/vortex-gallery/event/mobile-suit-gundam-exvs-mbon-mbon/overview,$10,64,https://matcherino.com/tournaments/75911,50/20/13/7/3/3/2/2,Region + Skill,Double Elimination,N/A,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Timer: 240 Seconds.
-Stage: Side 7.
-
-RANDOM ALL may be chosen, but the player who picks RANDOM ALL must be RANDOM ALL for the entire tournament.  In the case of RANDOM FAVORITES, if a player wins a game in a set, that player must manually pick the suit and Burst type they won on.
-
-",Winner must keep character. Loser may switch.,,,"Brett,pppablo",https://dl.airtable.com/.attachments/fc07b1ccddd83c15e514de3f17287275/22a7ce88/Gundam-EXVS-MBON-logo.png,"Blind pick for suits is enforced upon request - see a staff member on-site. In the case of a timeout, the team with the higher total point score takes the game.",PS4
-MKX (PS4),Mortal Kombat X,,MKX,https://www.start.gg/tournament/vortex-gallery/event/mortal-kombat-x-mkx/overview,$10,64,https://matcherino.com/tournaments/75912,50/25/15/10,Region + Skill,Double Elimination,2/3,3/5,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Lowered Health Bars (For stream's ability to see the healthbars & names clearly).,Winner must keep character. Loser may switch.,No Gamebreaking Glitches (Easily exploitable glitches out of the ordinary).,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",StarCharger,https://dl.airtable.com/.attachments/ce821cf19f897cbe0dc5e5215c03cb07/0edb7770/Mortal-Kombat-X-logo.png,Winner keeps variation & character. Stages may be selected by both players (Sky Temple & Infected stages are banned).,PS4
-NASB (PC-Steam),Nickelodeon All-Star Brawl,,NASB,https://www.start.gg/tournament/vortex-gallery/event/nickelodeon-all-star-brawl-nasb/overview,$5,64,https://matcherino.com/tournaments/75913,50/25/15/10,Skill,Double Elimination,N/A,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Game settings: 4 stock. 6 minutes.
-
-Starters: Jellyfish Fields, Sweet Dreams, Rooftop Rumble
-Counterpicks: Tremorton Joyride, Irken Armada Invasion, Harmonic Convergence, Sewers Slam
-
-Game 1: Players pick characters first (use x!doubleblind if needed). One player bans one starter. The other player picks from the remaining starters.
-
-After Game 1: Winner chooses character. Loser chooses character. Winner bans two stages. Loser picks a stage (MDSR).",Winner & Loser may switch.,,,HeyVictor,https://dl.airtable.com/.attachments/9d240875fa9b5c2597c9bcb5d09f409d/3832b551/NASB.png,,PC-Steam
-NPB (PS4),Nitroplus Blasterz: Heroines Infinite Duel,Nitroplus Blasterz,NPB,https://www.start.gg/tournament/vortex-gallery/event/nitroplus-blasterz-heroes-infinite-duel-npb/overview,$10,32,https://matcherino.com/tournaments/75914,50/30/20,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Winner must keep character and partners; loser may switch both character and/or partners.,Winner must keep character. Loser may switch.,,,Baron,https://dl.airtable.com/.attachments/5d00bdba42dbfb17cbff1222a063f6a7/069234c3/NPB.png,,PS4
-P4U2.5 (PS4),Persona 4 Ultimax,,P4U2.5,https://www.start.gg/tournament/vortex-gallery/event/persona-4-arena-ultimax-p4u2/overview,$5,64,https://matcherino.com/tournaments/75915,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Random Stage, players may play on an agreed upon stage 
-",Winner must keep character. Loser may switch.,Game breaking glitches are banned.,,Tabby,https://dl.airtable.com/.attachments/5f521081ecb24faaab2c1130ba53710c/df960a2c/P4ULogoFinal.png,,PS4
-PBO (PS4),Phantom Breaker Omnia,,PBO,https://www.start.gg/tournament/vortex-gallery/event/phantom-breaker-omnia-pbo/overview,$5,128,https://matcherino.com/tournaments/75916,60/30/10,Random,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Default Game settings: 2/3 Rounds, 90 second timer",Winner must keep character. Loser may switch.,,,"B.Panda,DJCream",https://dl.airtable.com/.attachments/fb742d3b943e98afcb11f26c6a7446f7/964a7dd1/Phantom-Breaker-Omnia-Logo.png,"Winner must keep character, but may change perimeter and/or style between games. Loser can change character, perimeter and/or style between games.",PS4
-PRBFTG (PS4),Power Rangers: Battle for the Grid,,PRBFTG,https://www.start.gg/tournament/vortex-gallery/event/power-rangers-battle-for-the-grid-bftg/overview,$0,128,https://matcherino.com/tournaments/75917,40/20/15/10/5/5/2.5/2.5,Skill,Double Elimination,N/A,3/5,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Default Game Settings. Music Selection Random. Stage Random unless Both Players Agree to Stage selection.,Winner must keep character. Loser may switch.,Poisandra is no longer causing megazord glitch so no worries on there. Just make sure set ups have latest update.,,SakiSakuraTV,https://dl.airtable.com/.attachments/3e7a9737a539669e68eda4a1289a0529/a993e322/power-rangers-battle-for-the-grid-logo.png,Poisandra is allowed. Check that set-ups have latest update.,PS4
-PJ (DC),Project Justice,,PJ,https://www.start.gg/tournament/vortex-gallery/event/project-justice-pj/overview,$5,64,https://matcherino.com/tournaments/75918,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Default Game settings.,Winner must keep character. Loser may switch.,Floating in the air with Kyosuke is not allowed. You cannot exceed three loops for infinites. ,,ChairGTables,https://dl.airtable.com/.attachments/7b6c267356a5243e5086a7c8af92b754/3c6322b4/ProjectJustice.png,"Switching characters between in-game rounds is allowed, whether or not you win the round. Winner of each game must keep their characters the same, along with the same order. You are not allowed to set any of your buttons as a macro to perform a super move on the controls screen. The extra students / custom characters are not allowed to be used.",DC
-PP (PC-Steam),Punch Planet,,PP,https://www.start.gg/tournament/vortex-gallery/event/punch-planet-pp/overview,$0,64,https://matcherino.com/tournaments/75943,50/35/15,,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Default Game settings.,Winner must keep character. Loser may switch.,,,"iamlee,Swiftimus",https://dl.airtable.com/.attachments/ead30998ba9ddf57ff2592628eae5fd8/f0d4df2c/pplogo.png,,PC-Steam
-RR (PC-Steam),Rushdown Revolt,,RR,https://www.start.gg/tournament/vortex-gallery/event/rushdown-revolt-rr/overview,$10,64,https://matcherino.com/tournaments/75942,30/18/14/10/8/8/6/6,Random,Double Elimination,2/3,2/3,Top 8,3/5 Games for All Sets,"Stage List
-- Legal Stages
-- Pyrostation
-- Combat Lab
-- Forbidden Shrine
-- Malu Malu
-- Platform Alpha
-
-Counterpicks:
-- Cyber Skyline
-- Shadowbriar
-- Sovereign Peak
-
-Match Settings:
-- Game Mode: Last One Standing
-- Resources: Competitive
-- Boundary: KO Zone
-- Loudouts: Off
-- Lives: 4
-- Time: 7",Winner & Loser may switch.,,,Hagure,https://dl.airtable.com/.attachments/dd09fc11eeb627a3c98de4038d52c6e8/edf5e205/Rushdown-Revolt_logo.png,"Rules
-
-1. Match Procedure
-Players select their characters. Character selection is always Double Blind.
-Use Stage Striking to determine the first stage. Stage strike order will be P1-P2-P2-P1.
-The Players play the first game of the set.
-Winning Player of the preceding Game bans two stages.
-The losing Player of the preceding Game picks a stage for the next game. Losing player can choose any stage except the stage they most recently won on.
-The winning Player of the preceding Game may choose to change characters.
-The losing Player of the preceding Game may choose to change characters.
-The next game is played.
-Repeat Steps 4 through 8 for all subsequent matches until the set is complete.
-
-2. Mutual Agreement
-Players may select any permitted stage if they both agree on it. Players may not play on unpermitted stages or change the length of a Match.
-
-3. Pausing
-If a Player either intentionally or accidentally pauses the Game by either pressing the start button or unplugging his or his opponent’s controller, the Player who paused forfeits a stock. The penalty may be increased to a multiple stock forfeiture or a Game forfeiture at the discretion of the TO.
-
-4. Restarts
-Tournament Organizers may approve a Game restart due to exceptional circumstances, such as a power outage.
-
-5. Stalling
-Stalling, or excessively delaying the Game or Match, may result in a Game or Match forfeit at the discretion of TOs.
-
-6. Timeouts
-If a game goes to a timeout, stock count is the winner. If both Players are tied in stocks the Player with the lower percentage is the winner. In the event of a percentage tie, or a match in which both Players lose their last stock simultaneously, a 1 stock tiebreaker will be played with time limit equal to the regular time limit divided by the regular number of stocks, rounded up to the minute.
-
-7. Alting
-Players may not use alternate smash.gg accounts and/or deliberately hide their identities to manipulate seeding.
-
-8. Warm-ups
-Warm-up periods and controller tests may not exceed 30 seconds on the in-game timer. Violation of this rule may result in an automatic forfeit at the discretion of TOs.
-
-9. Tardiness
-Any Players not present for their Match by 10 minutes past the scheduled start time, without prior communication with TOs, is subject to disqualification from the set.
-
-10. Collusion
-Players suspected of colluding may be immediately disqualified from the tournament. This includes intentionally throwing a match, splitting a payout, or committing any other form of bracket manipulation. The TO reserves the right to deny payout of event winnings to any Player suspected of colluding.
-
-11. Misinterpretation / Misconfiguration
-If a game was played under a misconfiguration of the Game Settings that could have materially affected the result of the game, a Player may petition the TO to have that game replayed. The final decision is at the discretion of the TO. This must be done immediately after the game in question; after the next game is started, the previous game shall not be replayed regardless of whether the rules were set correctly.
-
-12. Final Rulings
-If any unforeseen situations occur, judgment of TOs is final. Rules may be altered between phases of a tournament in the best interests of the event.",PC-Steam
-SS7 (PS4),Samurai Shodown,,SS7,https://www.start.gg/tournament/vortex-gallery/event/samurai-shodown-ss7/overview,$5,None,https://matcherino.com/tournaments/75919,50/25/15/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,Scrub Saibot,https://dl.airtable.com/.attachments/fafe5864f621489b9cdc0315770f8d18/2d45652e/samurai_shodown_7_logo.png,,PS4
-SCVI (PS4),Soulcalibur VI,,SCVI,https://www.start.gg/tournament/vortex-gallery/event/soul-calibur-vi-sc6/overview,$20,None,https://matcherino.com/tournaments/75920,42/20/13/7/5/5/4/4,Region + Skill,Double Elimination,3/5,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","⦁ Round Count: 3
-
-⦁ Battle Time: 60 seconds
-
-⦁ Battle Mode: Standard
-
-⦁ Pause Menu: Hold Only 
-
-⦁ Character restrictions: Creation custom characters and Inferno are banned",Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.","Chapter XLVII,SabinDeus,Bigpapachunk",https://dl.airtable.com/.attachments/0fa2203472a9deea5e4ea5067d886fea/d184f024/soul_calibur_vi_logo.png,"Match Rules
-During a Match Set, the winner of a Match must comply with the following “Winner Lock Rules”: 
-(i) during the first Match Set, each Player selects their character and the stage is selected at random; 
-(ii) after a Match, the winner is ""locked"" into their character and they are not permitted to switch their character until/unless they lose a subsequent Match;
-(iii) a loser of a Match may rematch with the current characters and stage, rematch with the current characters and a new random stage, or return to character select to choose a new character and new random stage.
-
-Player Options
-Prior to commencement of a Match Set, Players may exercise the following options:
-⦁ Side Selection. Players may mutually agree who plays as Player 1 side or Player 2 side at the start of a Match Set. If Players cannot agree on this, they will play a Best-of-One Rock-Paper-Scissors to determine who will pick their preference first. Players will play out the entirety of the Match Set with this selection.
-⦁ Blind Pick. Players may request a Blind Pick for character selection. “Blind Pick” means that, prior to the first Match, Players will each tell a Tournament Organizer staff member, in secret, their characters selection for the first Match. Players will then select their characters with the Tournament Organizer staff member validating their selections. If a Player purposely does not select the character they told the Tournament Organizer staff member, that Player will forfeit the Match.
-⦁ Button Check. Players may request to do a “button check” to check the proper functionality of their controller with a test match before the official start of a Match Set.
-
-
-Double K.O.
-In the event of a tied Match declared by a Double K.O. on the Game screen, the Match will not be scored and both Players will replay the tied Match with the same character selections.
-
-During Grand Finals, if the Player in the Loser's bracket wins, it sends the Player in Winners Bracket to Losers, triggering a ""Reset"". This Reset Match is considered a new Match for all intents and purposes, including Winner character choice lock and stage randomization.
-
-Button Binds
-Sequence mapping is banned. A Player may not program functions on a controller using methods outside the basic functions of the Game, including, but not limited to, programmable and turbo controllers.
-
-Tournament Entry Fee Allocation
-50% of the tournament entry fee proceeds will be used to compensate commentary and support staff for the tournament.
-The remaining 50% will be added to the prize pool and be split between the Top 8 finalists. The total pot, including the $1000 pot bonus and the Matcherino will be split using a 42/20/13/7/5/5/4/4 breakdown.",PS4
-SFA2 (Arcade-Supergun),Street Fighter Alpha 2,,SFA2,https://www.start.gg/tournament/vortex-gallery/event/street-fighter-alpha-2-sfa2/overview,$10,64,https://matcherino.com/tournaments/75921,60/30/10,Skill,Double Elimination,2/3,3/5,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,D.Owls,https://dl.airtable.com/.attachments/7af1105c481fe926dded825a7b3091a6/2b132e50/Street-Fighter-Alpha-2-Logo.png,,Arcade-Supergun
-SFA3 (Arcade-Supergun),Street Fighter Alpha 3,,SFA3,https://www.start.gg/tournament/vortex-gallery/event/street-fighter-alpha-3-sfa3/overview,$10,128,https://matcherino.com/tournaments/75922,60/30/10,Skill,Double Elimination,2/3,3/5,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,"Riz0ne,VodkaGobalsky",https://dl.airtable.com/.attachments/b119039a68197a8d3b6d8d8ff063ff2e/caf6b733/street_fighter_alpha_3_logo.png,,Arcade-Supergun
-3S (Arcade-Supergun),Street Fighter III: 3rd Strike,,3S,https://www.start.gg/tournament/vortex-gallery/event/street-fighter-iii-3rd-strike-3s/overview,$10,64,https://matcherino.com/tournaments/75923,60/30/10,Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,Ken/Mokoto glitch results in a DQ,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",D.Owls,https://dl.airtable.com/.attachments/ab2bdb740a5d7f223250960e2370790e/4be0e60e/street-fighter-iii-3rd-strike-fftf-logo.png,"There will be a seeding tournament, all that can't attend will be randomly seeded",Arcade-Supergun
-SFxT (PS3),Street Fighter x Tekken,,SFxT,https://www.start.gg/tournament/vortex-gallery/event/street-fighter-x-tekken-sfxt/overview,$2,32,https://matcherino.com/tournaments/75924,70/20/10,Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","In the event of a DRAW GAME, both players are awarded a win.  If that was set point for someone, they will win the set.  In the instance of both players being on set point when a Draw Game occurs, an extra Game will immediately follow until a singular winner is determined in that set (edited)
-
-DRAW GAME of course being double KO on the final round, or double Time Over Pandora etc
-
-In the event of a Pause, the opponent will choose whether its a win, redo, or continue.",Winner must keep character. Loser may switch.,,,Kijui,https://dl.airtable.com/.attachments/d6b396c2457cb963bbee308cf323f265/e77c3944/SFxTLogo.png,Tournament Default Gemset. PSN Characters are Banned.,PS3
-SDBZ (PS2),Super Dragon Ball Z,,SDBZ,https://www.start.gg/tournament/vortex-gallery/event/super-dragon-ball-z-sdbz/overview,$1,32,https://matcherino.com/tournaments/75925,60/30/10,Random,Double Elimination,3/5,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,"Frieza/Cyborg Frieza out of bounds must use Light Homing Attack Cancel, 236J or another method to reenter without attacking the opponent before resuming the match. Other known bugs are allowed.",,gpbear4,https://dl.airtable.com/.attachments/10d8111942f6a5aea4ea5011eda36824/755d390f/SDBZ.png,Damage: 3. Time: 80. Handicap: 3. Arcade mode or gentlemen agreement to versus mode. Random stage or gentlemen agreement. Any skills (impossible skill combinations banned). Any compatible controller. Any button mapping (check before starting). May use personal memcard or sample memcard provided by TO.,PS2
-SSF2X (Arcade-Supergun),Super Street Fighter II Turbo,,SSF2X,https://www.start.gg/tournament/vortex-gallery/event/super-street-fighter-ii-turbo-ssf2x/overview,$10,128,https://matcherino.com/tournaments/75926/,60/30/10,Skill,Double Elimination,2/3,3/5,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Turbo 3.
-
-Gouki is banned.
-
-No autofire or macros.",Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.","Riz0ne,VodkaGobalsky",https://dl.airtable.com/.attachments/0167f14d794619a8d75ee713c0d3bc40/cc442e50/super_street_fighter_ii_turbo_logo.png,,Arcade-Supergun
-TVC (PC-Dolphin),Tatsunoko vs. Capcom Ultimate All-Stars,Tatsunoko vs. Capcom,TVC,https://www.start.gg/tournament/vortex-gallery/event/tatsunoko-vs-capcom-tvc/overview,$10,None,https://matcherino.com/tournaments/75927,60/30/10,Region + Skill,Double Elimination,3/5,3/5,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,KBeast,https://dl.airtable.com/.attachments/77570b604e74fd8940e2cde8818d5edc/3b929ade/Tatsunoko_vs_Capcom_logo.png,,PC-Dolphin
-TMNTTF (SNES),Teenage Mutant Ninja Turtles Tournament Fighters,TMNT Tournament Fighters,TMNTTF,https://www.start.gg/tournament/vortex-gallery/event/tmnt-tournament-fighters-tmnttf/overview,$10,64,https://matcherino.com/tournaments/75928,60/30/10,Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,"TxS Rexonmax,D.Owls",https://dl.airtable.com/.attachments/cb0eab736b12780656e46efe624727cf/5b9911c6/TMNT-Tournament-Fighters-CE-logo.png,"There will be a seeding tournament, all that can't attend will be randomly seeded",SNES
-T5DR (PS3),Tekken 5: Dark Resurrection,,T5DR,https://www.start.gg/tournament/vortex-gallery/event/tekken-5-dark-resurrection-t5dr/overview,$10,64,https://matcherino.com/tournaments/75929,60/30/10,Skill,Double Elimination,3/5,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,"TxS Rexonmax,D.Owls",https://dl.airtable.com/.attachments/7941f2849cc827dad6a508fad72a0ef6/7c5d3286/Tekken-5-Dark-Resurrection_logo.png,"There will be a seeding tournament, all that can't attend will be randomly seeded",PS3
-TMNTXJLT (PC),TMNT x Justice League Turbo,,TMNTXJLT,https://www.start.gg/tournament/vortex-gallery/event/tmnt-x-justice-league-turbo-tmntxjl/overview,$5,128,https://matcherino.com/tournaments/75931,70/20/10,Region + Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","Singles Mode, 60 second rounds",Winner must keep character. Loser may switch.,,,Macc,https://dl.airtable.com/.attachments/e78e6527736644ab075c4c5703e84037/6ad6390e/800px-Tmntxjlt_logo.png,Random Stage select (players may opt for an agreed stage) / Boss characters banned.,PC
-SOKU (PC-Caster),Touhou 12.3 Hisoutensoku,,SOKU,https://www.start.gg/tournament/vortex-gallery/event/touhou-hisotensoku/overview,$5,256,https://matcherino.com/tournaments/75932,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,"Anything that would put the game in an unplayable state is not allowed (ex: Youmu catfish grab glitch). If this is performed, intentionally or not, the player that caused it will forfeit that game.","In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",Aligari,https://dl.airtable.com/.attachments/451c611737002682f0df3d778b10113e/6e66c6e5/Hisoutensoku-logo.png,"Please upload your profile you will be using to https://drive.google.com/drive/folders/10sPwWTJUyANhmIl58goUlPeNUC74bxNm?usp=sharing so we can pre-load them onto setups. If you need to make a profile on-site during tournament, I will be very upset.",PC-Caster
-UMVC3 (PS4),Ultimate Marvel vs. Capcom 3,,UMVC3,https://www.start.gg/tournament/vortex-gallery/event/ultimate-marvel-vs-capcom-3-umvc3/overview,$10,128,https://matcherino.com/tournaments/75933,50/25/15/10,Region + Skill,Double Elimination,N/A,3/5,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,Tong,https://dl.airtable.com/.attachments/40362d3f3c374de5f6867ab9d17c271e/dcf3c610/ultimate-marvel-vs-capcom-3-logo.png,,PS4
-UFDK (PC-Steam),Ultra Fight Da ! Kyanta 2,,UFDK,https://www.start.gg/tournament/vortex-gallery/event/ultra-fight-da-kyanta-2/overview,$5,64,https://matcherino.com/tournaments/75934,70/20/10,Region + Skill,Double Elimination,N/A,3/5,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","3 out of 5
-
-Double Elim
-
-Any type + Ratio allowed
-
-No switching characters or type on win, order and Ultra change are allowed.",Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.","YFDHippo,Durdge-o",https://dl.airtable.com/.attachments/83dc13da29f2d8fb94450877e28a7320/9994988f/Ultra-Fight-Da-Kyanta-logo.png,,PC-Steam
-USF2 (Switch),Ultra Street Fighter II,,USF2,https://www.start.gg/tournament/vortex-gallery/event/ultra-street-fighter-ii-usf2/overview,$5,32,https://matcherino.com/tournaments/75935,60/30/10,Random,Double Elimination,2/3,2/3,,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,,"Riz0ne,VodkaGobalsky",https://dl.airtable.com/.attachments/3fff6b0da1aca4afb20f39a262056bfd/ecafd2f1/Ultra-Street-Fighter-II_logo.png,,Switch
-USF4 (PS4),Ultra Street Fighter IV,,USF4,https://www.start.gg/tournament/vortex-gallery/event/ultra-street-fighter-iv-usf4/overview,$10,256,https://matcherino.com/tournaments/75936,70/20/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,"If there is a glitch during a decisive play, match must be replayed.",,"Sledge Of God,Kilomax",https://dl.airtable.com/.attachments/9f7a4edf07cc7a69c5a775ec0a8d2b2a/0a33b1d3/ultra_street_fighter_iv_logo.png,,PS4
-UNICLR (PS4),Under Night In-Birth Exe:Late [cl-r],,UNICLR,https://www.start.gg/tournament/vortex-gallery/event/under-night-in-birth-exe-late-cl-r/overview,$5,128,https://matcherino.com/tournaments/75937,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals","'-Game Version: PS4
-
--Game Settings: Versus Mode, 2/3 Rounds, 2/3 Games, 3/5 Games for Winners Finals, Losers Finals & Grand Finals
-
--Loser may switch characters, winner is locked into the character they won with
-
--Random Stage, players may play on an agreed upon stage (If you pick Park I'm going to judge you)",Winner must keep character. Loser may switch.,No game breaking glitches,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",Tabby,https://dl.airtable.com/.attachments/c0b9d3b2c1810617a1fafc89bad4ae4c/04d72fb4/Under-Night-In-Birth-Exe-Late-CLR-logo.png,,PS4
-VSAV (Arcade-MiSTer),Vampire Savior,,VSAV,https://www.start.gg/tournament/vortex-gallery/event/vampire-savior-vsav/overview,$10,128,https://matcherino.com/tournaments/75938,60/30/10,Region + Skill,Double Elimination,2/3,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",- Speed: Turbo 3.,Winner must keep character. Loser may switch.,- Game breaking glitches are banned.,,"Day,Hagure",https://dl.airtable.com/.attachments/56f519d310ad7647b0fe02aa3574c6d6/005630f3/Vampire-Savior-logo.png,,Arcade-MiSTer
-VF5US (PS4),Virtua Fighter 5 Ultimate Showdown,,VF5US,https://www.start.gg/tournament/vortex-gallery/event/virtua-fighter-5-ultimate-showdown-vf5us/overview,$10,None,https://matcherino.com/tournaments/75939,60/30/10,Region + Skill,Double Elimination,3/5,2/3,Top 8,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,"In the event of a game crash or disconnect, scoring will be kept for games & rounds, and the current round will be restarted.",Mech,https://dl.airtable.com/.attachments/68be17e18933203e290ec2e82134143a/b69633b5/Virtua-Fighter-5-Ultimate-Showdown-logo.png,,PS4
-WJ2 (PS4),Windjammers 2,,WJ2,https://www.start.gg/tournament/vortex-gallery/event/windjammers-2-wj2/overview,$5,256,https://matcherino.com/tournaments/75940,50/25/12/7/2/2/1/1,Skill,Double Elimination,2/3,2/3,Top 4,"3/5 Games for Winners Finals,3/5 Games for Losers Finals,3/5 Games for Grand Finals",Casino is banned. All characters allowed including Discman and Beeho-Yoo.,Winner must keep character. Loser may switch.,,,Jeff Vader Jr,https://dl.airtable.com/.attachments/999dd59b5eb919992ec8cead613674c0/c8a71656/WJ2_Logo.png,"1st stage is randomly selected. Hit the random button twice. If it lands on Casino, hit the random button one more time.",PS4
+""Grind while they rest, study while they party, and you will live like they dream"" -Mahatma Gandhi ",,https://dl.airtable.com/.attachments/790891976bbe7fadc7025eae166595d8/97f928d3/melon_125.png
+Mental Minx,@MentalMinx,she/her,Avid Kyanta 2 Support seeking to commentate for the love of this game! Play Ultra Fight Da! Kyanta 2,,https://dl.airtable.com/.attachments/a8b6a62547f35d2334e86525441d8f7f/9e4f0877/unknown.png
+Meta Abe,@Meta_Abe,He/Him,,,
+milkmandan,milkmandan_,he/him,Coder at Blizzard.  Loli basketball main in DFCI.『小学生は最高だぜ!』,https://twitter.com/milkmandan_,https://dl.airtable.com/.attachments/fbc89d458009135f2ffca6e50d522724/1325ef61/milkmandan-profile_image-300x300.png
+Minimum Payne,@MinimumPayne,he/him,,,https://dl.airtable.com/.attachments/1f12ed1fdaffe5cb8cc1a66cba618005/304368fd/minimumpayne.png
+mk_97,da408jedi,he/him,Just happy to be here.,,https://dl.airtable.com/.attachments/d07132c8fcf741eeb8be13eefcfb871a/b03679d3/mk_97.jpg
+Mr Aquaman,@MisterAquaman,he/him,,,
+NinjaNam,@NinjaNam15,he/him,Commentator with a flair for analysis. Player with a flair for choking. Happy to lend my voice on the mic anytime! ,,
+Ninomae Nimo,@ninomaenimo,he/him,"One of the many fish VTubers in the sea! I compete, commentate, and stream SoulCalibur VI! Feel free to ask me for a selfie <3",,https://dl.airtable.com/.attachments/410cd8e1deeb2e9792270a128523e5bd/a86a84ad/Nimo.jpg
+Numakie,@numakie,he/him,Hisui Lover. Former US MB god turned filthy casual. I do streaming things.,https://twitter.com/numakie,https://dl.airtable.com/.attachments/ffba5c542bfad5eaab58a42b55fd372b/62459267/staff_numakie.jpg
+Nycfurby/Sabin,Nycfurby,he/him,,,
+OmegaTomHanks,@OmegaTomHanksFL,he/him,Experience running USF4 and GG+R at Combo Breaker/CEO/Evo as well as various games at South Florida locals.,,
+Onikage,@onikageSRK,he/him,"Long time CvS2 / MvC2 TO for NorCal locals, I am excited to bring my Dreamcasts to Evo!",,https://dl.airtable.com/.attachments/dc7efec8bdf101a5619149017787738f/a96160a6/onikageprofile.jpg
+ooluchi,@ooluchiR1,he/him,,,
+Osugure,@Osugure,he/him,"Always doing too much, never stops doing too much, confused on how I even do so much....",https://twitter.com/Osugure,https://dl.airtable.com/.attachments/406fc62336b77d1bb958753810cd9f9f/4df1b0cd/IzaSalt.png
+pattheflip,@pattheflip,he/him,"Love your life, be good to one another, and play Guilty Gear <3",,https://dl.airtable.com/.attachments/7f95916fff9d444b731d1dc03e63a9c4/2e7d00b0/PGG_Crew.png
+PBTuft,@pbtuft,he/him,"Fighting games, pop punk, and trying to make the best cup of coffee I can. You be the good one and don't worry about them.",,https://dl.airtable.com/.attachments/67af89f517a3dcca597b91451dc91f12/85be4d5f/pbtuft.png
+Perfectly Balanced,@bubbaex,he/him,You may also know me as Babbaloo.  I love seeing fighting game communities work together.,,https://dl.airtable.com/.attachments/db8de811fd23e6ff72ea6e3bea0f1d0e/746ce31d/Perfectly_Balanced.jpg
+PolarBair,@PolarBair_ON,he/him,"Enigmatic fighting game player and TO from Ontario. Games run include Samsho 3, Samsho VSp, Dan-Ku-Ga, Cyberbots, Karnov's Revenge, and Double Dragon (NeoGeo)",,https://dl.airtable.com/.attachments/00bec6e30b3484c2e7a4630fb9529f74/7aadd6a9/PolarBair.png
+PP_Willpower,@PP_Willpower,he/him,,,
+pppablo,@pabloxmontero,he/him,"Pablo is an event producer from Mexico with channel LA GEMA. He hosts tournaments in LATAM and across the globe for games like SSBM, KOF XV, Gundam MBON, Mega Man Battle Network or any others the community asks for, with over $100,000 MXN in prizes throughout 2022!",twitter.com/pabloxmontero,https://dl.airtable.com/.attachments/e5ce85bba53ecf67c9e1286d3cb0f6e5/c7fbf401/pppablo.jpg
+pulsr,@atomicoffspring,he/him,I run the bbq,,
+Raiser,@MisterLyttle,he/him,"My home is in the mountains of Eastern Kentucky. By day, I’m a high school teacher. By night, I raise hell and stream video games. ",https://linktr.ee/misterlyttle,https://dl.airtable.com/.attachments/2d724a3d7a3fcfcdf07fa336c7068e87/4e52de20/raiser.png
+Raph,@RaphTX,he/him,,,
+RayBladeX,@raybladex,he/him,TO from Hawaii (Oahu).,,https://dl.airtable.com/.attachments/35e3760e8cb284fa4067feea7d09c60f/653ee6cc/raybladex.PNG
+Raymond_Senpai,@Raymond_Senpai,any,(0-2 Boyz),,
+Rina Locke (xorinalo),@xorinalo,they/them,.,,https://dl.airtable.com/.attachments/e2994230c3d7fa45617572b20f08beee/50630574/RinaLocke.jpg
+Riz0ne,@superloreboys,he/him,"A certified Shill Boy of Super Street Fighter II Turbo, Riz0ne has moved from coast to coast landing touch of death combos, while taking sips of Dr Pepper in between rounds.",https://www.shilluminati.com,https://dl.airtable.com/.attachments/126701670b63afd8661af82852965662/213d2f05/riz0ne.png
+Roman22s,@roman22gilbert,he/him,,,
+Rome_Himself,@Romulus_Himself,he/him,,,https://dl.airtable.com/.attachments/6f04fe2bb8a0ece4dcfe197c8f327183/a7bf6b56/Rome_Himself.jpg
+Rotendo,@usmc_rotendo,,,,
+Ruric,@rur1c,he/him,Just a dude that loves to press buttons.,,
+Ryyudo,@Ryyudo,"he/him, they/them","Long-time competitor commentator of a myriad of games, including the Guilty Gear series, Sailor Moon S, Super Turbo, Koihime Enbu, and others. Now mostly focused on applying that history into commentary and focusing on helping the community push forward into bigger and better.",,https://dl.airtable.com/.attachments/6d45b66557364844b6fb0986d27979a4/43358cfb/Ryyudo.jpg
+SabinDeus,@SabinDeus,he/him,"SabinDeus leads Team DEUS, an organization sponsoring Soulcalibur players from New York, and runs online Soucalibur VI tournaments for the New York/Northeast NA region. ",,https://dl.airtable.com/.attachments/798b2e3faffb4bf18b523d1f86959237/939a6cbf/SabinDeus.png
+SakiSakuraTV,SakiSakuraTV,she/her," A commentator, player, and content creator for Dynamik Focus, she also works with various communities to volunteer in helping lead and organize tournaments!",,
+Sakurina,Sakurina,he/him,"When I'm not playing through every WonderSwan game, I'm getting stomped on BBCF and Fightcade.",https://r-ch.net,
+saltyhash,@salty_hash,they/them,NorCal FGC,,
+SATCHMO,arcadetrash4u,he/him,,,
+Scrub Saibot,ScrubSaibot,he/him,I like trains. Check out @EdmontonFGC @XboxFightersFGC,,https://dl.airtable.com/.attachments/09ac83c8ecb5a0b073c5e78b1c54cd12/10fd6770/ScrubSaibot.jpg
+Scrubbs-Vs-You,@ScrubbsVsYou214,he/him,It’s all for the love of the FGC #Play Street Fighter x Tekken,,
+Seoul_Fist,@Seoul_Fist,she/her,Hi! I’ll be managing the Royal Rivals SFV exhibition!,,
+Shiburizu,@shiburizu,he/him,"956Pro Tech, Mizuumi Wiki & SuperCombo.gg chief editor.",https://twitter.com/shiburizu,https://dl.airtable.com/.attachments/911ff099d5ee8892d2bb450eedeac32d/2fbfd80f/staff_shiburizu.jpg
+Shodan,@ShitShodanSays,he/him,,,https://dl.airtable.com/.attachments/1cf74c2750472c5042913383e736a2bf/c202c55b/Shodan.jpg
+shtkn,@shtkn,he/him,,,https://dl.airtable.com/.attachments/c84d790ef4c7c876d39520eb42edce72/ba6d739c/blackcowboyhat.jpg
+Sledge Of God,@1776Productions,he/him,I’m here and willing to cooperate.,,
+SolidGoldSpork,@solidgoldspork,he/him,,,
+southpaw flash,@southpawflash,he/him,,,
+StarCharger,@Starcharger28,he/him,Here to TO the hype that will ensue with MKX! Happy to run it!,https://twitter.com/StarCharger28 ,https://dl.airtable.com/.attachments/db88006ee203f6f965a84421fb18d2ec/48b308d9/StarCharger.png
+Strike1st | adamYUKI,@adamyuki,he/him,,,
+strobes,@strobelit3,any,millia rage,,https://dl.airtable.com/.attachments/83c154f75aed2c09da818539d54090ee/e13a74e8/strobes.png
+sweetxjam,@sweetxjam,he/him,chicago gg family. part time commentator and cmv director. play guilty gear.,,
+Swiftimus,@Swiftimus,he/him,"I host PP, happy to be apart of the team. I wrote this at 4 in the morning :))",,
+Tabby,TabbyNickel,she/her,"Semi Professional Weaboo Wedding Singer. PNW FGC TO, Commentator, and Competitor. Play Under Night.",https://twitter.com/TabbyNickel,https://dl.airtable.com/.attachments/0ab1869647180f66540cca5f114984c3/4e9ee8be/Tabby.png
+Tari,@tarisbox,he/him,Perpetually asleep.,,https://dl.airtable.com/.attachments/d08b37d8989d93f9b57e192f651eb747/a3fd28fd/tari.png
+Tawhs ,@Nzfgc_tawhs,any,"(pr. Taafs) From New Zealand, representing Standing Fierce/NZFGC",,https://dl.airtable.com/.attachments/f986dde1817361ad92eab8c2037660da/8610235e/tawhs.jpg
+Tessiro,Tessiro48,he/him,,,
+tEy,theosmeo,"he/him, they/them",,,
+tharimrattler,@colossusmvc2,he/him,MVC2 is the GOAT,,
+TheMikuSSGSS,themikuSSGSS,they/them,norcal rev2 babeyy B) ,,
+thomaswinkley,@thomaswinkley,he/him,"Thomas Winkley is a commentator, streamer and pizza enthusiasts. Hailing demo Utah he helps manage their competitive scene and is usually found near a bracket with a glass of whisky.",https://www.thomaswinkley.com,
+ThrustyZol,@CoachZOL,he/him,"TO/Streamer/Creator 'Casual Fight Fri' for SamSho Enhanced - Series X|S w/ @XBoxFightersFGC. FG's awoke a passion to stream entertaining, Gluten-free content (NO profanity/racial slurs/threats). Playing FG's since ‘Karate Champ’ A Brazilian Jiu-Jitsu Coach/MMA cornerman/Model/Stunts/Actor. Never work a day; Do what u Love for a living!",,https://dl.airtable.com/.attachments/c2ea81aeac4f02ffd09b4d4488d0acfb/3ee20d7e/thrustyzol.jpg
+ThyPirateKing,@ThyPirateKing,he/him,,,
+TNS ProXYG,@proxytcg,he/him,,,
+Tong,@tongneversleeps,he/him,,,
+TurboAnnihilator,@TurboAnnihilate,he/him,"Turbo Annihilator is an arcade preservationist, illustrator, and musician hailing from the arcade wilds of southern California. Turbo's focus is dedicated mainly behind the scenes, working on visuals and web content for Super Lore Boys.",,
+TxS Rexonmax,Rexonmax,he/him,Happy to be here!,,https://dl.airtable.com/.attachments/decfbf4cedb0b5495399ddb07c7eab1f/57ab5065/anubismachete.png
+Uchi,@UchiGang,he/him,,,
+VBE ChicagoRoyal,@chicagoroyal,he/him,,,
+Verfortiso,@Verfortiso,he/him,,,
+Veri7as,Veri7as,he/him,,,https://dl.airtable.com/.attachments/5e362ae7ac95c5255068ab2cb98af7a6/da28fdb2/Veri7as.png
+VKL,SengokuStray,he/him,RIP Kevin Randleman,,
+VMP_KyleW,@VMP_KyleW,,,,https://dl.airtable.com/.attachments/efbeea8b7884cf545ea5c5b316c0c49f/4a700292/VMP_KyleW.jpeg
+VodkaGobalsky,@LiquidGobalsky,,,,https://dl.airtable.com/.attachments/22dc0bb7e4893057dc9cdd6f72cef63f/db624553/VodkaGobalsky.png
+WarpWhistle,@WarpWhistles,he/him,"Windjammers guru and Kusoge advocate, please try weird new things.",,
+Winty,wintydunno,any,,,
+WoC | Cho Mùa,@TempesttTO,he/him,Long time player and TO. Pleased to meet you.,,
+Xiei,XiePlus,he/him,,,
+YFDHippo,,he/him,"Play Ultra Fight Da ! Kyanta 2, it's free to play on Steam!",https://www.youtube.com/channel/UCGviE_344QODix9h0IveeCA,https://dl.airtable.com/.attachments/2e6bcd6d956f9ada43446da4ddd859a6/8052e5c9/yfdhippo.png
+Yohosie,@Yohosiefgc,she/her,"Fighting Game Idiot. Used to play things good, now I help run things and talk over things good. Hit me up if you need anything or want to chat.",,https://dl.airtable.com/.attachments/73715842d9effb5f0307156a0520de38/3e1d9a01/yohosie.png
+Yukiinari,@thegayagenda69,"she/her, they/them",,,https://dl.airtable.com/.attachments/a725892a6592c5cb84881aa3df233c3d/5a8b96ae/Yukiinari.png
+YumMorrigan,@YumMorrigan,she/her,"Enjoys all things Guilty Gear, happy to help everyone out! ",,
