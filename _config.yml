@@ -9,8 +9,8 @@ defaults:
 plugins:
   - jekyll-seo-tag
 title: Vortex Gallery
-tagline: "Vortex Gallery at Evo 2022"
-description: "Bring Your Own Mix. August 5-7, 2022."
+tagline: "Vortex Gallery Online 2023"
+description: "Bring Your Own Mix. February 10 - March 5, 2023."
 twitch: https://twitch.tv/956productions
 twitter: 
   username: 956productions
@@ -22,10 +22,8 @@ nav:
     url: /faq
   - title: Info
     url: /info
-  - title: Schedule
-    url: /schedule
-  - title: Staff
-    url: /staff
+  - title: Volumes
+    url: /volumes
   - title: Discord
     url: https://discord.gg/wTWRM9uBBt
 volunteer: /volunteer

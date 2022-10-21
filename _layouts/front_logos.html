@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top has-background-black">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero is-link has-text-centered front-hero">
+            <div class="hero-body" style="padding: 3rem 0.5rem;">
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/logo.png">
+                </div>
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/tagline.png">
+                </div>
+                <div class="buttons is-justify-content-center">
+                    <a href="https://start.gg/vortexgallery" class="button shadow is-danger is-large is-responsive">
+                        <span class="has-text-weight-bold">Register Now</span>
+                    </a>
+                    <a href="https://956pro.com/volunteer" class="button shadow is-info is-large is-responsive">
+                        <span class="has-text-weight-bold">Volunteer</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-black-bis">
+            <div class="container is-max-desktop">
+                <div class="content has-text-white has-text-centered">
+                    <h1 class="is-size-3 exo">{{ page.title }}</h1>
+                    {{ content }}
+                    <h2 class="is-size-3 exo mt-1">Stay Connected!</h2>
+                    <a href="{{site.twitch}}">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-twitch"></i>
+                        </span>
+                    </a>
+                    <a href="https://twitter.com/{{site.twitter.username}}">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-twitter"></i>
+                        </span>
+                    </a>
+                    <a href="{{site.youtube}}">
+                        <span class="icon is-large">
+                            <i class="fab fa-2x fa-youtube"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        {% include volumes_promo.html %}
+        <section class="section has-background-black">
+            <div class="container">
+                <div class="content has-text-white has-text-centered">
+                    <h1 class="is-size-3 exo">Vortex Gallery Online 2023 Games</h1>
+                    <p class="content"><b><a href="https://956pro.com/volunteer">Want to bring a new game or add a region to our lineup? Sign up to volunteer!</a></b></p>
+                    <hr>
+                    {% include games.html %}
+                    <hr>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

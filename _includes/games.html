@@ -1,10 +1,13 @@
-<div class="columns is-multiline is-centered">
+{% assign curGame = '' %}
+<div class="columns is-multiline is-centered mt-2 is-hidden-touch">
     {% for i in site.data.games %}
     {% if i['Smash URL'] %}
-    <a href="{{i['Smash URL']}}" class="column is-3 is-flex is-flex-direction-column is-align-items-center">
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <a class="modal-trigger column is-3 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
         <div class="block">
             <div style="height:200px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                <img src="{{i['Game Logo URL']}}" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;">
+                <img src="{{i['Img-Game Logo URL']}}" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
             </div>
         </div>
         <div class="block">
@@ -12,5 +15,19 @@
         </div>
     </a>
     {% endif %}
+    {% endif %}
     {% endfor %}
 </div>
+<div class="columns is-multiline is-centered mt-2 is-hidden-desktop">
+    {% for i in site.data.games %}
+    {% if i['Smash URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <div class="column is-4-desktop is-12-tablet is-3-widescreen p-1">
+        <a class="modal-trigger button is-dark is-fullwidth" data-target="{{i['Abbr-Game']}}">{{ i['Game Name'] }}</a>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+{% include modals_regions.html %}

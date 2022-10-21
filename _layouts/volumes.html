@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top has-background-black">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="volumes-hero is-link has-text-centered front-hero">
+            <div class="hero-body" style="padding: 3rem 0.5rem;">
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/volumes_logo.png">
+                </div>
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/volumes_tagline.png">
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-black">
+            <div class="container is-max-desktop">
+                <div class="content has-text-white has-text-centered">
+                    <h1 class="is-size-3 exo">Vortex Gallery Volumes Schedule</h1>
+                    {{ content }}
+                    <hr>
+                    <div class="is-flex is-flex-direction-column is-align-items-center">
+                    {% for i in site.data.volumes %}
+                    {% if i['Date'] %}
+                    <div class="block has-text-left shadow p-2 has-background-primary-dark" style="width: 100%; max-width: 600px;">
+                        <h3 class="mb-1">{{i['Date']}}: {{ i['Project'] }}</h3>
+                        <p class="content"><b>{{i['Comments']}}</b></p>
+                        <div class="buttons">
+                            {% if i['Main Link'] %}
+                            <a href="{{i['Main Link']}}" class="button is-danger"><b>Register</b></a>
+                            {% endif %}
+                            {% if i['Volumes-Social Post'] %}
+                            <a href="{{i['Volumes-Social Post']}}" class="button is-primary"><b>Info</b></a>
+                            {% endif %}
+                            {% if i['Volumes-Channel'] %}
+                            <a href="{{i['Volumes-Channel']}}" class="button is-primary"><b>Watch</b></a>
+                            {% endif %}
+                            {% if i['Volumes-Matcherino'] %}
+                            <a href="{{i['Volumes-Matcherino']}}" class="button is-primary"><b>Matcherino</b></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% for i in site.data.volumes %}
+                    {% if i['Date'] %}
+                    {% else %}
+                    <div class="block has-text-left shadow p-2 has-background-primary-dark" style="width: 100%; max-width: 600px;">
+                        <h3 class="mb-1">{{ i['Project'] }}</h3>
+                        <p class="content"><b>{{i['Comments'] | default: 'More info is on the way!' }}</b></p>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    </div>
+                <br>
+                <b>Look out for more Volumes events coming soon!</b>
+                </div>
+                <hr>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

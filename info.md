@@ -1,5 +1,7 @@
 ---
 title: "Event Information"
-layout: rules
+layout: rules_regions
 ---
-<iframe width="100%" height="800px" src="https://docs.google.com/document/d/e/2PACX-1vS5_fdTfD2HgQ3OZgN76Bo2mxVygqAHc6gvCZqHcmLf8js5i6Fc8fi2FkVIIkOtWX6Tj3qijVPT29FA/pub?embedded=true"></iframe>
+Please look forward to event-specific format & rule sets to be published ahead of Vortex Gallery Online 2023.
+
+<iframe width="100%" height="800px" src="https://docs.google.com/document/d/e/2PACX-1vRGrNuQDsLSLaT5p0p4RQu3sC6DvDXA_xA9CKgnpliTBKWraJ_eotTOvlHcrJMJgKMxH57HXE92tUaQ/pub?embedded=true"></iframe>

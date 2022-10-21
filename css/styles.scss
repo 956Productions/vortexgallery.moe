@@ -8,6 +8,11 @@
 	font-family: 'Bomber Escort Condensed';
 	src: url('/img/bomber_condensed.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'Exo Black';
+	src: url('/img/exo.ttf') format('truetype');
+}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -32,7 +37,10 @@
 $cyan: #00ffff;
 $blue: #00a3f8;
 $yellow: #fddc00;
-$radius: 6px;
+$pink: #d96ca8;
+$radius: 0px;
+
+html { scroll-padding-top: 100px; }
 
 .bomber {
 	font-family: 'Bomber Escort' !important;
@@ -40,14 +48,40 @@ $radius: 6px;
 	text-transform: lowercase;
 }
 
-.vg-box {
-	background: black;
-	border-radius: 0px 50px 0px 0px;
-	border: 2px solid $blue;
-	transition: background 0.5s;
+.exo {
+	font-family: 'Exo Black' !important;
+	font-weight: 400 !important;
 }
+
+.shadow {
+	box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
+	-webkit-box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
+	-moz-box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
+}
+
+.vg-box {
+	transition: all 0.5s ease;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+  }
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .vg-box:hover {
 	background: $blue;
+	box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
+	-webkit-box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
+	-moz-box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
 }
 
 .site-footer {
@@ -62,6 +96,12 @@ $radius: 6px;
 	background-repeat: no-repeat;
 }
 
+.volumes-hero {
+	background: url('/img/volumes_hero.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .button.is-dark:hover {
 	background-color: $blue !important;
 }
@@ -70,6 +110,7 @@ $radius: 6px;
 
 $primary: $blue;
 $danger: $yellow;
+$success: $pink;
 $text-strong: $white-bis;
 $link-hover: $cyan;
 $content-heading-color: $white;

@@ -1,0 +1,41 @@
+{% assign curGame = '' %}
+{% for i in site.data.games %}
+{% if i['Smash URL'] %}
+{% if i['Abbr-Game'] != curGame %}
+{% assign curGame = i['Abbr-Game'] %}
+<div class="modal has-text-left" id="{{i['Abbr-Game']}}">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title m-0">{{ i['Abbr-Game'] }} at Vortex Gallery</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image mx-0 mt-0 mb-2">
+          <img src="{{i['Img-Game Logo URL']}}" style="max-height: 150px; width: auto;" loading="lazy">
+        </figure>
+        <div class="block">
+          <h2>{{i['Game Name']}}</h2>
+        </div>
+        <div class="block">
+          <h3>Available Tournaments</h3>
+          <ul>
+            {% for r in site.data.games %}
+              {% if r['Abbr-Game'] == curGame %}
+              <li><a href="{{r['Smash URL'] | default: 'https://start.gg/vortexgallery' }}"><b>{{r['Short Name']}} ({{r['Abbr-Regions List']}}) ({{r['Info-Platform']}})</b></a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <div class="block">
+            <p>Please click on a link above to access tournament registration.</p>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot" style="background-color: black;">
+        <a class="button is-primary" href="/info#{{i['Abbr-Game']}}">Info</a>
+      </footer>
+    </div>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
