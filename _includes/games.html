@@ -11,6 +11,15 @@
             </div>
         </div>
         <div class="block">
+            <div class="tags is-justify-content-center">
+                {% for r in site.data.games %}
+                {% if r['Abbr-Game'] == curGame %}
+                <span class="tag is-primary">{{ r['Abbr-Regions List'] }}</span>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="block">
             <p class="has-text-white has-text-weight-semibold has-text-centered">{{i['Game Name']}}</p>
         </div>
     </a>
