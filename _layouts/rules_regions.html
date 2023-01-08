@@ -35,12 +35,71 @@
                                 <ul>
                                     <li><a href="{{ r['Smash URL'] }}">Register via Start.gg</a></li>
                                     <li>Platform: {{ r['Info-Platform'] | default: 'TBD' }}</li>
+                                    <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
                                     <li>Organizer: {{ r['Staff-Lead TOs'] | default: '@956Productions' }}</li>
                                     <li>Region: {{ r['Abbr-Regions List'] | default: 'TBD' }}</li>
                                     {% if r['Region Includes'] %}
                                     <li>Region Includes: {{ r['Region Includes'] }}</li>
                                     {% endif %}
+                                    {% if r['Info-Seeding'] %}
+                                    <li>Seeding: {{ r['Info-Seeding'] }}</li>
+                                    {% endif %}
                                 </ul>
+                                <h3>Prizing</h3>
+                                <ul>
+                                    <li>Pot Split: {{ r['$-Pot Split'] | default: "TBA"}}</li>
+                                    {% if r['Matcherino URL'] %}
+                                    <li><a href="{{ r['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
+                                    {% endif %}
+                                </ul>
+                                {% if r['Pools-Bracket Type'] %}
+                                <h3>Tournament Format</h3>
+                                {% endif %}
+                                <ul>
+                                    {% if r['Pools-Bracket Type'] %}
+                                    <li>Bracket Format: {{r['Pools-Bracket Type']}}</li>
+                                    {% endif %}
+                                    
+                                    {% if r['Pools-Rounds per Game'] %}
+                                    <li>Rounds per Game: {{r['Pools-Rounds per Game']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Pools-Games per Set'] %}
+                                    <li>Games per Set: {{r['Pools-Games per Set']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Finals-Phase'] %}
+                                    <li>Finals Cut Off: {{r['Finals-Phase']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Finals-Games per Set'] %}
+                                    <li>Finals Games per Set: {{r['Finals-Games per Set']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Rules-Chara Change'] %}
+                                    <li>{{r['Rules-Chara Change']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Rules-Glitches'] %}
+                                    <li>{{r['Rules-Glitches']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Rules-Disconnect'] %}
+                                    <li>{{r['Rules-Disconnect']}}</li>
+                                    {% endif %}
+                                </ul>
+                                {% if r['Rules-Game Settings'] %}
+                                <h3>Game Settings</h3>
+                                <p>{{ r['Rules-Game Settings'] | newline_to_br }}</p>
+                                {% endif %}
+                                {% if r['Info-Software Needed'] %}
+                                <h3>Software Needed</h3>
+                                <p>{{ r['Info-Software Needed'] | newline_to_br }}</p>
+                                {% endif %}
+                                {% if r['Rules-Notes'] %}
+                                <h3>Additional Rules</h3>
+                                <p>{{r['Rules-Notes'] | newline_to_br }}</p>
+                                {% endif %}
                             {% endif %}
                             {% endfor %}
                         </div>

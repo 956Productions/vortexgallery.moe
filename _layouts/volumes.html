@@ -54,6 +54,37 @@
                     </div>
                 <br>
                 <b>Look out for more Volumes events coming soon!</b>
+                <br><br>
+                <div class="content has-text-white has-text-centered">
+                    <h1 class="is-size-3 exo">Past Volumes</h1>
+                    <hr>
+                    <div class="is-flex is-flex-direction-column is-align-items-center">
+                    {% for i in site.data.pastvolumes %}
+                    {% if i['Date'] %}
+                    <div class="block has-text-left shadow p-2 has-background-primary-dark" style="width: 100%; max-width: 600px;">
+                        <h3 class="mb-1">{{i['Date']}}: {{ i['Project'] }}</h3>
+                        <p class="content"><b>{{i['Comments']}}</b></p>
+                        <div class="buttons">
+                            {% if i['Main Link'] %}
+                            <a href="{{i['Main Link']}}" class="button is-danger"><b>Info</b></a>
+                            {% endif %}
+                            {% if i['Volumes-Channel'] %}
+                            <a href="{{i['Volumes-Channel']}}" class="button is-primary"><b>Channel</b></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% for i in site.data.pastvolumes %}
+                    {% if i['Date'] %}
+                    {% else %}
+                    <div class="block has-text-left shadow p-2 has-background-primary-dark" style="width: 100%; max-width: 600px;">
+                        <h3 class="mb-1">{{ i['Project'] }}</h3>
+                        <p class="content"><b>{{i['Comments'] | default: 'More info is on the way!' }}</b></p>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    </div>
                 </div>
                 <hr>
             </div>

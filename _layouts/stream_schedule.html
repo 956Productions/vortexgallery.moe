@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html style="overflow-y: auto !important;">
+    {% include header.html %}
+    <body style="background-image: url('/img/vg23_castle.png');">
+        <section class="section p-0" style="height: 100vh; max-height: 100vh; overflow-y: hidden;">
+            <div class="container-fluid m-5 is-hidden">
+                <div class="block" style="height: 100vh;"> <!-- Stream Schedule Block -->
+                    <div class="columns">
+                        <div class="column is-three-quarters"> <!-- Coming Up Next -->
+                            <div class="columns is-vcentered"> 
+                                <div class="column is-one-quarter"> <!-- VGOn23 Logo -->
+                                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/logo.png">
+                                </div>
+                                <div class="column"> <!-- Stream Schedule Text -->
+                                    <img src="/img/stream.png">
+                                </div>
+                            </div>
+                            <div class="block schedule-now-header"> <!-- Header -->
+                                <img src="/img/coming.png">
+                            </div>
+                            <div class="block has-text-centered">
+                                <img class="mb-3" src="/img/schedule.png">
+                                <img class="ml-2" src="/img/socials.png">
+                            </div>
+                        </div>
+                        <div class="column"> <!-- Later -->
+                            <div class="block schedule-later-header"> <!-- Header -->
+                                <img src="/img/later.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+        <script src="{{ 'js/stream_schedule.js' | relative_url }}"></script>
+    </footer>
+</html>
