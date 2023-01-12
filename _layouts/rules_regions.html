@@ -45,6 +45,27 @@
                                     <li>Seeding: {{ r['Info-Seeding'] }}</li>
                                     {% endif %}
                                 </ul>
+                                <h3>Schedule</h3>
+                                <ul>
+                                    <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} ({{ r['TZ Main'] }}, GMT {{ r['TZ Offset'] }})</b></li>
+                                    <li>PST Start Time: {{ r['Time-Start (PST)'] }} (PST, GMT -8)</li>
+                                </ul>
+                                {% if r['Stream-Pools'] %}
+                                <h3>Streaming</h3>
+                                <ul>
+                                    {% if r['Stream-Pools'] contains 'Stream 1' %}
+                                    <p>{{r['Stream-Pools'] | newline_to_br}}</p>
+                                    {% else if r['Stream-Pools'] == r['Stream-Finals'] or r['Stream-Finals'] == ''%}
+                                    <li>Stream channel: <a href="{{r['Stream-Pools']}}">{{r['Stream-Pools']}}</a></li>
+                                    {% else if r['Stream-Pools'] != r['Stream-Finals'] and r['Stream-Finals'] != '' %}
+                                    <li>Pools stream: <a href="{{r['Stream-Pools']}}">{{r['Stream-Pools']}}</a></li>
+                                    <li>Finals stream: <a href="{{r['Stream-Finals']}}">{{r['Stream-Finals']}}</a></li>
+                                    {% endif %}
+                                </ul>
+                                {% else %}
+                                <h3>Streaming</h3>
+                                <p>Stay tuned for stream updates!</p>
+                                {% endif %}
                                 <h3>Prizing</h3>
                                 <ul>
                                     <li>Pot Split: {{ r['$-Pot Split'] | default: "TBA"}}</li>

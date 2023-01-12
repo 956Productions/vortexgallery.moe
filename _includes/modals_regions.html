@@ -23,6 +23,10 @@
             {% for r in site.data.games %}
               {% if r['Abbr-Game'] == curGame %}
               <li><a href="{{r['Smash URL'] | default: 'https://start.gg/vortexgallery' }}"><b>{{r['Short Name']}} ({{r['Abbr-Regions List']}}) ({{r['Info-Platform']}})</b></a></li>
+              <ul>
+                <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} ({{ r['TZ Main'] }}, GMT {{ r['TZ Offset'] }})</b></li>
+                <li>PST Start Time: {{ r['Time-Start (PST)'] }} (PST, GMT -8)</li>
+              </ul>
               {% endif %}
             {% endfor %}
           </ul>
