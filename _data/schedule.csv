@@ -1,4 +1,4 @@
-Game-Phase,Game-Short Name,Game-Abbr,Tournament,Game,Regions Abbr,Phase,Start (PST),Start (Local),TZ-Main Timezone,Start Date (Local),Pools Stream,Finals Stream,Pools Username,Finals Username
+﻿Game-Phase,Game-Short Name,Game-Abbr,Tournament,Game,Regions Abbr,Phase,Start (PST),Start (Local),TZ-Main Timezone,Start Date (Local),Pools Stream,Finals Stream,Pools Username,Finals Username
 DNFD - OCE - (PC-Steam)-Full Tourney,DNFD,DNFD,DNFD - OCE - (PC-Steam),DNF Duel,OCE,Full Tourney,2/10/2023 12:00am,2/10/2023 7:00pm,AEDT,02/10 Fri,,,,
 ROA - EU - (PC-Steam)-Full Tourney,Rivals,ROA,ROA - EU - (PC-Steam),Rivals of Aether,EU,Full Tourney,2/10/2023 12:00pm,2/10/2023 8:00pm,UTC,02/10 Fri,https://twitch.tv/roaeurope,https://twitch.tv/roaeurope,roaeurope,roaeurope
 AoS2 - SA/BR - (PC-Steam)-Full Tourney,AoS2,AoS2,AoS2 - SA/BR - (PC-Steam),Acceleration of Suguri 2,SA/BR,Full Tourney,2/10/2023 3:00pm,2/10/2023 8:00pm,BRT,02/10 Fri,https://twitch.tv/jota_sr,https://twitch.tv/jota_sr,jota_sr,jota_sr
@@ -45,8 +45,8 @@ DD - NA+SA - (PC-Fightcade)-Full Tourney,Double Dragon,DD,DD - NA+SA - (PC-Fight
 KOIHIME - SA/BR - (PC-Steam)-Full Tourney,Koihime,KOIHIME,KOIHIME - SA/BR - (PC-Steam),Koihime Enbu RyoRaiRai,SA/BR,Full Tourney,2/17/2023 3:00pm,2/17/2023 8:00pm,BRT,02/17 Fri,https://twitch.tv/jota_sr,https://twitch.tv/jota_sr,jota_sr,jota_sr
 DFCI - NA - (PC)-Full Tourney,Dengeki Bunko,DFCI,DFCI - NA - (PC),Dengeki Bunko Fighting Climax Ignition,NA,Full Tourney,2/17/2023 4:00pm,2/17/2023 4:00pm,PST,02/17 Fri,https://twitch.tv/milkmandantv,https://twitch.tv/milkmandantv,milkmandantv,milkmandantv
 SSVI - NA - (PC-Fightcade)-Full Tourney,SS6,SSVI,SSVI - NA - (PC-Fightcade),Samurai Shodown VI,NA,Full Tourney,2/17/2023 5:00pm,2/17/2023 5:00pm,PST,02/17 Fri,https://twitch.tv/tz_toast_rider,https://twitch.tv/tz_toast_rider,tz_toast_rider,tz_toast_rider
-GGACPR - JP - (PC-Steam)-Full Tourney,+R,GGACPR,GGACPR - JP - (PC-Steam),Guilty Gear XX Accent Core Plus R,JP,Full Tourney,2/17/2023 6:00pm,2/18/2023 11:00am,JST,02/18 Sat,,,,
 MBON - NA - (PS4)-Full Tourney,Gundam EXVS MBON,MBON,MBON - NA - (PS4),Mobile Suit Gundam Extreme VS Maxiboost ON,NA,Full Tourney,2/17/2023 6:00pm,2/17/2023 6:00pm,PST,02/17 Fri,,,,
+GGACPR - JP - (PC-Steam)-Full Tourney,+R,GGACPR,GGACPR - JP - (PC-Steam),Guilty Gear XX Accent Core Plus R,JP,Full Tourney,2/17/2023 6:00pm,2/18/2023 11:00am,JST,02/18 Sat,,,,
 MBAACC - SEA - (PC-Caster)-Full Tourney,Melty Blood AACC,MBAACC,MBAACC - SEA - (PC-Caster),Melty Blood Actress Again Current Code,SEA,Full Tourney,2/17/2023 8:00pm,2/18/2023 12:00pm,SGT,02/18 Sat,https://twitch.tv/airdasher_sea,https://twitch.tv/airdasher_sea,airdasher_sea,airdasher_sea
 MBON - OCE - (PS4)-Full Tourney,Gundam EXVS MBON,MBON,MBON - OCE - (PS4),Mobile Suit Gundam Extreme VS Maxiboost ON,OCE,Full Tourney,2/18/2023 12:00am,2/18/2023 7:00pm,AEDT,02/18 Sat,,,,
 SG - SA/SUD - (PC-Steam)-Full Tourney,Skullgirls,SG,SG - SA/SUD - (PC-Steam),Skullgirls: 2nd Encore+,SA/SUD,Full Tourney,2/18/2023 10:00am,2/18/2023 3:00pm,BRT,02/18 Sat,https://twitch.tv/skullgirlslas,https://twitch.tv/skullgirlslas,skullgirlslas,skullgirlslas
