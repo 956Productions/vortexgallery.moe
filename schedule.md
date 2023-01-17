@@ -1,5 +1,4 @@
 ---
-title: "Stream Schedule"
+title: "Event Schedule"
 ---
-Streams ordered by start time. All times in US Pacific (PDT, GMT-7).
-{% include schedule.html %}
+{% include schedule_online.html %}

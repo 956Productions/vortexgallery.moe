@@ -46,6 +46,19 @@
                 {% else %}
                 <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT+{{ r['TZ Offset'] }})</b></li>
                 {% endif %}
+                {% if r['Stream-Pools'] %}
+                {% if r['Stream-Pools'] contains "," %}
+                <li><b>Stream Channel 1:</b> <a href="https://twitch.tv/chickzama">twitch.tv/chickzama</a></li>
+                <li><b>Stream Channel 2:</b> <a href="https://twitch.tv/chfinal">twitch.tv/chfinal</a></li>
+                {% else %}
+                <li><b>Bracket Stream Channel:</b> <a href="{{ r['Stream-Pools'] }}">{{ r['Stream-Pools'] | remove: "https://" | remove: "www." }}</a></li>
+                {% endif %}
+                {% endif %}
+                {% if r['Stream-Finals'] %}
+                {% if r['Stream-Pools'] != r['Stream-Finals'] %}
+                <li><b>Finals Stream Channel:</b> <a href="{{ r['Stream-Finals'] }}">{{ r['Stream-Finals'] | remove: "https://" | remove: "www." }}</a></li>
+                {% endif %}
+                {% endif %}
                 {% endif %}
               </ul>
               {% endif %}

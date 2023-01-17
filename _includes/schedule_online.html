@@ -1,0 +1,31 @@
+<div style="overflow-x: auto;" class="pb-2">
+{% assign lastDate = "" %}
+{% for s in site.data.schedule %}
+{% if lastDate != s['Start Date (Local)'] %}
+<h2>{{ s['Start Date (Local)'] }}</h2>
+{% assign lastDate = s['Start Date (Local)'] %}
+{% endif %}
+{% if s['Phase'] contains "Full Tourney" %}
+{% if s['Pools Stream'] contains "youtube" %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a><a class="icon-text" href="{{ s['Pools Stream'] }}"><span class="icon"><i class="fab fa-youtube"></i></span><span class="is-size-7">{{ s['Pools Username'] }}</span></a></div>
+{% elsif  s['Pools Stream'] contains "twitch" %}
+{% if s['Pools Stream'] contains "," %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a><a class="icon-text pr-1" href="https://twitch.tv/chickzama"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">1. Chickzama</span></a><a class="icon-text" href="https://twitch.tv/chfinal"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">2. CHFinal</span></a></div>
+{% else %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a><a class="icon-text" href="{{ s['Pools Stream'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Pools Username'] }}</span></a></div>
+{% endif %}
+{% else %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a></div>
+{% endif %}
+{% else %}
+{% if s['Pools Stream'] contains "youtube" %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="{{ s['Finals Stream'] }}"><span class="icon"><i class="fab fa-youtube"></i></span><span class="is-size-7">{{ s['Finals Username'] }}</span></a></div>
+{% elsif  s['Pools Stream'] contains "twitch" %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="{{ s['Finals Stream'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Finals Username'] }}</span></a></div>
+{% else %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a><span class="tag is-primary">{{ s['Phase'] }}</span></div>
+{% endif %}
+{% endif %}
+{% endfor %}
+</div>
+{% include modals_regions.html %}
