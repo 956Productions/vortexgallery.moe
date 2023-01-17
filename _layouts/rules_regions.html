@@ -16,8 +16,27 @@
             </div>
         </section>
         <section class="section has-background-black-bis">
-            <div class="container is-max-desktop">
-                <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap">
+            <div class="container is-max-widescreen">
+                <div class="columns is-flex is-flex-direction-row-reverse is-flex-wrap-wrap">
+                    <div class="column is-one-third is-flex-grow-1 has-background-black-ter mb-5" style="min-width: 300px; max-height: 80vh; overflow-y: auto;">
+                        <aside class="menu">
+                            <div class="menu-list">
+                                <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
+                            </div>
+                            <p class="menu-label">
+                                All Games
+                            </p>
+                            <div class="menu-list">
+                                {% assign curGame = '' %}
+                                {% for n in site.data.games %}
+                                {% if n['Abbr-Game'] != curGame %}
+                                {% assign curGame = n['Abbr-Game'] %}
+                                <a class="rules-btn" style="white-space: nowrap; text-overflow: ellipsis; overflow-x: hidden;" id="btn-{{n['Abbr-Game']}}" data-target="{{n['Abbr-Game']}}">{{ n['Game Name'] | default: n['Game Name'] }}</a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </aside>
+                    </div>
                     <div class="column is-two-thirds is-flex-grow-1" style="min-width: 300px;">
                         <div class="rules-div content has-text-white" id="General">
                             {{content}}
@@ -37,7 +56,6 @@
                                     <li>Platform: {{ r['Info-Platform'] | default: 'TBD' }}</li>
                                     <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
                                     <li>Organizer: {{ r['Staff-Lead TOs'] | default: '@956Productions' }}</li>
-                                    <li>Region: {{ r['Abbr-Regions List'] | default: 'TBD' }}</li>
                                     {% if r['Region Includes'] %}
                                     <li>Region Includes: {{ r['Region Includes'] }}</li>
                                     {% endif %}
@@ -47,8 +65,29 @@
                                 </ul>
                                 <h3>Schedule</h3>
                                 <ul>
-                                    <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} ({{ r['TZ Main'] }}, GMT {{ r['TZ Offset'] }})</b></li>
-                                    <li>PST Start Time: {{ r['Time-Start (PST)'] }} (PST, GMT -8)</li>
+                                    {% assign StartList = r['Time-Start (Local)'] | split: "," %}
+                                    {% assign TZMainList = r['TZ Main'] | split: "," %}
+                                    {% assign TZMain = TZMainList[0] %}
+                                    {% assign TZOffsetList = r['TZ Offset'] | split: "," %}
+                                    {% assign TZOffset = TZOffsetList[0] %}
+
+                                    {% if StartList.size > 1 %}
+                                    {% assign day = 1 %}
+                                    {% for d in StartList %}
+                                    {% if r['TZ Offset'] contains "-" %}
+                                    <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
+                                    {% else %}
+                                    <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
+                                    {% endif %}
+                                    {% assign day = day | plus: 1 %}
+                                    {% endfor %}
+                                    {% else %}
+                                    {% if r['TZ Offset'] contains "-" %}
+                                    <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT{{ r['TZ Offset'] }})</b></li>
+                                    {% else %}
+                                    <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT+{{ r['TZ Offset'] }})</b></li>
+                                    {% endif %}
+                                    {% endif %}
                                 </ul>
                                 {% if r['Stream-Pools'] %}
                                 <h3>Streaming</h3>
@@ -126,25 +165,6 @@
                         </div>
                         {% endif %}
                         {% endfor %}
-                    </div>
-                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px; max-height: 500px; overflow-y: auto;">
-                        <aside class="menu">
-                            <div class="menu-list">
-                                <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
-                            </div>
-                            <p class="menu-label">
-                                All Games
-                            </p>
-                            <div class="menu-list">
-                                {% assign curGame = '' %}
-                                {% for n in site.data.games %}
-                                {% if n['Abbr-Game'] != curGame %}
-                                {% assign curGame = n['Abbr-Game'] %}
-                                <a class="rules-btn" id="btn-{{n['Abbr-Game']}}" data-target="{{n['Abbr-Game']}}">{{ n['Short Name'] | default: n['Game Name'] }}</a>
-                                {% endif %}
-                                {% endfor %}
-                            </div>
-                        </aside>
                     </div>
                 </div>
             </div>

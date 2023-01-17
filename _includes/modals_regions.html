@@ -24,8 +24,29 @@
               {% if r['Abbr-Game'] == curGame %}
               <li><a href="{{r['Smash URL'] | default: 'https://start.gg/vortexgallery' }}"><b>{{r['Short Name']}} ({{r['Abbr-Regions List']}}) ({{r['Info-Platform']}})</b></a></li>
               <ul>
-                <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} ({{ r['TZ Main'] }}, GMT {{ r['TZ Offset'] }})</b></li>
-                <li>PST Start Time: {{ r['Time-Start (PST)'] }} (PST, GMT -8)</li>
+                {% assign StartList = r['Time-Start (Local)'] | split: "," %}
+                {% assign TZMainList = r['TZ Main'] | split: "," %}
+                {% assign TZMain = TZMainList[0] %}
+                {% assign TZOffsetList = r['TZ Offset'] | split: "," %}
+                {% assign TZOffset = TZOffsetList[0] %}
+
+                {% if StartList.size > 1 %}
+                {% assign day = 1 %}
+                {% for d in StartList %}
+                {% if r['TZ Offset'] contains "-" %}
+                <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
+                {% else %}
+                <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
+                {% endif %}
+                {% assign day = day | plus: 1 %}
+                {% endfor %}
+                {% else %}
+                {% if r['TZ Offset'] contains "-" %}
+                <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT{{ r['TZ Offset'] }})</b></li>
+                {% else %}
+                <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT+{{ r['TZ Offset'] }})</b></li>
+                {% endif %}
+                {% endif %}
               </ul>
               {% endif %}
             {% endfor %}
