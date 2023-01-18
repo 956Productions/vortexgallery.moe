@@ -92,8 +92,9 @@
                                 {% if r['Stream-Pools'] %}
                                 <h3>Streaming</h3>
                                 <ul>
-                                    {% if r['Stream-Pools'] contains 'Stream 1' %}
-                                    <p>{{r['Stream-Pools'] | newline_to_br}}</p>
+                                    {% if r['Stream-Pools'] contains ',' %}
+                                    <li>Stream 1: <a href="https://twitch.tv/chickzama">twitch.tv/chickzama</a></li>
+                                    <li>Stream 2: <a href="https://twitch.tv/chfinal">twitch.tv/chfinal</a></li>
                                     {% else if r['Stream-Pools'] == r['Stream-Finals'] or r['Stream-Finals'] == ''%}
                                     <li>Stream channel: <a href="{{r['Stream-Pools']}}">{{r['Stream-Pools']}}</a></li>
                                     {% else if r['Stream-Pools'] != r['Stream-Finals'] and r['Stream-Finals'] != '' %}
