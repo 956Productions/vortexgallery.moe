@@ -60,6 +60,9 @@
                 {% endif %}
                 {% endif %}
                 {% endif %}
+                {% if r['Matcherino URL'] and r['Matcherino URL'] contains "tournaments" %}
+                <li><a href="{{ r['Matcherino URL'] }}"><b>Crowdfunding via Matcherino</b></a></li>
+                {% endif %}
               </ul>
               {% endif %}
             {% endfor %}

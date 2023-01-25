@@ -109,8 +109,8 @@
                                 <h3>Prizing</h3>
                                 <ul>
                                     <li>Pot Split: {{ r['$-Pot Split'] | default: "TBA"}}</li>
-                                    {% if r['Matcherino URL'] %}
-                                    <li><a href="{{ r['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
+                                    {% if r['Matcherino URL'] and r['Matcherino URL'] contains "tournaments" %}
+                                    <li><a href="{{ r['Matcherino URL'] }}"><b>Crowdfunding via Matcherino</b></a></li>
                                     {% endif %}
                                 </ul>
                                 {% if r['Pools-Bracket Type'] %}
