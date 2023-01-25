@@ -59,9 +59,9 @@
                 <li><b>Finals Stream Channel:</b> <a href="{{ r['Stream-Finals'] }}">{{ r['Stream-Finals'] | remove: "https://" | remove: "www." }}</a></li>
                 {% endif %}
                 {% endif %}
-                {% endif %}
                 {% if r['Matcherino URL'] and r['Matcherino URL'] contains "tournaments" %}
                 <li><a href="{{ r['Matcherino URL'] }}"><b>Crowdfunding via Matcherino</b></a></li>
+                {% endif %}
                 {% endif %}
               </ul>
               {% endif %}
