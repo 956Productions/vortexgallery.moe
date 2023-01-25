@@ -33,19 +33,25 @@
                 {% if StartList.size > 1 %}
                 {% assign day = 1 %}
                 {% for d in StartList %}
+
                 {% if r['TZ Offset'] contains "-" %}
                 <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
                 {% else %}
                 <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
                 {% endif %}
+
                 {% assign day = day | plus: 1 %}
                 {% endfor %}
+
                 {% else %}
                 {% if r['TZ Offset'] contains "-" %}
                 <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT{{ r['TZ Offset'] }})</b></li>
                 {% else %}
                 <li><b>Local Start Time: {{ r['Time-Start (Local)'] }} {{ r['TZ Main'] }} (GMT+{{ r['TZ Offset'] }})</b></li>
                 {% endif %}
+                
+                {% endif %}
+
                 {% if r['Stream-Pools'] %}
                 {% if r['Stream-Pools'] contains "," %}
                 <li><b>Stream Channel 1:</b> <a href="https://twitch.tv/chickzama">twitch.tv/chickzama</a></li>
@@ -60,9 +66,11 @@
                 {% endif %}
                 {% endif %}
                 {% if r['Matcherino URL'] and r['Matcherino URL'] contains "tournaments" %}
+                {% unless r['Abbr-Regions List'] contains "CN" %}
                 <li><a href="{{ r['Matcherino URL'] }}"><b>Crowdfunding via Matcherino</b></a></li>
+                {% endunless %}
                 {% endif %}
-                {% endif %}
+                
               </ul>
               {% endif %}
             {% endfor %}
