@@ -8,24 +8,20 @@ function rulesPage(t) {
     }
 }
 
-window.onload = function()
-{
-    if(!window.jQuery)
-    {
-        alert('jQuery not loaded');
-    }
-    else
-    {
-        jQuery(document).ready(function(){
-            jQuery.get('js/quotes.txt', function(txt) {
-                var quotes = txt.split("\n");
-                var randLineNum = Math.floor(Math.random()*(quotes.length));
-                jQuery('#quote').append(quotes[randLineNum]);
-            });
-        });
-    }
-}
 $(document).ready(function() {
+    $.get('js/quotes.txt', function(txt) {
+        var quotes = txt.split("\n");
+        var randLineNum = Math.floor(Math.random()*(quotes.length));
+        $('#quote').append(quotes[randLineNum]);
+    });
+
+    $('.week-tabs > ul > li').click(function() {
+      $('.week-tab').addClass('is-hidden')
+      $($(this).data('target')).removeClass('is-hidden')
+      $('.week-tabs > ul > li').removeClass('is-active')
+      $(this).addClass('is-active')
+    })
+
     $(".navbar-burger").click(function() {
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");

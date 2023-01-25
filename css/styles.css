@@ -5967,7 +5967,7 @@ label.panel-block:hover {
   border-bottom-color: hsl(0deg, 0%, 86%);
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: hsl(0deg, 0%, 29%);
+  color: hsl(0deg, 0%, 100%);
   display: flex;
   justify-content: center;
   margin-bottom: -1px;
@@ -6040,17 +6040,17 @@ label.panel-block:hover {
 .tabs.is-toggle a {
   border-color: hsl(0deg, 0%, 86%);
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   margin-bottom: 0;
   position: relative;
 }
 .tabs.is-toggle a:hover {
-  background-color: hsl(0deg, 0%, 96%);
+  background-color: #00a3f8;
   border-color: hsl(0deg, 0%, 71%);
   z-index: 2;
 }
 .tabs.is-toggle li + li {
-  margin-left: -1px;
+  margin-left: -0px;
 }
 .tabs.is-toggle li:first-child a {
   border-top-left-radius: 0px;
@@ -6061,9 +6061,9 @@ label.panel-block:hover {
   border-bottom-right-radius: 0px;
 }
 .tabs.is-toggle li.is-active a {
-  background-color: #00a3f8;
+  background-color: #fddc00;
   border-color: #00a3f8;
-  color: #fff;
+  color: hsl(0deg, 0%, 4%);
   z-index: 1;
 }
 .tabs.is-toggle ul {

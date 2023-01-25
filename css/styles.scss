@@ -167,5 +167,10 @@ $modal-card-head-background-color: $blue;
 $modal-card-head-border-bottom: 0px solid black;
 $modal-card-foot-border-top: 0px solid black;
 $modal-content-width: 800px;
+$tabs-toggle-link-active-background-color: $yellow;
+$tabs-toggle-link-active-color: $black;
+$tabs-toggle-link-hover-background-color: $blue;
+$tabs-toggle-link-border-width: 0px;
+$tabs-link-color: $white;
 
 @import 'bulma/bulma.sass';

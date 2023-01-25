@@ -1,0 +1,13 @@
+<div class="week-tabs tabs is-medium is-centered is-fullwidth is-toggle has-background-dark">
+    <ul class="m-0">
+        <li class="is-active" data-target="#Week_1"><a>Feb. 10-12</a></li>
+        <li data-target="#Week_2"><a>Feb. 17-19</a></li>
+        <li data-target="#Week_3"><a>Feb. 24-26</a></li>
+        <li data-target="#Week_4"><a>Mar. 3-5</a></li>
+    </ul>
+</div>
+{% include schedule_online_week.html week="Week 1" %}
+{% include schedule_online_week.html week="Week 2" class="is-hidden" %}
+{% include schedule_online_week.html week="Week 3" class="is-hidden" %}
+{% include schedule_online_week.html week="Week 4" class="is-hidden" %}
+{% include modals_regions.html %}
