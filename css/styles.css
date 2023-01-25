@@ -84,7 +84,7 @@ html {
 }
 
 .front-hero {
-  background: url("/img/hero.webp");
+  background: url("/img/hero_castle.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
