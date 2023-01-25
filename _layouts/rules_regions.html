@@ -110,7 +110,9 @@
                                 <ul>
                                     <li>Pot Split: {{ r['$-Pot Split'] | default: "TBA"}}</li>
                                     {% if r['Matcherino URL'] and r['Matcherino URL'] contains "tournaments" %}
+                                    {% unless r['Abbr-Regions List'] contains "CN" %}
                                     <li><a href="{{ r['Matcherino URL'] }}"><b>Crowdfunding via Matcherino</b></a></li>
+                                    {% endunless %}
                                     {% endif %}
                                 </ul>
                                 {% if r['Pools-Bracket Type'] %}
