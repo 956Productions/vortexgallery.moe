@@ -52,7 +52,11 @@
                                 <hr/>
                                 <h3>General Information</h3>
                                 <ul>
+                                    {% if r['Alt Reg URL'] %}
+                                    <li><a href="{{ r['Alt Reg URL'] }}">Registration Link</a></li>
+                                    {% else %}
                                     <li><a href="{{ r['Smash URL'] }}">Register via Start.gg</a></li>
+                                    {% endif %}
                                     <li>Platform: {{ r['Info-Platform'] | default: 'TBD' }}</li>
                                     <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
                                     <li>Organizer: {{ r['Staff-Lead TOs'] | default: '@956Productions' }}</li>
@@ -106,6 +110,7 @@
                                 <h3>Streaming</h3>
                                 <p>Stay tuned for stream updates!</p>
                                 {% endif %}
+                                {% if r['$-Pot Split'] or r['Matcherino URL'] %}
                                 <h3>Prizing</h3>
                                 <ul>
                                     <li>Pot Split: {{ r['$-Pot Split'] | default: "TBA"}}</li>
@@ -115,6 +120,7 @@
                                     {% endunless %}
                                     {% endif %}
                                 </ul>
+                                {% endif %}
                                 {% if r['Pools-Bracket Type'] %}
                                 <h3>Tournament Format</h3>
                                 {% endif %}

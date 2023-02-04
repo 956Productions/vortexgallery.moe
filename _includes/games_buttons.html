@@ -1,6 +1,6 @@
 <div class="columns is-multiline is-centered">
     {% for i in site.data.games %}
-    {% if i['Smash URL'] %}
+    {% if i['Smash URL'] or i['Alt Reg URL'] %}
     <div class="column is-4-desktop is-12-tablet is-3-widescreen p-1">
         <a class="modal-trigger button is-dark is-fullwidth" data-target="{{i['Tournament'] | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ i['Short Name'] | default: i['Game Name'] }}</a>
     </div>

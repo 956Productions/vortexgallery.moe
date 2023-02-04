@@ -1,6 +1,6 @@
 {% assign curGame = '' %}
 {% for i in site.data.games %}
-{% if i['Smash URL'] %}
+{% if i['Smash URL'] or i['Alt Reg URL'] %}
 {% if i['Abbr-Game'] != curGame %}
 {% assign curGame = i['Abbr-Game'] %}
 <div class="modal has-text-left" id="{{i['Abbr-Game']}}">
@@ -22,7 +22,11 @@
           <ul>
             {% for r in site.data.games %}
               {% if r['Abbr-Game'] == curGame %}
+              {% if r['Alt Reg URL'] %}
+              <li><a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vortexgallery' }}"><b>{{r['Short Name']}} ({{r['Abbr-Regions List']}}) ({{r['Info-Platform']}})</b></a></li>
+              {% else %}
               <li><a href="{{r['Smash URL'] | default: 'https://start.gg/vortexgallery' }}"><b>{{r['Short Name']}} ({{r['Abbr-Regions List']}}) ({{r['Info-Platform']}})</b></a></li>
+              {% endif %}
               <ul>
                 {% assign StartList = r['Time-Start (Local)'] | split: "," %}
                 {% assign TZMainList = r['TZ Main'] | split: "," %}
