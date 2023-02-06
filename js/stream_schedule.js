@@ -136,16 +136,16 @@ $(function() {
                 }, 1100)
             }
         }, 5000)
-    })
 
-    window.setInterval(function(){
-        $('img').imagesLoaded()
-        .done( function() {
-            $('.gameLogo').removeClass('is-hidden')
-            $('.gameLogo').addClass('fade-in-stream')
-            $('.container-fluid').removeClass('is-hidden')
-            $('.container-fluid').addClass('fade-in-stream')
-        })
-    },1500)
+        window.setInterval(function(){
+            $('img').imagesLoaded()
+            .done( function() {
+                $('.gameLogo').removeClass('is-hidden')
+                $('.gameLogo').addClass('fade-in-stream')
+                $('.container-fluid').removeClass('is-hidden')
+                $('.container-fluid').addClass('fade-in-stream')
+            })
+        },500)
+    })
 })
   
