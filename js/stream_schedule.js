@@ -10,13 +10,13 @@ $(function() {
         </div>
         <div class="column">
             <h1 class="exo title is-1 mb-4 shadowed-text">$name ($region)$phase</h1>
-            <span class="icon-text is-size-3">
+            <span class="icon-text is-size-4">
                 <span class="icon has-text-white">
                     <i class="fas fa-tv"></i>
                 </span>
                 <span><h1 class="ml-2 exo has-text-white shadowed-text">$channel</h1></span>
             </span>
-            <span class="ml-4 icon-text is-size-3">
+            <span class="ml-4 icon-text is-size-4">
                 <span class="icon has-text-white">
                     <i class="fas fa-clock"></i>
                 </span>
