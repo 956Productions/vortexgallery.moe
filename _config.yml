@@ -26,6 +26,8 @@ nav:
     url: /schedule
   - title: Volumes
     url: /volumes
+  - title: Staff
+    url: /staff
   - title: Discord
     url: https://discord.gg/wTWRM9uBBt
 volunteer: /volunteer

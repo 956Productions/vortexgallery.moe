@@ -4,7 +4,7 @@ fluid: true
 ---
 <div class="columns is-multiline">
 {% for s in site.data.staff %}
-<div class="column is-one-fifth-widescreen is-one-quarter-desktop is-one-third-tablet">
+<div class="column is-2-widescreen is-one-quarter-desktop is-one-third-tablet">
     <div class="card" style="height: 100%;">
         <header class="card-header">
             <p class="card-header-title">
