@@ -135,7 +135,7 @@ $(function() {
                     page = 1
                 }, 1100)
             }
-        }, 5000)
+        }, 10000)
 
         window.setInterval(function(){
             $('img').imagesLoaded()
