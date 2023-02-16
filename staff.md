@@ -13,8 +13,8 @@ fluid: true
         </header>
         <div class="card-image">
             <figure class="image is-square" style="margin: 0px !important">
-                {% if s['Pic URL'] %}
-                <img src="{{ s['Pic URL'] }}" loading='lazy'>
+                {% if s['Staff Page Pic URL'] %}
+                <img src="{{ s['Staff Page Pic URL'] }}" loading='lazy'>
                 {% else %}
                 {% assign min = 1 %}
                 {% assign max = 85 %}
