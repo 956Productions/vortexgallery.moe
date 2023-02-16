@@ -39,9 +39,9 @@
                 {% for d in StartList %}
 
                 {% if r['TZ Offset'] contains "-" %}
-                <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
+                <li><b>Phase {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
                 {% else %}
-                <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
+                <li><b>Phase {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
                 {% endif %}
 
                 {% assign day = day | plus: 1 %}
@@ -60,6 +60,11 @@
                 {% if r['Stream-Pools'] contains "," %}
                 <li><b>Stream Channel 1:</b> <a href="https://twitch.tv/chickzama">twitch.tv/chickzama</a></li>
                 <li><b>Stream Channel 2:</b> <a href="https://twitch.tv/chfinal">twitch.tv/chfinal</a></li>
+                {% elsif r['Stream-Finals'] %}
+                <h3>Streaming</h3>
+                <ul>
+                    <li>Finals Stream: <a href="{{r['Stream-Finals']}}">{{r['Stream-Finals'] | remove: "https://" | remove: "www." }}</a></li>
+                </ul>
                 {% else %}
                 <li><b>Bracket Stream Channel:</b> <a href="{{ r['Stream-Pools'] }}">{{ r['Stream-Pools'] | remove: "https://" | remove: "www." }}</a></li>
                 {% endif %}

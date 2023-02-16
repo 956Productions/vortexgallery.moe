@@ -79,9 +79,9 @@
                                     {% assign day = 1 %}
                                     {% for d in StartList %}
                                     {% if r['TZ Offset'] contains "-" %}
-                                    <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
+                                    <li><b>Phase {{day}} Local Start Time: {{ d }} {{ TZMain  }} (GMT{{ TZOffset }})</b></li>
                                     {% else %}
-                                    <li><b>Day {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
+                                    <li><b>Phase {{day}} Local Start Time: {{ d }} {{ TZMain }} (GMT+{{ TZOffset }})</b></li>
                                     {% endif %}
                                     {% assign day = day | plus: 1 %}
                                     {% endfor %}
@@ -105,6 +105,11 @@
                                     <li>Pools stream: <a href="{{r['Stream-Pools']}}">{{r['Stream-Pools']}}</a></li>
                                     <li>Finals stream: <a href="{{r['Stream-Finals']}}">{{r['Stream-Finals']}}</a></li>
                                     {% endif %}
+                                </ul>
+                                {% elsif r['Stream-Finals'] %}
+                                <h3>Streaming</h3>
+                                <ul>
+                                    <li>Finals Stream: <a href="{{r['Stream-Finals']}}">{{r['Stream-Finals']}}</a></li>
                                 </ul>
                                 {% else %}
                                 <h3>Streaming</h3>

@@ -28,7 +28,11 @@
 {% elsif  s['Pools Stream'] contains "bilibili" %}
 <div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="{{ s['Finals Stream'] }}"><span class="icon"><i class="fas fa-tv"></i></span><span class="is-size-7">Bilibili /{{ s['Finals Username'] }}</span></a></div>
 {% else %}
+{% if s['Finals Stream'] contains "twitch" and s['Phase'] contains "Top" %}
+<div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a> <span class="tag is-primary">{{ s['Phase'] }}</span> <a class="icon-text" href="{{ s['Finals Stream'] }}"><span class="icon"><i class="fab fa-twitch"></i></span><span class="is-size-7">{{ s['Finals Username'] }}</span></a></div>
+{% else %}
 <div style="white-space: nowrap;" class="py-1"><span class="tag is-dark" style="text-align: left; justify-content: start;"><b>{{ s['Start (Local)'] | strip | remove: "/2023" | remove: ":00" }} {{ s['TZ-Main Timezone'] }}</b></span> <a class="tag modal-trigger is-black" data-target="{{s['Game-Abbr']}}"><b>{{ s['Game'] }} ({{ s['Regions Abbr'] }})</b></a><span class="tag is-primary">{{ s['Phase'] }}</span></div>
+{% endif %}
 {% endif %}
 {% endif %}
 {% endif %}
