@@ -65,7 +65,7 @@
                 {% endif %}
                 {% endif %}
                 {% if r['Stream-Finals'] %}
-                {% unless r['Stream-Finals'] != r['Stream-Pools'] %}
+                {% unless r['Stream-Finals'] contains r['Stream-Pools'] %}
                 <li><b>Finals Stream Channel:</b> <a href="{{ r['Stream-Finals'] }}">{{ r['Stream-Finals'] | remove: "https://" | remove: "www." }}</a></li>
                 {% endunless %}
                 {% endif %}
