@@ -65,9 +65,9 @@
                 {% endif %}
                 {% endif %}
                 {% if r['Stream-Finals'] %}
-                {% if r['Stream-Pools'] != r['Stream-Finals'] %}
+                {% unless r['Stream-Finals'] != r['Stream-Pools'] %}
                 <li><b>Finals Stream Channel:</b> <a href="{{ r['Stream-Finals'] }}">{{ r['Stream-Finals'] | remove: "https://" | remove: "www." }}</a></li>
-                {% endif %}
+                {% endunless %}
                 {% endif %}
                 {% if r['Matcherino URL'] and r['Matcherino URL'] contains "tournaments" %}
                 {% unless r['Abbr-Regions List'] contains "CN" %}
