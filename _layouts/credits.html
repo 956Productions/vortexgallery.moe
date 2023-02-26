@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden !important; background-color: rgba(0, 0, 0, 0) !important;">
+    {% include header.html %}
+    <body>
+        <section class="section p-0 is-size-3" id="credits" style="position:absolute;">
+            <div class="container-fluid has-text-white exo">
+                <div id="956credits"></div>
+            </div>
+            <div class="container-fluid has-text-white exo">
+                <div id="staffcredits"></div>
+            </div>
+            <div class="container-fluid has-text-white exo">
+                <div id="thankscredits"></div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+        <script src="{{ 'js/credits.js' | relative_url }}"></script>
+    </footer>
+</html>
