@@ -1,7 +1,7 @@
 $(function() {
     $.getJSON ('https://ninefivesix-aigis.onrender.com/staff', function ( json ) {
         console.log(json)
-
+        $('#credits').removeClass('is-hidden')
         gsap.to('#credits', {y: $(window).height(),duration:0})
         
         for (i = 0; i < json['956 Productions'].length; i++) {
@@ -21,14 +21,19 @@ $(function() {
             }
         } 
 
+        for (i = 0; i < json['Games'].length; i++) {
+            cur = json['Games'][i]
+            var e = $(`<p><b>${cur}</b></p>`)
+            $('#gamescredits').append(e)
+        }
+
         for (i = 0; i < json['Special Thanks'].length; i++) {
             cur = json['Special Thanks'][i]
             var e = $(`<p><b>${cur}</b></p>`)
             $('#thankscredits').append(e)
         }
-
-        gsap.to('#credits', {y: $('#credits').height() * -1, duration: $('#credits').height() / 30 })
-        console.log($('#credits').height() / 30)
+        gsap.to('#credits', {y: $('#credits').height() * -1, duration: $('#credits').height() / 45 })
+        console.log($('#credits').height() / 45)
     })  
 })
   
