@@ -1,12 +1,13 @@
 ---
-title: Presenting Vortex Gallery Online 2023
+title: Thanks for Playing!
 layout: front_logos
 ---
-**Vortex Gallery Online** is a yearly tournament series spanning a month. Once again, we're partnering with communities all around the word for an online event where we can come together & play the underrepresented games we all love!
+**Vortex Gallery Online 2023 was a success!** We're proud to have celebrated fighting games with 2400 players across 127 tournaments competing for a grand total of over $14,000 in prize pots. 
 
-*Join us in one of our 100+ tournaments we'll be running starting February 10th!*
+956 Productions will see you again soon, so be sure to follow us on socials and [check out our always-open shop!](https://956pro.com/shop)
 
+{::comment}
 <div class="video-container shadow">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kBzV2PJUY3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
+{:/comment}

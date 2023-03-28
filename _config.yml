@@ -20,12 +20,6 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
-  - title: Info
-    url: /info
-  - title: Schedule
-    url: /schedule
-  - title: Volumes
-    url: /volumes
   - title: Staff
     url: /staff
   - title: Discord
