@@ -1,6 +1,7 @@
 ---
 title: Staff
 fluid: true
+published: false
 ---
 <div class="columns is-multiline">
 {% for s in site.data.staff %}

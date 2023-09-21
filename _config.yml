@@ -8,9 +8,10 @@ defaults:
     permalink: /:basename
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 title: Vortex Gallery
-tagline: "Vortex Gallery Online 2023"
-description: "Bring Your Own Mix. February 10 - March 5, 2023."
+tagline: "Bring Your Own Mix."
+description: "Bring Your Own Mix. Coming in 2024."
 twitch: https://twitch.tv/956productions
 twitter: 
   username: 956productions
@@ -20,8 +21,8 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
-  - title: Staff
-    url: /staff
   - title: Discord
     url: https://discord.gg/wTWRM9uBBt
+  - title: Results
+    url: https://956.productions/results
 volunteer: /volunteer

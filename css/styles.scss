@@ -53,9 +53,9 @@ html { scroll-padding-top: 100px; }
 }
 
 .shadow {
-	box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
-	-webkit-box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
-	-moz-box-shadow: 5px 5px 0px -1px rgba(217,108,168,1) !important;
+	box-shadow: 5px 5px 0px -1px $blue !important;
+	-webkit-box-shadow: 5px 5px 0px -1px $blue !important;
+	-moz-box-shadow: 5px 5px 0px -1px $blue !important;
 }
 
 .vg-box {
@@ -84,12 +84,13 @@ html { scroll-padding-top: 100px; }
 }
 
 .site-footer {
-	background: linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.webp");
+	background: linear-gradient(0deg, #0A0A0A 0%, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 20%), linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .front-hero {
+	background: url('/img/hero_castle.png');
 	background: url('/img/hero_castle.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -167,10 +168,7 @@ $modal-card-head-background-color: $blue;
 $modal-card-head-border-bottom: 0px solid black;
 $modal-card-foot-border-top: 0px solid black;
 $modal-content-width: 800px;
-$tabs-toggle-link-active-background-color: $yellow;
-$tabs-toggle-link-active-color: $black;
-$tabs-toggle-link-hover-background-color: $blue;
-$tabs-toggle-link-border-width: 0px;
-$tabs-link-color: $white;
+$navbar-background-color: $blue;
+$navbar-item-color: $white;
 
 @import 'bulma/bulma.sass';
