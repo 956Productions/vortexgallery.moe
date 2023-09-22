@@ -1,6 +1,7 @@
 ---
 title: Vortex Gallery Volumes
 layout: volumes
+published: false
 ---
 Vortex Gallery begins with our communities training and showcasing their best ahead of the big event. 
 
