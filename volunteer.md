@@ -1,7 +1,4 @@
 ---
-title: "Volunteer Sign-up"
-published: false
+title: "REPRESENT YOUR SCENE"
+redirect: '/apply'
 ---
-<!--- 
-<script type="text/javascript" src="https://form.jotform.com/jsform/222546771811154"></script>
---->

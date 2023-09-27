@@ -1,7 +1,9 @@
 ---
-title: Vortex Gallery
+title: Vortex Gallery returns in 2024 at an all-new location!
 layout: front
 ---
-Vortex Gallery Online 2023 was a success! We’re proud to have celebrated fighting games with 2400 players across 127 tournaments competing for a grand total of over $14,000 in prize pots.
+Join us at The Westin in Lombard, IL from January 25-28 to be a part of [Frosty Faustings XVI](https://frostyfaustings.com), a storied fighting game tournament event boasting 4 days of competion and community.
 
-956 Productions will see you again soon, so be sure to follow us on socials and check out our always-open shop!
+This year, we're proud to team up with Frosty Faustings to bring you 4 days of the largest community-run tournament in the FGC with dedicated ballroom space, 2 stream stages, and a lineup of returning classics and all-new favorites. 
+
+Represent your scene and be a part of FGC history by [signing up to volunteer](/apply) for your favorite game on the big stage.

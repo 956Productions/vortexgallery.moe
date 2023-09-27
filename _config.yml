@@ -10,8 +10,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 title: Vortex Gallery
-tagline: "Bring Your Own Mix."
-description: "Bring Your Own Mix. Coming in 2024."
+tagline: "The Community Tournaments at Frosty Faustings XVI"
+description: "Vortex Gallery is the Community Tournaments at Frosty Faustings XVI. January 25-28, 2024 at The Westin in Lombard, IL."
 twitch: https://twitch.tv/956productions
 twitter: 
   username: 956productions
@@ -19,6 +19,8 @@ twitter:
 logo: /img/logo.png
 youtube: https://956pro.com/youtube
 nav:
+  - title: Frosty Faustings XVI
+    url: https://frostyfaustings.com
   - title: FAQ
     url: /faq
   - title: Discord
