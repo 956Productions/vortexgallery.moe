@@ -21,10 +21,12 @@ youtube: https://956pro.com/youtube
 nav:
   - title: Frosty Faustings XVI
     url: https://frostyfaustings.com
+  - title: Info
+    url: /info
   - title: FAQ
     url: /faq
   - title: Discord
-    url: https://discord.gg/wTWRM9uBBt
+    url: https://discord.gg/QDU8kEyDXM
   - title: Results
     url: https://956.productions/results
 volunteer: /volunteer
