@@ -18,15 +18,19 @@ Timer 99 seconds",Winner must keep character. Loser may switch.,Any game breakin
 FS (PS4),Fantasy Strike,FS,FS,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/fantasy-strike-ps4/overview,16,,,,60/30/10,Double Elimination,2/3,2/3,"2/3 Games for Losers Finals,2/3 Games for Winners Finals,2/3 Games for Grand Finals","1v1 mode, not team battle",Winner must keep character. Loser may switch.,no,CWheezy,,"Fantasy strike does cost 20 usd to play locally, I'm willing to pay to have that installed."
 FOA (PS4),Fight of Animals,FoA,FOA,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/fight-of-animals-ps4/overview,32,,,,60/30/10,Double Elimination,3/5,3/5,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals",Test,Winner & Loser may switch.,Test,Mute,Test,Software
 FHD (Arcade-MiSTer),Fighter's History Dynamite: Karnov's Revenge,Karnov's Revenge,FHD,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/karnov-s-revenge-mister/overview,32,,,,50/30/20,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals",,,,PolarBair,"There are player 1/2 differences, so any player may decide to call for a coin flip for pick before their set starts. We can enforce it for Top 8 or 3 or whatever gets streamed.",
-MOTW (Arcade-MiSTer),Garou: Mark of the Wolves,Garou,MOTW,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/garou-mark-of-the-wolves-mister/overview,32,,,,60/30/10,Double Elimination,2/3,2/3,"3/5 Games for Winners Finals,3/5 Games for Grand Finals,3/5 Games for Losers Finals","(this is relevant depending if you run AES vs MVS bios misses, but I need to clarify some things first) ",Winner must keep character. Loser may switch.,,Wedge,,
-HDR (Switch),HewDraw Remix,HDR,HDR,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/hewdraw-remix-switch/overview,128,,,,TBD,,,,,,,,Kicker,,
+MOTW (Arcade-MiSTer),Garou: Mark of the Wolves,Garou,MOTW,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/garou-mark-of-the-wolves-mister/overview,32,,,,60/30/10,Double Elimination,2/3,2/3,"3/5 Games for Winners Finals,3/5 Games for Grand Finals,3/5 Games for Losers Finals","Handicap 4 (default)
+Random stage select (default)
+Custom TOP is banned.
+Players may RPS for P1/P2 side if requested.",Winner must keep character. Loser may switch.,,Wedge,,AES mode NeoGeo Bios (gives option for stage select).
+HDR (Switch),HewDraw Remix,HDR,HDR,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/hewdraw-remix-switch/overview,128,,,,TBD,,,,,,,,"Kicker,yc | rektangles",,
+IS (PC-Steam),Idol Showdown,Idols,IS,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/idol-showdown-pc/overview,64,,,,,,,,,,,,,,
 JJBAASBR (PS4),JoJo's Bizarre Adventure: All Star Battle R,JJBA ASBR,JJBAASBR,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/jojo-s-bizarre-adventure-all-star-battle-r-ps4/overview,64,,,,60/30/10,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals","Timer: 99 seconds
 Number of rounds: 2
 Hazards: OFF
 Assists: ON
 Random stage is preferred, loser can reselect stage if they would like
-Loser can reselect character and assist, winner must stick with both",Winner must keep character. Loser may switch.,"Pending a balance update coming soon with a new DLC character, there is nothing else but we will update as needed.",Ivy,,
-HFTF (PC-Fightcade),JoJo's Bizarre Adventure: Heritage for the Future,JJBA Heritage,HFTF,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/jojo-s-bizarre-adventure-heritage-for-the-future-fightcade/overview,32,,,,60/30/10,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals","-Secret Characters Unlocked
+Loser can reselect character and assist, winner must stick with both",Winner must keep character. Loser may switch.,"Pending a balance update coming soon with a new DLC character, there is nothing else but we will update as needed.","Ivy,Aaron Curry",,
+JJHFTF (PC-Fightcade),JoJo's Bizarre Adventure: Heritage for the Future,JJBA Heritage,JJHFTF,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/jojo-s-bizarre-adventure-heritage-for-the-future-fightcade/overview,32,,,,60/30/10,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals","-Secret Characters Unlocked
 -Event Mode on",Winner must keep character. Loser may switch.,"Avdol Ankh glitch / Avdol ghosting glitch is banned: Using Ankh is legal, including for its i-frames (start or release), however IF you benefited from the start up i-frames you MUST spend the meter. In the event you fail to do so it likely will be considered ghosting.
 Game breaking glitches are banned. You also may not repeatedly put down ankhs to maintain 100% uptime on invul. these include:
 -Iggy/Jotaro softlock grab glitch
@@ -57,7 +61,7 @@ PRBFTG (PC),Power Rangers: Battle for the Grid,Power Rangers,PRBFTG,https://www.
 3/5 Games for Winners, Losers, and Grand Finals
 3/5 Games for Grand Finals
 Training Stage select. (Players can opt for a agreed stage)
-SPD 300% setup is banned",Winner must keep character. Loser may switch.,,omega_black,,None at the moment.
+SPD 300% setup is banned",Winner must keep character. Loser may switch.,,"omega_black,Ferns",,None at the moment.
 P+ (Wii),Project+,P+,P+,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/project-wii/overview,64,,,,TBD,Double Elimination,2/3,3/5,"3/5 Games for Grand Finals,3/5 Games for Winners Finals,3/5 Games for Losers Finals","Stagelist will be the 2023 Proposed Stagelist (common for events now, but not default ingame yet)",Winner & Loser may switch.,,Motobug,,I'll have all the builds on my SD cards so should be all set
 PPC (Switch),Puyo Puyo Champions,Puyo Champions,PPC,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/puyo-puyo-chamions-switch/overview,64,,,,50/25/15/10,Double Elimination,N/A,3/5,,"Mode: Puyo Puyo Tsuu.
 Difficulty setting: Medium.
@@ -68,7 +72,7 @@ Pools:
     First to 1 Game.
 Top 3:
     First to 10 Rounds per Game.
-    First to 1 Game.",Winner must keep character. Loser may switch.,,,Primary platform will be played on Switch. A PS4 setup may be provided if space allows.,
+    First to 1 Game.",Winner must keep character. Loser may switch.,,-ZAN,Primary platform will be played on Switch. A PS4 setup may be provided if space allows.,
 PPT2 (Switch),Puyo Puyo Tetris 2,PPT2,PPT2,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/puyo-puyo-tetris-2-mixed-vs-switch/overview,64,,,,TBD,Double Elimination,N/A,,,"'- Set Count: 0
 
 - Win Count: 5 (Win Count 7 in top 4)
@@ -86,7 +90,8 @@ SMS (SNES),Sailor Moon S,SMS,SMS,https://www.start.gg/tournament/vortex-gallery-
 
 Otherwise, SNES setups will require converters (Brook Wingman NES/SNES converters are preferred)."
 SC2 (PS2),Soulcalibur II,SC2,SC2,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/soulcalibur-ii-ps2/overview,32,,,,,,,,,,,,,,
-SFxT (Xbox 360),Street Fighter x Tekken,SFXT,SFXT,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/street-fighter-x-tekken-xbox-360/overview,32,,,,70/20/10,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals","-99 seconds, best 2 out of 3 rounds
+SCVI (PS4),Soulcalibur VI,SC6,SCVI,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/soulcalibur-vi-ps4/overview,64,,,,,,,,,,,,,,
+SFxT (Xbox 360),Street Fighter x Tekken,SFXT,SFxT,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/street-fighter-x-tekken-xbox-360/overview,32,,,,70/20/10,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals","-99 seconds, best 2 out of 3 rounds
 ",Winner must keep character. Loser may switch.,There are no glitches that would be considered game breaking.,Psychoblue,"-Default gem sets only
 -In the event of a draw game, both players are awarded a win. If the draw game happens in the deciding game, then another game will be played until there is a clear winner.
 -All stages are tournament legal
@@ -96,6 +101,7 @@ SFxT (Xbox 360),Street Fighter x Tekken,SFXT,SFXT,https://www.start.gg/tournamen
 SSBU-2s (Switch),Super Smash Bros. Ultimate Doubles,SSBU Doubles,SSBU-2s,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/super-smash-bros-ultimate-doubles-switch/overview,128,,,,,,,,,,,,,,
 TVC (PC-Dolphin),Tatsunoko vs. Capcom Ultimate All-Stars,TvC,TVC,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/tatsunoko-vs-capcom-dolphin/overview,64,,,,60/30/10,Double Elimination,N/A,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals",,Winner must keep character. Loser may switch.,,DoctorSc1ence,"Burning Wasteland stage is banned
 Giants are legal, but your opponent is allowed to repick if you pick a giant in the first game of a set",
+KOFXIII (PS4),The King of Fighters XIII,KOFXIII,KOFXIII,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/the-king-of-fighters-xiii-ps4-gm-version/overview,48,,,,,,,,,,,,,,
 SOKU (PC),Touhou 12.3 Hisoutensoku,Soku,SOKU,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/touhou-12-3-hisoutensoku-pc/overview,64,,,,,Double Elimination,2/3,2/3,"3/5 Games for Losers Finals,3/5 Games for Winners Finals,3/5 Games for Grand Finals",,Winner & Loser may switch.,Intentional softlocks result in immediate game loss.,Tessiro,,
 UFDK (PC-Steam),Ultra Fight Da ! Kyanta 2,Kyanta,UFDK,https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/ultra-fight-da-kyanta-2-pc/overview,32,,,,70/20/10,Single Elimination,N/A,3/5,"3/5 Games for Grand Finals,3/5 Games for Winners Finals,3/5 Games for Losers Finals","Default settings
 Epilipsey safety settings turned on",Winner must keep character. Loser may switch.,,YFDHippo,"Character, ratio, type locked on win. Ultra, Team order ok to change",Latest download from steam
