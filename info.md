@@ -1,12 +1,12 @@
 ---
 title: "Event Information"
 published: true
-# layout: rules_regions
+layout: rules_regions
 ---
 ## Frosty Faustings XVI Event Policies
 Vortex Gallery adheres to the Frosty Faustings XVI Event Policies, including the code of conduct. [Refer to frostyfaustings.com/rules for full details.](https://frostyfaustings.com/rules/)
 
-In addition, this page is where community event specific information such as game rules, prizing structure and schedule will be posted at a later date. Keep an eye on [@956Productions](https://twitter.com/956productions) or [join the 956P Tournament Discord](/discord) for updates!
+In addition, this page is where community event specific information such as game rules, prizing structure and schedule will be posted at a later date. Keep an eye on [@956Productions](https://twitter.com/956productions) on Twitter/X or [join the Frosty Faustings XVI Discord](https://discord.gg/NqNDTDUfhN) for updates!
 
 ## Vortex Gallery 2024 Player's Guide
 
