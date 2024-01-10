@@ -35,13 +35,15 @@
                                 <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
                                 <li>Organizer: {{ i['Staff-Lead TOs'] | default: '@956Productions'}}</li>
                             </ul>
+                            {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
                             <h3>Prizing</h3>
                             <ul>
                                 <li>Pot Split: {{i['$-Pot Split'] | default: "TBA"}}</li>
-                                {% if i['Matcherino URL'] %}
+                                {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
                                 <li><a href="{{ i['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
                                 {% endif %}
                             </ul>
+                            {% endif %}
                             {% if i['Pools-Bracket Type'] %}
                             <h3>Tournament Format</h3>
                             {% endif %}
