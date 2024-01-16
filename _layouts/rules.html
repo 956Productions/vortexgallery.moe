@@ -28,11 +28,12 @@
                             <hr/>
                             <h3>General Information</h3>
                             <ul>
+                                <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
                                 <li>Platform: {{i['Info-Platform'] | default: "TBA"}}</li>
+                                <li>Start time (CST, GMT-6): {{ i['Time-Start Pools'] | default: 'See Schedule'}} </li>
                                 <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
                                 <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
-                                <!-- <li>Registration Close: {{i['Reg Ends'] | default: "Jan. 20, 2024."}}</li> -->
-                                <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
+                                <li>Registration Close: Jan. 21 12:00 AM</li>
                                 <li>Organizer: {{ i['Staff-Lead TOs'] | default: '@956Productions'}}</li>
                             </ul>
                             {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
