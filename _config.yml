@@ -30,3 +30,5 @@ nav:
   - title: Results
     url: https://956.productions/results
 volunteer: /volunteer
+collections:
+  - extra

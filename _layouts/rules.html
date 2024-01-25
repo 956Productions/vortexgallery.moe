@@ -87,8 +87,13 @@
                             {% endif %}
                             {% if i['Rules-Notes'] %}
                             <h3>Additional Rules</h3>
-                            <p>{{i['Rules-Notes'] | newline_to_br }}</p>
+                            <p>{{ i['Rules-Notes'] | newline_to_br }}</p>
                             {% endif %}
+                            {% for ex in site.extra %}
+                            {% if ex.game == i['Short Name'] %}
+                            {{ ex.content | markdownify }}
+                            {% endif %}
+                            {% endfor %}
                         </div>
                         {% endfor %}
                     </div>
