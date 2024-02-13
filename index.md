@@ -1,9 +1,8 @@
 ---
-title: Vortex Gallery returns in 2024 at an all-new location!
+title: Thanks for joining us at Frosty Faustings XVI!
 layout: front
 ---
-Join us at The Westin in Lombard, IL from January 25-28 to be a part of [Frosty Faustings XVI](https://frostyfaustings.com), a storied fighting game tournament event boasting 4 days of competition and community.
+Thank you to the over 700 players who joined us to compete across 40+ titles at Frosty Faustings!
 
-This year, we're proud to team up with Frosty Faustings to bring you 4 days of the largest community-run tournament in the FGC with dedicated ballroom space, 2 stream stages, and a lineup of returning classics and all-new favorites. 
-
-Represent your scene and be a part of FGC history by [signing up to volunteer](/apply) for your favorite game on the big stage.
+* Stay tuned to [@FrostyFaustings](https://twitter.com/frostyfaustings) and [@956Productions](https://twitter.com/956productions) for updates on photo galleries and VOD uploads.
+* [Our full results are available on Start.gg!](https://start.gg/vortexgallery)
