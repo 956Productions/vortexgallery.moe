@@ -37,7 +37,11 @@ $cyan: #00ffff;
 $blue: #00a3f8;
 $yellow: #fddc00;
 $pink: #d96ca8;
+$red: #f81500;
+$vg24orange: #f89100;
+
 $radius: 0px;
+
 
 html { scroll-padding-top: 100px; }
 
@@ -56,6 +60,16 @@ html { scroll-padding-top: 100px; }
 	box-shadow: 5px 5px 0px -1px $blue !important;
 	-webkit-box-shadow: 5px 5px 0px -1px $blue !important;
 	-moz-box-shadow: 5px 5px 0px -1px $blue !important;
+}
+
+.has-background-vg24 {
+	background-color: $vg24orange !important;
+}
+
+.vg24-shadow {
+	box-shadow: 5px 5px 0px -1px $vg24orange !important;
+	-webkit-box-shadow: 5px 5px 0px -1px $vg24orange !important;
+	-moz-box-shadow: 5px 5px 0px -1px $vg24orange !important;
 }
 
 .vg-box {

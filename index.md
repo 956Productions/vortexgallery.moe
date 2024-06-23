@@ -1,8 +1,14 @@
 ---
-title: Thanks for joining us at Frosty Faustings XVI!
+title: Vortex Gallery Online 2024 returns this fall!
 layout: front
 ---
-Thank you to the over 700 players who joined us to compete across 40+ titles at Frosty Faustings!
+## The premiere, global, and community-run online tournament event is back for a fall festival!
 
-* Stay tuned to [@FrostyFaustings](https://twitter.com/frostyfaustings) and [@956Productions](https://twitter.com/956productions) for updates on photo galleries and VOD uploads.
-* [Our full results are available on Start.gg!](https://start.gg/vortexgallery)
+We're happy to announce Vortex Gallery Online 2024 will be taking place across 4 weekends in 2 *chapters* this year:
+- **Chapter 1:** 10/11-13, 10/18-20
+- **Chapter 2:** 11/01-03, 11/08-10
+
+Join us in celebrating our truly massive tournament starting lineup to be revealed on the road to registration going live on July 6th! **This is #VGON24.**
+
+* [Follow our Twitter/X page to stay tuned!](https://twitter.com/956productions)
+* [Join our community on the 956P Tournaments Discord!](https://discord.gg/QDU8kEyDXM)

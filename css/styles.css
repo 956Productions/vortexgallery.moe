@@ -52,6 +52,16 @@ html {
   -moz-box-shadow: 5px 5px 0px -1px #00a3f8 !important;
 }
 
+.has-background-vg24 {
+  background-color: #f89100 !important;
+}
+
+.vg24-shadow {
+  box-shadow: 5px 5px 0px -1px #f89100 !important;
+  -webkit-box-shadow: 5px 5px 0px -1px #f89100 !important;
+  -moz-box-shadow: 5px 5px 0px -1px #f89100 !important;
+}
+
 .vg-box {
   transition: all 0.5s ease;
 }
@@ -493,7 +503,7 @@ a:hover {
 
 code {
   background-color: hsl(0, 0%, 96%);
-  color: #da1039;
+  color: #ac0f00;
   font-size: 0.875em;
   font-weight: normal;
   padding: 0.25em 0.5em 0.25em;
