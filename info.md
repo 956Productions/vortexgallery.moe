@@ -1,7 +1,7 @@
 ---
 title: "Event Information"
 published: true
-layout: rules
+redirect: '/'
 ---
 ## Frosty Faustings XVI Event Policies
 Vortex Gallery adheres to the Frosty Faustings XVI Event Policies, including the code of conduct. [Refer to frostyfaustings.com/rules for full details.](https://frostyfaustings.com/rules/)
