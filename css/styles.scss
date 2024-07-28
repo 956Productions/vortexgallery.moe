@@ -72,9 +72,7 @@ html { scroll-padding-top: 100px; }
 	-moz-box-shadow: 5px 5px 0px -1px $vg24orange !important;
 }
 
-.vg-box {
-	transition: all 0.5s ease;
-}
+
 
 .video-container {
 	position: relative;
@@ -90,8 +88,12 @@ html { scroll-padding-top: 100px; }
 	height: 100%;
 }
 
+.vg-box {
+	transition: all 0.5s ease;
+}
+
 .vg-box:hover {
-	background: $blue;
+	background: $vg24orange;
 }
 
 .site-footer {
@@ -159,6 +161,17 @@ html { scroll-padding-top: 100px; }
 	border-radius: 0px !important;
 }
 
+.zoom-bg {
+	background-size: 100% auto;
+	background-position: center;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.zoom-bg:hover {
+	background-size: 105% auto;
+}
 
 @import 'bulma/sass/utilities/initial-variables';
 

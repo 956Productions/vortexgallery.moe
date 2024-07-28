@@ -8,38 +8,38 @@
                 <div class="block">
                     <img style="image-rendering: -webkit-optimize-contrast;" src="/img/logo_vgon24.png">
                 </div>
-                <!--- <div class="block">
+                <div class="block">
                     <img style="image-rendering: -webkit-optimize-contrast;" src="/img/tagline.png">
                 </div>
-                
                 <div class="buttons is-justify-content-center">
-                    <a href="https://start.gg/ffxvi" class="button is-primary is-large is-responsive">
-                        <span class="has-text-weight-bold">FFXVI Passes</span>
+                    <a href="https://start.gg/vgon24" class="button is-danger is-large is-responsive">
+                        <span class="has-text-weight-bold">Pre-register</span>
                     </a>
-                    <a href="https://start.gg/vortexgallery" class="button is-danger is-large is-responsive">
-                        <span class="has-text-weight-bold">Register</span>
+                    <a href="/apply" class="button is-danger is-large is-responsive">
+                        <span class="has-text-weight-bold">Volunteer</span>
                     </a>
-                    <a href="/schedule" class="button is-info is-large is-responsive">
-                        <span class="has-text-weight-bold">Schedule</span>
+                    <a href="https://956pro.com/shop" class="button is-danger is-large is-responsive">
+                        <span class="has-text-weight-bold">Merch</span>
                     </a>
                 </div>
-                -->
+                
             </div>
         </section>
-        <section class="section has-background-vg24 p-2">
+        <!-- <section class="section has-background-vg24 p-2">
             <div class="container has-text-centered">
                 <h2 class="exo has-text-white is-size-3">VGON24 REGISTRATION IS LIVE 7/6/2024!</h2>
             </div>
-        </section>
-        <section class="section has-background-black-bis">
+        </section>  -->
+        {% include vg_timeline.html %}
+        <section class="section has-background-black-ter">
             <div class="container is-widescreen">
                 <div class="content has-text-white has-text-centered">
                     <h1 class="is-size-3 exo">{{ page.title }}</h1>
                 </div>
                 <div class="columns is-vcentered">
-                    <div class="column is-half-desktop">
-                        <figure class="image vg24-shadow">
-                            <a href="/img/VGON24_Dates.png"><img src="/img/VGON24_Dates.png"></a>
+                    <div class="column is-half-desktop is-hidden-touch">
+                        <figure class="image">
+                            <img src="/img/Continents.png">
                             <!--- <p class="buttons is-centered pt-4">
                                 <a class="button is-primary" href="https://twitter.com/frostyfaustings">
                                     <span class="icon is-small">
@@ -66,45 +66,20 @@
                 </div>
             </div>
         </section>
-        <section class="section has-background-black">
-            <div class="container is-max-desktop has-text-centered">
-                <div class="columns is-vcentered is-centered">
-                    <div class="column is-narrow">
-                        <h2 class="exo has-text-white is-size-2">Stay Connected!</h2>
-                    </div>
-                    <div class="column is-narrow">
-                        <a href="{{site.twitch}}">
-                            <span class="icon is-large">
-                                <i class="fab fa-2x fa-twitch"></i>
-                            </span>
-                        </a>
-                        <a href="https://twitter.com/{{site.twitter.username}}">
-                            <span class="icon is-large">
-                                <i class="fab fa-2x fa-twitter"></i>
-                            </span>
-                        </a>
-                        <a href="{{site.youtube}}">
-                            <span class="icon is-large">
-                                <i class="fab fa-2x fa-youtube"></i>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--- <section class="section has-background-black-bis">  
+        {% include shop_promo.html %}
+        <section class="section has-background-black-bis">  
             <div class="content has-text-white has-text-centered p-4">
-                <h2 class="exo is-size-3">FFXVI Community Tournaments</h2>
-                <p>Join the squad to commentate your favorite game or help out with brackets by <a href="/apply">applying to volunteer today!</a></p> 
+                <h2 class="exo is-size-3" id="tournaments">Vortex Gallery Online 2024 Tournaments</h2>
+                <p><b>Want to bring your game to our lineup or help out your community as a bracket runner, streamer, or commentator? <a href="/apply">Become a volunteer today!</a></b></p>
             </div>
-            {% include games_startgg.html %}
-        </section> -->
+            {% include games_online.html %}
+        </section>
         <!--{% include shop_promo.html %} -->
         <section class="section has-background-black">
             <div class="container is-widescreen">
                 <div class="columns is-vcentered">
                     <div class="column is-half-desktop">
-                        <figure class="image is16by9 shadow">
+                        <figure class="image">
                             <img src="/img/vg_hero.jpg">
                         </figure>
                     </div>

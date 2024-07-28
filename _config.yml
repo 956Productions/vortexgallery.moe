@@ -21,6 +21,8 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
+  - title: Tournaments
+    url: /#tournaments
   - title: Discord
     url: https://discord.gg/QDU8kEyDXM
   - title: Results

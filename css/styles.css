@@ -62,10 +62,6 @@ html {
   -moz-box-shadow: 5px 5px 0px -1px #f89100 !important;
 }
 
-.vg-box {
-  transition: all 0.5s ease;
-}
-
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -80,8 +76,12 @@ html {
   height: 100%;
 }
 
+.vg-box {
+  transition: all 0.5s ease;
+}
+
 .vg-box:hover {
-  background: #00a3f8;
+  background: #f89100;
 }
 
 .site-footer {
@@ -145,6 +145,18 @@ html {
   -moz-box-shadow: 10px 10px 0px -1px rgb(217, 108, 168) !important;
   background-image: url("/img/texture.png");
   border-radius: 0px !important;
+}
+
+.zoom-bg {
+  background-size: 100% auto;
+  background-position: center;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.zoom-bg:hover {
+  background-size: 105% auto;
 }
 
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
