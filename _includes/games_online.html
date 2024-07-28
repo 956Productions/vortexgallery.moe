@@ -4,7 +4,7 @@
     {% if i['Smash URL'] %}
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
-    <a class="modal-trigger column is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
+    <a class="modal-trigger column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
         <div class="">
             <div style="height:160px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                 <img src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
