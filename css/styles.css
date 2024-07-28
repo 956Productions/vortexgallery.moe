@@ -4549,7 +4549,7 @@ button.dropdown-item.is-active {
   .modal-card {
     margin: 0 auto;
     max-height: calc(100vh - 40px);
-    width: 800px;
+    width: 600px;
   }
 }
 
