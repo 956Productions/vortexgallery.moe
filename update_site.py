@@ -76,9 +76,11 @@ try:
     create_data()
 except Exception:
     print(traceback.format_exc())
-    result = requests.post(config["webhook"],json = {"content":"Something went wrong in the Website build process. Check it out?"})
 else:
-    result = requests.post(config["webhook"],json = {"content":"Website was built successfully."})
+    try:
+        result = requests.post(config["webhook"],json = {"content":"Website data build failed!"})
+    except:
+        pass
     subprocess.run('git add -A') 
     subprocess.run('git commit -m "automated update" ')
     subprocess.run('git push')
