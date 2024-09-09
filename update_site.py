@@ -1,13 +1,20 @@
-from airtable import airtable
-at = airtable.Airtable('appoPE7HV0OWnwLKx', 'patxk9wcO5nkNnrim.ac8268820dbf5feafc9565d337a66c2b65e28161bc8ff88a98081cbc0e560944')
-
+import yaml
 import collections
 import subprocess
 import csv
+import requests
+
+with open('airtable.yml','r') as file:
+    config = yaml.safe_load(file)
+
+from airtable import airtable
+at = airtable.Airtable(config["base"], config["secret"])
 
 headers = []
 
 rows = []
+
+current_game = ""
 
 def sanitize(value):
     new_val = None
@@ -42,6 +49,13 @@ for r in at.iterate('Tournaments',view="viwztcfMm6UNxlAw6"):
 
     for key, value in resp_row.items():
 
+        if key == "Abbr-Game":
+            if current_game != key:
+                current_game == key
+
+        if key == "":
+            pass
+
         if key not in headers:
             headers.append(key)
 
@@ -54,6 +68,6 @@ with open('games.csv','w',newline='', encoding='utf-8') as file:
     writer.writeheader()
     writer.writerows(rows)
 
-
-subprocess.run("git add -A") 
+subprocess.run('git add -A') 
 subprocess.run('git commit -m "automated update" ')
+subprocess.run ('git push')
