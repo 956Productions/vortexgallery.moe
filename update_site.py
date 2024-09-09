@@ -1,13 +1,13 @@
 import yaml
 import collections
-import subprocess
+#import subprocess
 import csv
 import urllib.request
 import os
 import requests
 import traceback
 
-subprocess.run('git pull',shell=True) 
+#subprocess.run('git pull',shell=True) 
 
 with open('airtable.yml','r') as file:
     config = yaml.safe_load(file)
@@ -83,7 +83,7 @@ except Exception:
         result = requests.post(config["webhook"],json = {"content":"Website data build failed! <@102905092759363584>"})
     except:
         pass
-else:
-    subprocess.run('git add -A',shell=True) 
-    subprocess.run('git commit -m "automated update" ',shell=True)
-    subprocess.run('git push',shell=True)
+#else:
+    #subprocess.run('git add -A',shell=True) 
+    #subprocess.run('git commit -m "automated update" ',shell=True)
+    #subprocess.run('git push',shell=True)
