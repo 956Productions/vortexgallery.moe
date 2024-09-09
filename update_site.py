@@ -61,8 +61,9 @@ def create_data():
 
         rows.append(new_row)
         
-        if not os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
-            urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
+        if os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
+            os.remove('./img/games/' + new_row['Abbr-Game'] + '.png')
+        urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
 
     if os.path.isfile('./_data/games.csv'):
         if os.path.isfile('./_data/games.csv.bak'):
