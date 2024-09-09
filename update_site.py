@@ -59,6 +59,8 @@ for r in at.iterate('Tournaments',view="viwztcfMm6UNxlAw6"):
         urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
 
 if os.path.isfile('./_data/games.csv'):
+    if os.path.isfile('./_data/games.csv.bak'):
+        os.remove('./_data/games.csv.bak')
     os.rename('./_data/games.csv','./_data/games.csv.bak')
 
 with open('./_data/games.csv','w',newline='', encoding='utf-8') as file:
