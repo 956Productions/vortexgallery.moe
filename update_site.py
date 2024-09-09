@@ -7,6 +7,8 @@ import os
 import requests
 import traceback
 
+subprocess.run('git pull') 
+
 with open('airtable.yml','r') as file:
     config = yaml.safe_load(file)
 
