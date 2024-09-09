@@ -81,6 +81,7 @@ except Exception:
     except:
         pass
 else:
+    result = requests.post(config["webhook"],json = {"content":"Hello world!"})
     subprocess.run('git add -A') 
     subprocess.run('git commit -m "automated update" ')
     subprocess.run('git push')
