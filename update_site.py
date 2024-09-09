@@ -4,6 +4,8 @@ import subprocess
 import csv
 import urllib.request
 import os
+import requests
+import traceback
 
 with open('airtable.yml','r') as file:
     config = yaml.safe_load(file)
@@ -41,33 +43,42 @@ def sanitize(value):
 
     return new_val
 
-for r in at.iterate('Tournaments',view="viwztcfMm6UNxlAw6"):
-    resp_row = r['fields']
+def create_data():
 
-    new_row = {}
+    for r in at.iterate('Tournaments',view="viwztcfMm6UNxlAw6"):
+        resp_row = r['fields']
 
-    for key, value in resp_row.items():
+        new_row = {}
 
-        if key not in headers:
-            headers.append(key)
+        for key, value in resp_row.items():
 
-        new_row[key] = sanitize(value)
+            if key not in headers:
+                headers.append(key)
 
-    rows.append(new_row)
-    
-    if not os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
-        urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
+            new_row[key] = sanitize(value)
 
-if os.path.isfile('./_data/games.csv'):
-    if os.path.isfile('./_data/games.csv.bak'):
-        os.remove('./_data/games.csv.bak')
-    os.rename('./_data/games.csv','./_data/games.csv.bak')
+        rows.append(new_row)
+        
+        if not os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
+            urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
 
-with open('./_data/games.csv','w',newline='', encoding='utf-8') as file:
-    writer = csv.DictWriter(file,fieldnames=headers)
-    writer.writeheader()
-    writer.writerows(rows)
+    if os.path.isfile('./_data/games.csv'):
+        if os.path.isfile('./_data/games.csv.bak'):
+            os.remove('./_data/games.csv.bak')
+        os.rename('./_data/games.csv','./_data/games.csv.bak')
 
-subprocess.run('git add -A') 
-subprocess.run('git commit -m "automated update" ')
-subprocess.run('git push')
+    with open('./_data/games.csv','w',newline='', encoding='utf-8') as file:
+        writer = csv.DictWriter(file,fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(rows)
+
+try:
+    create_data()
+except Exception:
+    print(traceback.format_exc())
+    result = requests.post(config["webhook"],json = {"content":"Something went wrong in the Website build process. Check it out?"})
+else:
+    result = requests.post(config["webhook"],json = {"content":"Website was built successfully."})
+    subprocess.run('git add -A') 
+    subprocess.run('git commit -m "automated update" ')
+    subprocess.run('git push')
