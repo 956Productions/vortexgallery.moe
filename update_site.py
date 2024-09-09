@@ -2,7 +2,8 @@ import yaml
 import collections
 import subprocess
 import csv
-import requests
+import urllib.request
+import os
 
 with open('airtable.yml','r') as file:
     config = yaml.safe_load(file)
@@ -14,14 +15,12 @@ headers = []
 
 rows = []
 
-current_game = ""
-
 def sanitize(value):
     new_val = None
     if type(value) is collections.OrderedDict:
         new_val = str(value.get('url'))
     elif type(value) is list:
-        print(value)
+        #print(value)
         if len(value) == 0:
             new_val = ""
         elif type(value[0]) is collections.OrderedDict:
@@ -49,25 +48,24 @@ for r in at.iterate('Tournaments',view="viwztcfMm6UNxlAw6"):
 
     for key, value in resp_row.items():
 
-        if key == "Abbr-Game":
-            if current_game != key:
-                current_game == key
-
-        if key == "":
-            pass
-
         if key not in headers:
             headers.append(key)
 
         new_row[key] = sanitize(value)
 
     rows.append(new_row)
+    
+    if not os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
+        urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
 
-with open('games.csv','w',newline='', encoding='utf-8') as file:
+if os.path.isfile('./_data/games.csv'):
+    os.rename('./_data/games.csv','./_data/games.csv.bak')
+
+with open('./_data/games.csv','w',newline='', encoding='utf-8') as file:
     writer = csv.DictWriter(file,fieldnames=headers)
     writer.writeheader()
     writer.writerows(rows)
 
 subprocess.run('git add -A') 
 subprocess.run('git commit -m "automated update" ')
-subprocess.run ('git push')
+subprocess.run('git push')
