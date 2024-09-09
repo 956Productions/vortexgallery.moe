@@ -77,11 +77,10 @@ try:
 except Exception:
     print(traceback.format_exc())
     try:
-        result = requests.post(config["webhook"],json = {"content":"Website data build failed!"})
+        result = requests.post(config["webhook"],json = {"content":"Website data build failed! <@102905092759363584>"})
     except:
         pass
 else:
-    result = requests.post(config["webhook"],json = {"content":"Hello world!"})
     subprocess.run('git add -A') 
     subprocess.run('git commit -m "automated update" ')
     subprocess.run('git push')
