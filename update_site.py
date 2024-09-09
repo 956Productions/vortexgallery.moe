@@ -7,7 +7,7 @@ import os
 import requests
 import traceback
 
-subprocess.run('git pull') 
+subprocess.run('git pull',shell=True) 
 
 with open('airtable.yml','r') as file:
     config = yaml.safe_load(file)
@@ -83,6 +83,6 @@ except Exception:
     except:
         pass
 else:
-    subprocess.run('git add -A') 
-    subprocess.run('git commit -m "automated update" ')
-    subprocess.run('git push')
+    subprocess.run('git add -A',shell=True) 
+    subprocess.run('git commit -m "automated update" ',shell=True)
+    subprocess.run('git push',shell=True)
