@@ -80,8 +80,8 @@ html {
   transition: all 0.5s ease;
 }
 
-.vg-box:hover {
-  background: #f89100;
+.vg-box > img:hover {
+  filter: drop-shadow(0 0 0.75rem #f89100);
 }
 
 .site-footer {
