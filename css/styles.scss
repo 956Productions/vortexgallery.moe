@@ -92,8 +92,8 @@ html { scroll-padding-top: 100px; }
 	transition: all 0.5s ease;
 }
 
-.vg-box:hover {
-	background: $vg24orange;
+.vg-box > img:hover {
+	filter: drop-shadow(0 0 0.75rem $vg24orange);
 }
 
 .site-footer {
