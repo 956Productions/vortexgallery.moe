@@ -97,8 +97,6 @@ def create_schedule_data():
 
         rows.append(new_row)
 
-    print(rows)
-
     if os.path.isfile('./_data/schedule.csv'):
         if os.path.isfile('./_data/schedule.csv.bak'):
             os.remove('./_data/schedule.csv.bak')
