@@ -76,12 +76,13 @@ html {
   height: 100%;
 }
 
-.vg-box {
+.vg-box > img {
   transition: all 0.5s ease;
 }
 
-.vg-box > img:hover {
+.vg-box:hover > img {
   filter: drop-shadow(0 0 0.75rem #f89100);
+  transition: all 0.5s ease;
 }
 
 .site-footer {
@@ -157,6 +158,38 @@ html {
 
 .zoom-bg:hover {
   background-size: 105% auto;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #00a3f8;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext,
+.tooltip:active .tooltiptext,
+.tooltip:focus .tooltiptext {
+  visibility: visible;
 }
 
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
@@ -5987,16 +6020,16 @@ label.panel-block:hover {
   align-items: center;
   border-bottom-color: hsl(0, 0%, 86%);
   border-bottom-style: solid;
-  border-bottom-width: 1px;
-  color: hsl(0, 0%, 29%);
+  border-bottom-width: 3px;
+  color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   padding: 0.5em 1em;
   vertical-align: top;
 }
 .tabs a:hover {
-  border-bottom-color: hsl(0, 0%, 98%);
+  border-bottom-color: #f89100;
   color: hsl(0, 0%, 98%);
 }
 .tabs li {
@@ -6010,7 +6043,7 @@ label.panel-block:hover {
   align-items: center;
   border-bottom-color: hsl(0, 0%, 86%);
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 3px;
   display: flex;
   flex-grow: 1;
   flex-shrink: 0;

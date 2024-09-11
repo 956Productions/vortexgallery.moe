@@ -48,7 +48,7 @@
                         <div class="rules-div content has-text-white is-hidden" id="{{i['Abbr-Game']}}">
                             {% for r in site.data.games %}
                             {% if r['Abbr-Game'] == curGame %}
-                                <h2>{{ r['Short Name'] | default: r['Game Name'] }}</h2>
+                                <h2>{{ r['Short Name'] | default: r['Game Name'] }} ({{ r['Rollup-Regions']  | replace:",","+" }} - {{ r['Rollup-Platform Abbrev'] }})</h2>
                                 <hr/>
                                 <h3>General Information</h3>
                                 <ul>
@@ -57,9 +57,10 @@
                                     {% else %}
                                     <li><a href="{{ r['Smash URL'] }}">Register via Start.gg</a></li>
                                     {% endif %}
-                                    <li>Platform: {{ r['Info-Platform'] | default: 'TBD' }}</li>
+                                    <li>Platform: {{ r['Rollup-Platform'] | default: 'TBD' }}</li>
+                                    <li>Start time: <div class="tooltip">{{ r['Time-Local String'] }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Epoch'] }}">Enable javascript for system time.</span></div></li>
                                     <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
-                                    <li>Organizer: {{ r['Staff-Lead TOs'] | default: '@956Productions' }}</li>
+                                    <li>Organizer: {{ r['Rollup-Lead TOs'] | default: '@956Productions' }}</li>
                                     {% if r['Region Includes'] %}
                                     <li>Region Includes: {{ r['Region Includes'] }}</li>
                                     {% endif %}

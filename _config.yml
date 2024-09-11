@@ -21,6 +21,10 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
+  - title: Info
+    url: /info
+  - title: Schedule
+    url: /schedule
   - title: Tournaments
     url: /#tournaments
   - title: Discord

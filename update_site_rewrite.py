@@ -13,24 +13,22 @@ import sys
 with open('airtable.yml','r') as file:
     config = yaml.safe_load(file)
 
-from airtable import airtable
-at = airtable.Airtable(config["base"], config["secret"])
+from pyairtable import Api
+at = Api(config["secret"])
 
-headers = []
-
-rows = []
+table = at.table(config["base"],"Tournaments")
 
 drop_headers = ['Form Base URL','Record ID','Form Prefill URL','Edit']
 
 def sanitize(value):
     new_val = None
-    if type(value) is collections.OrderedDict:
+    if isinstance(value,dict):
         new_val = str(value.get('url'))
     elif type(value) is list:
         #print(value)
         if len(value) == 0:
             new_val = ""
-        elif type(value[0]) is collections.OrderedDict:
+        elif isinstance(value[0],dict):
             new_val = str(value[0].get('url'))
         elif len(value) > 1:
             new_string = ""
@@ -50,7 +48,10 @@ def sanitize(value):
 
 def create_rules_data(dl_images=True):
 
-    for r in at.iterate('Tournaments',view="viwztcfMm6UNxlAw6"):
+    headers = []
+    rows = []
+
+    for r in table.all(view="viwztcfMm6UNxlAw6"):
         resp_row = r['fields']
 
         new_row = {}
@@ -78,10 +79,12 @@ def create_rules_data(dl_images=True):
         writer.writeheader()
         writer.writerows(rows)
 
-
 def create_schedule_data():
 
-    for r in at.iterate('Tournaments',view="viwSwKAHpaFzm1yHc",sort="Time-UTC"):
+    headers = []
+    rows = []
+
+    for r in table.all(view="viwSwKAHpaFzm1yHc",sort=['Time-UTC']):
         resp_row = r['fields']
 
         new_row = {}
@@ -93,6 +96,8 @@ def create_schedule_data():
                 new_row[key] = sanitize(value)
 
         rows.append(new_row)
+
+    print(rows)
 
     if os.path.isfile('./_data/schedule.csv'):
         if os.path.isfile('./_data/schedule.csv.bak'):

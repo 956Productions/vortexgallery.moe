@@ -1,0 +1,29 @@
+<div class="week-tab {{ include.class | default: '' }}" id="{{ include.id }}">
+{% assign curDate = '' %}
+{% assign curTime = '' %}
+{% for i in site.data.schedule %}
+{% if i[include.date] != curDate %}
+{% if curDate != '' %}
+</ul>
+{% endif %}
+{% assign curDate = i[include.date] %}
+{% assign curTime = "" %}
+<h3>{{i[include.date]}}</h3>
+<hr>
+{% endif %}
+{% if i[include.time] != curTime %}
+{% if curTime != '' %}
+</ul>
+{% endif %}
+{% assign curTime = i[include.time] %}
+<h4>{{i[include.time]}}</h4>
+<ul>
+{% endif %}
+{% if i['Alt Reg URL'] %}
+<li><a class="modal-trigger" data-target="{{i['Abbr-Game']}}"><b>{{i['Game Name']}} ({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global"  }})</b></a></li> 
+{% else %}
+<li><a class="modal-trigger" data-target="{{i['Abbr-Game']}}"><b>{{i['Game Name']}} ({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" }})</b></a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div>

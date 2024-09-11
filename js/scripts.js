@@ -15,6 +15,13 @@ $(document).ready(function() {
         $('#quote').append(quotes[randLineNum]);
     });
 
+    $('.timestamp-text').each(function(i,obj) {
+        var utcSeconds = $(obj).data('time');
+        var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+        d.setUTCSeconds(utcSeconds);
+        $(obj).text("System time: " + d.toLocaleString());
+    });
+
     $('.week-tabs > ul > li').click(function() {
       $('.week-tab').addClass('is-hidden')
       $($(this).data('target')).removeClass('is-hidden')

@@ -88,12 +88,13 @@ html { scroll-padding-top: 100px; }
 	height: 100%;
 }
 
-.vg-box {
+.vg-box > img {
 	transition: all 0.5s ease;
 }
 
-.vg-box > img:hover {
+.vg-box:hover > img {
 	filter: drop-shadow(0 0 0.75rem $vg24orange);
+	transition: all 0.5s ease;
 }
 
 .site-footer {
@@ -172,6 +173,40 @@ html { scroll-padding-top: 100px; }
 .zoom-bg:hover {
 	background-size: 105% auto;
 }
+	
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  border: 1px solid $blue;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  bottom: 100%;
+  left: 50%;
+  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext ,
+.tooltip:active .tooltiptext ,
+.tooltip:focus .tooltiptext {
+  visibility: visible;
+}
 
 @import 'bulma/sass/utilities/initial-variables';
 
@@ -194,5 +229,8 @@ $modal-card-foot-border-top: 0px solid black;
 $modal-content-width: 600px;
 $navbar-background-color: $blue;
 $navbar-item-color: $white;
+$tabs-link-color: $white;
+$tabs-link-hover-border-bottom-color: $vg24orange;
+$tabs-border-bottom-width: 3px;
 
 @import 'bulma/bulma.sass';
