@@ -3198,7 +3198,7 @@ a.tag:hover {
     right: 0; }
   .dropdown.is-up .dropdown-menu {
     bottom: 100%;
-    padding-bottom: 4px;
+    padding-bottom: 0px;
     padding-top: initial;
     top: auto; }
 
@@ -3206,7 +3206,7 @@ a.tag:hover {
   display: none;
   left: 0;
   min-width: 12rem;
-  padding-top: 4px;
+  padding-top: 0px;
   position: absolute;
   top: 100%;
   z-index: 20; }
@@ -3215,11 +3215,11 @@ a.tag:hover {
   background-color: #0a0a0a;
   border-radius: 0px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem; }
+  padding-bottom: 0px;
+  padding-top: 0px; }
 
 .dropdown-item {
-  color: #4a4a4a;
+  color: white;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -3234,8 +3234,8 @@ button.dropdown-item {
   width: 100%; }
   a.dropdown-item:hover,
   button.dropdown-item:hover {
-    background-color: whitesmoke;
-    color: #0a0a0a; }
+    background-color: #121212;
+    color: white; }
   a.dropdown-item.is-active,
   button.dropdown-item.is-active {
     background-color: #00a3f8;
@@ -4772,14 +4772,14 @@ label.panel-block {
     flex-grow: 1;
     flex-shrink: 0; }
   .tabs.is-toggle a {
-    border-color: #dbdbdb;
+    border-color: #00a3f8;
     border-style: solid;
     border-width: 1px;
     margin-bottom: 0;
     position: relative; }
     .tabs.is-toggle a:hover {
-      background-color: whitesmoke;
-      border-color: #b5b5b5;
+      background-color: #242424;
+      border-color: #00a3f8;
       z-index: 2; }
   .tabs.is-toggle li + li {
     margin-left: -1px; }

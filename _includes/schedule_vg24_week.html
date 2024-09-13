@@ -1,0 +1,6 @@
+<div class="week-tab mb-2 {{ include.class | default: '' }}" style="overflow-x: auto;" id="{{ include.id }}">
+{% include schedule_vg24_locale.html class="week-locale" week=include.week id="PT" date="Date-PT" time="Time-PT String" %}
+{% include schedule_vg24_locale.html class="week-locale is-hidden" id="BRT" week=include.week  id="BRT" date="Date-BRT" time="Time-BRT String" %}
+{% include schedule_vg24_locale.html class="week-locale is-hidden" id="CET" week=include.week  id="CET" date="Date-CET" time="Time-CET String" %}
+{% include schedule_vg24_locale.html class="week-locale is-hidden" id="SGT" week=include.week  id="SGT" date="Date-SGT" time="Time-SGT String" %}
+</div>

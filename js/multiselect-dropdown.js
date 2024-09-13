@@ -3,23 +3,23 @@ style.setAttribute("id","multiselect_dropdown_styles");
 style.innerHTML = `
 .multiselect-dropdown{
   display: inline-block;
-  padding: 2px 5px 0px 5px;
+  padding: 5px 5px 0px 5px;
   border-radius: 0px;
   border: solid 1px #00a3f8;
-  background-color: black;
+  background-color: #0a0a0a;
   position: relative;
   width: 100% !important;
 }
 .multiselect-dropdown span.optext, .multiselect-dropdown span.placeholder{
-  margin-right:0.5em; 
-  margin-bottom:2px;
+  margin-right:5px; 
+  margin-bottom:5px;
   padding:1px 0; 
   border-radius: 0px; 
   display:inline-block;
 }
 .multiselect-dropdown span.optext{
   background-color: #00a3f8;
-  padding:1px 0.75em; 
+  padding:4px 0.75em; 
 }
 .multiselect-dropdown span.optext .optdel {
   float: right;

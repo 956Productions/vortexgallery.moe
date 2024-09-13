@@ -1,0 +1,16 @@
+
+<div class="week-tabs tabs is-centered is-fullwidth">
+    <ul class="m-0">
+        <li class="is-active" data-target="#PT"><a>Pacific Time</a></li>
+        <li data-target="#BRT"><a>Brasilia Time</a></li>
+        <li data-target="#CET"><a>Central European Time</a></li>
+        <li data-target="#SGT"><a>Singapore Time</a></li>
+    </ul>
+</div>
+
+{% include schedule_zone_vg24.html id="PT" date="Date-PT" time="Time-PT String" %}
+{% include schedule_zone_vg24.html id="BRT" date="Date-BRT" time="Time-BRT String" class="is-hidden" %}
+{% include schedule_zone_vg24.html id="CET" date="Date-CET" time="Time-CET String" class="is-hidden" %}
+{% include schedule_zone_vg24.html id="SGT" date="Date-SGT" time="Time-SGT String" class="is-hidden" %}
+
+{% include modals_regions_vg24.html %}

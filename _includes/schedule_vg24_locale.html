@@ -1,0 +1,26 @@
+<div class="{{ include.class | default: '' }} Week-{{include.id}}" id="">
+{% assign curDate = '' %}
+{% for i in site.data.schedule %}
+    {% if i["Week"] == include.week %}
+    {% if i[include.date] != curDate %}
+    {% assign curDate = i[include.date] %}
+    <h4 class="pt-2">{{ i[include.date] }}</h4>
+    {% endif %}
+        {% if i['Alt Reg URL'] %}
+        <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636; white-space: nowrap;" data-regions="{{ i['Rollup-Regions'] }}">
+            <span class="tag is-dark has-text-weight-bold">
+                {{ i[include.time] }}
+            </span>
+            <a class="modal-trigger" data-target="{{i['Abbr-Game']}}"><b>{{i['Game Name']}} ({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global"  }})</b></a>
+        </div>
+        {% else %}
+        <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636; white-space: nowrap;" data-regions="{{ i['Rollup-Regions'] }}">
+            <span class="tag is-dark has-text-weight-bold">
+                {{ i[include.time] }}
+            </span>
+            <a class="modal-trigger" data-target="{{i['Abbr-Game']}}"><b>{{i['Game Name']}} ({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" }})</b></a>
+        </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>

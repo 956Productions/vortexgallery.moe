@@ -208,6 +208,8 @@ html { scroll-padding-top: 100px; }
   visibility: visible;
 }
 
+
+
 @import 'bulma/sass/utilities/initial-variables';
 
 $primary: $blue;
@@ -232,5 +234,14 @@ $navbar-item-color: $white;
 $tabs-link-color: $white;
 $tabs-link-hover-border-bottom-color: $vg24orange;
 $tabs-border-bottom-width: 3px;
+$tabs-toggle-link-hover-background-color: $black-ter;
+$tabs-toggle-link-border-color: $blue;
+$tabs-toggle-link-hover-border-color: $blue;
+$dropdown-item-color: white;
+$dropdown-item-hover-color: white;
+$dropdown-item-hover-background-color: #121212;
+$dropdown-content-padding-bottom: 0px;
+$dropdown-content-padding-top: 0px;
+$dropdown-content-offset: 0px;
 
 @import 'bulma/bulma.sass';
