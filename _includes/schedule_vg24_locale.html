@@ -5,20 +5,26 @@
     {% if i[include.date] != curDate %}
     {% assign curDate = i[include.date] %}
     <h4 class="pt-2">{{ i[include.date] }}</h4>
+    <hr class="mt-0 mb-2 has-background-primary">
     {% endif %}
         {% if i['Alt Reg URL'] %}
-        <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636; white-space: nowrap;" data-regions="{{ i['Rollup-Regions'] }}">
+        <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636;" data-regions="{{ i['Rollup-Regions'] }}">
             <span class="tag is-dark has-text-weight-bold">
                 {{ i[include.time] }}
             </span>
-            <a class="modal-trigger" data-target="{{i['Abbr-Game']}}"><b>{{i['Game Name']}} ({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global"  }})</b></a>
+            <a class="modal-trigger" data-target="{{i['Abbr-Game']}}">
+                <b>({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global"  }}) {{i['Game Name']}}</b>
+            </a>
         </div>
         {% else %}
-        <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636; white-space: nowrap;" data-regions="{{ i['Rollup-Regions'] }}">
+        <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636;" data-regions="{{ i['Rollup-Regions'] }}">
             <span class="tag is-dark has-text-weight-bold">
                 {{ i[include.time] }}
             </span>
-            <a class="modal-trigger" data-target="{{i['Abbr-Game']}}"><b>{{i['Game Name']}} ({{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" }})</b></a>
+            <a class="modal-trigger" data-target="{{i['Abbr-Game']}}">
+                <b class="is-hidden-mobile">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Game Name']}}</b>
+                <b class="is-hidden-tablet">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>
+            </a>
         </div>
         {% endif %}
     {% endif %}

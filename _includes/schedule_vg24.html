@@ -1,44 +1,64 @@
-<h1 class="has-text-centered">Vortex Gallery Online 2024 Schedule</h1>
-<h4>Filter by regions:</h4>
-<select multiple id="regionselect" style="display: none;"
-    multiselect-max-items="8">
-    <option selected="" value="NA">North America</option>
-    <option selected="" value="CA">Central America</option>
-    <option selected="" value="SA">South America</option>
-    <option selected="" value="EU">Europe</option>
-    <option selected="" value="ME">Middle East</option>
-    <option selected="" value="AF">Africa</option>
-    <option selected="" value="ASIA">Asia</option>
-    <option selected="" value="OCE">Oceania</option>
-</select>
-<h4>Select timezone:</h4>
-<div class="dropdown">
-    <div class="dropdown-trigger">
-      <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu">
-        <span id="tz-active" data-tz="PT">US Pacific Time</span>
-        <span class="icon is-small">
-          <i class="fas fa-angle-down" aria-hidden="true"></i>
-        </span>
-      </button>
-    </div>
-    <div class="dropdown-menu" id="dropdown-menu" role="menu" style="border: 1px solid #00a3f8">
-      <div class="dropdown-content">
-        <a href="#" class="dropdown-item is-active" data-tz="PT">
-          US Pacific Time
-        </a>
-        <a href="#" class="dropdown-item" data-tz="BRT">
-          Brasilia Time
-        </a>
-        <a href="#" class="dropdown-item" data-tz="CET">
-          Central European Time
-        </a>
-        <a href="#" class="dropdown-item" data-tz="SGT">
-          Singapore Time
-        </a>
+<div class="columns is-vcentered">
+  <div class="column is-narrow">
+    <b>Select timezone:</b>
+  </div>
+  <div class="column is-narrow">
+    <div class="dropdown">
+      <div class="dropdown-trigger">
+        <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu">
+          <span id="tz-active" data-tz="PT">US Pacific Time</span>
+          <span class="icon is-small">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span>
+        </button>
+      </div>
+      <div class="dropdown-menu" id="dropdown-menu" role="menu" style="border: 1px solid #00a3f8">
+        <div class="dropdown-content">
+          <a class="dropdown-item is-active" data-tz="PT">
+            US Pacific Time
+          </a>
+          <a class="dropdown-item" data-tz="ET">
+            US Eastern Time
+          </a>
+          <a class="dropdown-item" data-tz="BRT">
+            Brasilia Time
+          </a>
+          <a class="dropdown-item" data-tz="UTC">
+            UTC
+          </a>
+          <a class="dropdown-item" data-tz="CET">
+            Central European Time
+          </a>
+          <a class="dropdown-item" data-tz="SGT">
+            Singapore Time
+          </a>
+          <a class="dropdown-item" data-tz="JST">
+            Japan Time
+          </a>
+          <a class="dropdown-item" data-tz="AET">
+            Australian Eastern Time
+          </a>
+        </div>
       </div>
     </div>
+  </div>
+  <div class="column is-narrow">
+    <b>Filter by regions:</b>
+  </div>
+  <div class="column">
+      <select multiple id="regionselect" style="display: none;"
+        multiselect-max-items="3" multiselect-select-all="true">
+        <option selected="" value="NA">North America</option>
+        <option selected="" value="CA">Central America</option>
+        <option selected="" value="SA">South America</option>
+        <option selected="" value="EU">Europe</option>
+        <option selected="" value="ME">Middle East</option>
+        <option selected="" value="AF">Africa</option>
+        <option selected="" value="ASIA">Asia</option>
+        <option selected="" value="OCE">Oceania</option>
+    </select>
+  </div>
 </div>
-<br>
 <div class="week-tabs tabs is-centered is-fullwidth is-toggle">
     <ul class="m-0 has-text-weight-bold">
         <li class="is-active" data-target="#Week1"><a>Oct.11-13</a></li>
