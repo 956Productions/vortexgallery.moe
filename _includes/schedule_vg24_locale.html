@@ -14,7 +14,14 @@
             <a class="modal-trigger" data-target="{{i['Abbr-Game']}}">
                 <b class="is-hidden-mobile">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Game Name']}}</b>
                 <b class="is-hidden-tablet">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>
-            </a>    
+            </a>
+            {% if i['Main Stream'] | strip != '' %}
+            <a href="{{ i['Main Stream'] }}" target="_blank">
+                <span class="icon">
+                    <i class="fas fa-desktop"></i>
+                </span>
+            </a>
+            {% endif %}
         </div>
     {% endif %}
 {% endfor %}
