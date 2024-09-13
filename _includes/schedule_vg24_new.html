@@ -1,0 +1,17 @@
+<select multiple id="regionselect" style="display: none;"> 
+    <option value="NA">North America</option>
+    <option value="EU">Europe</option>
+    <option value="SA">South America</option>
+    <option value="ASIA">Asia</option>
+    <option value="AF">Africa</option>
+    <option value="ME">Middle East</option>
+    <option value="CA">Central America</option>
+    <option value="OCE">Oceania</option>
+    <option value="ALL">Global Tournaments</option>
+</select>
+
+<script>
+    $('#regionselect').on('change', function() {
+        console.log(Array.from(this.selectedOptions).map(x=>x.value??x.text))
+    });
+</script>

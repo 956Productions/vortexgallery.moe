@@ -14,7 +14,7 @@
             <div class="tags is-justify-content-center">
                 {% for r in site.data.games %}
                 {% if r['Abbr-Game'] == curGame %}
-                <span class="tag is-primary">{{ r['Rollup-Regions'] | replace: ",","+" }}</span>
+                <span class="tag is-primary">{{ r['Rollup-Regions'] | replace: ",","+" | replace: "ALL", "Global" }}</span>
                 {% endif %}
                 {% endfor %}
             </div>
