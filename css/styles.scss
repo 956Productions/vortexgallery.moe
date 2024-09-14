@@ -182,17 +182,17 @@ html { scroll-padding-top: 100px; }
 }
 
 .zoom-bg {
-	background-size: 100% auto;
+	background-size: cover;
 	background-position: center;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
-
+/* fix zooom
 .zoom-bg:hover {
 	background-size: 105% auto;
 }
-	
+*/	
 /* Tooltip container */
 .tooltip {
   position: relative;
