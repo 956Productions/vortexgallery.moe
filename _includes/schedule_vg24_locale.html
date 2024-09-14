@@ -4,7 +4,7 @@
     {% if i["Week"] == include.week %}
     {% if i[include.date] != curDate %}
     {% assign curDate = i[include.date] %}
-    <h4 class="pt-2">{{ i[include.date] }}</h4>
+    <h4 class="pt-2">{{ i[include.date] }} - {{include.id}}</h4>
     <hr class="mt-0 mb-2 has-background-primary">
     {% endif %}
         <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636;" data-regions="{{ i['Rollup-Regions'] }}">

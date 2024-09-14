@@ -140,7 +140,7 @@ html {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 300px;
+  width: 230px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -154,7 +154,7 @@ html {
 .tooltip:not(.tooltip-right) .tooltiptext {
   bottom: 100%;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -115px;
   /* Use half of the width (120/2 = 60), to center the tooltip */ }
 
 .tooltip-right .tooltiptext {
