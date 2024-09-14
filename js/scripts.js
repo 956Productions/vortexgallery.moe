@@ -19,7 +19,7 @@ $(document).ready(function() {
         var utcSeconds = $(obj).data('time');
         var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
         d.setUTCSeconds(utcSeconds);
-        $(obj).text("System time: " + d.toLocaleString());
+        $(obj).text("Local: " + d.toLocaleString());
     });
 
     $('.week-tabs > ul > li').click(function() {
