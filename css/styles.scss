@@ -12,6 +12,10 @@
 	font-family: 'Exo Black';
 	src: url('/img/exo.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'Teko Semibold';
+	src: url('/img/teko.ttf') format('truetype');
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -56,6 +60,11 @@ html { scroll-padding-top: 100px; }
 	font-weight: 400 !important;
 }
 
+.teko {
+	font-family: 'Teko Semibold' !important;
+	font-weight: 400 !important;
+}
+
 .shadow {
 	box-shadow: 5px 5px 0px -1px $blue !important;
 	-webkit-box-shadow: 5px 5px 0px -1px $blue !important;
@@ -72,7 +81,9 @@ html { scroll-padding-top: 100px; }
 	-moz-box-shadow: 5px 5px 0px -1px $vg24orange !important;
 }
 
-
+.ff25-shadow {
+	filter: drop-shadow(0px 0px 8px #0066cc);
+}
 
 .video-container {
 	position: relative;
@@ -105,15 +116,23 @@ html { scroll-padding-top: 100px; }
 
 .front-hero {
 	background: url('/img/hero_castle.png');
-	background: url('/img/hero_castle.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.front-hero-ff25 {
+	background: url('/img/hero_ff25.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
 }
 
 .volumes-hero {
 	background: url('/img/volumes_hero.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center; 
 }
 
 .button.is-dark:hover {
