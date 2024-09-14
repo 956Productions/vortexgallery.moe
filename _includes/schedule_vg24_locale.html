@@ -8,9 +8,14 @@
     <hr class="mt-0 mb-2 has-background-primary">
     {% endif %}
         <div class="mb-1 tournament-entry" style="border-bottom: 1px solid #363636;" data-regions="{{ i['Rollup-Regions'] }}">
-            <span class="tag is-dark has-text-weight-bold" style="min-width: 75px;">
-                {{ i[include.time] }}
-            </span>
+            <div class="tooltip tooltip-right">
+                <span class="tag is-dark has-text-weight-bold" style="min-width: 75px;">
+                    {{ i[include.time] }}
+                </span>
+                <span class="tooltiptext timestamp-text" data-time="{{ i['Time-Epoch'] }}">
+                    Enable javascript for system time.
+                </span>
+            </div>
             <a class="modal-trigger" data-target="{{i['Abbr-Game']}}">
                 <b class="is-hidden-mobile">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Game Name']}}</b>
                 <b class="is-hidden-tablet">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>

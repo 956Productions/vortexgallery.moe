@@ -178,7 +178,10 @@ html { scroll-padding-top: 100px; }
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted white; /* If you want dots under the hoverable text */
+}
+
+.tooltip:not(.tooltip-right) {
+	border-bottom: 1px dotted white; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -196,10 +199,21 @@ html { scroll-padding-top: 100px; }
   position: absolute;
   z-index: 1;
 
-  bottom: 100%;
-  left: 50%;
-  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
 }
+
+.tooltip:not(.tooltip-right) .tooltiptext {
+	bottom: 100%;
+	left: 50%;
+	margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip-right .tooltiptext {
+	top: -5px;
+	left: 105%;
+}
+
+
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext ,
