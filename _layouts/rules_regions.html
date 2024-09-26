@@ -50,6 +50,13 @@
                                     <li>Seeding: {{ r['Info-Seeding'] }}</li>
                                     {% endif %}
                                 </ul>
+                                <h3>Prizing Information</h3>
+                                <ul>
+                                    {% if r['Matcherino URL'] != '' %}
+                                    <li><a href="{{r['Matcherino URL']}}">Matcherino Prize Pool Link</a></li>
+                                    {% endif %}
+                                    <li>Pot Split: {{ r['$-Pot Split'] }}</li>
+                                </ul>
                                 {% if r['Pools-Bracket Type'] %}
                                 <h3>Tournament Format</h3>
                                 {% endif %}
@@ -86,6 +93,10 @@
                                     <li>{{r['Rules-Disconnect']}}</li>
                                     {% endif %}
                                 </ul>
+                                {% if r['Info-Software Needed'] %}
+                                <h3>Software Needed</h3>
+                                <p>{{r['Info-Software Needed'] | newline_to_br }}</p>
+                                {% endif %}
                                 {% if r['Rules-Game Settings'] %}
                                 <h3>Game Settings</h3>
                                 <p>{{ r['Rules-Game Settings'] | newline_to_br }}</p>
