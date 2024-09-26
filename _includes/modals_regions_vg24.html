@@ -27,7 +27,7 @@
               <ul>
                 <li>Start time: <div class="tooltip">{{ r['Time-Local String'] | replace: ".5)",":30)"}}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Epoch'] }}">Enable javascript for system time.</span></div></li>
                 <li>Platform: {{ r['Rollup-Platform'] | default: 'TBD' }}</li>
-                {% if r['Matcherino URL'] != '' %}
+                {% if r['Matcherino URL'] %}
                 <li><a href="{{r['Matcherino URL']}}">Matcherino Link</a></li>
                 {% endif %}
               </ul>

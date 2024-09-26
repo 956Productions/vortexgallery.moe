@@ -52,10 +52,10 @@
                                 </ul>
                                 <h3>Prizing Information</h3>
                                 <ul>
-                                    {% if r['Matcherino URL'] != '' %}
+                                    {% if r['Matcherino URL'] %}
                                     <li><a href="{{r['Matcherino URL']}}">Matcherino Prize Pool Link</a></li>
                                     {% endif %}
-                                    <li>Pot Split: {{ r['$-Pot Split'] }}</li>
+                                    <li>Pot Split: {{ r['$-Pot Split'] | default: 'TBD' }}</li>
                                 </ul>
                                 {% if r['Pools-Bracket Type'] %}
                                 <h3>Tournament Format</h3>
