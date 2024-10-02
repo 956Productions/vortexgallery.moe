@@ -42,7 +42,7 @@
                                     <li>Start time: <div class="tooltip">{{ r['Time-Local String'] }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Epoch'] }}">Enable javascript for system time.</span></div></li>
                                     <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
                                     <li>Organizer: {{ r['Rollup-Lead TOs'] | default: '@956Productions' }}</li>
-                                    <li>Main Stream: <a href="{{ r['Main Stream'] | default: '#' }}" target="_blank">{{ r['Main Stream'] | default: 'TBD' }}</a></li>
+                                    <li>Main Stream: <a href="{{ r['Stream Links'] | default: '#' }}" target="_blank">{{ r['Stream Links'] | default: 'TBD' }}</a></li>
                                     {% if r['Region Includes'] %}
                                     <li>Region Includes: {{ r['Region Includes'] }}</li>
                                     {% endif %}
