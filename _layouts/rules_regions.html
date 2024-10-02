@@ -50,6 +50,11 @@
                                     <li>Seeding: {{ r['Info-Seeding'] }}</li>
                                     {% endif %}
                                 </ul>
+                                {% if r['Multi-day Event Info'] %}
+                                <div class="content">
+                                    {{r['Multi-day Event Info'] | newline_to_br }}
+                                </div>
+                                {% endif %}
                                 <h3>Prizing Information</h3>
                                 <ul>
                                     {% if r['Matcherino URL'] %}

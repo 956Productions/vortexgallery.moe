@@ -1,14 +1,12 @@
 <section class="section has-background-black has-text-white has-text-centered">
-    <h2 class="bomber is-size-2 mb-2" style="line-height: 1;">Thank you to our sponsors</h2>
+    <h2 class="exo is-size-2-tablet is-size-4-mobile mb-2" style="line-height: 1;">#VGON24 is proudly supported by </h2>
     <div class="container-fluid is-flex is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
-        {% for image in site.static_files %}
-            {% if image.path contains 'img/sponsors' %}
-                <div class="column is-narrow is-flex is-justify-content-space-evenly is-align-items-center">
-                <figure class="image">
-                    <img loading='lazy' style="max-height: 100px; width: auto; max-width: 300px;" src="{{ site.baseurl }}{{ image.path }}">
-                </figure>
-                </div>
-            {% endif %}
+        {% for s in site.sponsors %}
+        <a href="{{ s.url }}" target="_blank" class="column is-narrow is-flex is-justify-content-space-evenly is-align-items-center">
+            <figure class="image">
+                <img loading='lazy' style="width: auto; max-width: 250px;" src="/img/sponsors/{{ s.image }}">
+            </figure>
+        </a>
         {% endfor %}
     </div>
 </section>
