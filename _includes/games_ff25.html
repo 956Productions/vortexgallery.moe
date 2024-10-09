@@ -1,0 +1,32 @@
+{% assign curGame = '' %}
+<div class="columns is-multiline is-centered mt-2 is-hidden-touch">
+    {% for i in site.data.frosty %}
+    {% if i['Smash URL'] or i['Alt Reg URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <a class="modal-trigger column is-2 is-flex is-flex-direction-column is-align-items-center" href="{{i['Smash URL']}}">
+        <div class="block">
+            <div style="height:180px; max-width:250px;" class="p-2 is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                <img src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
+            </div>
+        </div>
+        <div class="block">
+            <p class="has-text-white is-size-7 has-text-weight-semibold has-text-centered">{{i['Game Name']}}</p>
+        </div>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="columns is-multiline is-centered mt-2 is-hidden-desktop">
+    {% for i in site.data.frosty %}
+    {% if i['Smash URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <div class="column is-4-desktop is-12-tablet is-3-widescreen p-1">
+        <a class="button is-dark is-fullwidth" href="{{i['Smash URL']}}">{{ i['Game Name'] }}</a>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>

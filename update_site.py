@@ -16,8 +16,6 @@ with open('airtable.yml','r') as file:
 from pyairtable import Api
 at = Api(config["secret"])
 
-table = at.table(config["base"],"Tournaments")
-
 drop_headers = ['Form Base URL','Record ID','Form Prefill URL','Edit']
 
 def sanitize(value):
@@ -46,12 +44,13 @@ def sanitize(value):
 
     return new_val
 
-def create_rules_data(dl_images=True):
+def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNxlAw6",filename="games.csv"):
+    table = at.table(atbase,"Tournaments")
 
     headers = []
     rows = []
 
-    for r in table.all(view="viwztcfMm6UNxlAw6"):
+    for r in table.all(view=atview):
         resp_row = r['fields']
 
         new_row = {}
@@ -69,17 +68,18 @@ def create_rules_data(dl_images=True):
                 os.remove('./img/games/' + new_row['Abbr-Game'] + '.png')
             urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
 
-    if os.path.isfile('./_data/games.csv'):
-        if os.path.isfile('./_data/games.csv.bak'):
-            os.remove('./_data/games.csv.bak')
-        os.rename('./_data/games.csv','./_data/games.csv.bak')
+    if os.path.isfile('./_data/%s' % filename):
+        if os.path.isfile('./_data/%s.bak' % filename):
+            os.remove('./_data/%s.bak' % filename)
+        os.rename('./_data/%s' % filename,'./_data/%s.bak' % filename)
 
-    with open('./_data/games.csv','w',newline='', encoding='utf-8') as file:
+    with open('./_data/%s' % filename,'w',newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file,fieldnames=headers)
         writer.writeheader()
         writer.writerows(rows)
 
 def create_schedule_data():
+    table = at.table(config["base"],"Tournaments")
 
     headers = []
     rows = []
@@ -110,9 +110,11 @@ def create_schedule_data():
 try:
     if len(sys.argv) > 0:
         if "--skip-images" in sys.argv:
-            create_rules_data(dl_images=False)
+            create_rules_data(dl_images=False) #VGON24
+            create_rules_data(dl_images=False,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv") #VGFF24
         else:
-            create_rules_data(dl_images=True)
+            create_rules_data(dl_images=True) #VGON24
+            create_rules_data(dl_images=True,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv") #VGFF24
     create_schedule_data()
 except Exception:
     print(traceback.format_exc())
