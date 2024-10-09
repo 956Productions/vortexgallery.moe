@@ -16,6 +16,7 @@
                     Enable javascript for system time.
                 </span>
             </div>
+            <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
             <a class="modal-trigger" data-target="{{i['Abbr-Game']}}">
                 <b class="is-hidden-mobile">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Game Name']}}</b>
                 <b class="is-hidden-tablet">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>

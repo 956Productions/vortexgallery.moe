@@ -29,6 +29,15 @@ $(document).ready(function() {
       $(this).addClass('is-active')
     })
 
+    now = new Date();
+    if (now >= new Date(2024,9,15) && now < new Date(2024,9,22)) {
+      $("#week2btn").trigger("click");
+    } else if (now >= new Date(2024,9,22) && now < new Date(2024,10,5)) {
+      $("#week3btn").trigger("click");
+    } else if (now > new Date(2024,10,5)) {
+      $("#week4btn").trigger("click");
+    }
+
     $(".navbar-burger").click(function() {
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");
@@ -36,6 +45,18 @@ $(document).ready(function() {
     $(".rules-btn").click(function() {
         rulesPage("#"+$(this).data('target'));
     });
+
+    now = new Date();
+    var d = Math.round(now.getTime() / 1000);
+    console.log(d)
+    $('.nowlive').each(function(i,obj) {
+        var utcStart = $(obj).data('start');
+        var utcEnd = $(obj).data('end');
+        if (utcStart <= d && utcEnd >= d) {
+            $(obj).removeClass('is-hidden');
+        }
+    });
+
     window.addEventListener('hashchange', rulesPage(location.hash));
 });
 

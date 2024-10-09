@@ -20,9 +20,9 @@
             {% for r in site.data.games %}
               {% if r['Abbr-Game'] == curGame %}
               {% if r['Alt Reg URL'] %}
-              <a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vgon24' }}"><b>{{r['Game Name']}} ({{r['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global"  }})</b></a>
+              <a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vgon24' }}"><b>{{r['Game Name']}} ({{r['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global"  }})</b></a> <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ r['Time-Epoch'] }}" data-end="{{ r['Time-Epoch End'] }}">LIVE NOW</div>
               {% else %}
-              <a href="{{r['Smash URL'] | default: 'https://start.gg/vgon24' }}"><b>{{r['Game Name']}} ({{r['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" }})</b></a>
+              <a href="{{r['Smash URL'] | default: 'https://start.gg/vgon24' }}"><b>{{r['Game Name']}} ({{r['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" }})</b></a> <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ r['Time-Epoch'] }}" data-end="{{ r['Time-Epoch End'] }}">LIVE NOW</div>
               {% endif %}
               <ul>
                 <li>Start time: <div class="tooltip">{{ r['Time-Local String'] | replace: ".5)",":30)"}}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Epoch'] }}">Enable javascript for system time.</span></div></li>
