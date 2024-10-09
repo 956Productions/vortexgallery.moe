@@ -1,5 +1,4 @@
 import yaml
-import collections
 #import subprocess
 import csv
 import urllib.request
@@ -7,6 +6,7 @@ import os
 import requests
 import traceback
 import sys 
+import time
 
 #subprocess.run('git pull',shell=True) 
 
@@ -67,6 +67,7 @@ def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNx
             if os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
                 os.remove('./img/games/' + new_row['Abbr-Game'] + '.png')
             urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
+            time.sleep(0.1)
 
     if os.path.isfile('./_data/%s' % filename):
         if os.path.isfile('./_data/%s.bak' % filename):
