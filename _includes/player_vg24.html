@@ -20,9 +20,11 @@
                 src="https://www.twitch.tv/embed/956productions/chat?darkpopout&parent=vortexgallery.moe"
                 height="100%"
                 width="100%"
-                theme="dark">
+                theme="dark"
+                style="border:1px solid #00a3f8">
             </iframe>
-            <div id="schedule_list" class="has-background-black has-text-white" style="width: 100%; height:0px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis;">
+            <div id="schedule_list" class="has-background-black has-text-white" style="width: 100%; height:0px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis; border:1px solid #00a3f8">
+                <p class="p-2">Click any entry to switch streams.</p>
                 {% for i in site.data.schedule %}
                 {% if i['Stream Links'] != "" %}
                 <div class="stream-entry" data-target="{{i['Stream Links']}}" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
@@ -40,12 +42,13 @@
             </div>
         </div>
         <div class="column">
-            <figure class="image is-16by9">
+            <figure class="image is-16by9" style="border:1px solid #00a3f8">
                 <iframe id="twitch-player" class="has-ratio "src="https://player.twitch.tv/?channel=956productions&parent=vortexgallery.moe" frameborder="0" allowfullscreen="true" scrolling="no" height="auto" width="100%"></iframe>
             </figure>
         </div>
     </div>
-    <div class="is-hidden-desktop has-background-black has-text-white" style="width: 100%; height: 800px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis;">
+    <div class="is-hidden-desktop has-background-black has-text-white" style="width: 100%; height: 70vh; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis; border:1px solid #00a3f8">
+        <p class="p-2">Click any entry to switch streams.</p>
         {% for i in site.data.schedule %}
         {% if i['Stream Links'] != "" %}
         <div class="stream-entry" data-target="{{i['Stream Links']}}" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
