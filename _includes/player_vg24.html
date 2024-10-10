@@ -1,0 +1,48 @@
+<section class="section has-background-black has-text-white">
+    <div class="columns is-vcentered">
+        <div class="column is-one-quarter-desktop is-hidden-touch">
+            <div class="tabs is-toggle">
+                <ul>
+                    <li class="is-active" id="schedule-tab"><a>Schedule</a></li>
+                    <li class="" id="chat-tab"><a>Chat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column has-text-centered">
+            <h3 class="is-size-3 exo">Watch Vortex Gallery Online 2024 LIVE!</h3>
+        </div>
+    </div>
+    <div id="player-container" class="columns is-vcentered">
+        <div class="column is-one-third-desktop is-one-quarter-fullhd is-hidden-touch">
+            <iframe
+                class="is-hidden"
+                id="chat_embed"
+                src="https://www.twitch.tv/embed/povertycast/chat?darkpopout&parent=vortexgallery.moe"
+                height="100%"
+                width="100%"
+                theme="dark">
+            </iframe>
+            <div id="schedule_list" class="has-background-black has-text-white" style="width: 100%; height:0px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis;">
+                {% for i in site.data.schedule %}
+                {% if i['Stream Links'] != "" %}
+                <div class="stream-entry" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                    <span data-time="{{ i['Time-Epoch'] }}" class="tag short-timestamp-text is-dark is-size-7 has-text-weight-bold has-text-white" style="min-width: 130px;">
+                        ...
+                    </span>
+                    <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
+                    <a class="stream-trigger" data-target="{{i['Stream Links']}}" data-ytid="{{i['Youtube Channel ID']}}">
+                        <b class="is-size-7" style="white-space: nowrap;">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>
+                    </a>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="column">
+            <figure class="image is-16by9">
+                <iframe id="twitch-player" class="has-ratio "src="https://player.twitch.tv/?channel=povertycast&parent=vortexgallery.moe" frameborder="0" allowfullscreen="true" scrolling="no" height="auto" width="100%"></iframe>
+            </figure>
+        </div>
+    </div>
+</section>
+

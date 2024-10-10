@@ -8,7 +8,21 @@ function rulesPage(t) {
     }
 }
 
+function updatePlayer() {
+  now = new Date();
+  var d = Math.round(now.getTime() / 1000);
+  $('.stream-entry').each(function(i,obj) {
+      var utcEnd = $(obj).data('end');
+      if (utcEnd < d) {
+          $(obj).addClass('is-hidden');
+      }
+  });
+}
+
 $(document).ready(function() {
+    $("#schedule_list").css({'height':($("#twitch-player").height()+"px")});
+    updatePlayer();
+
     $.get('js/quotes.txt', function(txt) {
         var quotes = txt.split("\n");
         var randLineNum = Math.floor(Math.random()*(quotes.length));
@@ -20,6 +34,13 @@ $(document).ready(function() {
         var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
         d.setUTCSeconds(utcSeconds);
         $(obj).text("Local: " + d.toLocaleString());
+    });
+
+    $('.short-timestamp-text').each(function(i,obj) {
+      var utcSeconds = $(obj).data('time');
+      var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+      d.setUTCSeconds(utcSeconds);
+      $(obj).text(d.toLocaleString(undefined,{dateStyle:"short",timeStyle:"short"}));
     });
 
     $('.week-tabs > ul > li').click(function() {
@@ -42,13 +63,49 @@ $(document).ready(function() {
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");
     });
+
     $(".rules-btn").click(function() {
         rulesPage("#"+$(this).data('target'));
     });
 
+    $("#schedule-tab").click(function() {
+      $("#schedule-tab").addClass("is-active");
+      $("#chat-tab").removeClass("is-active");
+      $("#schedule_list").removeClass("is-hidden")
+      $("#chat_embed").addClass("is-hidden")
+      $("#player-container").removeClass("is-align-items-stretch")
+    });
+
+    $("#chat-tab").click(function() {
+      $("#schedule-tab").removeClass("is-active");
+      $("#chat-tab").addClass("is-active");
+      $("#schedule_list").addClass("is-hidden")
+      $("#chat_embed").removeClass("is-hidden")
+      $("#player-container").addClass("is-align-items-stretch")
+    });
+
+    $(window).on('resize', function() {
+      $("#schedule_list").css({'height':($("#twitch-player").height()+"px")});
+    });
+
+    $(".stream-trigger").click(function() {
+      if ($(this).data("target").includes('youtube') == true) {
+        $("#chat-tab").addClass("is-hidden");
+        $("#chat-tab").removeClass("is-active");
+        $("#schedule-tab").addClass("is-active");
+        $("chat_embed").addClass("is-hidden");
+        $("#schedule_list").removeClass("is-hidden");
+        $("#twitch-player").attr('src',"https://www.youtube.com/embed/live_stream?channel=" + $(this).data("ytid"))
+      } else {
+        username = $(this).data("target").split("/").at(-1)
+        $("#chat_embed").attr('src',"https://www.twitch.tv/embed/" + username + "/chat?darkpopout&parent=vortexgallery.moe")
+        $("#twitch-player").attr('src',"https://player.twitch.tv/?channel=" + username + "&parent=vortexgallery.moe")
+        $("#chat-tab").removeClass("is-hidden");
+      }
+    });
+
     now = new Date();
     var d = Math.round(now.getTime() / 1000);
-    console.log(d)
     $('.nowlive').each(function(i,obj) {
         var utcStart = $(obj).data('start');
         var utcEnd = $(obj).data('end');
