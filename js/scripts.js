@@ -102,6 +102,7 @@ $(document).ready(function() {
         $("#twitch-player").attr('src',"https://player.twitch.tv/?channel=" + username + "&parent=vortexgallery.moe")
         $("#chat-tab").removeClass("is-hidden");
       }
+      $('#twitch-player',window.parent.document).attr('src',$('#twitch-player',window.parent.document).attr('src')); // reload iframe
     });
 
     now = new Date();
