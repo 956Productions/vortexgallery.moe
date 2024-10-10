@@ -27,7 +27,9 @@ function markLiveStreams() {
       var utcStart = $(obj).data('start');
       var utcEnd = $(obj).data('end');
       if (utcStart <= d && utcEnd >= d) {
-          $(obj).removeClass('is-hidden');
+        $(obj).removeClass('is-hidden');
+      } else {
+        $(obj).addClass('is-hidden');
       }
   });
 }
