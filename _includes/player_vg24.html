@@ -52,7 +52,7 @@
         {% for i in site.data.schedule %}
         {% if i['Stream Links'] != "" %}
         <div class="stream-entry" data-target="{{i['Stream Links']}}" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
-            <span data-time="{{ i['Time-Epoch'] }}" class="tag short-timestamp-text is-dark is-size-7 has-text-weight-bold has-text-white" style="min-width: 130px;">
+            <span data-time="{{ i['Time-Epoch'] }}" class="tag short-timestamp-text is-dark is-size-7 has-text-weight-bold has-text-white">
                 ...
             </span>
             <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
