@@ -17,7 +17,7 @@
             <iframe
                 class="is-hidden"
                 id="chat_embed"
-                src="https://www.twitch.tv/embed/povertycast/chat?darkpopout&parent=vortexgallery.moe"
+                src="https://www.twitch.tv/embed/956productions/chat?darkpopout&parent=vortexgallery.moe"
                 height="100%"
                 width="100%"
                 theme="dark">
@@ -25,13 +25,14 @@
             <div id="schedule_list" class="has-background-black has-text-white" style="width: 100%; height:0px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis;">
                 {% for i in site.data.schedule %}
                 {% if i['Stream Links'] != "" %}
-                <div class="stream-entry" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                <div class="stream-entry" data-target="{{i['Stream Links']}}" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
                     <span data-time="{{ i['Time-Epoch'] }}" class="tag short-timestamp-text is-dark is-size-7 has-text-weight-bold has-text-white" style="min-width: 130px;">
                         ...
                     </span>
                     <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
-                    <a class="stream-trigger" data-target="{{i['Stream Links']}}" data-ytid="{{i['Youtube Channel ID']}}">
-                        <b class="is-size-7" style="white-space: nowrap;">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>
+                    <a class="stream-trigger" data-target="{{i['Stream Links']}}" data-ytvid="{{i['Youtube Channel Embed']}}">
+                        <b class="is-hidden-desktop-only is-size-7">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Game Name']}}</b>
+                        <b class="is-hidden-widescreen is-size-7">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>
                     </a>
                 </div>
                 {% endif %}
@@ -40,10 +41,23 @@
         </div>
         <div class="column">
             <figure class="image is-16by9">
-                <iframe id="twitch-player" class="has-ratio "src="https://player.twitch.tv/?channel=povertycast&parent=vortexgallery.moe" frameborder="0" allowfullscreen="true" scrolling="no" height="auto" width="100%"></iframe>
+                <iframe id="twitch-player" class="has-ratio "src="https://player.twitch.tv/?channel=956productions&parent=vortexgallery.moe" frameborder="0" allowfullscreen="true" scrolling="no" height="auto" width="100%"></iframe>
             </figure>
         </div>
     </div>
+    <div class="is-hidden-desktop has-background-black has-text-white" style="width: 100%; height: 800px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis;">
+        {% for i in site.data.schedule %}
+        {% if i['Stream Links'] != "" %}
+        <div class="stream-entry" data-target="{{i['Stream Links']}}" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}" style="border-bottom: 1px solid #363636; overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
+            <span data-time="{{ i['Time-Epoch'] }}" class="tag short-timestamp-text is-dark is-size-7 has-text-weight-bold has-text-white" style="min-width: 130px;">
+                ...
+            </span>
+            <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Time-Epoch'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
+            <a class="stream-trigger" data-target="{{i['Stream Links']}}" data-ytvid="{{i['Youtube Channel Embed']}}">
+                <b class="is-size-7">[{{i['Rollup-Regions'] | replace:",","+" | replace:"ALL","Global" | replace:"SA/","" }}] {{i['Short Name']}}</b>
+            </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
 </section>
-
-<iframe id="twitch-player" class="has-ratio "src="https://www.youtube.com/embed/live_stream?channel=UCSJ4gkVC6NrvII8umztf0Ow" frameborder="0" allowfullscreen="true" scrolling="no" height="auto" width="100%"></iframe>

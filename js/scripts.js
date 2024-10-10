@@ -8,7 +8,7 @@ function rulesPage(t) {
     }
 }
 
-function updatePlayer() {
+function expireStreams() {
   now = new Date();
   var d = Math.round(now.getTime() / 1000);
   $('.stream-entry').each(function(i,obj) {
@@ -19,9 +19,35 @@ function updatePlayer() {
   });
 }
 
+function markLiveStreams() {
+  expireStreams();
+  now = new Date();
+  var d = Math.round(now.getTime() / 1000);
+  $('.nowlive').each(function(i,obj) {
+      var utcStart = $(obj).data('start');
+      var utcEnd = $(obj).data('end');
+      if (utcStart <= d && utcEnd >= d) {
+          $(obj).removeClass('is-hidden');
+      }
+  });
+}
+
+function selectFirstActiveStream() {
+  $('.stream-entry').each(function(i,obj) {
+    if ($(obj).hasClass('is-hidden') == false && $(obj).data("target").includes('youtube') == false) {
+      username = $(obj).data("target").split("/").at(-1)
+      $("#chat_embed").attr('src',"https://www.twitch.tv/embed/" + username + "/chat?darkpopout&parent=vortexgallery.moe")
+      $("#twitch-player").attr('src',"https://player.twitch.tv/?channel=" + username + "&parent=vortexgallery.moe")
+      return false; //breaks
+    }
+  });
+}
+
 $(document).ready(function() {
     $("#schedule_list").css({'height':($("#twitch-player").height()+"px")});
-    updatePlayer();
+    expireStreams();
+    selectFirstActiveStream();
+    setInterval(markLiveStreams,5000);
 
     $.get('js/quotes.txt', function(txt) {
         var quotes = txt.split("\n");
@@ -90,19 +116,19 @@ $(document).ready(function() {
 
     $(".stream-trigger").click(function() {
       if ($(this).data("target").includes('youtube') == true) {
-        $("#chat-tab").addClass("is-hidden");
-        $("#chat-tab").removeClass("is-active");
-        $("#schedule-tab").addClass("is-active");
-        $("chat_embed").addClass("is-hidden");
-        $("#schedule_list").removeClass("is-hidden");
-        $("#twitch-player").attr('src',"https://www.youtube.com/embed/live_stream?channel=" + $(this).data("ytid"))
+        window.open($(this).data("target"), '_blank');
+        //$("#chat-tab").addClass("is-hidden");
+        //$("#chat-tab").removeClass("is-active");
+        //$("#schedule-tab").addClass("is-active");
+        //$("chat_embed").addClass("is-hidden");
+        //$("#schedule_list").removeClass("is-hidden");
+        //$("#twitch-player").attr('src',"https://www.youtube.com/embed/live_stream?channel=" + $(this).data("ytid"))
       } else {
         username = $(this).data("target").split("/").at(-1)
         $("#chat_embed").attr('src',"https://www.twitch.tv/embed/" + username + "/chat?darkpopout&parent=vortexgallery.moe")
         $("#twitch-player").attr('src',"https://player.twitch.tv/?channel=" + username + "&parent=vortexgallery.moe")
-        $("#chat-tab").removeClass("is-hidden");
+        //$("#chat-tab").removeClass("is-hidden");
       }
-      $('#twitch-player',window.parent.document).attr('src',$('#twitch-player',window.parent.document).attr('src')); // reload iframe
     });
 
     now = new Date();
