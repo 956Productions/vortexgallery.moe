@@ -26,7 +26,7 @@ function markLiveStreams() {
   $('.nowlive').each(function(i,obj) {
       var utcStart = $(obj).data('start');
       var utcEnd = $(obj).data('end');
-      if (utcStart <= d && utcEnd >= d) {
+      if (utcStart <= d && utcEnd + 3600 >= d) {
         $(obj).removeClass('is-hidden');
       } else {
         $(obj).addClass('is-hidden');
