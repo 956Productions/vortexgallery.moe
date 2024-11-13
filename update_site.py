@@ -114,7 +114,7 @@ try:
             create_rules_data(dl_images=False) #VGON24
             create_rules_data(dl_images=False,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv") #VGFF24
         else:
-            create_rules_data(dl_images=True) #VGON24
+            create_rules_data(dl_images=True) #VGFF25
             create_rules_data(dl_images=True,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv") #VGFF24
     create_schedule_data()
 except Exception:
