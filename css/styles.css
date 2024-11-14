@@ -102,6 +102,13 @@ html {
   background-repeat: no-repeat;
   background-position: center; }
 
+.ff25-gamebg {
+  background: url("/img/gamebg_ff25.png"), url("/img/grid.png"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
+  background-size: contain,contain;
+  background-repeat: no-repeat,repeat;
+  background-position: top;
+  background-blend-mode: normal,multiply,normal; }
+
 .button.is-dark:hover {
   background-color: #00a3f8 !important; }
 
