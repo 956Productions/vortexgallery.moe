@@ -154,7 +154,32 @@ html { scroll-padding-top: 100px; }
 		hsl(213deg, 80%, 25%) 93%,
 		hsl(213deg, 79%, 26%) 100%
 	);
-	background-size: contain,contain;
+	background-size: cover,cover;
+	background-repeat: no-repeat,repeat;
+	background-position: top; 
+	background-blend-mode: normal,multiply,normal;
+}
+
+.ff25-gamebg-alt {
+	background: url('/img/gamebg_ff25_alt.png'), url('/img/grid.png'), linear-gradient(
+		0deg,
+		hsl(224deg, 100%, 11%) 0%,
+		hsl(224deg, 98%, 12%) 7%,
+		hsl(223deg, 97%, 13%) 14%,
+		hsl(222deg, 95%, 14%) 21%,
+		hsl(221deg, 93%, 15%) 29%,
+		hsl(220deg, 92%, 16%) 36%,
+		hsl(219deg, 90%, 17%) 43%,
+		hsl(219deg, 89%, 18%) 50%,
+		hsl(218deg, 87%, 19%) 57%,
+		hsl(217deg, 86%, 20%) 64%,
+		hsl(216deg, 84%, 21%) 71%,
+		hsl(215deg, 83%, 22%) 79%,
+		hsl(214deg, 81%, 23%) 86%,
+		hsl(213deg, 80%, 25%) 93%,
+		hsl(213deg, 79%, 26%) 100%
+	);
+	background-size: cover,cover;
 	background-repeat: no-repeat,repeat;
 	background-position: top; 
 	background-blend-mode: normal,multiply,normal;
