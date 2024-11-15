@@ -110,7 +110,7 @@ html {
   background-blend-mode: normal,multiply,normal; }
 
 .ff25-gamebg-alt {
-  background: url("/img/gamebg_ff25_alt.png"), url("/img/grid.png"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
+  background: url("/img/vortex_bg.png"), url("/img/grid.png"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
   background-size: cover,cover;
   background-repeat: no-repeat,repeat;
   background-position: top;
