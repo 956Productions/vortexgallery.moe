@@ -185,6 +185,16 @@ html { scroll-padding-top: 100px; }
 	background-blend-mode: normal,multiply,normal;
 }
 
+.ff25-gametile {
+	background-color: #00000075;
+	transition: all .2s;
+}
+.ff25-gametile:hover {
+	outline: 3px solid white;
+	background-color: #0172d875;
+	transition: all .2s;
+}
+
 .button.is-dark:hover {
 	background-color: $blue !important;
 }

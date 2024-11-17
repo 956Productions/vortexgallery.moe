@@ -4,7 +4,7 @@
     {% if i['Smash URL'] or i['Alt Reg URL'] %}
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
-    <a class="modal-trigger column is-2 is-flex is-flex-direction-column is-align-items-center p-0 m-2" href="{{i['Smash URL']}}" style="background-color: #00000075;">
+    <a class="ff25-gametile modal-trigger column is-2 is-flex is-flex-direction-column is-align-items-center p-0 m-2" href="{{i['Smash URL']}}">
         <div class="block pt-4 px-4">
             <div style="height:125px; max-width:200px;" class="ff25-shadow p-0 is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                 <img src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 180px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
