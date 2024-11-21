@@ -122,10 +122,11 @@ html { scroll-padding-top: 100px; }
 }
 
 .front-hero-ff25 {
-	background: url('/img/hero_ff25.png');
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url('/img/grid.png'), url('/img/hero_ff25_new.webp');
+	background-size: auto,cover;
+	background-repeat: repeat,no-repeat;
 	background-position: center; 
+	background-blend-mode: multiply,normal;
 }
 
 .volumes-hero {
@@ -136,7 +137,7 @@ html { scroll-padding-top: 100px; }
 }
 
 .ff25-gamebg {
-	background: url('/img/gamebg_ff25.png'), url('/img/grid.png'), linear-gradient(
+	background: url('/img/grid.png'), url('/img/gamebg_ff25_new.webp'), linear-gradient(
 		0deg,
 		hsl(224deg, 100%, 11%) 0%,
 		hsl(224deg, 98%, 12%) 7%,
@@ -152,16 +153,16 @@ html { scroll-padding-top: 100px; }
 		hsl(215deg, 83%, 22%) 79%,
 		hsl(214deg, 81%, 23%) 86%,
 		hsl(213deg, 80%, 25%) 93%,
-		hsl(213deg, 79%, 26%) 100%
+		rgb(14, 61, 119) 100%
 	);
-	background-size: cover,cover;
-	background-repeat: no-repeat,repeat;
+	background-size: auto,cover;
+	background-repeat: repeat,no-repeat;
 	background-position: top; 
-	background-blend-mode: normal,multiply,normal;
+	background-blend-mode: multiply,normal,normal;
 }
 
 .ff25-gamebg-alt {
-	background: url('/img/vortex_bg.png'), url('/img/grid.png'), linear-gradient(
+	background: url('/img/grid.png'), url('/img/vortex_bg.webp'), linear-gradient(
 		0deg,
 		hsl(224deg, 100%, 11%) 0%,
 		hsl(224deg, 98%, 12%) 7%,
@@ -179,10 +180,10 @@ html { scroll-padding-top: 100px; }
 		hsl(213deg, 80%, 25%) 93%,
 		hsl(213deg, 79%, 26%) 100%
 	);
-	background-size: cover,cover;
-	background-repeat: no-repeat,repeat;
+	background-size: auto,cover;
+	background-repeat: repeat,no-repeat;
 	background-position: top; 
-	background-blend-mode: normal,multiply,normal;
+	background-blend-mode: multiply,normal,normal;
 }
 
 .ff25-gametile {

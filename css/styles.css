@@ -91,10 +91,11 @@ html {
   background-position: center; }
 
 .front-hero-ff25 {
-  background: url("/img/hero_ff25.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background: url("/img/grid.png"), url("/img/hero_ff25_new.webp");
+  background-size: auto,cover;
+  background-repeat: repeat,no-repeat;
+  background-position: center;
+  background-blend-mode: multiply,normal; }
 
 .volumes-hero {
   background: url("/img/volumes_hero.png");
@@ -103,18 +104,18 @@ html {
   background-position: center; }
 
 .ff25-gamebg {
-  background: url("/img/gamebg_ff25.png"), url("/img/grid.png"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
-  background-size: cover,cover;
-  background-repeat: no-repeat,repeat;
+  background: url("/img/grid.png"), url("/img/gamebg_ff25_new.webp"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
+  background-size: auto,cover;
+  background-repeat: repeat,no-repeat;
   background-position: top;
-  background-blend-mode: normal,multiply,normal; }
+  background-blend-mode: multiply,normal,normal; }
 
 .ff25-gamebg-alt {
-  background: url("/img/vortex_bg.png"), url("/img/grid.png"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
-  background-size: cover,cover;
-  background-repeat: no-repeat,repeat;
+  background: url("/img/grid.png"), url("/img/vortex_bg.webp"), linear-gradient(0deg, #000f38 0%, #01113d 7%, #011341 14%, #021646 21%, #03194a 29%, #031c4e 36%, #042052 43%, #052257 50%, #06255b 57%, #07295f 64%, #092d63 71%, #0a3067 79%, #0b346a 86%, #0d3b73 93%, #0e3d77 100%);
+  background-size: auto,cover;
+  background-repeat: repeat,no-repeat;
   background-position: top;
-  background-blend-mode: normal,multiply,normal; }
+  background-blend-mode: multiply,normal,normal; }
 
 .ff25-gametile {
   background-color: #00000075;
