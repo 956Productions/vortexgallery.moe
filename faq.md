@@ -17,7 +17,7 @@ A: For TO, Streaming, Commentator & Equipment volunteers, check out our voluntee
 
 Sometimes we get volunteer submissions from people who are passionate about their game, but are perhaps not experienced enough to manage the complexity involved in running a tournament at the “largest and longest-running fighting game tournaments in the world” that is Evo, Frosty Faustings, or on the scale we tend to run our online events, which are one of the biggest in the community. We encourage these hopefuls to reach out to their communities to find people with more experience in running side-tournaments at majors, and to assist them at Vortex Gallery to learn the ropes, and perhaps take the reins in the future.
 
-### Q: I want to unregister/transfer my game registration.
+### Q: How do I unregister/transfer my game registration?
 
 A: No problem! Fill out the [Unreg Form](https://956pro.com) and we'll take care of you shortly.
 
