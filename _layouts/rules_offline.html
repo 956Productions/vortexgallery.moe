@@ -16,25 +16,25 @@
             </div>
         </section>
         <section class="section has-background-black-bis">
-            <div class="container is-max-desktop">
+            <div class="container is-max-fullhd">
                 <div class="columns is-flex is-flex-direction-row is-flex-wrap-wrap">
                     <div class="column is-two-thirds is-flex-grow-1" style="min-width: 300px;">
                         <div class="rules-div content has-text-white" id="General">
                             {{content}}
                         </div>
-                        {% for i in site.data.games %}
-                        <div class="rules-div content has-text-white is-hidden" id="{{i['Tournament'] | replace: '.','' | replace: ' ','-' | replace: '(','' | replace: ')','' }}">
+                        {% for i in site.data.frosty %}
+                        <div class="rules-div content has-text-white is-hidden" id="{{ i['Abbr-Game'] }}">
                             <h2>{{ i['Short Name'] | default: i['Game Name'] }}</h2>
                             <hr/>
                             <h3>General Information</h3>
                             <ul>
                                 <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
-                                <li>Platform: {{i['Info-Platform'] | default: "TBA"}}</li>
-                                <li>Start time (CST, GMT-6): {{ i['Time-Start Pools'] | default: 'See Schedule'}} </li>
+                                <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
+                                <!-- <li>Start time (CST, GMT-6): {{ i['Time-Start Pools'] | default: 'See Schedule'}} </li> -->
                                 <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
                                 <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
-                                <li>Registration Close: Jan. 21 12:00 AM</li>
-                                <li>Organizer: {{ i['Staff-Lead TOs'] | default: '@956Productions'}}</li>
+                                <li>Registration Close: Jan. 18 12:00 AM</li>
+                                <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
                             </ul>
                             {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
                             <h3>Prizing</h3>
@@ -97,7 +97,7 @@
                         </div>
                         {% endfor %}
                     </div>
-                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px; max-height: 500px; overflow-y: auto;">
+                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px; max-height: 70vh; overflow-y: auto;">
                         <aside class="menu">
                             <div class="menu-list">
                                 <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
@@ -106,8 +106,8 @@
                                 All Games
                             </p>
                             <div class="menu-list">
-                                {% for n in site.data.games %}
-                                <a class="rules-btn" id="btn-{{n['Tournament'] | replace: '.','' | replace: ' ','-' | replace: '(','' | replace: ')','' }}" data-target="{{n['Tournament'] | replace: '.','' | replace: ' ','-' | replace: '(','' | replace: ')','' }}">{{ n['Short Name'] | default: n['Game Name'] }}</a>
+                                {% for n in site.data.frosty %}
+                                <a class="rules-btn" style="text-overflow: ellipsis; overflow: hidden; text-wrap: nowrap;" id="btn-{{ n['Abbr-Game'] }}" data-target="{{n['Abbr-Game']}}">{{ n['Game Name'] }}</a>
                                 {% endfor %}
                             </div>
                         </aside>

@@ -1,12 +1,12 @@
 ---
 title: "Event Information"
 published: true
-layout: rules_regions
+layout: rules_offline
 ---
 ## Player's Guide
-<div class="is-hidden-touch">
-<iframe width="100%" height="900px" src="https://docs.google.com/document/d/174wZAa5y68_oV5ktME2NfTs11wX0mzAxXLoMacgHb2s/pub?embedded=true"></iframe>
+<div class="is-hidden-touch" style="height: 80vh;">
+<iframe width="100%" height="100%" src="https://docs.google.com/document/d/e/2PACX-1vRND6894wu0-RT9B2c-N8vUuJ8l5WhFj3JXXyYkzrjg4bAa7S10RgXMb6Kv1-dkhErV1FyOluaIr6oc/pub?embedded=true"></iframe>
 </div>
 <div class="is-hidden-desktop">
-    <a href="https://956pro.com/playersguide">View our Players Guide on Google Docs.</a>
+    <a href="https://956pro.com/playersguide"><b>View our Players Guide on Google Docs.</b></a>
 </div>

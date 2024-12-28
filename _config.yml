@@ -25,6 +25,8 @@ nav:
     url: /#tournaments
   - title: Discord
     url: https://discord.gg/QDU8kEyDXM
+  - title: Rules
+    url: /info
   - title: Results
     url: https://956.productions/results
 volunteer: /volunteer

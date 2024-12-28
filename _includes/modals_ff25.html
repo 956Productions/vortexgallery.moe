@@ -1,0 +1,37 @@
+{% for i in site.data.frosty %}
+{% if i['Smash URL'] %}
+<div class="modal has-text-left" id="{{ i['Abbr-Game'] }}">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title m-0">{{ i['Abbr-Game'] }}</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image is-flex is-flex-direction-column is-justify-content-center is-align-items-center pb-2">
+          <img src="/img/games/{{i['Abbr-Game']}}.png" style="max-height: 150px; width: auto;" loading="lazy">
+        </figure>
+        <div class="content block has-text-white">
+          <h2 class="has-text-centered">{{ i['Game Name'] }}</h2>
+          <h3 class="mt-2">General Information</h3>
+          <ul>
+              <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
+              <!-- <li>Start time (CST, GMT-6): {{ i['Time-Start Pools'] | default: 'See Schedule'}} </li> -->
+              <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
+              <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
+              <li>Registration Close: Jan. 18 12:00 AM</li>
+              <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
+          </ul>
+        </div>
+      </section>
+      <footer class="modal-card-foot" style="background-color: black;">
+        <a class="button is-primary" href="{{ i['Smash URL'] }}"><b>Register Now</b></a>
+        {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+        <a class="button is-white" href="{{ i['Matcherino URL'] }}">Matcherino</a>
+        {% endif %}
+        <a class="button is-white" href="/info#{{ i['Abbr-Game'] }}">Info</a>
+      </footer>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
