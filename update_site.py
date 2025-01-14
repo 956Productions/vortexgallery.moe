@@ -44,11 +44,14 @@ def sanitize(value):
 
     return new_val
 
-def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNxlAw6",filename="games.csv"):
+def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNxlAw6",filename="games.csv",subdir=None,label=None,template=None):
     table = at.table(atbase,"Tournaments")
 
     headers = []
     rows = []
+
+    if template != None:
+        clear_game_pages(subdir)
 
     for r in table.all(view=atview):
         resp_row = r['fields']
@@ -62,12 +65,18 @@ def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNx
                 new_row[key] = sanitize(value)
 
         rows.append(new_row)
+        if 'Format-Rollup' in new_row:
+            new_row['Game Name'] = new_row['Game Name'] + " " + new_row['Format-Rollup']
 
         if dl_images is True:
             if os.path.isfile('./img/games/' + new_row['Abbr-Game'] + '.png'):
                 os.remove('./img/games/' + new_row['Abbr-Game'] + '.png')
             urllib.request.urlretrieve(new_row['Img-Game Logo'], './img/games/' + new_row['Abbr-Game'] + '.png')
             time.sleep(0.1)
+
+        #write site page
+        if template != None:
+            generate_game_page(subdir,new_row['Game Name'],label,new_row['Abbr-Game'],template)
 
     if os.path.isfile('./_data/%s' % filename):
         if os.path.isfile('./_data/%s.bak' % filename):
@@ -108,14 +117,30 @@ def create_schedule_data():
         writer.writeheader()
         writer.writerows(rows)
 
+def clear_game_pages(subdir="ff25"):
+    subdir = 'events/' + subdir
+    if os.path.exists(subdir):
+        for f in os.listdir(subdir):
+            if os.path.isfile(os.path.join(subdir,f)):
+                #print(os.path.join(subdir,f))
+                os.remove(os.path.join(subdir,f))
+
+def generate_game_page(subdir,name,label,abbr,template):
+    if not os.path.exists('events/' + subdir):
+        os.mkdir('events/' + subdir)
+    with open(os.path.join('events/' + subdir,"%s.md" % abbr),'w') as f:
+        content = '---\ntitle: "%s (%s)"\npermalink: /%s/%s\ngame: "%s"\ngame_name: "%s"\nevent: "%s"\nlayout: %s\n---' % (name,subdir.upper(),subdir,abbr,abbr,name,label,template)
+        f.write(content)
+
+        
 try:
     if len(sys.argv) > 0:
         if "--skip-images" in sys.argv:
-            create_rules_data(dl_images=False) #VGON24
-            create_rules_data(dl_images=False,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv") #VGFF24
+            # create_rules_data(dl_images=False) #VGON24
+            create_rules_data(dl_images=False,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv",subdir="ffxvii",label="Vortex Gallery x FFXVII",template="game_ff25")
         else:
-            create_rules_data(dl_images=True) #VGFF25
-            create_rules_data(dl_images=True,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv") #VGFF24
+            # create_rules_data(dl_images=True) #VGFF25
+            create_rules_data(dl_images=True,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv",subdir="ffxvii",label="Vortex Gallery x FFXVII",template="game_ff25")
     create_schedule_data()
 except Exception:
     print(traceback.format_exc())
@@ -123,6 +148,7 @@ except Exception:
         result = requests.post(config["webhook"],json = {"content":"Website data build failed! <@102905092759363584>"})
     except:
         pass
+
 #else:
     #subprocess.run('git add -A',shell=True) 
     #subprocess.run('git commit -m "automated update" ',shell=True)

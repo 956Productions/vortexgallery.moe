@@ -22,85 +22,32 @@
                         <div class="rules-div content has-text-white" id="General">
                             {{content}}
                         </div>
+                        <div class="rules-div content has-text-white is-hidden" id="Schedule">
+                            <h2>Tournament Schedule</h2>
+                            <div class="buttons is-centered">
+                                <a class="button is-primary" href="https://drive.google.com/file/d/1_0RuzpX_YGjVFnmGPCCkS3oFNttc9l01/view" target="_blank">Open Schedule in New Tab</a>
+                                <a class="button is-primary" href="https://frostyfaustings.com/schedule/" target="_blank">Frosty Faustings Schedule</a>
+                            </div>
+                            <div style="height: 75vh;">
+                                <iframe src="https://drive.google.com/file/d/1_0RuzpX_YGjVFnmGPCCkS3oFNttc9l01/preview" width="100%" height="100%" allow="autoplay"></iframe>
+                            </div>
+                        </div>
                         {% for i in site.data.frosty %}
                         <div class="rules-div content has-text-white is-hidden" id="{{ i['Abbr-Game'] }}">
-                            <h2>{{ i['Short Name'] | default: i['Game Name'] }}</h2>
+                            <h2>{{ i['Short Name'] | default: i['Game Name'] }} {{ i['Format-Rollup'] | default: "" }}</h2>
                             <hr/>
-                            <h3>General Information</h3>
-                            <ul>
-                                <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
-                                <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
-                                <!-- <li>Start time (CST, GMT-6): {{ i['Time-Start Pools'] | default: 'See Schedule'}} </li> -->
-                                <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
-                                <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
-                                <li>Registration Close: Jan. 18 12:00 AM</li>
-                                <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
-                            </ul>
-                            {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
-                            <h3>Prizing</h3>
-                            <ul>
-                                <li>Pot Split: {{i['$-Pot Split'] | default: "TBA"}}</li>
-                                {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
-                                <li><a href="{{ i['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
-                                {% endif %}
-                            </ul>
-                            {% endif %}
-                            {% if i['Pools-Bracket Type'] %}
-                            <h3>Tournament Format</h3>
-                            {% endif %}
-                            <ul>
-                                {% if i['Pools-Bracket Type'] %}
-                                <li>Bracket Format: {{i['Pools-Bracket Type']}}</li>
-                                {% endif %}
-                                
-                                {% if i['Pools-Rounds per Game'] %}
-                                <li>Rounds per Game: {{i['Pools-Rounds per Game']}}</li>
-                                {% endif %}
-
-                                {% if i['Pools-Games per Set'] %}
-                                <li>Games per Set: {{i['Pools-Games per Set']}}</li>
-                                {% endif %}
-
-                                {% if i['Finals-Cut Off'] %}
-                                <li>Finals Cut Off: {{i['Finals-Cut Off']}}</li>
-                                {% endif %}
-
-                                {% if i['Finals-Games per Set'] %}
-                                <li>Finals Games per Set: {{i['Finals-Games per Set']}}</li>
-                                {% endif %}
-
-                                {% if i['Rules-Chara Change'] %}
-                                <li>{{i['Rules-Chara Change']}}</li>
-                                {% endif %}
-
-                                {% if i['Rules-Glitches'] %}
-                                <li>{{i['Rules-Glitches']}}</li>
-                                {% endif %}
-
-                                {% if i['Rules-Disconnect'] %}
-                                <li>{{i['Rules-Disconnect']}}</li>
-                                {% endif %}
-                            </ul>
-                            {% if i['Rules-Game Settings'] %}
-                            <h3>Game Settings</h3>
-                            <p>{{ i['Rules-Game Settings'] | newline_to_br }}</p>
-                            {% endif %}
-                            {% if i['Rules-Notes'] %}
-                            <h3>Additional Rules</h3>
-                            <p>{{ i['Rules-Notes'] | newline_to_br }}</p>
-                            {% endif %}
-                            {% for ex in site.extra %}
-                            {% if ex.game == i['Short Name'] %}
-                            {{ ex.content | markdownify }}
-                            {% endif %}
-                            {% endfor %}
+                            {% include rulesblock_ff25.html i=i %}
                         </div>
                         {% endfor %}
                     </div>
-                    <div class="column is-one-third is-flex-grow-1" style="min-width: 300px; max-height: 70vh; overflow-y: auto;">
+                    <div class="column is-one-third is-flex-grow-1 has-background-black" style="min-width: 300px; max-height: 80vh; overflow-y: auto;">
                         <aside class="menu">
+                            <p class="menu-label">
+                                Vortex Gallery Info
+                            </p>
                             <div class="menu-list">
                                 <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
+                                <a class="rules-btn" id="btn-Schedule" data-target="Schedule">Tournament Schedule</a>
                             </div>
                             <p class="menu-label">
                                 All Games

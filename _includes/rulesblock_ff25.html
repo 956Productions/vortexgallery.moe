@@ -1,0 +1,71 @@
+<h3>General Information</h3>
+<ul>
+    <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
+    <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
+    {% if i['Format-Rollup'] %}
+    <li>Format: {{ i['Format-Rollup'] }}</li>
+    {% endif %}
+    <li>Start time (CST, GMT-6): {{ i['Time-Start Pools String'] | default: 'See Schedule'}} </li>
+    <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
+    <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
+    <li>Registration Close: Jan. 18 11:59 PM Central Time</li>
+    <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
+</ul>
+{% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+<h3>Prizing</h3>
+<ul>
+    <li>Pot Split: {{i['$-Pot Split'] | default: "TBA"}}</li>
+    {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+    <li><a href="{{ i['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
+    {% endif %}
+</ul>
+{% endif %}
+{% if i['Pools-Bracket Type'] %}
+<h3>Tournament Format</h3>
+{% endif %}
+<ul>
+    {% if i['Pools-Bracket Type'] %}
+    <li>Bracket Format: {{i['Pools-Bracket Type']}}</li>
+    {% endif %}
+    
+    {% if i['Pools-Rounds per Game'] %}
+    <li>Rounds per Game: {{i['Pools-Rounds per Game']}}</li>
+    {% endif %}
+
+    {% if i['Pools-Games per Set'] %}
+    <li>Games per Set: {{i['Pools-Games per Set']}}</li>
+    {% endif %}
+
+    {% if i['Finals-Cut Off'] %}
+    <li>Finals Cut Off: {{i['Finals-Cut Off']}}</li>
+    {% endif %}
+
+    {% if i['Finals-Games per Set'] %}
+    <li>Finals Games per Set: {{i['Finals-Games per Set']}}</li>
+    {% endif %}
+
+    {% if i['Rules-Chara Change'] %}
+    <li>{{i['Rules-Chara Change']}}</li>
+    {% endif %}
+
+    {% if i['Rules-Glitches'] %}
+    <li>{{i['Rules-Glitches']}}</li>
+    {% endif %}
+
+    {% if i['Rules-Disconnect'] %}
+    <li>{{i['Rules-Disconnect']}}</li>
+    {% endif %}
+</ul>
+{% if i['Rules-Game Settings'] %}
+<h3>Game Settings</h3>
+<p>{{ i['Rules-Game Settings'] | newline_to_br }}</p>
+{% endif %}
+{% if i['Rules-Notes'] %}
+<h3>Additional Rules</h3>
+<p>{{ i['Rules-Notes'] | newline_to_br }}</p>
+{% endif %}
+{% for ex in site.extra %}
+{% if ex.game == i['Short Name'] %}
+{{ ex.content | markdownify }}
+{% endif %}
+{% endfor %}

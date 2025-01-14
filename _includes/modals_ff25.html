@@ -12,14 +12,21 @@
           <img src="/img/games/{{i['Abbr-Game']}}.png" style="max-height: 150px; width: auto;" loading="lazy">
         </figure>
         <div class="content block has-text-white">
+          {% if i['Format-Rollup'] %}
+          <h2 class="has-text-centered">{{ i['Game Name'] }} {{ i['Format-Rollup'] }}</h2>
+          {% else %}
           <h2 class="has-text-centered">{{ i['Game Name'] }}</h2>
+          {% endif %}
           <h3 class="mt-2">General Information</h3>
           <ul>
               <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
-              <!-- <li>Start time (CST, GMT-6): {{ i['Time-Start Pools'] | default: 'See Schedule'}} </li> -->
+              {% if i['Format-Rollup'] %}
+              <li>Format: {{ i['Format-Rollup'] }}</li>
+              {% endif %}
+              <li>Start time (CST, GMT-6): {{ i['Time-Start Pools String'] | default: 'See Schedule'}} </li>
               <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
               <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
-              <li>Registration Close: Jan. 18 12:00 AM</li>
+              <li>Registration Close: Jan. 18 11:59 PM Central Time</li>
               <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
           </ul>
         </div>

@@ -1,0 +1,82 @@
+{% for g in site.data.frosty %}
+{% if g['Abbr-Game'] == page.game %}
+{% assign i = g %}
+{% endif %}
+{% endfor %}
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top has-background-black">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        {% if page.nohero %}
+        {% else %}
+        <section class="hero is-link has-text-centered has-background-black front-hero-ff25">
+            <div class="hero-body ff25-shadow">
+                <figure class="image is-flex is-justify-content-center">
+                    <img src="/img/games/{{i['Abbr-Game']}}.png" loading="lazy" style="max-width: 300px; height: auto;">
+                </figure>
+                <h1 class="title titling">
+                    {{ page.game_name }}
+                </h1>
+                <h2 class="subtitle">At {{page.event}}</h2>
+                <div class="buttons is-centered">
+                    <a class="button is-warning" href="{{ i['Smash URL'] }}"><b>Register Now</b></a>
+                    {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+                    <a class="button is-white" href="{{ i['Matcherino URL'] }}">Matcherino</a>
+                    {% endif %}
+                    <a class="button is-white" href="#info">Info</a>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+        <section class="section has-background-black-bis">
+            <div class="container is-max-desktop">
+                <div class="content has-text-white">
+                    {{ content }}
+                    <!--
+                    {% for g in site.data.guide %}
+                    {% if g['Game Name'] == i['Game Name'] %}
+                    {% assign guide_content = g %}
+                    {% endif %}
+                    {% endfor %}
+                    <div class="columns is-vcentered mb-0">
+                        <h1 class="column is-narrow mb-0">Spectator's Guide</h1>
+                        <div class="column">
+                            <div class="columns is-vcentered is-gapless is-mobile">
+                                <div class="column is-narrow">
+                                    <figure class="image is-48x48 mx-2">
+                                        <img class="is-rounded" src="/img/idolismj.jpg">
+                                    </figure>
+                                </div>
+                                <div class="column">
+                                    <a href="https://supercombo.gg">By IdolismJ for SuperCombo.gg</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="mt-4">About</h2>
+                    <div class="content">
+                    {{ guide_content['Intro'] | markdownify }}
+                    </div>
+                    <h2>What to Expect</h2>
+                    <div class="content">
+                    {{ guide_content['Expect'] | markdownify }}
+                    </div>
+                    {% assign v = guide_content['Video'] %}
+                    {% include article_ytvid.html video=v %}
+                    <div class="content has-text-centered">
+                        <i>{{ guide_content['Caption'] | markdownify }}</i>
+                    </div>
+                    <hr/>
+                    -->
+                    <h1 id="info">Tournament Rules</h1>
+                    {% include rulesblock_ff25.html i=i %}
+                    <div class="has-text-centered">
+                        <a href="/ffxvii" class="button is-primary">See All Tournaments</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

@@ -51,7 +51,7 @@ $(document).ready(function() {
     selectFirstActiveStream();
     setInterval(markLiveStreams,5000);
 
-    $.get('js/quotes.txt', function(txt) {
+    $.get(window.location.origin + '/js/quotes.txt', function(txt) {
         var quotes = txt.split("\n");
         var randLineNum = Math.floor(Math.random()*(quotes.length));
         $('#quote').append(quotes[randLineNum]);

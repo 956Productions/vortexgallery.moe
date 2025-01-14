@@ -8,5 +8,7 @@ layout: rules_offline
 <iframe width="100%" height="100%" src="https://docs.google.com/document/d/e/2PACX-1vRND6894wu0-RT9B2c-N8vUuJ8l5WhFj3JXXyYkzrjg4bAa7S10RgXMb6Kv1-dkhErV1FyOluaIr6oc/pub?embedded=true"></iframe>
 </div>
 <div class="is-hidden-desktop">
-    <a href="https://956pro.com/playersguide"><b>View our Players Guide on Google Docs.</b></a>
+<div class="block has-text-centered">
+    <a class="button is-primary" href="https://956pro.com/playersguide" target="_blank">Open Player Guide in New Tab</a>
+</div>
 </div>
