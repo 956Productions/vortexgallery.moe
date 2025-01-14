@@ -7,7 +7,7 @@
     {% endif %}
     <li>Start time (CST, GMT-6): {{ i['Time-Start Pools String'] | default: 'See Schedule'}} </li>
     <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
-    <li>Registration Fee: {{i['Info-Entry Fee'] | default: "TBA"}}</li>
+    <li>Registration Fee: ${{i['Info-Entry Fee'] | default: "TBA"}}</li>
     <li>Registration Close: Jan. 18 11:59 PM Central Time</li>
     <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
 </ul>
