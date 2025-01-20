@@ -19,7 +19,7 @@ Sometimes we get volunteer submissions from people who are passionate about thei
 
 ### Q: How do I unregister/transfer my game registration?
 
-A: No problem! Fill out the [Unreg Form](https://956pro.com) and we'll take care of you shortly.
+A: No problem! Fill out the [Unreg Form](https://956pro.com/unreg) and we'll take care of you shortly.
 
 ### Q: Do you offer sponsorship opportunities?
 
