@@ -71,6 +71,12 @@ html {
   -moz-box-shadow: 5px 5px 0px -1px #f89100 !important;
 }
 
+.vg25-shadow {
+  box-shadow: 5px 5px 0px -1px #79ff00 !important;
+  -webkit-box-shadow: 5px 5px 0px -1px #79ff00 !important;
+  -moz-box-shadow: 5px 5px 0px -1px #79ff00 !important;
+}
+
 .ff25-shadow {
   filter: drop-shadow(0px 0px 8px #0066cc);
 }
@@ -94,7 +100,7 @@ html {
 }
 
 .vg-box:hover > img {
-  filter: drop-shadow(0 0 0.75rem #f89100);
+  filter: drop-shadow(0 0 0.75rem #79ff00);
   transition: all 0.5s ease;
 }
 
@@ -105,7 +111,7 @@ html {
 }
 
 .front-hero {
-  background: url("/img/hero_castle.png");
+  background: url("/img/hero_vgon25.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

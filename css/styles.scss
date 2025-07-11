@@ -43,6 +43,7 @@ $yellow: #fddc00;
 $pink: #d96ca8;
 $red: #f81500;
 $vg24orange: #f89100;
+$vg25green: #79ff00;
 
 $radius: 0px;
 
@@ -81,6 +82,12 @@ html { scroll-padding-top: 100px; }
 	-moz-box-shadow: 5px 5px 0px -1px $vg24orange !important;
 }
 
+.vg25-shadow {
+	box-shadow: 5px 5px 0px -1px $vg25green !important;
+	-webkit-box-shadow: 5px 5px 0px -1px $vg25green !important;
+	-moz-box-shadow: 5px 5px 0px -1px $vg25green !important;
+}
+
 .ff25-shadow {
 	filter: drop-shadow(0px 0px 8px #0066cc);
 }
@@ -104,7 +111,7 @@ html { scroll-padding-top: 100px; }
 }
 
 .vg-box:hover > img {
-	filter: drop-shadow(0 0 0.75rem $vg24orange);
+	filter: drop-shadow(0 0 0.75rem $vg25green);
 	transition: all 0.5s ease;
 }
 
@@ -115,7 +122,7 @@ html { scroll-padding-top: 100px; }
 }
 
 .front-hero {
-	background: url('/img/hero_castle.png');
+	background: url('/img/hero_vgon25.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 

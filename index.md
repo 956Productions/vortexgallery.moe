@@ -1,9 +1,9 @@
 ---
-title: Welcome to Vortex Gallery 2025!
+title: Welcome to Vortex Gallery Online 2025!
 layout: front
 ---
-Join us The Westin in Lombard to host the largest community tournament in the FGC once again at **Frosty Faustings XVII**!
+Vortex Gallery Online is a yearly tournament series, this time spanning 3 weekends across 2 months. Once again, we're partnering with communities all around the word for an online event where we can come together & play the underrepresented games we all love!
 
-From January 23-26 in 2025, 956 Productions partners with our friends at Frosty Faustings to bring you **Vortex Gallery** as the official community tournaments of FFXVII.
+**Join us in our celebration of global communities starting August 29th!**
 
 The community tournaments are run by dedicated and passionate fighting game fans like you, bringing your favorite titles to the big stage for heated global competition in the heart of the midwest. [Assemble your squad and apply today!](/apply)

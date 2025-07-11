@@ -1,6 +1,7 @@
 ---
 title: VG at Frosty Faustings XVII
 redirect: 'https://vortexgallery.moe'
+published: false
 ---
 Join us The Westin in Lombard to host the largest community tournament in the FGC once again at **Frosty Faustings XVII**!
 

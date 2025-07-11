@@ -11,7 +11,7 @@ plugins:
   - jekyll-sitemap
 title: Vortex Gallery
 tagline: "Bring Your Own Mix."
-description: "Bring Your Own Mix - The Community Tournaments at Frosty Faustings XVII. January 23-26, 2025 in Lombard, Illinois!"
+description: "Bring Your Own Mix - 3 Weekends of Global Community Tournaments across the world. August 29 - September 14, 2025."
 twitch: https://twitch.tv/956productions
 twitter: 
   username: 956productions
@@ -21,14 +21,8 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
-  - title: Tournaments
-    url: /#tournaments
   - title: Discord
     url: https://discord.gg/QDU8kEyDXM
-  - title: Rules
-    url: https://vortexgallery.moe/info
-  - title: Schedule
-    url: https://vortexgallery.moe/info#Schedule
   - title: Results
     url: https://956.productions/results
 volunteer: /volunteer
