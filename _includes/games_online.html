@@ -14,7 +14,7 @@
             <div class="tags is-justify-content-center">
                 {% for r in site.data.games %}
                 {% if r['Abbr-Game'] == curGame %}
-                <span class="tag is-primary">{{ r['Rollup-Regions'] | replace: ",","+" | replace: "ALL", "Global" }}</span>
+                <span class="tag is-primary">{{ r['Region Abbr. (from Regions)'] | replace: ",","+" | replace: "ALL", "Global" }}</span>
                 {% endif %}
                 {% endfor %}
             </div>
@@ -39,4 +39,4 @@
     {% endif %}
     {% endfor %}
 </div>
-{% include modals_regions_vg24.html %}
+{% include modals_regions_vg25.html %}

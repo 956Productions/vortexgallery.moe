@@ -1,7 +1,7 @@
 ---
 title: "Event Information"
 published: true
-layout: rules_offline
+layout: rules_regions
 ---
 ## Player's Guide
 <div class="is-hidden-touch" style="height: 80vh;">

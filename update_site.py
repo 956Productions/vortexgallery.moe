@@ -44,7 +44,7 @@ def sanitize(value):
 
     return new_val
 
-def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNxlAw6",filename="games.csv",subdir=None,label=None,template=None):
+def create_rules_data(dl_images=True,atbase=config["onlinebase"],atview="viwztcfMm6UNxlAw6",filename="games.csv",subdir=None,label=None,template=None):
     table = at.table(atbase,"Tournaments")
 
     headers = []
@@ -89,7 +89,7 @@ def create_rules_data(dl_images=True,atbase=config["base"],atview="viwztcfMm6UNx
         writer.writerows(rows)
 
 def create_schedule_data():
-    table = at.table(config["base"],"Tournaments")
+    table = at.table(config["onlinebase"],"Tournaments")
 
     headers = []
     rows = []
@@ -117,7 +117,7 @@ def create_schedule_data():
         writer.writeheader()
         writer.writerows(rows)
 
-def clear_game_pages(subdir="ff25"):
+def clear_game_pages(subdir="vgon25"):
     subdir = 'events/' + subdir
     if os.path.exists(subdir):
         for f in os.listdir(subdir):
@@ -136,12 +136,13 @@ def generate_game_page(subdir,name,label,abbr,template):
 try:
     if len(sys.argv) > 0:
         if "--skip-images" in sys.argv:
-            # create_rules_data(dl_images=False) #VGON24
-            create_rules_data(dl_images=False,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv",subdir="ffxvii",label="Vortex Gallery x FFXVII",template="game_ff25")
+            # create_rules_data(dl_images=False) #VGOn
+            # create_rules_data(dl_images=False,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv",subdir="ffxvii",label="Vortex Gallery x FFXVII",template="game_ff25")
+            create_rules_data(dl_images=False,atbase=config["onlinebase"],atview="viwYz0OiXYg2cNuoF",filename="games.csv",subdir="vgon25",label="Vortex Gallery Online 2025",template="game_vgon25")
         else:
             # create_rules_data(dl_images=True) #VGFF25
-            create_rules_data(dl_images=True,atbase=config["frostybase"],atview="viwYz0OiXYg2cNuoF",filename="frosty.csv",subdir="ffxvii",label="Vortex Gallery x FFXVII",template="game_ff25")
-    create_schedule_data()
+            create_rules_data(dl_images=True,atbase=config["onlinebase"],atview="viwYz0OiXYg2cNuoF",filename="games.csv",subdir="vgon25",label="Vortex Gallery Online 2025",template="game_vgon25")
+    # create_schedule_data()
 except Exception:
     print(traceback.format_exc())
     try:

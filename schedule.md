@@ -1,5 +1,5 @@
 ---
 title: "Event Schedule"
-published: true
+published: false
 ---
-{% include schedule_vg24.html %}
+<!-- {% include schedule_vg24.html %} -->
