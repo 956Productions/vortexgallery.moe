@@ -1,0 +1,42 @@
+{% assign curGame = '' %}
+<div class="columns is-gapless is-multiline is-centered mt-2 is-hidden-touch">
+    {% for i in site.data.vgon25.games %}
+    {% if i['Smash URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <a class="modal-trigger column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
+        <div class="">
+            <div style="height:160px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                <img src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
+            </div>
+        </div>
+        <div class="my-2">
+            <div class="tags is-justify-content-center">
+                {% for r in site.data.games %}
+                {% if r['Abbr-Game'] == curGame %}
+                <span class="tag is-primary">{{ r['Rollup-Regions'] | replace: ",","+" | replace: "ALL", "Global" }}</span>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="block">
+            <p class="is-size-7 has-text-white has-text-weight-semibold has-text-centered">{{i['Game Name']}}</p>
+        </div>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="columns is-multiline is-centered mt-2 is-hidden-desktop">
+    {% for i in site.data.vgon25.games %}
+    {% if i['Smash URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <div class="column is-12-tablet p-1">
+        <a class="modal-trigger button is-dark is-fullwidth" data-target="{{i['Abbr-Game']}}">{{ i['Game Name'] }}</a>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+{% include vgon25/modals.html %}

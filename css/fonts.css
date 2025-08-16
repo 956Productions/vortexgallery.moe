@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Bomber Escort';
+	src: url('/img/font/bomber.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Bomber Escort Condensed';
+	src: url('/img/font/bomber_condensed.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Exo Black';
+	src: url('/img/font/exo.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Teko Semibold';
+	src: url('/img/font/teko.ttf') format('truetype');
+}
+
+.bomber {
+	font-family: 'Bomber Escort' !important;
+	font-weight: 400 !important;
+	text-transform: lowercase;
+}
+
+.exo {
+	font-family: 'Exo Black' !important;
+	font-weight: 400 !important;
+}
+
+.teko {
+	font-family: 'Teko Semibold' !important;
+	font-weight: 400 !important;
+}

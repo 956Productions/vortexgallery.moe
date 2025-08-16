@@ -3,10 +3,10 @@
 {% if i['Smash URL'] or i['Alt Reg URL'] %}
 {% if i['Abbr-Game'] != curGame %}
 {% assign curGame = i['Abbr-Game'] %}
-<div class="modal has-text-left has-text-white" id="{{i['Abbr-Game']}}">
+<div class="modal has-text-left" id="{{i['Abbr-Game']}}">
     <div class="modal-background"></div>
     <div class="modal-card">
-      <header class="modal-card-head">
+      <header class="modal-card-head has-background-primary">
         <p class="modal-card-title m-0">{{ i['Short Name'] }}</p>
         <button class="delete" aria-label="close"></button>
       </header>
@@ -38,7 +38,7 @@
             {% endfor %}
         </div>
       </section>
-      <footer class="modal-card-foot" style="background-color: black;">
+      <footer class="modal-card-foot">
         <a class="button is-primary" href="/info#{{i['Abbr-Game']}}">Full Rules</a>
       </footer>
     </div>
