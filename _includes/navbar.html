@@ -1,0 +1,74 @@
+<nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{ '/' | relative_url }}">
+            <img src="{{ 'img/logo.png' | relative_url }}">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+        <div class="navbar-end">
+            {% for p in site.nav %}
+            <a class="navbar-item has-text-white" href="{{ p.url | relative_url }}">
+                {{ p.title }}
+            </a>
+            {% endfor %}
+            <div class="navbar-item">
+                <a href="https://bsky.app/profile/956.productions">
+                    <span class="icon is-large has-text-white">
+                        <i class="fab fa-1x fa-bluesky"></i>
+                    </span>
+                </a>
+                <a href="https://956pro.com/discord">
+                    <span class="icon is-large has-text-white">
+                        <i class="fab fa-1x fa-discord"></i>
+                    </span>
+                </a>
+                <a href="https://ko-fi.com/956productions">
+                    <span class="icon is-large has-text-white">
+                        <i class="fas fa-1x fa-ko-fi"></i>
+                    </span>
+                </a>
+                <a href="https://tiktok.com/@956productions">
+                    <span class="icon is-large has-text-white">
+                        <i class="fab fa-1x fa-tiktok"></i>
+                    </span>
+                </a>
+                <a href="{{site.twitch}}">
+                    <span class="icon is-large has-text-white">
+                        <i class="fab fa-1x fa-twitch"></i>
+                    </span>
+                </a>
+                <a href="https://twitter.com/{{site.twitter.username}}">
+                    <span class="icon is-large has-text-white">
+                        <i class="fab fa-1x fa-twitter"></i>
+                    </span>
+                </a>
+                <a href="{{site.youtube}}">
+                    <span class="icon is-large has-text-white">
+                        <i class="fab fa-1x fa-youtube"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-warning" href="https://start.gg/vgon25">
+                        <strong>Register</strong>
+                    </a>
+                    <a class="button is-warning" href="https://956pro.com/volunteer">
+                        <strong>Volunteer</strong>
+                    </a>
+                    <a class="button is-warning" href="https://956pro.com/shop">
+                        <strong>Merch</strong>
+                    </a>
+                </div>
+            </div>  
+        </div>
+    </div>
+</nav>

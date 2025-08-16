@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" data-theme="dark">
+    {% if page.redirect %}
+    <script>
+        window.location.replace("{{ page.redirect }}" + window.location.hash);
+    </script>
+    {% endif %}
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        {% if page.nohero %}
+        {% else %}
+        <section class="hero">
+            <div class="hero-body has-text-centered">
+                <h1 class="title">
+                    {{ page.title }}
+                </h1>
+                {% if page.date %}
+                <h2 class="subtitle">
+                    Last updated on {{ page.date }}
+                </h2>
+                {% endif %}
+            </div>
+        </section>
+        {% endif %}
+        <section class="section">
+            <div class="container content">
+                {{ content }}
+            </div>                  
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

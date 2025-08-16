@@ -1,0 +1,8 @@
+/* VGOn25 */
+
+.front-hero {
+	background: url('/img/vgon25/hero_vgon25.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}

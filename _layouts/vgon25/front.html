@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top has-background-black" data-theme="dark">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero is-link has-text-centered front-hero">
+            <div class="hero-body" style="padding: 3rem 0.5rem;">
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/vgon25/logo_vgon25.png">
+                </div>
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/vgon25/tagline_vgon25.png">
+                </div>
+                <div class="buttons is-justify-content-center">
+                    <a href="https://start.gg/vgon25" class="button is-success is-large is-responsive">
+                        <span class="has-text-weight-bold">Register Now</span>
+                    </a>
+                    <a href="https://bsky.app/profile/956.productions" class="button is-warning is-large is-responsive">
+                        <span class="has-text-weight-bold">Updates</span>
+                    </a>
+                    <a href="/volunteer" class="button is-warning is-large is-responsive">
+                        <span class="has-text-weight-bold">Volunteer</span>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="section has-background-black-ter">
+            <div class="container is-widescreen">
+                <div class="content has-text-white has-text-centered">
+                    <h1 class="is-size-3 exo">{{ page.title }}</h1>
+                </div>
+                <div class="columns is-vcentered">
+                    <div class="column is-half-desktop is-hidden-touch">
+                        <figure class="image">
+                            <img src="/img/vgon25/Continents.png">
+                        </figure>
+                    </div>
+                    <div class="column is-half-desktop">
+                        <div class="content has-text-white">
+                        {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-black-bis">  
+            <div class="content has-text-white has-text-centered p-4">
+                <h2 class="exo is-size-3" id="tournaments">Vortex Gallery Online 2025 Tournaments</h2>
+                <p><b>Want to bring your game to our lineup or help out your community as a bracket runner, streamer, or commentator? <a href="/apply">Become a volunteer today!</a></b></p>
+            </div>
+        </section>
+        <section class="section has-background-black">
+            <div class="container is-widescreen">
+                <div class="columns is-vcentered">
+                    <div class="column is-half-desktop">
+                        <figure class="image">
+                            <img src="/img/vg_hero.jpg">
+                        </figure>
+                    </div>
+                    <div class="column is-half-desktop">
+                        <div class="content has-text-white has-text-centered p-4">
+                            <h2 class="exo">The largest community tournament in the FGC</h2>
+                            <p><b>Vortex Gallery</b> is a series of events run by the collaboration of a group of volunteer tournament organizers, streamers, bracket runners, chat mods, and commentators at several major events in North America, or online as its own separate event.</p>
+                            <h2 class="exo">Get in touch!</h2>
+                            <p class="buttons is-centered">
+                                <a class="button is-primary" href="https://twitter.com/956productions">
+                                    <span class="icon is-small">
+                                      <i class="fab fa-twitter"></i>
+                                    </span>
+                                    <span><strong>@956Productions</strong></span>
+                                </a>
+                                <a class="button is-primary" href="mailto://info@956.productions">
+                                  <span class="icon is-small">
+                                    <i class="fas fa-envelope"></i>
+                                  </span>
+                                  <span><strong>info@956.productions</strong></span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

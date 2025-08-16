@@ -1,0 +1,56 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+@import "vgon25.css";
+
+:root {
+  --bulma-primary-h: 201deg;
+  --bulma-primary-l: 49%;
+  --bulma-link-h: 201deg;
+  --bulma-link-l: 49%;
+  --bulma-success-h: 93deg;
+  --bulma-success-s: 100%;
+  --bulma-success-l: 55%;
+  --bulma-warning-h: 52deg;
+  --bulma-warning-l: 50%;
+  --bulma-arrow-color: white;
+  --bulma-loading-color: white;
+  --bulma-body-color: hsl(221deg,14%,85%);
+}
+
+.navbar {
+  --bulma-navbar-burger-color: white;
+}
+
+/* ko-fi icon */
+.fa-ko-fi::before {
+  content: "\f0f4";
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 0.45em;
+  margin: -0.45em 0 0 -0.2em;
+  overflow-y: hidden;
+  padding-top: 0.45em;
+}
+
+.fa-ko-fi::after {
+  color: red;
+  content: "\f004";
+  font-size: 50%;
+  font-weight: 900;
+  margin: 0.5em 0 0 -2em;
+  position: absolute;
+}
+
+.fa-ko-fi.ko-fi-white::after {
+  color: white;
+  content: "\f004";
+  font-size: 50%;
+  font-weight: 900;
+  margin: 0.5em 0 0 -2em;
+  position: absolute;
+}
+
+.footer {
+	background: linear-gradient(0deg, #0A0A0A 0%, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 20%), linear-gradient(rgba(1,10,25,1), rgba(1,10,25,.1)), url("/img/footer.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+{% seo %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="{{ 'img/logo.png' | relative_url }}">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ec45b90910.js" crossorigin="anonymous"></script>
+    <script src="{{ 'js/scripts.js' | relative_url }}"></script>
+    <script src="{{ 'js/lightbox.js' | relative_url }}"></script>
+    <script src="{{ 'js/multiselect-dropdown.js' | relative_url }}"></script>
+    <script>
+        lightbox.option({
+        'resizeDuration': 200,
+        'positionFromTop' : 200,
+        'disableScrolling' : true
+        })
+    </script>
+    <link href="{{ '/css/lightbox.css' | relative_url }}" rel="stylesheet" />
+    <link rel="preload" href="{{ '/css/styles.css' | relative_url }}" as="style">
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+</head>

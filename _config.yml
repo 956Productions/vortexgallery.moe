@@ -1,0 +1,39 @@
+defaults:
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
+    permalink: /:basename
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+title: Vortex Gallery
+tagline: "Bring Your Own Mix."
+description: "Bring Your Own Mix - 3 Weekends of Global Community Tournaments across the world. August 29 - September 14, 2025."
+twitch: https://twitch.tv/956productions
+twitter: 
+  username: 956productions
+  card: summary
+logo: /img/logo.png
+youtube: https://956pro.com/youtube
+nav:
+  - title: FAQ
+    url: /faq
+  - title: Discord
+    url: https://discord.gg/xdxVdkaz7H
+  - title: Rules
+    url: /info
+  - title: Matcherino
+    url: https://956pro.com/matcherino
+  - title: Results
+    url: https://956.productions/results
+volunteer: /volunteer
+collections:
+  - info
+sponsors:
+  - image: kaiten.png
+    url: https://x.com/kaitenbooks
+  - image: riichicity.png
+    url: https://www.mahjong-jp.com/home

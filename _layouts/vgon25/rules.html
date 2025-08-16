@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero has-text-centered" id="rules-title">
+            <div class="hero-body">
+                <h1 class="title titling is-1">
+                    {{ page.title }}
+                </h1>
+                {% if page.date %}
+                <h2 class="subtitle">
+                    Last updated on {{ page.date }}
+                </h2>
+                {% endif %}
+            </div>
+        </section>
+        <section class="section" style="min-height: 100vh;">
+            <div class="container is-max-widescreen">
+                <div class="columns is-desktop">
+                    <div class="column is-two-thirds-desktop">
+                        <div class="rules-div content has-text-white" id="General">
+                            {{content}}
+                        </div>
+                        {% assign curGame = '' %}
+                        {% for i in site.data.vgon25.games %}
+                        {% if i['Abbr-Game'] != curGame %}
+                        {% assign curGame = i['Abbr-Game'] %}
+                        <div class="rules-div content has-text-white is-hidden" id="{{i['Abbr-Game']}}">
+                            {% for r in site.data.vgon25.games %}
+                            {% if r['Abbr-Game'] == curGame %}
+                                <h2>{{ r['Short Name'] | default: r['Game Name'] }} ({{ r['Region Abbr. (from Regions)']  | replace:",","+" }} - {{ r['Data-Platform Short Name'] }})</h2>
+                                <hr/>
+                                <h3>General Information</h3>
+                                <ul>
+                                    {% if r['Alt Reg URL'] %}
+                                    <li><a href="{{ r['Alt Reg URL'] }}">Registration Link</a></li>
+                                    {% else %}
+                                    <li><a href="{{ r['Smash URL'] }}">Register via Start.gg</a></li>
+                                    {% endif %}
+                                    <li>Platform: {{ r['Data-Platform Short Name'] | default: 'TBD' }}</li>
+                                    <li>Start day: <div class="tooltip">{{ r['Time-Start Day'] | default: 'TBD' }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Epoch'] }}">Enable javascript for system time.</span></div></li>
+                                    <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
+                                    <li>Organizer: {{ r['Rollup-Lead TOs'] | default: '@956Productions' }}</li>
+                                    <!-- <li>Main Stream: <a href="{{ r['Stream Links'] | default: '#' }}" target="_blank">{{ r['Stream Links'] | default: 'TBD' }}</a></li> -->
+                                    {% if r['Region Includes'] %}
+                                    <li>Region Includes: {{ r['Region Includes'] }}</li>
+                                    {% endif %}
+                                    {% if r['Info-Seeding'] %}
+                                    <li>Seeding: {{ r['Info-Seeding'] }}</li>
+                                    {% endif %}
+                                </ul>
+                                {% if r['Multi-day Event Info'] %}
+                                <div class="content">
+                                    {{r['Multi-day Event Info'] | newline_to_br }}
+                                </div>
+                                {% endif %}
+                                <h3>Prizing Information</h3>
+                                <ul>
+                                    {% if r['Matcherino URL'] %}
+                                    <li><a href="{{r['Matcherino URL']}}">Matcherino Prize Pool Link</a></li>
+                                    {% endif %}
+                                    <li>Pot Split: {{ r['$-Pot Split'] | default: 'TBD' }}</li>
+                                </ul>
+                                {% if r['Pools-Bracket Type'] %}
+                                <h3>Tournament Format</h3>
+                                {% endif %}
+                                <ul>
+                                    {% if r['Pools-Bracket Type'] %}
+                                    <li>Bracket Format: {{r['Pools-Bracket Type']}}</li>
+                                    {% endif %}
+                                    
+                                    {% if r['Pools-Rounds per Game'] %}
+                                    <li>Rounds per Game: {{r['Pools-Rounds per Game']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Pools-Games per Set'] %}
+                                    <li>Games per Set: {{r['Pools-Games per Set']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Finals-Phase'] %}
+                                    <li>Finals Cut Off: {{r['Finals-Phase']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Finals-Games per Set'] %}
+                                    <li>Finals Games per Set: {{r['Finals-Games per Set']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Rules-Chara Change'] %}
+                                    <li>{{r['Rules-Chara Change']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Rules-Glitches'] %}
+                                    <li>{{r['Rules-Glitches']}}</li>
+                                    {% endif %}
+
+                                    {% if r['Rules-Disconnect'] %}
+                                    <li>{{r['Rules-Disconnect']}}</li>
+                                    {% endif %}
+                                </ul>
+                                {% if r['Info-Software Needed'] %}
+                                <h3>Software Needed</h3>
+                                <p>{{r['Info-Software Needed'] | newline_to_br }}</p>
+                                {% endif %}
+                                {% if r['Rules-Game Settings'] %}
+                                <h3>Game Settings</h3>
+                                <p>{{ r['Rules-Game Settings'] | newline_to_br }}</p>
+                                {% endif %}
+                                {% if r['Rules-Notes'] %}
+                                <h3>Additional Rules</h3>
+                                <p>{{r['Rules-Notes'] | newline_to_br }}</p>
+                                {% endif %}
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div class="column is-one-third-desktop mb-5" >
+                        <h4 class="has-text-white is-size-4 mb-2">Event Categories</h4>
+                        <aside class="menu has-background-black-ter p-5" style="max-height: 60vh; overflow-y: auto;">
+                            <div class="menu-list">
+                                <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
+                            </div>
+                            <p class="menu-label">
+                                All Games
+                            </p>
+                            <div class="menu-list">
+                                {% assign curGame = '' %}
+                                {% for n in site.data.vgon25.games %}
+                                {% if n['Abbr-Game'] != curGame %}
+                                {% assign curGame = n['Abbr-Game'] %}
+                                <a class="rules-btn my-1" style="white-space: nowrap; text-overflow: ellipsis; overflow-x: hidden;" id="btn-{{n['Abbr-Game']}}" data-target="{{n['Abbr-Game']}}">{{ n['Game Name'] | default: n['Game Name'] }}</a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>
