@@ -17,6 +17,8 @@
   --bulma-body-color: hsl(221deg,14%,85%);
 }
 
+html { scroll-padding-top: 100px; }
+
 .navbar {
   --bulma-navbar-burger-color: white;
 }
@@ -48,6 +50,50 @@
   font-weight: 900;
   margin: 0.5em 0 0 -2em;
   position: absolute;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip:not(.tooltip-right) {
+	border-bottom: 1px dotted white; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 230px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 0px;
+  border: 1px solid #00a3f8;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:not(.tooltip-right) .tooltiptext {
+	bottom: 100%;
+	left: 50%;
+	margin-left: -115px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip-right .tooltiptext {
+	top: -5px;
+	left: 105%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext ,
+.tooltip:active .tooltiptext ,
+.tooltip:focus .tooltiptext {
+  visibility: visible;
 }
 
 .footer {

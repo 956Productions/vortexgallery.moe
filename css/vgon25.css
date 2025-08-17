@@ -1,8 +1,13 @@
 /* VGOn25 */
 
-.front-hero {
-	background: url('/img/vgon25/hero_vgon25.png');
+.vgon25hero {
+	background-image: linear-gradient( to bottom, transparent 70%, #1f2229), url('/img/vgon25/hero_vgon25.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
+}
+
+.vgon25img:hover {
+	filter: drop-shadow(0 0 0.75rem #79ff00);
+	transition: all 0.25s ease;
 }
