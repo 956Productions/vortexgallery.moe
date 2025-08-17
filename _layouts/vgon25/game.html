@@ -1,0 +1,35 @@
+{% for g in site.data.vgon25.games %}
+{% if g['Abbr-Game'] == page.game %}
+{% assign r = g %}
+{% endif %}
+{% endfor %}
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" data-theme="dark">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        {% if page.nohero %}
+        {% else %}
+        <section class="hero is-link has-text-centered has-background-black">
+            <div class="hero-body">
+                <figure class="image is-flex is-justify-content-center">
+                    <img src="/img/games/{{r['Abbr-Game']}}.png" loading="lazy" style="max-width: 300px; height: auto;">
+                </figure>
+                <h1 class="title exo">{{ page.game_name }}</h1>
+                <h2 class="subtitle">{{page.event}}</h2>
+            </div>
+        </section>
+        {% endif %}
+        <section class="section has-background-black-bis">
+            <div class="container is-max-desktop">
+                <div class="content has-text-white">
+                    {{ content }}
+                    <h1 id="info">Tournament Rules</h1>
+                    {% include vgon25/rulesblock.html %}
+                    <a href="/events/vgon25" class="button is-primary">See All Tournaments</a>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

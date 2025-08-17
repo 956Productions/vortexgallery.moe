@@ -1,0 +1,137 @@
+import yaml
+#import subprocess
+import csv
+import urllib.request
+import os
+import requests
+import traceback
+import sys 
+import time
+
+#subprocess.run('git pull',shell=True) 
+
+with open('airtable.yml','r') as file:
+    config = yaml.safe_load(file)
+
+from pyairtable import Api
+at = Api(config["secret"])
+
+drop_headers = ['Form Base URL','Record ID','Form Prefill URL','Edit']
+
+def sanitize_input(value):
+    new_val = None
+    if isinstance(value,dict):
+        new_val = str(value.get('url'))
+    elif type(value) is list:
+        if len(value) == 0:
+            new_val = ""
+        elif isinstance(value[0],dict):
+            new_val = str(value[0].get('url'))
+        elif len(value) > 1:
+            new_string = ""
+            c = 0
+            for item in value:
+                new_string += str(item)
+                if c < len(value) - 1:
+                    new_string += ", "
+                    c += 1
+            new_val = new_string
+        else:
+            new_val = value[0]
+    else:
+        new_val = str(value)
+    return new_val
+
+def download_game_logo(filename,url):
+    if os.path.isfile('./img/games/' + filename + '.png'):
+        os.remove('./img/games/' + filename + '.png')
+    urllib.request.urlretrieve(url, './img/games/' + filename + '.png')
+
+def clear_game_pages(subdir="vgon25"):
+    subdir = 'events/' + subdir
+    if os.path.exists(subdir):
+        for f in os.listdir(subdir):
+            if os.path.isfile(os.path.join(subdir,f)):
+                #print(os.path.join(subdir,f))
+                os.remove(os.path.join(subdir,f))
+
+def generate_game_page(subdir,name,label,abbr):
+    if not os.path.exists('events/' + subdir):
+        os.mkdir('events/' + subdir)
+    with open(os.path.join('events/' + subdir,"%s.md" % abbr),'w') as f:
+        content = '---\ntitle: "%s (%s)"\npermalink: /events/%s/%s\ngame: "%s"\ngame_name: "%s"\nevent: "%s"\nlayout: %s/game\n---' % (name,subdir.upper(),subdir,abbr.lower(),abbr,name,label,subdir)
+        f.write(content)
+
+def create_rules_data(atbase,atview,subdir,label,dl_images=True):
+    table = at.table(atbase,"Tournaments")
+    headers = []
+    rows = []
+    clear_game_pages(subdir)
+
+    for r in table.all(view=atview):
+        new_row = {}
+        for key, value in r['fields'].items():
+            if key not in drop_headers:
+                if key not in headers:
+                    headers.append(key)
+                new_row[key] = sanitize_input(value)
+        rows.append(new_row)
+        if dl_images is True:
+            download_game_logo(new_row['Abbr-Game'],new_row['Img-Game Logo'])
+            time.sleep(0.1)
+        generate_game_page(subdir,new_row['Game Name'],label,new_row['Abbr-Game'])
+
+    if os.path.isfile('./_data/%s/games.csv' % subdir):
+        if os.path.isfile('./_data/%s/games.csv.bak' % subdir):
+            os.remove('./_data/%s/games.csv.bak' % subdir)
+        os.rename('./_data/%s/games.csv' % subdir,'./_data/%s/games.csv.bak' % subdir)
+
+    with open('./_data/%s/games.csv' % subdir,'w',newline='', encoding='utf-8') as file:
+        writer = csv.DictWriter(file,fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(rows)
+
+def create_schedule_data(): #OUTDATED
+    table = at.table(config["onlinebase"],"Tournaments")
+    headers = []
+    rows = []
+
+    for r in table.all(view="viwSwKAHpaFzm1yHc",sort=['Time-UTC']):
+        resp_row = r['fields']
+        new_row = {}
+        for key, value in resp_row.items():
+            if key not in drop_headers:
+                if key not in headers:
+                    headers.append(key)
+                new_row[key] = sanitize_input(value)
+        rows.append(new_row)
+
+    if os.path.isfile('./_data/schedule.csv'):
+        if os.path.isfile('./_data/schedule.csv.bak'):
+            os.remove('./_data/schedule.csv.bak')
+        os.rename('./_data/schedule.csv','./_data/schedule.csv.bak')
+
+    with open('./_data/schedule.csv','w',newline='', encoding='utf-8') as file:
+        writer = csv.DictWriter(file,fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(rows)
+
+try:
+    if len(sys.argv) > 0:
+        dl_image_flag = True
+        if "--skip-images" in sys.argv:
+            dl_image_flag = False
+        for i in config['events']:
+            create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag)
+    # create_schedule_data()
+except Exception:
+    print(traceback.format_exc())
+    try:
+        result = requests.post(config["webhook"],json = {"content":"Website data build failed! <@102905092759363584>"})
+    except:
+        pass
+
+#else:
+    #subprocess.run('git add -A',shell=True) 
+    #subprocess.run('git commit -m "automated update" ',shell=True)
+    #subprocess.run('git push',shell=True)

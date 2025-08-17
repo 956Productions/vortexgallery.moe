@@ -1,5 +1,5 @@
 {% assign curGame = '' %}
-<div class="section container-fluid content">
+<div class="content">
 <h2 class="exo has-text-centered is-size-3" id="tournaments">Vortex Gallery Online 2025 Tournaments</h2>
 <hr>
 <div class="columns is-gapless is-multiline is-centered mt-2 is-hidden-touch">
@@ -7,7 +7,11 @@
     {% if i['Smash URL'] %}
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
+    {% if include.modals != false %}
     <a class="modal-trigger column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
+    {% else %}
+    <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgon25/{{i['Abbr-Game']}}">
+    {% endif %}
         <div class="">
             <div style="height:160px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                 <img class="vgon25img" src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
@@ -44,4 +48,6 @@
 </div>
 <hr>
 </div>
+{% if include.modals != false %}
 {% include vgon25/modals.html %}
+{% endif %}
