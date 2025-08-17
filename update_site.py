@@ -52,7 +52,6 @@ def clear_game_pages(subdir="vgon25"):
     if os.path.exists(subdir):
         for f in os.listdir(subdir):
             if os.path.isfile(os.path.join(subdir,f)):
-                #print(os.path.join(subdir,f))
                 os.remove(os.path.join(subdir,f))
 
 def generate_game_page(subdir,name,label,abbr):

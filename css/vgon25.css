@@ -1,7 +1,7 @@
 /* VGOn25 */
 
 .vgon25hero {
-	background-image: linear-gradient( to bottom, transparent 70%, #1f2229), url('/img/vgon25/hero_vgon25.png');
+	background-image: linear-gradient( to bottom, transparent 70%, hsl(0, 0%, 4%)), url('/img/vgon25/hero_vgon25.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
