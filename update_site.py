@@ -6,7 +6,8 @@ import os
 import requests
 import traceback
 import sys 
-import time
+import time, datetime
+from zoneinfo import ZoneInfo
 
 #subprocess.run('git pull',shell=True) 
 
@@ -16,7 +17,7 @@ with open('airtable.yml','r') as file:
 from pyairtable import Api
 at = Api(config["secret"])
 
-drop_headers = ['Form Base URL','Record ID','Form Prefill URL','Edit']
+drop_headers = ['Form Base URL','Form Prefill URL','Edit']
 
 def sanitize_input(value):
     new_val = None
@@ -61,7 +62,25 @@ def generate_game_page(subdir,name,label,abbr):
         content = '---\ntitle: "%s (%s)"\npermalink: /events/%s/%s\ngame: "%s"\ngame_name: "%s"\nevent: "%s"\nlayout: %s/game\n---' % (name,subdir.upper(),subdir,abbr.lower(),abbr,name,label,subdir)
         f.write(content)
 
-def create_rules_data(atbase,atview,subdir,label,dl_images=True):
+def generate_online_schedule(schedule,row,timestamp):
+    new_time = datetime.datetime.fromtimestamp(int(timestamp))
+    #new_time = new_time.replace(tzinfo=datetime.timezone.utc) why did this not work??
+    for t in config['schedule']:
+        new_time = new_time.astimezone(ZoneInfo(t['zone']))
+        data = {
+            "Record" : row['Record ID'],
+            "Date" :  new_time.strftime("%b %d (%a)"),
+            "Time" : new_time.strftime("%I:%M %p"), # Oct 11 (Fri.) 07:00 PM ICT (UTC +7)
+            "TZ" : new_time.strftime("%Z (%z)"),
+            "Timestamp" : int(timestamp)
+        }
+        if row['Week #'] not in schedule:
+            schedule[row['Week #']] = {}
+        if t['label'] not in schedule[row['Week #']]:
+            schedule[row['Week #']][t['label']] = []
+        schedule[row['Week #']][t['label']].append( data )
+
+def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=False):
     table = at.table(atbase,"Tournaments")
     headers = []
     rows = []
@@ -89,6 +108,14 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True):
         writer = csv.DictWriter(file,fieldnames=headers)
         writer.writeheader()
         writer.writerows(rows)
+
+    if online_schedule == True:
+        schedule = {}
+        for t in table.all(view=atview,sort=['Time-Start Timestamp','Game Name']):
+            new_row = t['fields']
+            if 'Time-Start Timestamp' in new_row:
+                generate_online_schedule(schedule,new_row,new_row['Time-Start Timestamp'])
+        yaml.dump(schedule,open('./_data/%s/schedule.yml' % subdir,'w'))
 
 def create_schedule_data(): #OUTDATED
     table = at.table(config["onlinebase"],"Tournaments")
@@ -121,11 +148,12 @@ try:
         if "--skip-images" in sys.argv:
             dl_image_flag = False
         for i in config['events']:
-            create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag)
+            create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag,online_schedule=True)
     # create_schedule_data()
 except Exception:
     print(traceback.format_exc())
     try:
+        pass
         result = requests.post(config["webhook"],json = {"content":"Website data build failed! <@102905092759363584>"})
     except:
         pass

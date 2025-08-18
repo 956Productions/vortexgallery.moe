@@ -71,22 +71,6 @@ $(document).ready(function() {
       $(obj).text(d.toLocaleString(undefined,{dateStyle:"short",timeStyle:"short"}));
     });
 
-    $('.week-tabs > ul > li').click(function() {
-      $('.week-tab').addClass('is-hidden')
-      $($(this).data('target')).removeClass('is-hidden')
-      $('.week-tabs > ul > li').removeClass('is-active')
-      $(this).addClass('is-active')
-    })
-
-    now = new Date();
-    if (now >= new Date(2024,9,15) && now < new Date(2024,9,22)) {
-      $("#week2btn").trigger("click");
-    } else if (now >= new Date(2024,9,22) && now < new Date(2024,10,5)) {
-      $("#week3btn").trigger("click");
-    } else if (now > new Date(2024,10,5)) {
-      $("#week4btn").trigger("click");
-    }
-
     $(".navbar-burger").click(function() {
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");

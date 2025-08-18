@@ -1,0 +1,3027 @@
+Week 1:
+  AET:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: AEST (+1000)
+    Time: 07:00 PM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: AEST (+1000)
+    Time: 07:30 PM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: AEST (+1000)
+    Time: 09:00 PM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: AEST (+1000)
+    Time: 06:00 PM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: AEST (+1000)
+    Time: 06:30 PM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: AEST (+1000)
+    Time: 07:30 PM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: AEST (+1000)
+    Time: 08:00 PM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: AEST (+1000)
+    Time: 10:00 PM
+    Timestamp: 1756641600
+  BRT:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: -03 (-0300)
+    Time: 06:00 AM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: -03 (-0300)
+    Time: 06:30 AM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: -03 (-0300)
+    Time: 08:00 AM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: -03 (-0300)
+    Time: 05:00 AM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: -03 (-0300)
+    Time: 05:30 AM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: -03 (-0300)
+    Time: 06:30 AM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: -03 (-0300)
+    Time: 07:00 AM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: -03 (-0300)
+    Time: 09:00 AM
+    Timestamp: 1756641600
+  CET:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: CEST (+0200)
+    Time: 11:00 AM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: CEST (+0200)
+    Time: 11:30 AM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: CEST (+0200)
+    Time: 01:00 PM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: CEST (+0200)
+    Time: 10:00 AM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: CEST (+0200)
+    Time: 10:30 AM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: CEST (+0200)
+    Time: 11:30 AM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: CEST (+0200)
+    Time: 12:00 PM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: CEST (+0200)
+    Time: 02:00 PM
+    Timestamp: 1756641600
+  ET:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: EDT (-0400)
+    Time: 05:00 AM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: EDT (-0400)
+    Time: 05:30 AM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: EDT (-0400)
+    Time: 07:00 AM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: EDT (-0400)
+    Time: 04:00 AM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: EDT (-0400)
+    Time: 04:30 AM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: EDT (-0400)
+    Time: 05:30 AM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: EDT (-0400)
+    Time: 06:00 AM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: EDT (-0400)
+    Time: 08:00 AM
+    Timestamp: 1756641600
+  JST:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: JST (+0900)
+    Time: 06:00 PM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: JST (+0900)
+    Time: 06:30 PM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: JST (+0900)
+    Time: 08:00 PM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: JST (+0900)
+    Time: 05:00 PM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: JST (+0900)
+    Time: 05:30 PM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: JST (+0900)
+    Time: 06:30 PM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: JST (+0900)
+    Time: 07:00 PM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: JST (+0900)
+    Time: 09:00 PM
+    Timestamp: 1756641600
+  PT:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: PDT (-0700)
+    Time: 02:00 AM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: PDT (-0700)
+    Time: 02:30 AM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: PDT (-0700)
+    Time: 04:00 AM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: PDT (-0700)
+    Time: 01:00 AM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: PDT (-0700)
+    Time: 01:30 AM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: PDT (-0700)
+    Time: 02:30 AM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: PDT (-0700)
+    Time: 03:00 AM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: PDT (-0700)
+    Time: 05:00 AM
+    Timestamp: 1756641600
+  SGT:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: +08 (+0800)
+    Time: 05:00 PM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: +08 (+0800)
+    Time: 05:30 PM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: +08 (+0800)
+    Time: 07:00 PM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: +08 (+0800)
+    Time: 04:00 PM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: +08 (+0800)
+    Time: 04:30 PM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: +08 (+0800)
+    Time: 05:30 PM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: +08 (+0800)
+    Time: 06:00 PM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: +08 (+0800)
+    Time: 08:00 PM
+    Timestamp: 1756641600
+  UTC:
+  - Date: Aug 29 (Fri)
+    Record: recOdU8WoQA00cIt0
+    TZ: UTC (+0000)
+    Time: 09:00 AM
+    Timestamp: 1756458000
+  - Date: Aug 29 (Fri)
+    Record: recaoKuAcREZRzH36
+    TZ: UTC (+0000)
+    Time: 09:30 AM
+    Timestamp: 1756459800
+  - Date: Aug 29 (Fri)
+    Record: recQtt01b2S5GGgl9
+    TZ: UTC (+0000)
+    Time: 11:00 AM
+    Timestamp: 1756465200
+  - Date: Aug 30 (Sat)
+    Record: recOO1ZMJqZJr4IcC
+    TZ: UTC (+0000)
+    Time: 08:00 AM
+    Timestamp: 1756540800
+  - Date: Aug 30 (Sat)
+    Record: recwGyPzIlIsXj3Oc
+    TZ: UTC (+0000)
+    Time: 08:30 AM
+    Timestamp: 1756542600
+  - Date: Aug 30 (Sat)
+    Record: recd7PVamYddEvQW4
+    TZ: UTC (+0000)
+    Time: 09:30 AM
+    Timestamp: 1756546200
+  - Date: Aug 30 (Sat)
+    Record: recjxFRBGgCDbFNAt
+    TZ: UTC (+0000)
+    Time: 10:00 AM
+    Timestamp: 1756548000
+  - Date: Aug 31 (Sun)
+    Record: recnUjuNVIaKVQ5XZ
+    TZ: UTC (+0000)
+    Time: 12:00 PM
+    Timestamp: 1756641600
+Week 2:
+  AET:
+  - Date: Sep 06 (Sat)
+    Record: rec7cFjKOyq9xc4su
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757109600
+  - Date: Sep 06 (Sat)
+    Record: recJLK9gVlHAI33n2
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757113200
+  - Date: Sep 06 (Sat)
+    Record: reckg52BuAcR63P8l
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recj8ZcX9pGowsoWa
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recDJVWFendyKXZOY
+    TZ: AEST (+1000)
+    Time: 10:30 AM
+    Timestamp: 1757118600
+  - Date: Sep 07 (Sun)
+    Record: reczUTn3mQYWs6C7O
+    TZ: AEST (+1000)
+    Time: 12:00 AM
+    Timestamp: 1757167200
+  - Date: Sep 07 (Sun)
+    Record: recTWSMiCtYhK9fjk
+    TZ: AEST (+1000)
+    Time: 02:00 AM
+    Timestamp: 1757174400
+  - Date: Sep 07 (Sun)
+    Record: recG520StJOS0pZOf
+    TZ: AEST (+1000)
+    Time: 04:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: AEST (+1000)
+    Time: 04:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: rec1SFTCK3jDi6nko
+    TZ: AEST (+1000)
+    Time: 04:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: AEST (+1000)
+    Time: 05:00 AM
+    Timestamp: 1757185200
+  - Date: Sep 07 (Sun)
+    Record: recg1C2LriU83jq3X
+    TZ: AEST (+1000)
+    Time: 06:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: recI947o32B0MTQS5
+    TZ: AEST (+1000)
+    Time: 06:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: rec4OYYEihUL4PhOy
+    TZ: AEST (+1000)
+    Time: 06:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: recVlKqPN7ik8YQme
+    TZ: AEST (+1000)
+    Time: 07:00 AM
+    Timestamp: 1757192400
+  - Date: Sep 07 (Sun)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recvJGge0g5UEl1XB
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recdyob0fqS1Uf0an
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recrPx1FbxWAgn5RL
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 08 (Mon)
+    Record: rec1fDBVXdoNDJECD
+    TZ: AEST (+1000)
+    Time: 01:00 AM
+    Timestamp: 1757257200
+  - Date: Sep 08 (Mon)
+    Record: recmymeFBz4XrimQX
+    TZ: AEST (+1000)
+    Time: 03:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 08 (Mon)
+    Record: recejxccY7NgmmMqO
+    TZ: AEST (+1000)
+    Time: 03:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 08 (Mon)
+    Record: reclJf7BnEisUe4UJ
+    TZ: AEST (+1000)
+    Time: 05:00 AM
+    Timestamp: 1757271600
+  - Date: Sep 08 (Mon)
+    Record: rechezxhFPXNaE6gi
+    TZ: AEST (+1000)
+    Time: 05:00 AM
+    Timestamp: 1757271600
+  - Date: Sep 08 (Mon)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: AEST (+1000)
+    Time: 06:00 AM
+    Timestamp: 1757275200
+  - Date: Sep 08 (Mon)
+    Record: recC0oMJcKMeJTAcI
+    TZ: AEST (+1000)
+    Time: 06:00 AM
+    Timestamp: 1757275200
+  - Date: Sep 08 (Mon)
+    Record: recxXuCh1cyeeP9gP
+    TZ: AEST (+1000)
+    Time: 07:00 AM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: rec8lHx40e5HYWns2
+    TZ: AEST (+1000)
+    Time: 07:00 AM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: recglaLNtZ1xrQaK7
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757286000
+  - Date: Sep 08 (Mon)
+    Record: recGZ29h6wcvfjrfM
+    TZ: AEST (+1000)
+    Time: 10:30 AM
+    Timestamp: 1757291400
+  BRT:
+  - Date: Sep 05 (Fri)
+    Record: rec7cFjKOyq9xc4su
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757109600
+  - Date: Sep 05 (Fri)
+    Record: recJLK9gVlHAI33n2
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757113200
+  - Date: Sep 05 (Fri)
+    Record: reckg52BuAcR63P8l
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757116800
+  - Date: Sep 05 (Fri)
+    Record: recj8ZcX9pGowsoWa
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757116800
+  - Date: Sep 05 (Fri)
+    Record: recDJVWFendyKXZOY
+    TZ: -03 (-0300)
+    Time: 09:30 PM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: -03 (-0300)
+    Time: 11:00 AM
+    Timestamp: 1757167200
+  - Date: Sep 06 (Sat)
+    Record: recTWSMiCtYhK9fjk
+    TZ: -03 (-0300)
+    Time: 01:00 PM
+    Timestamp: 1757174400
+  - Date: Sep 06 (Sat)
+    Record: recG520StJOS0pZOf
+    TZ: -03 (-0300)
+    Time: 03:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: -03 (-0300)
+    Time: 03:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec1SFTCK3jDi6nko
+    TZ: -03 (-0300)
+    Time: 03:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: -03 (-0300)
+    Time: 04:00 PM
+    Timestamp: 1757185200
+  - Date: Sep 06 (Sat)
+    Record: recg1C2LriU83jq3X
+    TZ: -03 (-0300)
+    Time: 05:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recI947o32B0MTQS5
+    TZ: -03 (-0300)
+    Time: 05:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: rec4OYYEihUL4PhOy
+    TZ: -03 (-0300)
+    Time: 05:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recVlKqPN7ik8YQme
+    TZ: -03 (-0300)
+    Time: 06:00 PM
+    Timestamp: 1757192400
+  - Date: Sep 06 (Sat)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recvJGge0g5UEl1XB
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recdyob0fqS1Uf0an
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recrPx1FbxWAgn5RL
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec1fDBVXdoNDJECD
+    TZ: -03 (-0300)
+    Time: 12:00 PM
+    Timestamp: 1757257200
+  - Date: Sep 07 (Sun)
+    Record: recmymeFBz4XrimQX
+    TZ: -03 (-0300)
+    Time: 02:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: recejxccY7NgmmMqO
+    TZ: -03 (-0300)
+    Time: 02:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: reclJf7BnEisUe4UJ
+    TZ: -03 (-0300)
+    Time: 04:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rechezxhFPXNaE6gi
+    TZ: -03 (-0300)
+    Time: 04:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: -03 (-0300)
+    Time: 05:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recC0oMJcKMeJTAcI
+    TZ: -03 (-0300)
+    Time: 05:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recxXuCh1cyeeP9gP
+    TZ: -03 (-0300)
+    Time: 06:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: rec8lHx40e5HYWns2
+    TZ: -03 (-0300)
+    Time: 06:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: recglaLNtZ1xrQaK7
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757286000
+  - Date: Sep 07 (Sun)
+    Record: recGZ29h6wcvfjrfM
+    TZ: -03 (-0300)
+    Time: 09:30 PM
+    Timestamp: 1757291400
+  CET:
+  - Date: Sep 06 (Sat)
+    Record: rec7cFjKOyq9xc4su
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757109600
+  - Date: Sep 06 (Sat)
+    Record: recJLK9gVlHAI33n2
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757113200
+  - Date: Sep 06 (Sat)
+    Record: reckg52BuAcR63P8l
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recj8ZcX9pGowsoWa
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recDJVWFendyKXZOY
+    TZ: CEST (+0200)
+    Time: 02:30 AM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: CEST (+0200)
+    Time: 04:00 PM
+    Timestamp: 1757167200
+  - Date: Sep 06 (Sat)
+    Record: recTWSMiCtYhK9fjk
+    TZ: CEST (+0200)
+    Time: 06:00 PM
+    Timestamp: 1757174400
+  - Date: Sep 06 (Sat)
+    Record: recG520StJOS0pZOf
+    TZ: CEST (+0200)
+    Time: 08:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: CEST (+0200)
+    Time: 08:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec1SFTCK3jDi6nko
+    TZ: CEST (+0200)
+    Time: 08:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: CEST (+0200)
+    Time: 09:00 PM
+    Timestamp: 1757185200
+  - Date: Sep 06 (Sat)
+    Record: recg1C2LriU83jq3X
+    TZ: CEST (+0200)
+    Time: 10:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recI947o32B0MTQS5
+    TZ: CEST (+0200)
+    Time: 10:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: rec4OYYEihUL4PhOy
+    TZ: CEST (+0200)
+    Time: 10:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recVlKqPN7ik8YQme
+    TZ: CEST (+0200)
+    Time: 11:00 PM
+    Timestamp: 1757192400
+  - Date: Sep 07 (Sun)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recvJGge0g5UEl1XB
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recdyob0fqS1Uf0an
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recrPx1FbxWAgn5RL
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec1fDBVXdoNDJECD
+    TZ: CEST (+0200)
+    Time: 05:00 PM
+    Timestamp: 1757257200
+  - Date: Sep 07 (Sun)
+    Record: recmymeFBz4XrimQX
+    TZ: CEST (+0200)
+    Time: 07:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: recejxccY7NgmmMqO
+    TZ: CEST (+0200)
+    Time: 07:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: reclJf7BnEisUe4UJ
+    TZ: CEST (+0200)
+    Time: 09:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rechezxhFPXNaE6gi
+    TZ: CEST (+0200)
+    Time: 09:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: CEST (+0200)
+    Time: 10:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recC0oMJcKMeJTAcI
+    TZ: CEST (+0200)
+    Time: 10:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recxXuCh1cyeeP9gP
+    TZ: CEST (+0200)
+    Time: 11:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: rec8lHx40e5HYWns2
+    TZ: CEST (+0200)
+    Time: 11:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: recglaLNtZ1xrQaK7
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757286000
+  - Date: Sep 08 (Mon)
+    Record: recGZ29h6wcvfjrfM
+    TZ: CEST (+0200)
+    Time: 02:30 AM
+    Timestamp: 1757291400
+  ET:
+  - Date: Sep 05 (Fri)
+    Record: rec7cFjKOyq9xc4su
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757109600
+  - Date: Sep 05 (Fri)
+    Record: recJLK9gVlHAI33n2
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757113200
+  - Date: Sep 05 (Fri)
+    Record: reckg52BuAcR63P8l
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757116800
+  - Date: Sep 05 (Fri)
+    Record: recj8ZcX9pGowsoWa
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757116800
+  - Date: Sep 05 (Fri)
+    Record: recDJVWFendyKXZOY
+    TZ: EDT (-0400)
+    Time: 08:30 PM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: EDT (-0400)
+    Time: 10:00 AM
+    Timestamp: 1757167200
+  - Date: Sep 06 (Sat)
+    Record: recTWSMiCtYhK9fjk
+    TZ: EDT (-0400)
+    Time: 12:00 PM
+    Timestamp: 1757174400
+  - Date: Sep 06 (Sat)
+    Record: recG520StJOS0pZOf
+    TZ: EDT (-0400)
+    Time: 02:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: EDT (-0400)
+    Time: 02:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec1SFTCK3jDi6nko
+    TZ: EDT (-0400)
+    Time: 02:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: EDT (-0400)
+    Time: 03:00 PM
+    Timestamp: 1757185200
+  - Date: Sep 06 (Sat)
+    Record: recg1C2LriU83jq3X
+    TZ: EDT (-0400)
+    Time: 04:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recI947o32B0MTQS5
+    TZ: EDT (-0400)
+    Time: 04:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: rec4OYYEihUL4PhOy
+    TZ: EDT (-0400)
+    Time: 04:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recVlKqPN7ik8YQme
+    TZ: EDT (-0400)
+    Time: 05:00 PM
+    Timestamp: 1757192400
+  - Date: Sep 06 (Sat)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recvJGge0g5UEl1XB
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recdyob0fqS1Uf0an
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recrPx1FbxWAgn5RL
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec1fDBVXdoNDJECD
+    TZ: EDT (-0400)
+    Time: 11:00 AM
+    Timestamp: 1757257200
+  - Date: Sep 07 (Sun)
+    Record: recmymeFBz4XrimQX
+    TZ: EDT (-0400)
+    Time: 01:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: recejxccY7NgmmMqO
+    TZ: EDT (-0400)
+    Time: 01:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: reclJf7BnEisUe4UJ
+    TZ: EDT (-0400)
+    Time: 03:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rechezxhFPXNaE6gi
+    TZ: EDT (-0400)
+    Time: 03:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: EDT (-0400)
+    Time: 04:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recC0oMJcKMeJTAcI
+    TZ: EDT (-0400)
+    Time: 04:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recxXuCh1cyeeP9gP
+    TZ: EDT (-0400)
+    Time: 05:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: rec8lHx40e5HYWns2
+    TZ: EDT (-0400)
+    Time: 05:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: recglaLNtZ1xrQaK7
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757286000
+  - Date: Sep 07 (Sun)
+    Record: recGZ29h6wcvfjrfM
+    TZ: EDT (-0400)
+    Time: 08:30 PM
+    Timestamp: 1757291400
+  JST:
+  - Date: Sep 06 (Sat)
+    Record: rec7cFjKOyq9xc4su
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757109600
+  - Date: Sep 06 (Sat)
+    Record: recJLK9gVlHAI33n2
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757113200
+  - Date: Sep 06 (Sat)
+    Record: reckg52BuAcR63P8l
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recj8ZcX9pGowsoWa
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recDJVWFendyKXZOY
+    TZ: JST (+0900)
+    Time: 09:30 AM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: JST (+0900)
+    Time: 11:00 PM
+    Timestamp: 1757167200
+  - Date: Sep 07 (Sun)
+    Record: recTWSMiCtYhK9fjk
+    TZ: JST (+0900)
+    Time: 01:00 AM
+    Timestamp: 1757174400
+  - Date: Sep 07 (Sun)
+    Record: recG520StJOS0pZOf
+    TZ: JST (+0900)
+    Time: 03:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: JST (+0900)
+    Time: 03:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: rec1SFTCK3jDi6nko
+    TZ: JST (+0900)
+    Time: 03:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: JST (+0900)
+    Time: 04:00 AM
+    Timestamp: 1757185200
+  - Date: Sep 07 (Sun)
+    Record: recg1C2LriU83jq3X
+    TZ: JST (+0900)
+    Time: 05:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: recI947o32B0MTQS5
+    TZ: JST (+0900)
+    Time: 05:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: rec4OYYEihUL4PhOy
+    TZ: JST (+0900)
+    Time: 05:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: recVlKqPN7ik8YQme
+    TZ: JST (+0900)
+    Time: 06:00 AM
+    Timestamp: 1757192400
+  - Date: Sep 07 (Sun)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recvJGge0g5UEl1XB
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recdyob0fqS1Uf0an
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recrPx1FbxWAgn5RL
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 08 (Mon)
+    Record: rec1fDBVXdoNDJECD
+    TZ: JST (+0900)
+    Time: 12:00 AM
+    Timestamp: 1757257200
+  - Date: Sep 08 (Mon)
+    Record: recmymeFBz4XrimQX
+    TZ: JST (+0900)
+    Time: 02:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 08 (Mon)
+    Record: recejxccY7NgmmMqO
+    TZ: JST (+0900)
+    Time: 02:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 08 (Mon)
+    Record: reclJf7BnEisUe4UJ
+    TZ: JST (+0900)
+    Time: 04:00 AM
+    Timestamp: 1757271600
+  - Date: Sep 08 (Mon)
+    Record: rechezxhFPXNaE6gi
+    TZ: JST (+0900)
+    Time: 04:00 AM
+    Timestamp: 1757271600
+  - Date: Sep 08 (Mon)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: JST (+0900)
+    Time: 05:00 AM
+    Timestamp: 1757275200
+  - Date: Sep 08 (Mon)
+    Record: recC0oMJcKMeJTAcI
+    TZ: JST (+0900)
+    Time: 05:00 AM
+    Timestamp: 1757275200
+  - Date: Sep 08 (Mon)
+    Record: recxXuCh1cyeeP9gP
+    TZ: JST (+0900)
+    Time: 06:00 AM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: rec8lHx40e5HYWns2
+    TZ: JST (+0900)
+    Time: 06:00 AM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: recglaLNtZ1xrQaK7
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757286000
+  - Date: Sep 08 (Mon)
+    Record: recGZ29h6wcvfjrfM
+    TZ: JST (+0900)
+    Time: 09:30 AM
+    Timestamp: 1757291400
+  PT:
+  - Date: Sep 05 (Fri)
+    Record: rec7cFjKOyq9xc4su
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757109600
+  - Date: Sep 05 (Fri)
+    Record: recJLK9gVlHAI33n2
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757113200
+  - Date: Sep 05 (Fri)
+    Record: reckg52BuAcR63P8l
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757116800
+  - Date: Sep 05 (Fri)
+    Record: recj8ZcX9pGowsoWa
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757116800
+  - Date: Sep 05 (Fri)
+    Record: recDJVWFendyKXZOY
+    TZ: PDT (-0700)
+    Time: 05:30 PM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: PDT (-0700)
+    Time: 07:00 AM
+    Timestamp: 1757167200
+  - Date: Sep 06 (Sat)
+    Record: recTWSMiCtYhK9fjk
+    TZ: PDT (-0700)
+    Time: 09:00 AM
+    Timestamp: 1757174400
+  - Date: Sep 06 (Sat)
+    Record: recG520StJOS0pZOf
+    TZ: PDT (-0700)
+    Time: 11:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: PDT (-0700)
+    Time: 11:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec1SFTCK3jDi6nko
+    TZ: PDT (-0700)
+    Time: 11:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: PDT (-0700)
+    Time: 12:00 PM
+    Timestamp: 1757185200
+  - Date: Sep 06 (Sat)
+    Record: recg1C2LriU83jq3X
+    TZ: PDT (-0700)
+    Time: 01:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recI947o32B0MTQS5
+    TZ: PDT (-0700)
+    Time: 01:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: rec4OYYEihUL4PhOy
+    TZ: PDT (-0700)
+    Time: 01:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recVlKqPN7ik8YQme
+    TZ: PDT (-0700)
+    Time: 02:00 PM
+    Timestamp: 1757192400
+  - Date: Sep 06 (Sat)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recvJGge0g5UEl1XB
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recdyob0fqS1Uf0an
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recrPx1FbxWAgn5RL
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec1fDBVXdoNDJECD
+    TZ: PDT (-0700)
+    Time: 08:00 AM
+    Timestamp: 1757257200
+  - Date: Sep 07 (Sun)
+    Record: recmymeFBz4XrimQX
+    TZ: PDT (-0700)
+    Time: 10:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: recejxccY7NgmmMqO
+    TZ: PDT (-0700)
+    Time: 10:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: reclJf7BnEisUe4UJ
+    TZ: PDT (-0700)
+    Time: 12:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rechezxhFPXNaE6gi
+    TZ: PDT (-0700)
+    Time: 12:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: PDT (-0700)
+    Time: 01:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recC0oMJcKMeJTAcI
+    TZ: PDT (-0700)
+    Time: 01:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recxXuCh1cyeeP9gP
+    TZ: PDT (-0700)
+    Time: 02:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: rec8lHx40e5HYWns2
+    TZ: PDT (-0700)
+    Time: 02:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: recglaLNtZ1xrQaK7
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757286000
+  - Date: Sep 07 (Sun)
+    Record: recGZ29h6wcvfjrfM
+    TZ: PDT (-0700)
+    Time: 05:30 PM
+    Timestamp: 1757291400
+  SGT:
+  - Date: Sep 06 (Sat)
+    Record: rec7cFjKOyq9xc4su
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757109600
+  - Date: Sep 06 (Sat)
+    Record: recJLK9gVlHAI33n2
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757113200
+  - Date: Sep 06 (Sat)
+    Record: reckg52BuAcR63P8l
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recj8ZcX9pGowsoWa
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recDJVWFendyKXZOY
+    TZ: +08 (+0800)
+    Time: 08:30 AM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: +08 (+0800)
+    Time: 10:00 PM
+    Timestamp: 1757167200
+  - Date: Sep 07 (Sun)
+    Record: recTWSMiCtYhK9fjk
+    TZ: +08 (+0800)
+    Time: 12:00 AM
+    Timestamp: 1757174400
+  - Date: Sep 07 (Sun)
+    Record: recG520StJOS0pZOf
+    TZ: +08 (+0800)
+    Time: 02:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: +08 (+0800)
+    Time: 02:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: rec1SFTCK3jDi6nko
+    TZ: +08 (+0800)
+    Time: 02:00 AM
+    Timestamp: 1757181600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: +08 (+0800)
+    Time: 03:00 AM
+    Timestamp: 1757185200
+  - Date: Sep 07 (Sun)
+    Record: recg1C2LriU83jq3X
+    TZ: +08 (+0800)
+    Time: 04:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: recI947o32B0MTQS5
+    TZ: +08 (+0800)
+    Time: 04:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: rec4OYYEihUL4PhOy
+    TZ: +08 (+0800)
+    Time: 04:00 AM
+    Timestamp: 1757188800
+  - Date: Sep 07 (Sun)
+    Record: recVlKqPN7ik8YQme
+    TZ: +08 (+0800)
+    Time: 05:00 AM
+    Timestamp: 1757192400
+  - Date: Sep 07 (Sun)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757196000
+  - Date: Sep 07 (Sun)
+    Record: recvJGge0g5UEl1XB
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recdyob0fqS1Uf0an
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: recrPx1FbxWAgn5RL
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec1fDBVXdoNDJECD
+    TZ: +08 (+0800)
+    Time: 11:00 PM
+    Timestamp: 1757257200
+  - Date: Sep 08 (Mon)
+    Record: recmymeFBz4XrimQX
+    TZ: +08 (+0800)
+    Time: 01:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 08 (Mon)
+    Record: recejxccY7NgmmMqO
+    TZ: +08 (+0800)
+    Time: 01:00 AM
+    Timestamp: 1757264400
+  - Date: Sep 08 (Mon)
+    Record: reclJf7BnEisUe4UJ
+    TZ: +08 (+0800)
+    Time: 03:00 AM
+    Timestamp: 1757271600
+  - Date: Sep 08 (Mon)
+    Record: rechezxhFPXNaE6gi
+    TZ: +08 (+0800)
+    Time: 03:00 AM
+    Timestamp: 1757271600
+  - Date: Sep 08 (Mon)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: +08 (+0800)
+    Time: 04:00 AM
+    Timestamp: 1757275200
+  - Date: Sep 08 (Mon)
+    Record: recC0oMJcKMeJTAcI
+    TZ: +08 (+0800)
+    Time: 04:00 AM
+    Timestamp: 1757275200
+  - Date: Sep 08 (Mon)
+    Record: recxXuCh1cyeeP9gP
+    TZ: +08 (+0800)
+    Time: 05:00 AM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: rec8lHx40e5HYWns2
+    TZ: +08 (+0800)
+    Time: 05:00 AM
+    Timestamp: 1757278800
+  - Date: Sep 08 (Mon)
+    Record: recglaLNtZ1xrQaK7
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757286000
+  - Date: Sep 08 (Mon)
+    Record: recGZ29h6wcvfjrfM
+    TZ: +08 (+0800)
+    Time: 08:30 AM
+    Timestamp: 1757291400
+  UTC:
+  - Date: Sep 05 (Fri)
+    Record: rec7cFjKOyq9xc4su
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757109600
+  - Date: Sep 05 (Fri)
+    Record: recJLK9gVlHAI33n2
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757113200
+  - Date: Sep 06 (Sat)
+    Record: reckg52BuAcR63P8l
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recj8ZcX9pGowsoWa
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757116800
+  - Date: Sep 06 (Sat)
+    Record: recDJVWFendyKXZOY
+    TZ: UTC (+0000)
+    Time: 12:30 AM
+    Timestamp: 1757118600
+  - Date: Sep 06 (Sat)
+    Record: reczUTn3mQYWs6C7O
+    TZ: UTC (+0000)
+    Time: 02:00 PM
+    Timestamp: 1757167200
+  - Date: Sep 06 (Sat)
+    Record: recTWSMiCtYhK9fjk
+    TZ: UTC (+0000)
+    Time: 04:00 PM
+    Timestamp: 1757174400
+  - Date: Sep 06 (Sat)
+    Record: recG520StJOS0pZOf
+    TZ: UTC (+0000)
+    Time: 06:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: reclk5Vi0mmCOIhFg
+    TZ: UTC (+0000)
+    Time: 06:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec1SFTCK3jDi6nko
+    TZ: UTC (+0000)
+    Time: 06:00 PM
+    Timestamp: 1757181600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: UTC (+0000)
+    Time: 07:00 PM
+    Timestamp: 1757185200
+  - Date: Sep 06 (Sat)
+    Record: recg1C2LriU83jq3X
+    TZ: UTC (+0000)
+    Time: 08:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recI947o32B0MTQS5
+    TZ: UTC (+0000)
+    Time: 08:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: rec4OYYEihUL4PhOy
+    TZ: UTC (+0000)
+    Time: 08:00 PM
+    Timestamp: 1757188800
+  - Date: Sep 06 (Sat)
+    Record: recVlKqPN7ik8YQme
+    TZ: UTC (+0000)
+    Time: 09:00 PM
+    Timestamp: 1757192400
+  - Date: Sep 06 (Sat)
+    Record: rec0A5fYKQ2AL4tib
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recqEiKi7lmcvqhQ7
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: rec0Xiz3kmFr6QMke
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757196000
+  - Date: Sep 06 (Sat)
+    Record: recvJGge0g5UEl1XB
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recdyob0fqS1Uf0an
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: recrPx1FbxWAgn5RL
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec1fDBVXdoNDJECD
+    TZ: UTC (+0000)
+    Time: 03:00 PM
+    Timestamp: 1757257200
+  - Date: Sep 07 (Sun)
+    Record: recmymeFBz4XrimQX
+    TZ: UTC (+0000)
+    Time: 05:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: recejxccY7NgmmMqO
+    TZ: UTC (+0000)
+    Time: 05:00 PM
+    Timestamp: 1757264400
+  - Date: Sep 07 (Sun)
+    Record: reclJf7BnEisUe4UJ
+    TZ: UTC (+0000)
+    Time: 07:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rechezxhFPXNaE6gi
+    TZ: UTC (+0000)
+    Time: 07:00 PM
+    Timestamp: 1757271600
+  - Date: Sep 07 (Sun)
+    Record: rec3wsczuIoR7Bc4K
+    TZ: UTC (+0000)
+    Time: 08:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recC0oMJcKMeJTAcI
+    TZ: UTC (+0000)
+    Time: 08:00 PM
+    Timestamp: 1757275200
+  - Date: Sep 07 (Sun)
+    Record: recxXuCh1cyeeP9gP
+    TZ: UTC (+0000)
+    Time: 09:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: rec8lHx40e5HYWns2
+    TZ: UTC (+0000)
+    Time: 09:00 PM
+    Timestamp: 1757278800
+  - Date: Sep 07 (Sun)
+    Record: recglaLNtZ1xrQaK7
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757286000
+  - Date: Sep 08 (Mon)
+    Record: recGZ29h6wcvfjrfM
+    TZ: UTC (+0000)
+    Time: 12:30 AM
+    Timestamp: 1757291400
+Week 3:
+  AET:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: AEST (+1000)
+    Time: 05:00 PM
+    Timestamp: 1757660400
+  - Date: Sep 13 (Sat)
+    Record: reckLG5t1bjC7JfYn
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757718000
+  - Date: Sep 13 (Sat)
+    Record: recChEiXQjGXEuU4Z
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757721600
+  - Date: Sep 13 (Sat)
+    Record: recaLdFDgQCu6Qh70
+    TZ: AEST (+1000)
+    Time: 01:00 PM
+    Timestamp: 1757732400
+  - Date: Sep 14 (Sun)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recsuPxESIYjVaz8v
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recpOOfjpXmcqEka6
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recduy2htXrqH82he
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEe2gD4h89AA2ro
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: reccZZMv1KGCDr6hN
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recWmPULGcCJYpxDA
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec272107YQ0eAFPb
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recymDjTGe83JDJNq
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recwUvjNNu1qLdcNY
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recG3boi9Iynr6Epy
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recQ3qfxr7WoZa8As
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recNFFmGpk7z629AH
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recD8fraDjs1S2T8o
+    TZ: AEST (+1000)
+    Time: 11:00 AM
+    Timestamp: 1757811600
+  - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: AEST (+1000)
+    Time: 01:00 PM
+    Timestamp: 1757818800
+  - Date: Sep 15 (Mon)
+    Record: recdLjzgfAwK0yq77
+    TZ: AEST (+1000)
+    Time: 05:00 AM
+    Timestamp: 1757876400
+  - Date: Sep 15 (Mon)
+    Record: recs1BreGv5VNf7RI
+    TZ: AEST (+1000)
+    Time: 07:00 AM
+    Timestamp: 1757883600
+  - Date: Sep 15 (Mon)
+    Record: recaEy7hh2FFVRfSN
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: rece2kOsH5LOvy8KU
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recLMVrrcCBkTAYna
+    TZ: AEST (+1000)
+    Time: 08:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recKzv5B33eGO6dHf
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recB3s0i05NH9ynta
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recmRLhelPWJY06jk
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recnDfNGVshf4kZc7
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recX3Rh3UvT87Tcie
+    TZ: AEST (+1000)
+    Time: 09:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recq43a9lfmlrVgoY
+    TZ: AEST (+1000)
+    Time: 09:30 AM
+    Timestamp: 1757892600
+  - Date: Sep 15 (Mon)
+    Record: recHjGE57KosTW43Q
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757894400
+  BRT:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: -03 (-0300)
+    Time: 04:00 AM
+    Timestamp: 1757660400
+  - Date: Sep 12 (Fri)
+    Record: reckLG5t1bjC7JfYn
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757718000
+  - Date: Sep 12 (Fri)
+    Record: recChEiXQjGXEuU4Z
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757721600
+  - Date: Sep 13 (Sat)
+    Record: recaLdFDgQCu6Qh70
+    TZ: -03 (-0300)
+    Time: 12:00 AM
+    Timestamp: 1757732400
+  - Date: Sep 13 (Sat)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recsuPxESIYjVaz8v
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recpOOfjpXmcqEka6
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recduy2htXrqH82he
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEe2gD4h89AA2ro
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: reccZZMv1KGCDr6hN
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recWmPULGcCJYpxDA
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec272107YQ0eAFPb
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recymDjTGe83JDJNq
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recwUvjNNu1qLdcNY
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recG3boi9Iynr6Epy
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recQ3qfxr7WoZa8As
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recNFFmGpk7z629AH
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recD8fraDjs1S2T8o
+    TZ: -03 (-0300)
+    Time: 10:00 PM
+    Timestamp: 1757811600
+  - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: -03 (-0300)
+    Time: 12:00 AM
+    Timestamp: 1757818800
+  - Date: Sep 14 (Sun)
+    Record: recdLjzgfAwK0yq77
+    TZ: -03 (-0300)
+    Time: 04:00 PM
+    Timestamp: 1757876400
+  - Date: Sep 14 (Sun)
+    Record: recs1BreGv5VNf7RI
+    TZ: -03 (-0300)
+    Time: 06:00 PM
+    Timestamp: 1757883600
+  - Date: Sep 14 (Sun)
+    Record: recaEy7hh2FFVRfSN
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: rece2kOsH5LOvy8KU
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recLMVrrcCBkTAYna
+    TZ: -03 (-0300)
+    Time: 07:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recKzv5B33eGO6dHf
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recB3s0i05NH9ynta
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recmRLhelPWJY06jk
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recnDfNGVshf4kZc7
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recX3Rh3UvT87Tcie
+    TZ: -03 (-0300)
+    Time: 08:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recq43a9lfmlrVgoY
+    TZ: -03 (-0300)
+    Time: 08:30 PM
+    Timestamp: 1757892600
+  - Date: Sep 14 (Sun)
+    Record: recHjGE57KosTW43Q
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757894400
+  CET:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: CEST (+0200)
+    Time: 09:00 AM
+    Timestamp: 1757660400
+  - Date: Sep 13 (Sat)
+    Record: reckLG5t1bjC7JfYn
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757718000
+  - Date: Sep 13 (Sat)
+    Record: recChEiXQjGXEuU4Z
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757721600
+  - Date: Sep 13 (Sat)
+    Record: recaLdFDgQCu6Qh70
+    TZ: CEST (+0200)
+    Time: 05:00 AM
+    Timestamp: 1757732400
+  - Date: Sep 14 (Sun)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recsuPxESIYjVaz8v
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recpOOfjpXmcqEka6
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recduy2htXrqH82he
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEe2gD4h89AA2ro
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: reccZZMv1KGCDr6hN
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recWmPULGcCJYpxDA
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec272107YQ0eAFPb
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recymDjTGe83JDJNq
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recwUvjNNu1qLdcNY
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recG3boi9Iynr6Epy
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recQ3qfxr7WoZa8As
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recNFFmGpk7z629AH
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recD8fraDjs1S2T8o
+    TZ: CEST (+0200)
+    Time: 03:00 AM
+    Timestamp: 1757811600
+  - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: CEST (+0200)
+    Time: 05:00 AM
+    Timestamp: 1757818800
+  - Date: Sep 14 (Sun)
+    Record: recdLjzgfAwK0yq77
+    TZ: CEST (+0200)
+    Time: 09:00 PM
+    Timestamp: 1757876400
+  - Date: Sep 14 (Sun)
+    Record: recs1BreGv5VNf7RI
+    TZ: CEST (+0200)
+    Time: 11:00 PM
+    Timestamp: 1757883600
+  - Date: Sep 15 (Mon)
+    Record: recaEy7hh2FFVRfSN
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: rece2kOsH5LOvy8KU
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recLMVrrcCBkTAYna
+    TZ: CEST (+0200)
+    Time: 12:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recKzv5B33eGO6dHf
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recB3s0i05NH9ynta
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recmRLhelPWJY06jk
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recnDfNGVshf4kZc7
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recX3Rh3UvT87Tcie
+    TZ: CEST (+0200)
+    Time: 01:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recq43a9lfmlrVgoY
+    TZ: CEST (+0200)
+    Time: 01:30 AM
+    Timestamp: 1757892600
+  - Date: Sep 15 (Mon)
+    Record: recHjGE57KosTW43Q
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757894400
+  ET:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: EDT (-0400)
+    Time: 03:00 AM
+    Timestamp: 1757660400
+  - Date: Sep 12 (Fri)
+    Record: reckLG5t1bjC7JfYn
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757718000
+  - Date: Sep 12 (Fri)
+    Record: recChEiXQjGXEuU4Z
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757721600
+  - Date: Sep 12 (Fri)
+    Record: recaLdFDgQCu6Qh70
+    TZ: EDT (-0400)
+    Time: 11:00 PM
+    Timestamp: 1757732400
+  - Date: Sep 13 (Sat)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recsuPxESIYjVaz8v
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recpOOfjpXmcqEka6
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recduy2htXrqH82he
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEe2gD4h89AA2ro
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: reccZZMv1KGCDr6hN
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recWmPULGcCJYpxDA
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec272107YQ0eAFPb
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recymDjTGe83JDJNq
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recwUvjNNu1qLdcNY
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recG3boi9Iynr6Epy
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recQ3qfxr7WoZa8As
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recNFFmGpk7z629AH
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recD8fraDjs1S2T8o
+    TZ: EDT (-0400)
+    Time: 09:00 PM
+    Timestamp: 1757811600
+  - Date: Sep 13 (Sat)
+    Record: recEeFjDT3ct02Jya
+    TZ: EDT (-0400)
+    Time: 11:00 PM
+    Timestamp: 1757818800
+  - Date: Sep 14 (Sun)
+    Record: recdLjzgfAwK0yq77
+    TZ: EDT (-0400)
+    Time: 03:00 PM
+    Timestamp: 1757876400
+  - Date: Sep 14 (Sun)
+    Record: recs1BreGv5VNf7RI
+    TZ: EDT (-0400)
+    Time: 05:00 PM
+    Timestamp: 1757883600
+  - Date: Sep 14 (Sun)
+    Record: recaEy7hh2FFVRfSN
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: rece2kOsH5LOvy8KU
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recLMVrrcCBkTAYna
+    TZ: EDT (-0400)
+    Time: 06:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recKzv5B33eGO6dHf
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recB3s0i05NH9ynta
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recmRLhelPWJY06jk
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recnDfNGVshf4kZc7
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recX3Rh3UvT87Tcie
+    TZ: EDT (-0400)
+    Time: 07:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recq43a9lfmlrVgoY
+    TZ: EDT (-0400)
+    Time: 07:30 PM
+    Timestamp: 1757892600
+  - Date: Sep 14 (Sun)
+    Record: recHjGE57KosTW43Q
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757894400
+  JST:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: JST (+0900)
+    Time: 04:00 PM
+    Timestamp: 1757660400
+  - Date: Sep 13 (Sat)
+    Record: reckLG5t1bjC7JfYn
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757718000
+  - Date: Sep 13 (Sat)
+    Record: recChEiXQjGXEuU4Z
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757721600
+  - Date: Sep 13 (Sat)
+    Record: recaLdFDgQCu6Qh70
+    TZ: JST (+0900)
+    Time: 12:00 PM
+    Timestamp: 1757732400
+  - Date: Sep 14 (Sun)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recsuPxESIYjVaz8v
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recpOOfjpXmcqEka6
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recduy2htXrqH82he
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEe2gD4h89AA2ro
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: reccZZMv1KGCDr6hN
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recWmPULGcCJYpxDA
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec272107YQ0eAFPb
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recymDjTGe83JDJNq
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recwUvjNNu1qLdcNY
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recG3boi9Iynr6Epy
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recQ3qfxr7WoZa8As
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recNFFmGpk7z629AH
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recD8fraDjs1S2T8o
+    TZ: JST (+0900)
+    Time: 10:00 AM
+    Timestamp: 1757811600
+  - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: JST (+0900)
+    Time: 12:00 PM
+    Timestamp: 1757818800
+  - Date: Sep 15 (Mon)
+    Record: recdLjzgfAwK0yq77
+    TZ: JST (+0900)
+    Time: 04:00 AM
+    Timestamp: 1757876400
+  - Date: Sep 15 (Mon)
+    Record: recs1BreGv5VNf7RI
+    TZ: JST (+0900)
+    Time: 06:00 AM
+    Timestamp: 1757883600
+  - Date: Sep 15 (Mon)
+    Record: recaEy7hh2FFVRfSN
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: rece2kOsH5LOvy8KU
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recLMVrrcCBkTAYna
+    TZ: JST (+0900)
+    Time: 07:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recKzv5B33eGO6dHf
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recB3s0i05NH9ynta
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recmRLhelPWJY06jk
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recnDfNGVshf4kZc7
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recX3Rh3UvT87Tcie
+    TZ: JST (+0900)
+    Time: 08:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recq43a9lfmlrVgoY
+    TZ: JST (+0900)
+    Time: 08:30 AM
+    Timestamp: 1757892600
+  - Date: Sep 15 (Mon)
+    Record: recHjGE57KosTW43Q
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757894400
+  PT:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: PDT (-0700)
+    Time: 12:00 AM
+    Timestamp: 1757660400
+  - Date: Sep 12 (Fri)
+    Record: reckLG5t1bjC7JfYn
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757718000
+  - Date: Sep 12 (Fri)
+    Record: recChEiXQjGXEuU4Z
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757721600
+  - Date: Sep 12 (Fri)
+    Record: recaLdFDgQCu6Qh70
+    TZ: PDT (-0700)
+    Time: 08:00 PM
+    Timestamp: 1757732400
+  - Date: Sep 13 (Sat)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recsuPxESIYjVaz8v
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recpOOfjpXmcqEka6
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recduy2htXrqH82he
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEe2gD4h89AA2ro
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: reccZZMv1KGCDr6hN
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recWmPULGcCJYpxDA
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec272107YQ0eAFPb
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recymDjTGe83JDJNq
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recwUvjNNu1qLdcNY
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recG3boi9Iynr6Epy
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recQ3qfxr7WoZa8As
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recNFFmGpk7z629AH
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
+    Record: recD8fraDjs1S2T8o
+    TZ: PDT (-0700)
+    Time: 06:00 PM
+    Timestamp: 1757811600
+  - Date: Sep 13 (Sat)
+    Record: recEeFjDT3ct02Jya
+    TZ: PDT (-0700)
+    Time: 08:00 PM
+    Timestamp: 1757818800
+  - Date: Sep 14 (Sun)
+    Record: recdLjzgfAwK0yq77
+    TZ: PDT (-0700)
+    Time: 12:00 PM
+    Timestamp: 1757876400
+  - Date: Sep 14 (Sun)
+    Record: recs1BreGv5VNf7RI
+    TZ: PDT (-0700)
+    Time: 02:00 PM
+    Timestamp: 1757883600
+  - Date: Sep 14 (Sun)
+    Record: recaEy7hh2FFVRfSN
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: rece2kOsH5LOvy8KU
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recLMVrrcCBkTAYna
+    TZ: PDT (-0700)
+    Time: 03:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recKzv5B33eGO6dHf
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recB3s0i05NH9ynta
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recmRLhelPWJY06jk
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recnDfNGVshf4kZc7
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recX3Rh3UvT87Tcie
+    TZ: PDT (-0700)
+    Time: 04:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recq43a9lfmlrVgoY
+    TZ: PDT (-0700)
+    Time: 04:30 PM
+    Timestamp: 1757892600
+  - Date: Sep 14 (Sun)
+    Record: recHjGE57KosTW43Q
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757894400
+  SGT:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: +08 (+0800)
+    Time: 03:00 PM
+    Timestamp: 1757660400
+  - Date: Sep 13 (Sat)
+    Record: reckLG5t1bjC7JfYn
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757718000
+  - Date: Sep 13 (Sat)
+    Record: recChEiXQjGXEuU4Z
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757721600
+  - Date: Sep 13 (Sat)
+    Record: recaLdFDgQCu6Qh70
+    TZ: +08 (+0800)
+    Time: 11:00 AM
+    Timestamp: 1757732400
+  - Date: Sep 14 (Sun)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recsuPxESIYjVaz8v
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757800800
+  - Date: Sep 14 (Sun)
+    Record: recpOOfjpXmcqEka6
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recduy2htXrqH82he
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEe2gD4h89AA2ro
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: reccZZMv1KGCDr6hN
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recWmPULGcCJYpxDA
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec272107YQ0eAFPb
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recymDjTGe83JDJNq
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recwUvjNNu1qLdcNY
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recG3boi9Iynr6Epy
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recQ3qfxr7WoZa8As
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recNFFmGpk7z629AH
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recD8fraDjs1S2T8o
+    TZ: +08 (+0800)
+    Time: 09:00 AM
+    Timestamp: 1757811600
+  - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: +08 (+0800)
+    Time: 11:00 AM
+    Timestamp: 1757818800
+  - Date: Sep 15 (Mon)
+    Record: recdLjzgfAwK0yq77
+    TZ: +08 (+0800)
+    Time: 03:00 AM
+    Timestamp: 1757876400
+  - Date: Sep 15 (Mon)
+    Record: recs1BreGv5VNf7RI
+    TZ: +08 (+0800)
+    Time: 05:00 AM
+    Timestamp: 1757883600
+  - Date: Sep 15 (Mon)
+    Record: recaEy7hh2FFVRfSN
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: rece2kOsH5LOvy8KU
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recLMVrrcCBkTAYna
+    TZ: +08 (+0800)
+    Time: 06:00 AM
+    Timestamp: 1757887200
+  - Date: Sep 15 (Mon)
+    Record: recKzv5B33eGO6dHf
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recB3s0i05NH9ynta
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recmRLhelPWJY06jk
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recnDfNGVshf4kZc7
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recX3Rh3UvT87Tcie
+    TZ: +08 (+0800)
+    Time: 07:00 AM
+    Timestamp: 1757890800
+  - Date: Sep 15 (Mon)
+    Record: recq43a9lfmlrVgoY
+    TZ: +08 (+0800)
+    Time: 07:30 AM
+    Timestamp: 1757892600
+  - Date: Sep 15 (Mon)
+    Record: recHjGE57KosTW43Q
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757894400
+  UTC:
+  - Date: Sep 12 (Fri)
+    Record: recjhZdVN71ftqsKf
+    TZ: UTC (+0000)
+    Time: 07:00 AM
+    Timestamp: 1757660400
+  - Date: Sep 12 (Fri)
+    Record: reckLG5t1bjC7JfYn
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757718000
+  - Date: Sep 13 (Sat)
+    Record: recChEiXQjGXEuU4Z
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757721600
+  - Date: Sep 13 (Sat)
+    Record: recaLdFDgQCu6Qh70
+    TZ: UTC (+0000)
+    Time: 03:00 AM
+    Timestamp: 1757732400
+  - Date: Sep 13 (Sat)
+    Record: rec8BQ19FeblQ5z5f
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recsuPxESIYjVaz8v
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757800800
+  - Date: Sep 13 (Sat)
+    Record: recpOOfjpXmcqEka6
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recduy2htXrqH82he
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEe2gD4h89AA2ro
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: reccZZMv1KGCDr6hN
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recWmPULGcCJYpxDA
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recEE2jn4K0kJ2gqd
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec272107YQ0eAFPb
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recymDjTGe83JDJNq
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: rec6nuGZHfWxHBTtM
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 13 (Sat)
+    Record: recwUvjNNu1qLdcNY
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757804400
+  - Date: Sep 14 (Sun)
+    Record: recG3boi9Iynr6Epy
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recQ3qfxr7WoZa8As
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: reczhOyL47Lb3ZO5Z
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: rec0DJ2MFqzoTsugr
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recNFFmGpk7z629AH
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
+    Record: recD8fraDjs1S2T8o
+    TZ: UTC (+0000)
+    Time: 01:00 AM
+    Timestamp: 1757811600
+  - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: UTC (+0000)
+    Time: 03:00 AM
+    Timestamp: 1757818800
+  - Date: Sep 14 (Sun)
+    Record: recdLjzgfAwK0yq77
+    TZ: UTC (+0000)
+    Time: 07:00 PM
+    Timestamp: 1757876400
+  - Date: Sep 14 (Sun)
+    Record: recs1BreGv5VNf7RI
+    TZ: UTC (+0000)
+    Time: 09:00 PM
+    Timestamp: 1757883600
+  - Date: Sep 14 (Sun)
+    Record: recaEy7hh2FFVRfSN
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: rece2kOsH5LOvy8KU
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recLMVrrcCBkTAYna
+    TZ: UTC (+0000)
+    Time: 10:00 PM
+    Timestamp: 1757887200
+  - Date: Sep 14 (Sun)
+    Record: recKzv5B33eGO6dHf
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recB3s0i05NH9ynta
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recmRLhelPWJY06jk
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recnDfNGVshf4kZc7
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recX3Rh3UvT87Tcie
+    TZ: UTC (+0000)
+    Time: 11:00 PM
+    Timestamp: 1757890800
+  - Date: Sep 14 (Sun)
+    Record: recq43a9lfmlrVgoY
+    TZ: UTC (+0000)
+    Time: 11:30 PM
+    Timestamp: 1757892600
+  - Date: Sep 15 (Mon)
+    Record: recHjGE57KosTW43Q
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757894400

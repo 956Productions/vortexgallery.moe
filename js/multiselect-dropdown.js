@@ -4,7 +4,7 @@ style.innerHTML = `
 .multiselect-dropdown{
   display: inline-block;
   padding: 5px 5px 0px 5px;
-  border-radius: 0px;
+  border-radius: 0.5em;
   border: solid 1px #00a3f8;
   background-color: #0a0a0a;
   position: relative;

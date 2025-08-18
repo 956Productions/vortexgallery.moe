@@ -1,0 +1,10 @@
+<div class="week-tab mb-2 {{ include.class | default: '' }}" style="overflow-x: auto; overflow-y: hidden;" id="{{ include.id }}">
+{% include vgon25/schedule_locale.html class="week-locale" week=include.week tz="PT" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="ET" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="BRT" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="UTC" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="CET" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="SGT" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="JST" %}
+{% include vgon25/schedule_locale.html class="week-locale is-hidden" week=include.week tz="AET" %}
+</div>

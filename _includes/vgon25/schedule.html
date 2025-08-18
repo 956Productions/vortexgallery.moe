@@ -1,0 +1,147 @@
+<div class="columns is-vcentered">
+  <div class="column is-narrow">
+    <b>Select timezone:</b>
+  </div>
+  <div class="column is-narrow">
+    <div class="dropdown">
+      <div class="dropdown-trigger">
+        <button class="button is-primary has-text-white" aria-haspopup="true" aria-controls="dropdown-menu">
+          <span id="tz-active" data-tz="PT">US Pacific Time</span>
+          <span class="icon is-small">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span>
+        </button>
+      </div>
+      <div class="dropdown-menu" id="dropdown-menu" role="menu">
+        <div class="dropdown-content">
+          <a class="dropdown-item is-active" data-tz="PT">
+            US Pacific Time
+          </a>
+          <a class="dropdown-item" data-tz="ET">
+            US Eastern Time
+          </a>
+          <a class="dropdown-item" data-tz="BRT">
+            Brasilia Time
+          </a>
+          <a class="dropdown-item" data-tz="UTC">
+            UTC
+          </a>
+          <a class="dropdown-item" data-tz="CET">
+            Central European Time
+          </a>
+          <a class="dropdown-item" data-tz="SGT">
+            Singapore Time
+          </a>
+          <a class="dropdown-item" data-tz="JST">
+            Japan Time
+          </a>
+          <a class="dropdown-item" data-tz="AET">
+            Australian Eastern Time
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-narrow">
+    <b>Filter by regions:</b>
+  </div>
+  <div class="column has-text-white">
+      <select multiple id="regionselect" style="display: none;"
+        multiselect-max-items="3" multiselect-select-all="true">
+        <option selected="" value="NA">North America</option>
+        <option selected="" value="CA">Central America</option>
+        <option selected="" value="SA">South America</option>
+        <option selected="" value="EU">Europe</option>
+        <option selected="" value="ME">Middle East</option>
+        <option selected="" value="AF">Africa</option>
+        <option selected="" value="ASIA">Asia</option>
+        <option selected="" value="OCE">Oceania</option>
+    </select>
+  </div>
+</div>
+<div class="columns is-vcentered">
+  <div class="column is-narrow">
+    <b>Choose a weekend:</b>
+  </div>
+  <div class="column">
+    <div class="week-tabs tabs is-centered is-fullwidth is-toggle">
+        <ul class="m-0 has-text-weight-bold">
+            <li id="week1btn" class="is-active" data-target="#Week1"><a>Aug. 29-31</a></li>
+            <li id="week2btn" data-target="#Week2"><a>Sep. 5-7</a></li>
+            <li id="week3btn" data-target="#Week3"><a>Sep. 12-14</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+{% include vgon25/schedule_week.html id="Week1" week="Week 1" %}
+{% include vgon25/schedule_week.html id="Week2" week="Week 2" %}
+{% include vgon25/schedule_week.html id="Week3" week="Week 3" %}
+{% include vgon25/modals.html %}
+<script>
+    $('.week-tabs > ul > li').click(function() {
+      $('.week-tab').addClass('is-hidden')
+      $($(this).data('target')).removeClass('is-hidden')
+      $('.week-tabs > ul > li').removeClass('is-active')
+      $(this).addClass('is-active')
+    })
+
+    now = new Date();
+    if (now >= new Date(2025,9,2) && now < new Date(2025,9,5)) {
+      $("#week2btn").trigger("click");
+    } else if (now >= new Date(2025,9,5) && now < new Date(2025,9,9)) {
+      $("#week3btn").trigger("click");
+    }
+
+    $('#regionselect').on('change', function() {
+        const choices = Array.from(this.selectedOptions).map(x=>x.value??x.text)
+
+        if ( choices.includes("CA") ) {
+            choices.push("LAN");
+        }
+        if ( choices.includes("NA") ) {
+            choices.push("NA/WC");
+            choices.push("NA/EC");
+        }
+        if ( choices.includes("SA") ) {
+            choices.push("SA/BR");
+            choices.push("SUD");
+        }
+        if ( choices.includes("ASIA") ) {
+            choices.push("JP");
+            choices.push("KR");
+            choices.push("SEA");
+            choices.push("AS");
+        }        
+        $('.tournament-entry').each(function() {
+            let regions = $(this).attr('data-regions').split('+')
+            if ( regions.includes('ALL')) {
+            } else {
+                if ( choices.some(r=> regions.includes(r)) ) {
+                    $(this).removeClass('is-hidden')
+                } else {
+                    $(this).addClass('is-hidden')
+                }
+            }
+        });
+    });
+
+    $(".dropdown-trigger").on("click", function() {
+        $(".dropdown").toggleClass("is-active");
+    });
+
+    $(".dropdown-item").on("click", function () {
+        $(".dropdown-item").removeClass("is-active");
+        $(this).addClass("is-active");
+        $('#tz-active').attr('data-tz',$(this).attr('data-tz'))
+        $("#tz-active").text(this.text);
+        $(".dropdown").removeClass("is-active");
+        $(".week-locale").addClass('is-hidden')
+        $(".Week-" + $(this).attr('data-tz')).removeClass('is-hidden')
+      }
+    );
+
+    $(".week-tabs > ul > li").on("click", function() {
+        $(".Week-" + $("#tz-active").attr('data-tz')).removeClass('is-hidden')
+    })
+</script>

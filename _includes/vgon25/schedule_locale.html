@@ -1,0 +1,38 @@
+<div class="{{ include.class | default: '' }} Week-{{include.tz}}" id="">
+{% assign curDate = '' %}
+{% assign curGame = none %}
+{% for i in site.data.vgon25.schedule[include.week][include.tz] %}
+{% for g in site.data.vgon25.games %}
+{% if g['Record ID'] == i['Record'] %}
+{% assign curGame = g %}
+{% endif %}
+{% endfor %}
+{% if curDate != i['Date'] %}
+{% assign curDate = i['Date'] %}
+<h3>{{ i['Date'] }} - {{include.tz}}</h3>
+<hr>
+{% endif %}
+<div class="mb-1 tournament-entry" data-regions="{{ curGame['Abbr-Region'] }}">
+    <div class="tooltip tooltip-right">
+        <span class="tag is-dark has-text-weight-bold" style="min-width: 75px;">
+            {{ i['Time'] }}
+        </span>
+        <span class="tooltiptext timestamp-text" data-time="{{ i['Timestamp'] }}">
+            Enable javascript for system time.
+        </span>
+    </div>
+    <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Timestamp'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
+    <a class="modal-trigger" data-target="{{ curGame['Abbr-Game'] }}">
+        <b class="is-hidden-mobile">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Game Name']}}</b>
+        <b class="is-hidden-tablet">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Short Name']}}</b>
+    </a>
+    {% if i['Stream Links'] | strip != '' %}
+    <a href="{{ i['Stream Links'] }}" target="_blank">
+        <span class="icon">
+            <i class="fas fa-desktop"></i>
+        </span>
+    </a>
+    {% endif %}
+</div>
+{% endfor %}
+</div>
