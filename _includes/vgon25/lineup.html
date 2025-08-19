@@ -10,7 +10,7 @@
     {% if include.modals != false %}
     <a class="modal-trigger column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
     {% else %}
-    <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgon25/{{i['Abbr-Game']}}">
+    <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgon25/{{i['Abbr-Game'] | downcase }}">
     {% endif %}
         <div class="">
             <div style="height:160px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
