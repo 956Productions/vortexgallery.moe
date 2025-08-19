@@ -380,11 +380,6 @@ Week 2:
     Time: 04:00 AM
     Timestamp: 1757181600
   - Date: Sep 07 (Sun)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: AEST (+1000)
-    Time: 05:00 AM
-    Timestamp: 1757185200
-  - Date: Sep 07 (Sun)
     Record: recg1C2LriU83jq3X
     TZ: AEST (+1000)
     Time: 06:00 AM
@@ -434,6 +429,11 @@ Week 2:
     TZ: AEST (+1000)
     Time: 09:00 AM
     Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: AEST (+1000)
+    Time: 11:00 AM
+    Timestamp: 1757206800
   - Date: Sep 08 (Mon)
     Record: rec1fDBVXdoNDJECD
     TZ: AEST (+1000)
@@ -541,11 +541,6 @@ Week 2:
     Time: 03:00 PM
     Timestamp: 1757181600
   - Date: Sep 06 (Sat)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: -03 (-0300)
-    Time: 04:00 PM
-    Timestamp: 1757185200
-  - Date: Sep 06 (Sat)
     Record: recg1C2LriU83jq3X
     TZ: -03 (-0300)
     Time: 05:00 PM
@@ -595,6 +590,11 @@ Week 2:
     TZ: -03 (-0300)
     Time: 08:00 PM
     Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: -03 (-0300)
+    Time: 10:00 PM
+    Timestamp: 1757206800
   - Date: Sep 07 (Sun)
     Record: rec1fDBVXdoNDJECD
     TZ: -03 (-0300)
@@ -702,11 +702,6 @@ Week 2:
     Time: 08:00 PM
     Timestamp: 1757181600
   - Date: Sep 06 (Sat)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: CEST (+0200)
-    Time: 09:00 PM
-    Timestamp: 1757185200
-  - Date: Sep 06 (Sat)
     Record: recg1C2LriU83jq3X
     TZ: CEST (+0200)
     Time: 10:00 PM
@@ -756,6 +751,11 @@ Week 2:
     TZ: CEST (+0200)
     Time: 01:00 AM
     Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: CEST (+0200)
+    Time: 03:00 AM
+    Timestamp: 1757206800
   - Date: Sep 07 (Sun)
     Record: rec1fDBVXdoNDJECD
     TZ: CEST (+0200)
@@ -863,11 +863,6 @@ Week 2:
     Time: 02:00 PM
     Timestamp: 1757181600
   - Date: Sep 06 (Sat)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: EDT (-0400)
-    Time: 03:00 PM
-    Timestamp: 1757185200
-  - Date: Sep 06 (Sat)
     Record: recg1C2LriU83jq3X
     TZ: EDT (-0400)
     Time: 04:00 PM
@@ -917,6 +912,11 @@ Week 2:
     TZ: EDT (-0400)
     Time: 07:00 PM
     Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: EDT (-0400)
+    Time: 09:00 PM
+    Timestamp: 1757206800
   - Date: Sep 07 (Sun)
     Record: rec1fDBVXdoNDJECD
     TZ: EDT (-0400)
@@ -1024,11 +1024,6 @@ Week 2:
     Time: 03:00 AM
     Timestamp: 1757181600
   - Date: Sep 07 (Sun)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: JST (+0900)
-    Time: 04:00 AM
-    Timestamp: 1757185200
-  - Date: Sep 07 (Sun)
     Record: recg1C2LriU83jq3X
     TZ: JST (+0900)
     Time: 05:00 AM
@@ -1078,6 +1073,11 @@ Week 2:
     TZ: JST (+0900)
     Time: 08:00 AM
     Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: JST (+0900)
+    Time: 10:00 AM
+    Timestamp: 1757206800
   - Date: Sep 08 (Mon)
     Record: rec1fDBVXdoNDJECD
     TZ: JST (+0900)
@@ -1185,11 +1185,6 @@ Week 2:
     Time: 11:00 AM
     Timestamp: 1757181600
   - Date: Sep 06 (Sat)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: PDT (-0700)
-    Time: 12:00 PM
-    Timestamp: 1757185200
-  - Date: Sep 06 (Sat)
     Record: recg1C2LriU83jq3X
     TZ: PDT (-0700)
     Time: 01:00 PM
@@ -1239,6 +1234,11 @@ Week 2:
     TZ: PDT (-0700)
     Time: 04:00 PM
     Timestamp: 1757199600
+  - Date: Sep 06 (Sat)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: PDT (-0700)
+    Time: 06:00 PM
+    Timestamp: 1757206800
   - Date: Sep 07 (Sun)
     Record: rec1fDBVXdoNDJECD
     TZ: PDT (-0700)
@@ -1346,11 +1346,6 @@ Week 2:
     Time: 02:00 AM
     Timestamp: 1757181600
   - Date: Sep 07 (Sun)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: +08 (+0800)
-    Time: 03:00 AM
-    Timestamp: 1757185200
-  - Date: Sep 07 (Sun)
     Record: recg1C2LriU83jq3X
     TZ: +08 (+0800)
     Time: 04:00 AM
@@ -1400,6 +1395,11 @@ Week 2:
     TZ: +08 (+0800)
     Time: 07:00 AM
     Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: +08 (+0800)
+    Time: 09:00 AM
+    Timestamp: 1757206800
   - Date: Sep 07 (Sun)
     Record: rec1fDBVXdoNDJECD
     TZ: +08 (+0800)
@@ -1507,11 +1507,6 @@ Week 2:
     Time: 06:00 PM
     Timestamp: 1757181600
   - Date: Sep 06 (Sat)
-    Record: rec9LzY0pPfaE9sRT
-    TZ: UTC (+0000)
-    Time: 07:00 PM
-    Timestamp: 1757185200
-  - Date: Sep 06 (Sat)
     Record: recg1C2LriU83jq3X
     TZ: UTC (+0000)
     Time: 08:00 PM
@@ -1561,6 +1556,11 @@ Week 2:
     TZ: UTC (+0000)
     Time: 11:00 PM
     Timestamp: 1757199600
+  - Date: Sep 07 (Sun)
+    Record: rec9LzY0pPfaE9sRT
+    TZ: UTC (+0000)
+    Time: 01:00 AM
+    Timestamp: 1757206800
   - Date: Sep 07 (Sun)
     Record: rec1fDBVXdoNDJECD
     TZ: UTC (+0000)
