@@ -12,6 +12,7 @@
 <h3>{{ i['Date'] }} - {{include.tz}}</h3>
 <hr>
 {% endif %}
+{% if curGame['Time-Start Time'] %}
 <div class="mb-1 tournament-entry" data-regions="{{ curGame['Abbr-Region'] }}">
     <div class="tooltip tooltip-right">
         <span class="tag is-dark has-text-weight-bold" style="min-width: 75px;">
@@ -21,7 +22,7 @@
             Enable javascript for system time.
         </span>
     </div>
-    <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Timestamp'] }}" data-end="{{ i['Time-Epoch End'] }}">LIVE NOW</div>
+    <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ curGame['Time-Start Timestamp'] }}" data-end="{{ curGame['Time-End Timestamp'] }}">LIVE NOW</div>
     <a class="modal-trigger" data-target="{{ curGame['Abbr-Game'] }}">
         <b class="is-hidden-mobile">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Game Name']}}</b>
         <b class="is-hidden-tablet">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Short Name']}}</b>
@@ -34,5 +35,6 @@
     </a>
     {% endif %}
 </div>
+{% endif %}
 {% endfor %}
 </div>

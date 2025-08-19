@@ -26,7 +26,11 @@
               <a href="{{r['Smash URL'] | default: 'https://start.gg/vgon25' }}"><b>{{r['Game Name']}} ({{r['Region Abbr. (from Regions)'] | replace:",","+" | replace:"ALL","Global" }})</b></a> <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ r['Time-Epoch'] }}" data-end="{{ r['Time-Epoch End'] }}">LIVE NOW</div>
               {% endif %}
               <ul>
-                <li>Start time: <div class="tooltip">{{ r['Time-Start Day'] | replace: ".5)",":30)" | default: 'TBD' }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Epoch'] }}">Enable javascript for system time.</span></div></li>
+                {% if r['Time-Start Time'] %}
+                <li>Start time: <div class="tooltip">{{ r['Time-Start Day'] }} {{ r['Time-Start Time'] }} {{ r['Time-TZ'] }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Start Timestamp'] }}">Enable javascript for system time.</span></div></li>
+                {% else %}
+                <li>Start time: {{ r['Time-Start Day'] }}, Time TBD</li>
+                {% endif %}
                 <li>Platform: {{ r['Data-Platform Short Name'] | default: 'TBD' }}</li>
                 {% if r['Stream Links'] %}
                 <!-- <li>Main Stream: <a href="{{ r['Stream Links'] | default: '#' }}" target="_blank">{{ r['Stream Links'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li> -->

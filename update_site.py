@@ -86,7 +86,7 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=
     rows = []
     clear_game_pages(subdir)
 
-    for r in table.all(view=atview):
+    for r in table.all(view=atview,sort=['Game Name']):
         new_row = {}
         for key, value in r['fields'].items():
             if key not in drop_headers:
