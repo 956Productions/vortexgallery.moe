@@ -21,9 +21,9 @@
             {% for r in site.data.vgon25.games %}
               {% if r['Abbr-Game'] == curGame %}
               {% if r['Alt Reg URL'] %}
-              <a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vgon25' }}"><b>{{r['Game Name']}} ({{r['Region Abbr. (from Regions)'] | replace:",","+" | replace:"ALL","Global"  }})</b></a> <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ r['Time-Epoch'] }}" data-end="{{ r['Time-Epoch End'] }}">LIVE NOW</div>
+              <a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vgon25' }}"><b>{{r['Game Name']}} ({{curGame['Abbr-Region'] | remove: " " }})</b></a> <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ r['Time-Start Timestamp'] }}" data-end="{{ r['Time-End Timestamp'] }}">LIVE NOW</div>
               {% else %}
-              <a href="{{r['Smash URL'] | default: 'https://start.gg/vgon25' }}"><b>{{r['Game Name']}} ({{r['Region Abbr. (from Regions)'] | replace:",","+" | replace:"ALL","Global" }})</b></a> <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ r['Time-Epoch'] }}" data-end="{{ r['Time-Epoch End'] }}">LIVE NOW</div>
+              <a href="{{r['Smash URL'] | default: 'https://start.gg/vgon25' }}"><b>{{r['Game Name']}} ({{curGame['Abbr-Region'] | remove: " " }})</b></a> <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ r['Time-Start Timestamp'] }}" data-end="{{ r['Time-End Timestamp'] }}">LIVE NOW</div>
               {% endif %}
               <ul>
                 {% if r['Time-Start Time'] %}
