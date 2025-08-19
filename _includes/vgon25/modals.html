@@ -32,6 +32,12 @@
                 <li>Start time: {{ r['Time-Start Day'] }}, Time TBD</li>
                 {% endif %}
                 <li>Platform: {{ r['Data-Platform Short Name'] | default: 'TBD' }}</li>
+                {% if r['Region-Full'] %}
+                <li>Region(s): {{ r['Region-Full'] }}</li>
+                {% endif %}
+                {% if r['Region Includes'] %}
+                <li>Region(s) Includes: {{ r['Region Includes'] }}</li>
+                {% endif %}
                 {% if r['Stream Links'] %}
                 <!-- <li>Main Stream: <a href="{{ r['Stream Links'] | default: '#' }}" target="_blank">{{ r['Stream Links'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li> -->
                 {% endif %}
