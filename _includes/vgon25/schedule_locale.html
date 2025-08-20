@@ -24,8 +24,8 @@
     </div>
     <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ curGame['Time-Start Timestamp'] }}" data-end="{{ curGame['Time-End Timestamp'] }}">LIVE NOW</div>
     <a class="modal-trigger" data-target="{{ curGame['Abbr-Game'] }}">
-        <b class="is-hidden-mobile">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Game Name']}}</b>
-        <b class="is-hidden-tablet">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Short Name']}}</b>
+        <b class="is-hidden-mobile">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Game Name']}} {{curGame['Format-Rollup'] | default: ""}}</b>
+        <b class="is-hidden-tablet">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Short Name']}} {{curGame['Format-Rollup'] | default: ""}}</b>
     </a>
     {% if i['Stream Links'] | strip != '' %}
     <a href="{{ i['Stream Links'] }}" target="_blank">

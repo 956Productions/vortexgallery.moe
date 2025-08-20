@@ -38,7 +38,7 @@
                         <div class="rules-div content has-text-white is-hidden" id="{{i['Abbr-Game']}}">
                             {% for r in site.data.vgon25.games %}
                             {% if r['Abbr-Game'] == curGame %}
-                                <h2>{{ r['Short Name'] | default: r['Game Name'] }} ({{ r['Region Abbr. (from Regions)']  | replace:",","+" }} - {{ r['Data-Platform Short Name'] }})</h2>
+                                <h2>{{ r['Short Name'] | default: r['Game Name'] }} {{r['Format-Rollup'] | default: ""}} ({{ r['Region Abbr. (from Regions)']  | replace:",","+" }} - {{ r['Data-Platform Short Name'] }})</h2>
                                 <hr/>
                                 {% include vgon25/rulesblock.html %}
                             {% endif %}
