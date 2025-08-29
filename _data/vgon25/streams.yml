@@ -321,13 +321,13 @@
   Start: 1757808000
   Stream: https://www.twitch.tv/bigzam
 - Abbr: !!python/tuple
-  - '[NA] BBCF [''Redemption'']'
+  - '[NA] BBCF Redemption'
   End: 1757817000
   Game: !!python/tuple
-  - '[NA] Blazblue Centralfiction [''Redemption'']'
+  - '[NA] Blazblue Centralfiction Redemption'
   Record: recjWIYKINFAhB0h5
   Short: !!python/tuple
-  - '[NA] Blazblue [''Redemption'']'
+  - '[NA] Blazblue Redemption'
   Start: 1757809800
   Stream: https://twitch.tv/trainingmodenetneo
 - Abbr: '[NA] JJHFTF'

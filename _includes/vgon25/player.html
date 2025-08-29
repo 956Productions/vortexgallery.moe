@@ -1,6 +1,6 @@
-<section class="section has-background-black has-text-white">
-    <div class="columns is-vcentered">
-        <div class="column is-one-quarter-desktop is-hidden-touch">
+<section class="section">    
+    <div class="columns is-vcentered is-align-items-end">
+        <div class="column is-one-quarter-desktop is-hidden-touch is-flex">
             <div class="tabs is-toggle">
                 <ul>
                     <li class="is-active" id="schedule-tab"><a>Schedule</a></li>
@@ -8,9 +8,11 @@
                 </ul>
             </div>
         </div>
-        <div class="column has-text-centered">
-            <h3 class="is-size-3 exo">Watch Vortex Gallery Online 2025 LIVE!</h3>
-        </div>
+        <a class="column has-text-centered" href="https://956pro.com/shop" target="_blank">
+            <figure class="image">
+                <img src="/img/vgon25/shop_widget.png">
+            </figure>
+        </a>
     </div>
     <div id="player-container" class="columns is-vcentered">
         <div class="column is-one-third-desktop is-one-quarter-fullhd is-hidden-touch">
@@ -21,9 +23,9 @@
                 height="100%"
                 width="100%"
                 theme="dark"
-                style="border:1px solid #00a3f8">
+                style="border:1px solid #00a3f8; border-radius: 6px;">
             </iframe>
-            <div id="schedule_list" class="has-background-black has-text-white" style="width: 100%; height:0px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis; border:1px solid #00a3f8">
+            <div id="schedule_list" class="has-background-black has-text-white" style="width: 100%; height: 0px; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis; border:1px solid #00a3f8; border-radius: 6px;">
                 <p class="p-2">Click any entry to switch streams.</p>
                 {% for i in site.data.vgon25.streams %}
                 <div class="stream-entry" data-target="{{i['Stream']}}" data-start="{{ i['Start'] }}" data-end="{{ i['End'] }}" style="overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
@@ -40,12 +42,12 @@
             </div>
         </div>
         <div class="column">
-            <figure class="image is-16by9" style="border:1px solid #00a3f8">
+            <figure class="image is-16by9" style="border:1px solid #00a3f8;">
                 <iframe id="twitch-player" class="has-ratio "src="https://player.twitch.tv/?channel=956productions&parent=vortexgallery.moe" frameborder="0" allowfullscreen="true" scrolling="no" height="auto" width="100%"></iframe>
             </figure>
         </div>
     </div>
-    <div class="is-hidden-desktop has-background-black has-text-white" style="width: 100%; height: 70vh; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis; border:1px solid #00a3f8">
+    <div class="is-hidden-desktop has-background-black has-text-white" style="width: 100%; height: 70vh; overflow-y: auto; overflow-x: hidden; text-overflow: ellipsis; border:1px solid #00a3f8; border-radius: 6px;">
         <p class="p-2">Click any entry to switch streams.</p>
         {% for i in site.data.vgon25.streams %}
         <div class="stream-entry" data-target="{{i['Stream']}}" data-start="{{ i['Start'] }}" data-end="{{ i['End'] }}" style="overflow-x: hidden; text-overflow: ellipsis; white-space: nowrap;">
@@ -53,7 +55,7 @@
                 ...
             </span>
             <div class="nowlive tag is-hidden is-danger has-text-weight-bold" data-start="{{ i['Start'] }}" data-end="{{ i['End'] }}">LIVE NOW</div>
-            <a class="stream-trigger" data-target="{{curGame['Main Stream']}}">
+            <a class="stream-trigger" data-target="{{i['Stream']}}">
                 <b class="is-size-7">{{ i['Short'] }}</b>
             </a>
         </div>

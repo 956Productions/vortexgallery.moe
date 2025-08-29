@@ -98,9 +98,9 @@ def generate_stream_schedule(row):
         "Stream" : row['Main Stream']
     }
     if 'Format' in row:
-        data['Game'] = "[%s] %s %s" % (row['Abbr-Region'],row['Game Name'],row['Format-Rollup']),
-        data['Short'] = "[%s] %s %s" % (row['Abbr-Region'],row['Short Name'],row['Format-Rollup']),
-        data['Abbr'] = "[%s] %s %s" % (row['Abbr-Region'],row['Abbr-Game'],row['Format-Rollup']),
+        data['Game'] = "[%s] %s %s" % (row['Abbr-Region'],row['Game Name'],row['Format-Rollup'][0]),
+        data['Short'] = "[%s] %s %s" % (row['Abbr-Region'],row['Short Name'],row['Format-Rollup'][0]),
+        data['Abbr'] = "[%s] %s %s" % (row['Abbr-Region'],row['Abbr-Game'],row['Format-Rollup'][0]),
     return data
 
 def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=False):
