@@ -13,7 +13,7 @@ function expireStreams() {
   var d = Math.round(now.getTime() / 1000);
   $('.stream-entry').each(function(i,obj) {
       var utcEnd = $(obj).data('end');
-      if (utcEnd < d) {
+      if (utcEnd + 3600 < d) {
           $(obj).addClass('is-hidden');
       }
   });
