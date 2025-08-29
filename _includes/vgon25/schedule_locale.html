@@ -27,12 +27,21 @@
         <b class="is-hidden-mobile">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Game Name']}} {{curGame['Format-Rollup'] | default: ""}}</b>
         <b class="is-hidden-tablet">[{{curGame['Abbr-Region'] | remove: " " }}] {{curGame['Short Name']}} {{curGame['Format-Rollup'] | default: ""}}</b>
     </a>
-    {% if i['Stream Links'] | strip != '' %}
-    <a href="{{ i['Stream Links'] }}" target="_blank">
+    {% if curGame['Main Stream'] | strip != '' %}
+    {% if curGame['Main Stream'] contains "youtube" %}
+    <a href="{{ curGame['Main Stream'] | strip != '' }}" target="_blank">
         <span class="icon">
-            <i class="fas fa-desktop"></i>
+            <i class="fab fa-youtube"></i>
         </span>
     </a>
+    {% endif %}
+    {% if curGame['Main Stream'] contains "twitch" %}
+    <a href="{{ curGame['Main Stream'] | strip != '' }}" target="_blank">
+        <span class="icon">
+            <i class="fab fa-twitch"></i>
+        </span>
+    </a>
+    {% endif %}
     {% endif %}
 </div>
 {% endif %}

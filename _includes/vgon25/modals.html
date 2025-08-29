@@ -38,8 +38,8 @@
                 {% if r['Region Includes'] %}
                 <li>Region(s) Includes: {{ r['Region Includes'] }}</li>
                 {% endif %}
-                {% if r['Stream Links'] %}
-                <!-- <li>Main Stream: <a href="{{ r['Stream Links'] | default: '#' }}" target="_blank">{{ r['Stream Links'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li> -->
+                {% if r['Main Stream'] %}
+                <li>Main Stream: <a href="{{ r['Main Stream'] }}" target="_blank">{{ r['Main Stream'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li>
                 {% endif %}
                 {% if r['Matcherino URL'] %}
                 <li><a href="{{r['Matcherino URL']}}">Matcherino Link</a></li>

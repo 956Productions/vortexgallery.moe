@@ -64,7 +64,6 @@ def generate_game_page(subdir,name,label,abbr):
 
 def generate_online_schedule(schedule,row,timestamp):
     new_time = datetime.datetime.fromtimestamp(int(timestamp))
-    #new_time = new_time.replace(tzinfo=datetime.timezone.utc) why did this not work??
     for t in config['schedule']:
         new_time = new_time.astimezone(ZoneInfo(t['zone']))
         data = {
@@ -79,6 +78,30 @@ def generate_online_schedule(schedule,row,timestamp):
         if t['label'] not in schedule[row['Week #']]:
             schedule[row['Week #']][t['label']] = []
         schedule[row['Week #']][t['label']].append( data )
+
+def generate_stream_schedule(row):
+    if type(row['Abbr-Region']) == list:
+        row['Abbr-Region'] = row['Abbr-Region'][0]
+    if type(row['Game Name']) == list:
+        row['Game Name'] = row['Game Name'][0]
+    if type(row['Short Name']) == list:
+        row['Short Name'] = row['Short Name'][0]
+    if type(row['Abbr-Game']) == list:
+        row['Abbr-Game'] = row['Abbr-Game'][0]
+    data = {
+        "Record" : row['Record ID'],
+        "Game" : "[%s] %s" % (row['Abbr-Region'],row['Game Name']),
+        "Short" : "[%s] %s" % (row['Abbr-Region'],row['Short Name']),
+        "Abbr" : "[%s] %s" % (row['Abbr-Region'],row['Abbr-Game']),
+        "Start" : row['Time-Start Timestamp'],
+        "End" : row['Time-End Timestamp'],
+        "Stream" : row['Main Stream']
+    }
+    if 'Format' in row:
+        data['Game'] = "[%s] %s %s" % (row['Abbr-Region'],row['Game Name'],row['Format-Rollup']),
+        data['Short'] = "[%s] %s %s" % (row['Abbr-Region'],row['Short Name'],row['Format-Rollup']),
+        data['Abbr'] = "[%s] %s %s" % (row['Abbr-Region'],row['Abbr-Game'],row['Format-Rollup']),
+    return data
 
 def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=False):
     table = at.table(atbase,"Tournaments")
@@ -111,11 +134,15 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=
 
     if online_schedule == True:
         schedule = {}
+        streams = []
         for t in table.all(view=atview,sort=['Time-Start Timestamp','Game Name']):
             new_row = t['fields']
             if 'Time-Start Timestamp' in new_row:
                 generate_online_schedule(schedule,new_row,new_row['Time-Start Timestamp'])
+            if 'Main Stream' in new_row:
+                streams.append(generate_stream_schedule(new_row))
         yaml.dump(schedule,open('./_data/%s/schedule.yml' % subdir,'w'))
+        yaml.dump(streams,open('./_data/%s/streams.yml' % subdir,'w'))
 
 def create_schedule_data(): #OUTDATED
     table = at.table(config["onlinebase"],"Tournaments")
