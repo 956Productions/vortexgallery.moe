@@ -13,7 +13,7 @@
     {% endif %}
     <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
     <li>Organizer: {{ r['Rollup-Lead TOs'] | default: '@956Productions' }}</li>
-    <!-- <li>Main Stream: <a href="{{ r['Stream Links'] | default: '#' }}" target="_blank">{{ r['Stream Links'] | default: 'TBD' }}</a></li> -->
+    <li>Main Stream: <a href="{{ r['Main Stream'] }}" target="_blank">{{ r['Main Stream'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li>
     {% if r['Region-Full'] %}
     <li>Region(s): {{ r['Region-Full'] }}</li>
     {% endif %}
