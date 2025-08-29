@@ -36,6 +36,10 @@
     {% endif %}
     <li>Pot Split: {{ r['$-Pot Split'] | default: 'TBD' }}</li>
 </ul>
+{% if r['Stream Links'] %}
+<h3>Stream Information</h3>
+<p>{{r['Stream Links'] | newline_to_br }}</p>
+{% endif %}
 {% if r['Pools-Bracket Type'] %}
 <h3>Tournament Format</h3>
 {% endif %}
