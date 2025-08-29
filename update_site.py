@@ -93,8 +93,8 @@ def generate_stream_schedule(row):
         "Game" : "[%s] %s" % (row['Abbr-Region'],row['Game Name']),
         "Short" : "[%s] %s" % (row['Abbr-Region'],row['Short Name']),
         "Abbr" : "[%s] %s" % (row['Abbr-Region'],row['Abbr-Game']),
-        "Start" : row['Time-Start Timestamp'],
-        "End" : row['Time-End Timestamp'],
+        "Start" : int(row['Time-Start Timestamp']),
+        "End" : int(row['Time-End Timestamp']),
         "Stream" : row['Main Stream']
     }
     if 'Format' in row:
