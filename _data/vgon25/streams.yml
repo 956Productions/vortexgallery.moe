@@ -33,6 +33,13 @@
   Short: '[OCE] Rev 2'
   Start: 1756546200
   Stream: https://www.twitch.tv/sivis115
+- Abbr: '[AS] MOTW'
+  End: 1756558800
+  Game: '[AS] Garou: Mark of the Wolves'
+  Record: recjxFRBGgCDbFNAt
+  Short: '[AS] Garou'
+  Start: 1756548000
+  Stream: https://www.twitch.tv/suanbaiyjy
 - Abbr: '[OCE] BBCF'
   End: 1756638000
   Game: '[OCE] Blazblue Centralfiction'
@@ -103,11 +110,11 @@
   Short: '[ALL] PPT2'
   Start: 1757181600
   Stream: https://www.twitch.tv/ascensionpuyo
-- Abbr: '[NA+SA+EU] SSVSP'
+- Abbr: '[NA+EU+SA/SUD] SSVSP'
   End: 1757188800
-  Game: '[NA+SA+EU] Samurai Shodown V Special'
+  Game: '[NA+EU+SA/SUD] Samurai Shodown V Special'
   Record: rec1SFTCK3jDi6nko
-  Short: '[NA+SA+EU] SSVSP'
+  Short: '[NA+EU+SA/SUD] SSVSP'
   Start: 1757181600
   Stream: https://www.twitch.tv/sugar_bear44
 - Abbr: '[SA/BR] DOE'
@@ -243,6 +250,13 @@
   Short: '[ALL] Waku'
   Start: 1757291400
   Stream: https://www.twitch.tv/ultrayoshi115
+- Abbr: '[NA] WJ2'
+  End: 1757725200
+  Game: '[NA] Windjammers 2'
+  Record: recjhZdVN71ftqsKf
+  Short: '[NA] WJ2'
+  Start: 1757714400
+  Stream: https://twitch.tv/SouthpawRock
 - Abbr: '[NA] STF'
   End: 1757728800
   Game: '[NA] Sonic The Fighters'
