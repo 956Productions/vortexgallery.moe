@@ -87,9 +87,9 @@
     })
 
     now = new Date();
-    if (now >= new Date(2025,9,2) && now < new Date(2025,9,5)) {
+    if (now > new Date(2025,8,2) && now < new Date(2025,8,9)) {
       $("#week2btn").trigger("click");
-    } else if (now >= new Date(2025,9,5) && now < new Date(2025,9,9)) {
+    } else if (now >= new Date(2025,8,9)) {
       $("#week3btn").trigger("click");
     }
 
