@@ -1589,15 +1589,15 @@ Week 3:
     Time: 09:00 AM
     Timestamp: 1757718000
   - Date: Sep 13 (Sat)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: AEST (+1000)
     Time: 10:00 AM
     Timestamp: 1757721600
   - Date: Sep 13 (Sat)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: AEST (+1000)
-    Time: 01:00 PM
-    Timestamp: 1757732400
+    Time: 10:00 AM
+    Timestamp: 1757721600
   - Date: Sep 14 (Sun)
     Record: rec8BQ19FeblQ5z5f
     TZ: AEST (+1000)
@@ -1674,6 +1674,11 @@ Week 3:
     Time: 10:00 AM
     Timestamp: 1757808000
   - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: AEST (+1000)
+    Time: 10:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
     Record: recNFFmGpk7z629AH
     TZ: AEST (+1000)
     Time: 10:00 AM
@@ -1688,11 +1693,6 @@ Week 3:
     TZ: AEST (+1000)
     Time: 11:00 AM
     Timestamp: 1757811600
-  - Date: Sep 14 (Sun)
-    Record: recEeFjDT3ct02Jya
-    TZ: AEST (+1000)
-    Time: 01:00 PM
-    Timestamp: 1757818800
   - Date: Sep 15 (Mon)
     Record: recdLjzgfAwK0yq77
     TZ: AEST (+1000)
@@ -1770,15 +1770,15 @@ Week 3:
     Time: 08:00 PM
     Timestamp: 1757718000
   - Date: Sep 12 (Fri)
+    Record: recaLdFDgQCu6Qh70
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757721600
+  - Date: Sep 12 (Fri)
     Record: recChEiXQjGXEuU4Z
     TZ: -03 (-0300)
     Time: 09:00 PM
     Timestamp: 1757721600
-  - Date: Sep 13 (Sat)
-    Record: recaLdFDgQCu6Qh70
-    TZ: -03 (-0300)
-    Time: 12:00 AM
-    Timestamp: 1757732400
   - Date: Sep 13 (Sat)
     Record: rec8BQ19FeblQ5z5f
     TZ: -03 (-0300)
@@ -1855,6 +1855,11 @@ Week 3:
     Time: 09:00 PM
     Timestamp: 1757808000
   - Date: Sep 13 (Sat)
+    Record: recEeFjDT3ct02Jya
+    TZ: -03 (-0300)
+    Time: 09:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
     Record: recNFFmGpk7z629AH
     TZ: -03 (-0300)
     Time: 09:00 PM
@@ -1869,11 +1874,6 @@ Week 3:
     TZ: -03 (-0300)
     Time: 10:00 PM
     Timestamp: 1757811600
-  - Date: Sep 14 (Sun)
-    Record: recEeFjDT3ct02Jya
-    TZ: -03 (-0300)
-    Time: 12:00 AM
-    Timestamp: 1757818800
   - Date: Sep 14 (Sun)
     Record: recdLjzgfAwK0yq77
     TZ: -03 (-0300)
@@ -1951,15 +1951,15 @@ Week 3:
     Time: 01:00 AM
     Timestamp: 1757718000
   - Date: Sep 13 (Sat)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: CEST (+0200)
     Time: 02:00 AM
     Timestamp: 1757721600
   - Date: Sep 13 (Sat)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: CEST (+0200)
-    Time: 05:00 AM
-    Timestamp: 1757732400
+    Time: 02:00 AM
+    Timestamp: 1757721600
   - Date: Sep 14 (Sun)
     Record: rec8BQ19FeblQ5z5f
     TZ: CEST (+0200)
@@ -2036,6 +2036,11 @@ Week 3:
     Time: 02:00 AM
     Timestamp: 1757808000
   - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: CEST (+0200)
+    Time: 02:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
     Record: recNFFmGpk7z629AH
     TZ: CEST (+0200)
     Time: 02:00 AM
@@ -2050,11 +2055,6 @@ Week 3:
     TZ: CEST (+0200)
     Time: 03:00 AM
     Timestamp: 1757811600
-  - Date: Sep 14 (Sun)
-    Record: recEeFjDT3ct02Jya
-    TZ: CEST (+0200)
-    Time: 05:00 AM
-    Timestamp: 1757818800
   - Date: Sep 14 (Sun)
     Record: recdLjzgfAwK0yq77
     TZ: CEST (+0200)
@@ -2132,15 +2132,15 @@ Week 3:
     Time: 07:00 PM
     Timestamp: 1757718000
   - Date: Sep 12 (Fri)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: EDT (-0400)
     Time: 08:00 PM
     Timestamp: 1757721600
   - Date: Sep 12 (Fri)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: EDT (-0400)
-    Time: 11:00 PM
-    Timestamp: 1757732400
+    Time: 08:00 PM
+    Timestamp: 1757721600
   - Date: Sep 13 (Sat)
     Record: rec8BQ19FeblQ5z5f
     TZ: EDT (-0400)
@@ -2217,6 +2217,11 @@ Week 3:
     Time: 08:00 PM
     Timestamp: 1757808000
   - Date: Sep 13 (Sat)
+    Record: recEeFjDT3ct02Jya
+    TZ: EDT (-0400)
+    Time: 08:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
     Record: recNFFmGpk7z629AH
     TZ: EDT (-0400)
     Time: 08:00 PM
@@ -2231,11 +2236,6 @@ Week 3:
     TZ: EDT (-0400)
     Time: 09:00 PM
     Timestamp: 1757811600
-  - Date: Sep 13 (Sat)
-    Record: recEeFjDT3ct02Jya
-    TZ: EDT (-0400)
-    Time: 11:00 PM
-    Timestamp: 1757818800
   - Date: Sep 14 (Sun)
     Record: recdLjzgfAwK0yq77
     TZ: EDT (-0400)
@@ -2313,15 +2313,15 @@ Week 3:
     Time: 08:00 AM
     Timestamp: 1757718000
   - Date: Sep 13 (Sat)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: JST (+0900)
     Time: 09:00 AM
     Timestamp: 1757721600
   - Date: Sep 13 (Sat)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: JST (+0900)
-    Time: 12:00 PM
-    Timestamp: 1757732400
+    Time: 09:00 AM
+    Timestamp: 1757721600
   - Date: Sep 14 (Sun)
     Record: rec8BQ19FeblQ5z5f
     TZ: JST (+0900)
@@ -2398,6 +2398,11 @@ Week 3:
     Time: 09:00 AM
     Timestamp: 1757808000
   - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: JST (+0900)
+    Time: 09:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
     Record: recNFFmGpk7z629AH
     TZ: JST (+0900)
     Time: 09:00 AM
@@ -2412,11 +2417,6 @@ Week 3:
     TZ: JST (+0900)
     Time: 10:00 AM
     Timestamp: 1757811600
-  - Date: Sep 14 (Sun)
-    Record: recEeFjDT3ct02Jya
-    TZ: JST (+0900)
-    Time: 12:00 PM
-    Timestamp: 1757818800
   - Date: Sep 15 (Mon)
     Record: recdLjzgfAwK0yq77
     TZ: JST (+0900)
@@ -2494,15 +2494,15 @@ Week 3:
     Time: 04:00 PM
     Timestamp: 1757718000
   - Date: Sep 12 (Fri)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: PDT (-0700)
     Time: 05:00 PM
     Timestamp: 1757721600
   - Date: Sep 12 (Fri)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: PDT (-0700)
-    Time: 08:00 PM
-    Timestamp: 1757732400
+    Time: 05:00 PM
+    Timestamp: 1757721600
   - Date: Sep 13 (Sat)
     Record: rec8BQ19FeblQ5z5f
     TZ: PDT (-0700)
@@ -2579,6 +2579,11 @@ Week 3:
     Time: 05:00 PM
     Timestamp: 1757808000
   - Date: Sep 13 (Sat)
+    Record: recEeFjDT3ct02Jya
+    TZ: PDT (-0700)
+    Time: 05:00 PM
+    Timestamp: 1757808000
+  - Date: Sep 13 (Sat)
     Record: recNFFmGpk7z629AH
     TZ: PDT (-0700)
     Time: 05:00 PM
@@ -2593,11 +2598,6 @@ Week 3:
     TZ: PDT (-0700)
     Time: 06:00 PM
     Timestamp: 1757811600
-  - Date: Sep 13 (Sat)
-    Record: recEeFjDT3ct02Jya
-    TZ: PDT (-0700)
-    Time: 08:00 PM
-    Timestamp: 1757818800
   - Date: Sep 14 (Sun)
     Record: recdLjzgfAwK0yq77
     TZ: PDT (-0700)
@@ -2675,15 +2675,15 @@ Week 3:
     Time: 07:00 AM
     Timestamp: 1757718000
   - Date: Sep 13 (Sat)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: +08 (+0800)
     Time: 08:00 AM
     Timestamp: 1757721600
   - Date: Sep 13 (Sat)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: +08 (+0800)
-    Time: 11:00 AM
-    Timestamp: 1757732400
+    Time: 08:00 AM
+    Timestamp: 1757721600
   - Date: Sep 14 (Sun)
     Record: rec8BQ19FeblQ5z5f
     TZ: +08 (+0800)
@@ -2760,6 +2760,11 @@ Week 3:
     Time: 08:00 AM
     Timestamp: 1757808000
   - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: +08 (+0800)
+    Time: 08:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
     Record: recNFFmGpk7z629AH
     TZ: +08 (+0800)
     Time: 08:00 AM
@@ -2774,11 +2779,6 @@ Week 3:
     TZ: +08 (+0800)
     Time: 09:00 AM
     Timestamp: 1757811600
-  - Date: Sep 14 (Sun)
-    Record: recEeFjDT3ct02Jya
-    TZ: +08 (+0800)
-    Time: 11:00 AM
-    Timestamp: 1757818800
   - Date: Sep 15 (Mon)
     Record: recdLjzgfAwK0yq77
     TZ: +08 (+0800)
@@ -2856,15 +2856,15 @@ Week 3:
     Time: 11:00 PM
     Timestamp: 1757718000
   - Date: Sep 13 (Sat)
-    Record: recChEiXQjGXEuU4Z
+    Record: recaLdFDgQCu6Qh70
     TZ: UTC (+0000)
     Time: 12:00 AM
     Timestamp: 1757721600
   - Date: Sep 13 (Sat)
-    Record: recaLdFDgQCu6Qh70
+    Record: recChEiXQjGXEuU4Z
     TZ: UTC (+0000)
-    Time: 03:00 AM
-    Timestamp: 1757732400
+    Time: 12:00 AM
+    Timestamp: 1757721600
   - Date: Sep 13 (Sat)
     Record: rec8BQ19FeblQ5z5f
     TZ: UTC (+0000)
@@ -2941,6 +2941,11 @@ Week 3:
     Time: 12:00 AM
     Timestamp: 1757808000
   - Date: Sep 14 (Sun)
+    Record: recEeFjDT3ct02Jya
+    TZ: UTC (+0000)
+    Time: 12:00 AM
+    Timestamp: 1757808000
+  - Date: Sep 14 (Sun)
     Record: recNFFmGpk7z629AH
     TZ: UTC (+0000)
     Time: 12:00 AM
@@ -2955,11 +2960,6 @@ Week 3:
     TZ: UTC (+0000)
     Time: 01:00 AM
     Timestamp: 1757811600
-  - Date: Sep 14 (Sun)
-    Record: recEeFjDT3ct02Jya
-    TZ: UTC (+0000)
-    Time: 03:00 AM
-    Timestamp: 1757818800
   - Date: Sep 14 (Sun)
     Record: recdLjzgfAwK0yq77
     TZ: UTC (+0000)
