@@ -201,6 +201,13 @@
   Short: '[ALL] WJ1'
   Start: 1757257200
   Stream: https://twitch.tv/warpwhistle
+- Abbr: '[ALL] ASUKA'
+  End: 1757271600
+  Game: '[ALL] Asuka 120% LimitOver Burning Fest.'
+  Record: recmymeFBz4XrimQX
+  Short: '[ALL] Asuka 120'
+  Start: 1757264400
+  Stream: https://twitch.tv/sailorvick
 - Abbr: '[NA+SA+EU] TFH'
   End: 1757278800
   Game: '[NA+SA+EU] Them''s Fightin'' Herds'
@@ -222,6 +229,13 @@
   Short: '[SA] Rev 2'
   Start: 1757271600
   Stream: https://twitch.tv/blitz_back
+- Abbr: '[SA] EFZ'
+  End: 1757282400
+  Game: '[SA] Eternal Fighter Zero'
+  Record: rec3wsczuIoR7Bc4K
+  Short: '[SA] EFZ'
+  Start: 1757275200
+  Stream: https://www.twitch.tv/whitelen_efz
 - Abbr: '[SA/BR] SG'
   End: 1757286000
   Game: '[SA/BR] Skullgirls: 2nd Encore+'
