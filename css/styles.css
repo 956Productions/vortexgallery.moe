@@ -1,6 +1,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
 @import "fonts.css";
 @import "vgon25.css";
+@import "vgff26.css";
 
 :root {
   --bulma-primary-h: 201deg;

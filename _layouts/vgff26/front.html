@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top vgff26bg" data-theme="dark">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero is-link has-text-centered vgff26hero">
+            <div class="hero-body">
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/vgff26/logo_vgff26.png">
+                </div>
+                <div class="block">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/vgff26/slogan.png">
+                    <br>
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/vgff26/tagline_vgff26.png">
+                </div>
+                <div class="buttons is-justify-content-center">
+                    <a href="/volunteer" class="button is-warning is-large is-responsive">
+                        <span class="has-text-weight-bold">Volunteer</span>
+                    </a>
+                    <a href="https://twitter.com/@FrostyFaustings" class="button is-white is-large is-responsive">
+                        <span class="has-text-weight-bold">@FrostyFaustings</span>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="section">
+            <div class="container is-widescreen">
+                <div class="content has-text-centered">
+                    <h1 class="is-size-1 teko">{{ page.title }}</h1>
+                </div>
+                <div class="columns">
+                    <div class="column is-6-desktop is-hidden-touch">
+                        <figure class="image">
+                            <img src="/img/vgff26/venue.png">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <div class="content has-text-white is-size-5-desktop">
+                        {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

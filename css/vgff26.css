@@ -1,0 +1,17 @@
+/* VGFF26 */
+
+.vgff26hero {
+	background-image: linear-gradient( to bottom, transparent 70%, #000081), url('/img/vgff26/hero_vgff26.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.vgff26img:hover {
+	filter: drop-shadow(0 0 0.75rem #00a3f8);
+	transition: all 0.25s ease;
+}
+
+.vgff26bg {
+    background-color: #000081;
+}
