@@ -1,5 +1,6 @@
 ---
 title: Vortex Gallery at Frosty Faustings XVIII
+description: "Bring Your Own Mix - The Community Tournaments at FFXVIII. January 29 - February 1, 2026."
 permalink: '/events/vgff26'
 layout: 'vgff26/front'
 ---
