@@ -1,7 +1,6 @@
 {% assign curGame = '' %}
 <div class="content">
 <h2 class="exo has-text-centered is-size-3" id="tournaments">Vortex Gallery Online 2025 Tournaments</h2>
-<hr>
 <div class="columns is-gapless is-multiline is-centered mt-2 is-hidden-touch">
     {% for i in site.data.vgon25.games %}
     {% if i['Smash URL'] %}
@@ -46,7 +45,6 @@
     {% endif %}
     {% endfor %}
 </div>
-<hr>
 </div>
 {% if include.modals != false %}
 {% include vgon25/modals.html %}

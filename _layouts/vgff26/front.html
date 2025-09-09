@@ -24,24 +24,27 @@
                 
             </div>
         </section>
-        <section class="section">
+        <section class="section pt-0">
             <div class="container is-widescreen">
                 <div class="content has-text-centered">
-                    <h1 class="is-size-1 teko">{{ page.title }}</h1>
+                    <h1 class="is-size-1 teko">The Largest Community Tournament in the FGC</h1>
                 </div>
-                <div class="columns">
+                <div class="columns is-vcentered">
                     <div class="column is-6-desktop is-hidden-touch">
                         <figure class="image">
-                            <img src="/img/vgff26/venue.png">
+                            <img src="/img/vgff26/ffxviii_logo.png">
                         </figure>
                     </div>
                     <div class="column">
-                        <div class="content has-text-white is-size-5-desktop">
+                        <div class="content has-text-white">
                         {{ content }}
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="section pt-0">
+            {% include vgff26/vghero_ff26.html %}
         </section>
     </body>
     {% include footer.html %}
