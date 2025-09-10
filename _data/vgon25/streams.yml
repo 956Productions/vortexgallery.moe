@@ -278,6 +278,13 @@
   Short: '[NA] WJ2'
   Start: 1757714400
   Stream: https://twitch.tv/SouthpawRock
+- Abbr: '[NA] 2XKO'
+  End: 1757732400
+  Game: '[NA] 2XKO'
+  Record: reckLG5t1bjC7JfYn
+  Short: '[NA] 2XKO'
+  Start: 1757718000
+  Stream: https://www.twitch.tv/gtekfgc
 - Abbr: '[ALL] PBBGU'
   End: 1757728800
   Game: '[ALL] Phantom Breaker BattleGrounds Ultimate'
@@ -320,6 +327,13 @@
   Short: '[NA] Blazblue'
   Start: 1757804400
   Stream: https://twitch.tv/chickzama
+- Abbr: '[NA] BBTAG'
+  End: 1757818800
+  Game: '[NA] Blazblue Cross Tag Battle'
+  Record: recEe2gD4h89AA2ro
+  Short: '[NA] BBTAG'
+  Start: 1757804400
+  Stream: https://www.twitch.tv/gtekfgc
 - Abbr: '[NA] DOE'
   End: 1757815200
   Game: '[NA] Duelists of Eden'
@@ -341,6 +355,20 @@
   Short: '[NA] Kill la Kill'
   Start: 1757804400
   Stream: https://www.twitch.tv/ironfoxfire
+- Abbr: '[NA] OMF'
+  End: 1757811600
+  Game: '[NA] Open One Must Fall: 2097'
+  Record: rec272107YQ0eAFPb
+  Short: '[NA] OMF'
+  Start: 1757804400
+  Stream: https://twitch.tv/dankpasta2099
+- Abbr: '[ALL] ROAW'
+  End: 1757811600
+  Game: '[ALL] Rivals of Aether Workshop'
+  Record: recymDjTGe83JDJNq
+  Short: '[ALL] Rivals Workshop'
+  Start: 1757804400
+  Stream: https://www.twitch.tv/roboshyguy
 - Abbr: '[NA] SDBZ'
   End: 1757818800
   Game: '[NA] Super Dragon Ball Z'
@@ -355,6 +383,13 @@
   Short: '[ALL] UMPD'
   Start: 1757804400
   Stream: https://www.twitch.tv/plusframesgg
+- Abbr: '[NA] ABKAA'
+  End: 1757815200
+  Game: '[NA] Akatsuki Blitzkampf Ausf. Achse'
+  Record: recG3boi9Iynr6Epy
+  Short: '[NA] ABK'
+  Start: 1757808000
+  Stream: https://www.twitch.tv/mibeador
 - Abbr: '[ALL] FEXL'
   End: 1757818800
   Game: '[ALL] Fighting EX Layer'
@@ -362,6 +397,13 @@
   Short: '[ALL] FEXL'
   Start: 1757808000
   Stream: https://twitch.tv/arneezy619
+- Abbr: '[NA] PBO'
+  End: 1757815200
+  Game: '[NA] Phantom Breaker Omnia'
+  Record: recEeFjDT3ct02Jya
+  Short: '[NA] PBO'
+  Start: 1757808000
+  Stream: https://twitch.tv/SHINJ4Y
 - Abbr: '[NA] SMS'
   End: 1757818800
   Game: '[NA] Sailor Moon S'
@@ -386,6 +428,13 @@
   Short: '[NA] JJBA Heritage'
   Start: 1757811600
   Stream: https://www.twitch.tv/phballs
+- Abbr: '[NA] SCVI'
+  End: 1757890800
+  Game: '[NA] Soulcalibur VI'
+  Record: recdLjzgfAwK0yq77
+  Short: '[NA] SC6'
+  Start: 1757876400
+  Stream: twitch.tv/bigpapachunk
 - Abbr: '[NA] WW'
   End: 1757890800
   Game: '[NA] Wonderful World'
@@ -449,6 +498,13 @@
   Short: '[NA+EU] Power Rangers'
   Start: 1757890800
   Stream: https://www.twitch.tv/akaragitsune
+- Abbr: '[NA] FUC'
+  End: 1757899800
+  Game: '[NA] Fate/unlimited codes'
+  Record: recq43a9lfmlrVgoY
+  Short: '[NA] FUC'
+  Start: 1757892600
+  Stream: https://twitch.tv/gyarugarou
 - Abbr: '[NA] IDOLS'
   End: 1757908800
   Game: '[NA] Idol Showdown'
