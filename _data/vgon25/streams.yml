@@ -397,6 +397,13 @@
   Short: '[ALL] FEXL'
   Start: 1757808000
   Stream: https://twitch.tv/arneezy619
+- Abbr: '[NA] MOTW'
+  End: 1757818800
+  Game: '[NA] Garou: Mark of the Wolves'
+  Record: reczhOyL47Lb3ZO5Z
+  Short: '[NA] Garou'
+  Start: 1757808000
+  Stream: https://twitch.tv/chiavoni
 - Abbr: '[NA] PBO'
   End: 1757815200
   Game: '[NA] Phantom Breaker Omnia'
