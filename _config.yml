@@ -11,7 +11,7 @@ plugins:
   - jekyll-sitemap
 title: Vortex Gallery
 tagline: "Bring Your Own Mix."
-description: "Bring Your Own Mix - 3 Weekends of Global Community Tournaments across the world. August 29 - September 14, 2025."
+description: "The largest community tournament in the FGC."
 twitch: https://twitch.tv/956productions
 twitter: 
   username: 956productions
@@ -21,18 +21,8 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
-  - title: Rules
-    url: /info
-  - title: Schedule
-    url: /schedule
-  - title: Watch
-    url: /watch
-  - title: Matcherino
-    url: https://956pro.com/matcherino
   - title: Results
     url: https://956.productions/results
-  - title: FFXVIII
-    url: /events/vgff26
 volunteer: /volunteer
 collections:
   - info

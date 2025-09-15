@@ -7,6 +7,7 @@ Vortex Gallery is managed by <a href="https://twitter.com/956productions">956 Pr
 
 The Vortex Gallery lineup is built by and for the community, we are seeking volunteers to take the lead on their favorite games and others to help report scores and commentate streams. Basically, if you're down to help out, we could use you on the squad!
 
+<!--
 ## Choose Your Destiny!
 Click a button to access the volunteer application form in a new tab.
 <div class="buttons">
@@ -17,7 +18,10 @@ Click a button to access the volunteer application form in a new tab.
   <b>Vortex Gallery x Frosty Faustings XVIII</b>
 </a>
 </div>
+-->
+<a class="button is-primary" href="https://form.jotform.com/251889016979173" target="_blank">
+  <b>Apply Today!</b>
+</a>
 
 New game applications for Frosty Faustings XVII will close on December 1, 2025.
 
-<!-- <a href=https://form.jotform.com/251888267423164>Apply today!</a> -->
