@@ -109,7 +109,7 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=
     rows = []
     clear_game_pages(subdir)
 
-    for r in table.all(view=atview,sort=['Game Name','Time-Start Timestamp']):
+    for r in table.all(view=atview,sort=['Game Name']):
         new_row = {}
         for key, value in r['fields'].items():
             if key not in drop_headers:
@@ -175,7 +175,7 @@ try:
         if "--skip-images" in sys.argv:
             dl_image_flag = False
         for i in config['events']:
-            create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag,online_schedule=True)
+            create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag,online_schedule=i['online_schedule'])
     # create_schedule_data()
 except Exception:
     print(traceback.format_exc())

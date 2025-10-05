@@ -1,0 +1,59 @@
+{% assign curGame = '' %}
+{% for i in site.data.vgff26.games %}
+{% if i['Smash URL'] or i['Alt Reg URL'] %}
+{% if i['Abbr-Game'] != curGame %}
+{% assign curGame = i['Abbr-Game'] %}
+<div class="modal has-text-left" id="{{i['Abbr-Game']}}">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head has-background-primary">
+        <p class="modal-card-title m-0">{{ i['Short Name'] }}</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image mx-0 mt-0 mb-2 has-text-centered is-flex is-justify-content-center skeleton">
+          <img src="/img/games/{{i['Abbr-Game']}}.png" style="max-height: 150px; width: auto;" loading="lazy">
+        </figure>
+        <hr>
+        <div class="block content">
+          <h3>Available Tournaments</h3>
+          <p>Please click on a link below to access tournament registration.</p>
+            {% for r in site.data.vgff26.games %}
+              {% if r['Abbr-Game'] == curGame %}
+              {% if r['Alt Reg URL'] %}
+              <a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vgff26' }}"><b>{{r['Game Name']}} {{r['Format-Rollup'] | default: ""}} ({{ r['Abbr-Region'] | remove: " " }})</b></a> <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ r['Time-Start Timestamp'] }}" data-end="{{ r['Time-End Timestamp'] }}">LIVE NOW</div>
+              {% else %}
+              <a href="{{r['Smash URL'] | default: 'https://start.gg/vgff26' }}"><b>{{r['Game Name']}} {{r['Format-Rollup'] | default: ""}} ({{ r['Abbr-Region'] | remove: " " }})</b></a> <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ r['Time-Start Timestamp'] }}" data-end="{{ r['Time-End Timestamp'] }}">LIVE NOW</div>
+              {% endif %}
+              <ul>
+                {% if r['Time-Start Time'] %}
+                <li>Start time: <div class="tooltip">{{ r['Time-Start Day'] }} {{ r['Time-Start Time'] }} {{ r['Time-TZ'] }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Start Timestamp'] }}">Enable javascript for system time.</span></div></li>
+                {% else %}
+                <li>Start time: {{ r['Time-Start Day'] }}, Time TBD</li>
+                {% endif %}
+                <li>Platform: {{ r['Data-Platform Short Name'] | default: 'TBD' }}</li>
+                {% if r['Region-Full'] %}
+                <li>Region(s): {{ r['Region-Full'] }}</li>
+                {% endif %}
+                {% if r['Region Includes'] %}
+                <li>Region(s) Includes: {{ r['Region Includes'] }}</li>
+                {% endif %}
+                {% if r['Main Stream'] %}
+                <li>Main Stream: <a href="{{ r['Main Stream'] }}" target="_blank">{{ r['Main Stream'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li>
+                {% endif %}
+                {% if r['Matcherino URL'] %}
+                <li><a href="{{r['Matcherino URL']}}">Matcherino Link</a></li>
+                {% endif %}
+              </ul>
+              {% endif %}
+            {% endfor %}
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <a class="button is-primary" href="/info#{{i['Abbr-Game']}}">Full Rules</a>
+      </footer>
+    </div>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}

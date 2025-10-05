@@ -3,8 +3,8 @@ title: Vortex Gallery at Frosty Faustings XVIII
 description: "Bring Your Own Mix - The Community Tournaments at FFXVIII. January 29 - February 1, 2026."
 layout: vgff26/front
 ---
-Vortex Gallery Online is a yearly tournament series, this time spanning 3 weekends across 2 months. Once again, we're partnering with communities all around the word for an online event where we can come together & play the underrepresented games we all love!
+Join us The Westin in Lombard to host the largest community tournament in the FGC once again at **Frosty Faustings XVIII**!
 
-**Join us in our celebration of global communities starting August 29th!**
+From January 29 - February 1 in 2026, 956 Productions partners with our friends at Frosty Faustings to bring you **Vortex Gallery** as the official community tournaments of FFXVIII.
 
-The community tournaments are run by dedicated and passionate fighting game fans like you, bringing your favorite titles to the big stage for heated global competition. [Pick your favorite game and register today!](https://start.gg/vgon25)
+The community tournaments are run by dedicated and passionate fighting game fans like you, bringing your favorite titles to the big stage for heated global competition in the heart of the midwest. [Assemble your squad and apply today!](/apply)

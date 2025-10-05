@@ -1,0 +1,42 @@
+{% assign curGame = '' %}
+<div class="content">
+<h2 class="exo has-text-centered is-size-3" id="tournaments">Vortex Gallery 2026 Tournaments</h2>
+<div class="columns is-gapless is-multiline is-centered mt-2 is-hidden-touch">
+    {% for i in site.data.vgff26.games %}
+    {% if i['Smash URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    {% if include.modals != false %}
+    <a class="modal-trigger column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
+    {% else %}
+    <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgff26/{{i['Abbr-Game'] | downcase }}">
+    {% endif %}
+        <div class="">
+            <div style="height:160px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+                <img class="vgff26img" src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
+            </div>
+        </div>
+        <div class="block">
+            <p class="is-size-7 has-text-white has-text-weight-semibold has-text-centered">{{i['Game Name']}}</p>
+        </div>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="columns is-multiline is-centered mt-2 is-hidden-desktop">
+    {% for i in site.data.vgff26.games %}
+    {% if i['Smash URL'] %}
+    {% if i['Abbr-Game'] != curGame %}
+    {% assign curGame = i['Abbr-Game'] %}
+    <div class="column is-12-tablet p-1">
+        <a class="modal-trigger button is-dark is-fullwidth" data-target="{{i['Abbr-Game']}}">{{ i['Game Name'] }}</a>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+</div>
+{% if include.modals != false %}
+{% include vgff26/modals.html %}
+{% endif %}
