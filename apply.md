@@ -26,5 +26,5 @@ Click a button to access the volunteer application form in a new tab.
   <b>Apply Today!</b>
 </a>
 
-New game applications for Frosty Faustings XVIII will close on December 1, 2025.
+New game applications for Frosty Faustings XVIII will close on November 3rd, 2025.
 
