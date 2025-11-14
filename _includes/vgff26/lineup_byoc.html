@@ -8,7 +8,7 @@
         <div class="column">
             <div class="block mb-2">
                 <h3 class="title is-4 mb-1">{{i['Game Name']}} {{i['Format-Name']}}</h3>
-                <h4 class="subtitle is-6">{{i['Time String']}} | {{i['Platform-Name']}}{% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %} | {{i['Reg Cap']}} Player Cap{% endif %}</h4>
+                <h4 class="subtitle is-6">{{i['Time String']}} | {{i['Platform-Name']}}{% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %} | {{i['Reg Cap']}} {% if i['Format-Name'] == "2v2" or i['Format-Name'] == "Mixed" or i['Format-Name'] == "Doubles" %}Team{% else %}Player{% endif %} Cap{% endif %}</h4>
             </div>
             <div class="tags are-medium mb-2">
                 {% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %}
