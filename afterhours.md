@@ -4,7 +4,7 @@ description: "The after hours brackets and casuals in the 24-hour venue at Frost
 ---
 One of the best parts of Frosty Faustings is the 24-hour venue, with side brackets and casuals sessions run by players like you! We're compiling all the after hours action we know about here, so find your favorite and check in with the organizers!
 
-Is your event missing? [Submit Your Event!](https://956pro.com/afterhoursform)
+Is your event missing? <a href="https://956pro.com/afterhoursform" class="button is-primary is-small has-text-white"><b>Submit your event!</b></a>
 
 {% include vgff26/lineup_byoc.html %}
 
