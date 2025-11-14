@@ -1,0 +1,29 @@
+{% for i in site.data.vgff26.byoc %}
+{% if i['Confirmed'] == "True" %}
+<div class="box">
+    <div class="columns is-vcentered">
+        <div class="column is-3" style="height: 150px;">
+            <img src="/img/games/{{i['Abbr-Game']}}.png" style="height: 100%; width: 100%; object-fit: contain;" loading="lazy">
+        </div>
+        <div class="column">
+            <div class="block mb-2">
+                <h3 class="title is-4 mb-1">{{i['Game Name']}} {{i['Format-Name']}}</h3>
+                <h4 class="subtitle is-6">{{i['Time String']}} | {{i['Platform-Name']}}{% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %} | {{i['Reg Cap']}} Player Cap{% endif %}</h4>
+            </div>
+            <div class="tags are-medium mb-2">
+                {% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %}
+                <a href="{{i['Registration']}}" class="tag is-primary">📝 {% if i['Reg Cost'] == "0" %}Free Entry{%else%}${{i['Reg Cost']}} entry{%endif%}</a>
+                {% endif %}
+                {% unless i['Social'] == None or i['Social'] contains "https://discord" %}<a class="tag" href="{{i['Social']}}">🌐@{{ i['Social'] | split: '/' | last }}</a>{% endunless %}
+                {% if i['Social'] contains "https://discord" %}<a class="tag" href="{{i['Social']}}">💬 Discord</a>{% endif %}
+                {% if i['Stream'] %}<a class="tag" href="{{i['Stream']}}">📺/{{ i['Stream'] | split: '/' | last }}</a>{% endif %}
+                {% if i['Setups Wanted'] %}<span class="tag">🙌 Bring Setups!</span>{% endif %}
+            </div>
+            {% if i['Setups Wanted Comment'] %}
+            <div class="content"><small>ℹ️ {{ i['Setups Wanted Comment'] }}</small></div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}

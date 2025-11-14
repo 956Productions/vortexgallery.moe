@@ -27,7 +27,7 @@
                 
             </div>
         </section>
-        <section class="section pt-0">
+        <section class="section">
             <div class="container is-widescreen">
                 <div class="content has-text-centered">
                     <h1 class="is-size-1 teko">The Largest Community Tournament in the FGC</h1>
@@ -39,7 +39,7 @@
                         </figure>
                     </div>
                     <div class="column">
-                        <div class="content has-text-white">
+                        <div class="box content has-text-white">
                         {{ content }}
                         </div>
                     </div>
@@ -49,8 +49,15 @@
         <section class="section pt-0">
             {% include vgff26/lineup_preview.html %}
         </section>
-        <section class="section pt-0">
-            {% include vgff26/vghero_ff26.html %}
+        <section class="section">
+            <div class="container box">
+                {% include vgff26/byoc_cta.html %}
+            </div>
+        </section>
+        <section class="section">
+            <div class="container box">
+                {% include vgff26/vghero_ff26.html %}
+            </div>
         </section>
     </body>
     {% include footer.html %}

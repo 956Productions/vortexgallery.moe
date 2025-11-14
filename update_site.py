@@ -103,12 +103,13 @@ def generate_stream_schedule(row):
         data['Abbr'] = "[%s] %s %s" % (row['Abbr-Region'],row['Abbr-Game'],row['Format-Rollup'][0]),
     return data
 
-def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=False):
+def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=False,byoc=None):
     table = at.table(atbase,"Tournaments")
     headers = []
     rows = []
     clear_game_pages(subdir)
 
+    # Lineup Data
     for r in table.all(view=atview,sort=['Game Name']):
         new_row = {}
         for key, value in r['fields'].items():
@@ -131,6 +132,33 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=
         writer = csv.DictWriter(file,fieldnames=headers)
         writer.writeheader()
         writer.writerows(rows)
+
+    headers = []
+    rows = []
+    # BYOC Data
+    if byoc != None:
+        byoctable = at.table(atbase,"BYOC")
+        for r in byoctable.all(view=byoc):
+            new_row = {}
+            for key, value in r['fields'].items():
+                if key not in drop_headers:
+                    if key not in headers:
+                        headers.append(key)
+                    new_row[key] = sanitize_input(value)
+            rows.append(new_row)
+            if dl_images is True:
+                download_game_logo(new_row['Abbr-Game'],new_row['Img-Game Logo'])
+                time.sleep(0.1)
+
+        if os.path.isfile('./_data/%s/byoc.csv' % subdir):
+            if os.path.isfile('./_data/%s/byoc.csv.bak' % subdir):
+                os.remove('./_data/%s/byoc.csv.bak' % subdir)
+            os.rename('./_data/%s/byoc.csv' % subdir,'./_data/%s/byoc.csv.bak' % subdir)
+
+        with open('./_data/%s/byoc.csv' % subdir,'w',newline='', encoding='utf-8') as file:
+            writer = csv.DictWriter(file,fieldnames=headers)
+            writer.writeheader()
+            writer.writerows(rows)
 
     if online_schedule == True:
         schedule = {}
@@ -175,7 +203,10 @@ try:
         if "--skip-images" in sys.argv:
             dl_image_flag = False
         for i in config['events']:
-            create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag,online_schedule=i['online_schedule'])
+            if 'byocview' in i:
+                create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag,online_schedule=i['online_schedule'],byoc=i['byocview'])
+            else:
+                create_rules_data(i['base'],i['rulesview'],subdir=i['subdir'],label=i['label'],dl_images=dl_image_flag,online_schedule=i['online_schedule'])
     # create_schedule_data()
 except Exception:
     print(traceback.format_exc())
