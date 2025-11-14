@@ -11,7 +11,7 @@
                 <h4 class="subtitle is-6">{{i['Time String']}} | {{i['Platform-Name']}}{% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %} | {{i['Reg Cap']}} {% if i['Format-Name'] == "2v2" or i['Format-Name'] == "Mixed" or i['Format-Name'] == "Doubles" %}Team{% else %}Player{% endif %} Cap{% endif %}</h4>
             </div>
             <div class="tags are-medium mb-2">
-                {% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" %}
+                {% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" and i['Registration'] != none %}
                 <a href="{{i['Registration']}}" class="tag is-primary has-text-white"><b>📝 {% if i['Reg Cost'] == "0" %}Free Entry{%else%}${{i['Reg Cost']}} entry{%endif%}</b></a>
                 {% endif %}
                 {% unless i['Social'] == None or i['Social'] contains "https://discord" %}<a class="tag" href="{{i['Social']}}">🌐@{{ i['Social'] | split: '/' | last }}</a>{% endunless %}
