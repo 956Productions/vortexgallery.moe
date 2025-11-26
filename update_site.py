@@ -146,7 +146,7 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=
                         headers.append(key)
                     new_row[key] = sanitize_input(value)
             rows.append(new_row)
-            if dl_images is True:
+            if dl_images is True and 'Img-Game Logo' in new_row:
                 download_game_logo(new_row['Abbr-Game'],new_row['Img-Game Logo'])
                 time.sleep(0.1)
 
