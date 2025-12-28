@@ -13,6 +13,8 @@
             <div class="tags are-medium mb-2">
                 {% if i['Format-Name'] != "Casuals" and i['Format-Name'] != "Exhibition" and i['Registration'] != none %}
                 <a href="{{i['Registration']}}" class="tag is-primary has-text-white"><b>📝 {% if i['Reg Cost'] == "0" %}Free Entry{%else%}${{i['Reg Cost']}} entry{%endif%}</b></a>
+                {% elsif i['Registration'] %}
+                <a href="{{i['Registration']}}" class="tag is-primary has-text-white"><b>🔗 More Info</b></a>
                 {% endif %}
                 {% unless i['Social'] == None or i['Social'] contains "https://discord" %}<a class="tag" href="{{i['Social']}}">🌐@{{ i['Social'] | split: '/' | last }}</a>{% endunless %}
                 {% if i['Social'] contains "https://discord" %}<a class="tag" href="{{i['Social']}}">💬 Discord</a>{% endif %}
