@@ -1,6 +1,6 @@
 {% assign curGame = '' %}
 <div class="content">
-<h2 class="exo has-text-centered is-size-3" id="tournaments">Vortex Gallery 2026 Tournaments</h2>
+<h2 class="teko has-text-centered is-size-1" id="tournaments">Vortex Gallery 2026 Tournaments</h2>
 <div class="columns is-gapless is-multiline is-centered mt-2 is-hidden-touch">
     {% for i in site.data.vgff26.games %}
     {% if i['Smash URL'] %}
@@ -12,7 +12,7 @@
     <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgff26/{{i['Abbr-Game'] | downcase }}">
     {% endif %}
         <div class="">
-            <div style="height:160px; max-width:250px;" class="p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+            <div style="height:160px; max-width:250px;" class="mt-4 p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
                 <img class="vgff26img" src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
             </div>
         </div>
@@ -30,7 +30,7 @@
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
     <div class="column is-12-tablet p-1">
-        <a class="modal-trigger button is-dark is-fullwidth" data-target="{{i['Abbr-Game']}}">{{ i['Game Name'] }}</a>
+        <a class="button modal-trigger is-primary is-fullwidth has-text-white" data-target="{{i['Abbr-Game']}}">{% if i['Game Name'].size <= 40 %}{{ i['Game Name'] }}{% else %}{{ i['Short Name'] }}{% endif %}{% if i['Format']%}{{ i['Format-Rollup'] }}{% endif %}</a>
     </div>
     {% endif %}
     {% endif %}

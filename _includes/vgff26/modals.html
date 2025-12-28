@@ -16,41 +16,28 @@
         </figure>
         <hr>
         <div class="block content">
-          <h3>Available Tournaments</h3>
-          <p>Please click on a link below to access tournament registration.</p>
-            {% for r in site.data.vgff26.games %}
-              {% if r['Abbr-Game'] == curGame %}
-              {% if r['Alt Reg URL'] %}
-              <a href="{{r['Alt Reg URL'] | default: 'https://start.gg/vgff26' }}"><b>{{r['Game Name']}} {{r['Format-Rollup'] | default: ""}} ({{ r['Abbr-Region'] | remove: " " }})</b></a> <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ r['Time-Start Timestamp'] }}" data-end="{{ r['Time-End Timestamp'] }}">LIVE NOW</div>
-              {% else %}
-              <a href="{{r['Smash URL'] | default: 'https://start.gg/vgff26' }}"><b>{{r['Game Name']}} {{r['Format-Rollup'] | default: ""}} ({{ r['Abbr-Region'] | remove: " " }})</b></a> <div class="nowlive tag is-hidden is-success has-text-weight-bold" data-start="{{ r['Time-Start Timestamp'] }}" data-end="{{ r['Time-End Timestamp'] }}">LIVE NOW</div>
-              {% endif %}
-              <ul>
-                {% if r['Time-Start Time'] %}
-                <li>Start time: <div class="tooltip">{{ r['Time-Start Day'] }} {{ r['Time-Start Time'] }} {{ r['Time-TZ'] }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Start Timestamp'] }}">Enable javascript for system time.</span></div></li>
-                {% else %}
-                <li>Start time: {{ r['Time-Start Day'] }}, Time TBD</li>
-                {% endif %}
-                <li>Platform: {{ r['Data-Platform Short Name'] | default: 'TBD' }}</li>
-                {% if r['Region-Full'] %}
-                <li>Region(s): {{ r['Region-Full'] }}</li>
-                {% endif %}
-                {% if r['Region Includes'] %}
-                <li>Region(s) Includes: {{ r['Region Includes'] }}</li>
-                {% endif %}
-                {% if r['Main Stream'] %}
-                <li>Main Stream: <a href="{{ r['Main Stream'] }}" target="_blank">{{ r['Main Stream'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li>
-                {% endif %}
-                {% if r['Matcherino URL'] %}
-                <li><a href="{{r['Matcherino URL']}}">Matcherino Link</a></li>
-                {% endif %}
-              </ul>
-              {% endif %}
-            {% endfor %}
+          <h2 class="has-text-centered">{{ i['Game Name'] }}</h2>
+          <h3 class="mt-2">General Information</h3>
+          <ul>
+            <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
+            {% if i['Format-Rollup'] %}
+            <li>Format: {{ i['Format-Rollup'] }}</li>
+            {% endif %}
+            <li>Bracket start time (CST, GMT-6): {{ i['Time-Start Pools (Website)'] | default: 'See Schedule'}} </li>
+            <li>Finals start time (CST, GMT-6): {{ i['Time-Start Finals (Website)'] | default: 'See Schedule'}} </li>
+            <li>Registration cap: {{i['Info-Cap'] | default: "TBA"}}</li>
+            <li>Registration fee: ${{i['Info-Entry Fee'] | default: "TBA"}}</li>
+            <li>Registration close (CST, GMT-6): Sun 1/25 11:59pm </li>
+            <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
+          </ul>
         </div>
       </section>
-      <footer class="modal-card-foot">
-        <a class="button is-primary" href="/info#{{i['Abbr-Game']}}">Full Rules</a>
+      <footer class="modal-card-foot buttons">
+        <a class="button is-warning" href="{{ i['Smash URL'] }}"><b>Register Now</b></a>
+        <a class="button is-info" href="/info#{{i['Abbr-Game']}}">Full Rules</a>
+        {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+        <a class="button is-danger" href="{{ i['Matcherino URL'] }}">Matcherino</a>
+        {% endif %}
       </footer>
     </div>
 </div>
