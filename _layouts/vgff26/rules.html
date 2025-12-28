@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top has-background-black">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero is-link has-text-centered has-background-black">
+            <div class="hero-body">
+                <h1 class="title titling is-1">
+                    {{ page.title }}
+                </h1>
+                {% if page.date %}
+                <h2 class="subtitle">
+                    Last updated on {{ page.date }}
+                </h2>
+                {% endif %}
+            </div>
+        </section>
+        <section class="section" style="min-height: 100vh;">
+            <div class="container is-max-widescreen">
+                <div class="columns is-desktop">
+                    <div class="column is-two-thirds-desktop">
+                        <div class="rules-div content" id="General">
+                            {{content}}
+                        </div>
+                        <div class="rules-div content has-text-white is-hidden" id="Schedule">
+                            <h2>Tournament Schedule</h2>
+                            <div class="buttons is-centered">
+                                <a class="button is-primary" href="https://drive.google.com/file/d/1ZMfR8W1HPAznrEDyPQDFYxOAVBienpLY/view?usp=sharing" target="_blank">Open Schedule in New Tab</a>
+                                <a class="button is-primary" href="https://frostyfaustings.com/schedule/" target="_blank">Frosty Faustings Schedule</a>
+                            </div>
+                            <div style="height: 75vh;">
+                                <iframe src="https://drive.google.com/file/d/1yT_TTYHh4wim-UJIYGqQVDiGV59FepRB/preview" width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
+                        {% for i in site.data.vgff26.games %}
+                        <div class="rules-div content has-text-white is-hidden" id="{{ i['Abbr-Game'] }}">
+                            <h2>{{ i['Short Name'] | default: i['Game Name'] }} {{ i['Format-Rollup'] | default: "" }}</h2>
+                            <hr/>
+                            {% include vgff26/rulesblock.html i=i %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="column is-one-third-desktop mb-5" >
+                        <hr class="is-hidden-desktop">
+                        <h4 class="is-size-4 mb-2 has-text-weight-bold">Vortex Gallery Info</h4>
+                        <aside class="menu has-background-black-ter p-5" style="max-height: 60vh; overflow-y: auto;">
+                            <p class="menu-label">
+                                Vortex Gallery Info
+                            </p>
+                            <div class="menu-list">
+                                <a class="is-active rules-btn" id="btn-General" data-target="General">Player's Guide</a>
+                                <a class="rules-btn" id="btn-Schedule" data-target="Schedule">Tournament Schedule</a>
+                            </div>
+                            <p class="menu-label">
+                                All Games
+                            </p>
+                            <div class="menu-list">
+                                {% for n in site.data.vgff26.games %}
+                                <a class="rules-btn" style="text-overflow: ellipsis; overflow: hidden; text-wrap: nowrap;" id="btn-{{ n['Abbr-Game'] }}" data-target="{{n['Abbr-Game']}}">{{ n['Game Name'] }}</a>
+                                {% endfor %}
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

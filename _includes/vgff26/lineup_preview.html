@@ -20,13 +20,13 @@
     {% endif %}
     {% endfor %}
 </div>
-<div class="box columns is-multiline is-centered mt-2 is-hidden-desktop">
+<div class="columns is-multiline is-centered mt-2 is-hidden-desktop">
     {% for i in site.data.vgff26.games %}
     {% if i['Smash URL'] %}
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
     <div class="column is-12-tablet p-1">
-        <a class="button is-primary is-fullwidth has-text-white" href="{{ i['Smash URL'] }}">{{ i['Game Name'] }} {% if i['Format']%}{{ i['Format-Rollup'] }}{% endif %}</a>
+        <a class="button is-primary is-fullwidth has-text-white" href="{{ i['Smash URL'] }}">{% if i['Game Name'].size <= 40 %}{{ i['Game Name'] }}{% else %}{{ i['Short Name'] }}{% endif %}{% if i['Format']%}{{ i['Format-Rollup'] }}{% endif %}</a>
     </div>
     {% endif %}
     {% endif %}

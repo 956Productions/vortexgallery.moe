@@ -1,6 +1,14 @@
 ---
 title: "Event Information"
-published: false
-layout: vgon25/rules
+published: true
+layout: vgff26/rules
 ---
-Welcome to the official information page for Vortex Gallery! Please use the Info Categories menu on this page to view rules for each individual game, broken down by region.
+## Player's Guide
+<div class="is-hidden-touch" style="height: 80vh;">
+<iframe width="100%" height="100%" src="https://docs.google.com/document/d/e/2PACX-1vSH_xxYKrMonTFNvV_6CecYTM7RO-R_PlY_eWv1lk7mdSGIHO-_iCLnLsMs1GOrPXyXKF5ABx4g7iph/pub?embedded=true"></iframe>
+</div>
+<div class="is-hidden-desktop">
+<div class="block has-text-centered">
+    <a class="button is-primary" href="https://956pro.com/playersguide" target="_blank">Open Player Guide in New Tab</a>
+</div>
+</div>

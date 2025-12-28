@@ -1,90 +1,72 @@
 <h3>General Information</h3>
 <ul>
-    {% if r['Alt Reg URL'] %}
-    <li><a href="{{ r['Alt Reg URL'] }}">Registration Link</a></li>
-    {% else %}
-    <li><a href="{{ r['Smash URL'] }}">Register via Start.gg</a></li>
+    <li><a href="{{ i['Smash URL'] }}">Event page on Start.gg</a></li>
+    <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
+    {% if i['Format-Rollup'] %}
+    <li>Format: {{ i['Format-Rollup'] }}</li>
     {% endif %}
-    <li>Platform: {{ r['Data-Platform Short Name'] | default: 'TBD' }}</li>
-    {% if r['Time-Start Time'] %}
-    <li>Start time: <div class="tooltip">{{ r['Time-Start Day'] }} {{ r['Time-Start Time'] }} {{ r['Time-TZ'] }}<span class="tooltiptext timestamp-text" data-time="{{ r['Time-Start Timestamp'] }}">Enable javascript for system time.</span></div></li>
-    {% else %}
-    <li>Start time: {{ r['Time-Start Day'] }}, Time TBD</li>
-    {% endif %}
-    <li>Registration Cap: {{ r['Info-Cap'] | default: 'TBD' }}</li>
-    <li>Organizer: {{ r['Rollup-Lead TOs'] | default: '@956Productions' }}</li>
-    <li>Main Stream: <a href="{{ r['Main Stream'] }}" target="_blank">{{ r['Main Stream'] | replace: "https://" | replace: "www.","" | default: 'TBD' }}</a></li>
-    {% if r['Region-Full'] %}
-    <li>Region(s): {{ r['Region-Full'] }}</li>
-    {% endif %}
-    {% if r['Region Includes'] %}
-    <li>Region(s) Includes: {{ r['Region Includes'] }}</li>
-    {% endif %}
-    {% if r['Info-Seeding'] %}
-    <li>Seeding: {{ r['Info-Seeding'] }}</li>
-    {% endif %}
+    <li>Bracket start time (CST, GMT-6): {{ i['Time-Start Pools (Website)'] | default: 'See Schedule'}} </li>
+    <li>Finals start time (CST, GMT-6): {{ i['Time-Start Finals (Website)'] | default: 'See Schedule'}} </li>
+    <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
+    <li>Registration Fee: ${{i['Info-Entry Fee'] | default: "TBA"}}</li>
+    <li>Registration Closes Jan. 25 11:59 PM Central Time (CST, GMT-6)</li>
+    <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
 </ul>
-{% if r['Multi-day Event Info'] %}
-<div class="content">
-    {{r['Multi-day Event Info'] | newline_to_br }}
-</div>
-{% endif %}
-<h3>Prizing Information</h3>
+{% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+<h3>Prizing</h3>
 <ul>
-    {% if r['Matcherino URL'] %}
-    <li><a href="{{r['Matcherino URL']}}">Matcherino Prize Pool Link</a></li>
+    <li>Pot Split: {{i['$-Pot Split'] | default: "TBA"}}</li>
+    {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+    <li><a href="{{ i['Matcherino URL'] }}">Crowdfunding via Matcherino</a></li>
     {% endif %}
-    <li>Pot Split: {{ r['$-Pot Split'] | default: 'TBD' }}</li>
 </ul>
-{% if r['Stream Links'] %}
-<h3>Stream Information</h3>
-<p>{{r['Stream Links'] | newline_to_br }}</p>
 {% endif %}
-{% if r['Pools-Bracket Type'] %}
+{% if i['Pools-Bracket Type'] %}
 <h3>Tournament Format</h3>
 {% endif %}
 <ul>
-    {% if r['Pools-Bracket Type'] %}
-    <li>Bracket Format: {{r['Pools-Bracket Type']}}</li>
+    {% if i['Pools-Bracket Type'] %}
+    <li>Bracket Format: {{i['Pools-Bracket Type']}}</li>
     {% endif %}
     
-    {% if r['Pools-Rounds per Game'] %}
-    <li>Rounds per Game: {{r['Pools-Rounds per Game']}}</li>
+    {% if i['Pools-Rounds per Game'] %}
+    <li>Rounds per Game: {{i['Pools-Rounds per Game']}}</li>
     {% endif %}
 
-    {% if r['Pools-Games per Set'] %}
-    <li>Games per Set: {{r['Pools-Games per Set']}}</li>
+    {% if i['Pools-Games per Set'] %}
+    <li>Games per Set: {{i['Pools-Games per Set']}}</li>
     {% endif %}
 
-    {% if r['Finals-Phase'] %}
-    <li>Finals Cut Off: {{r['Finals-Phase']}}</li>
+    {% if i['Finals-Cut Off'] %}
+    <li>Finals Cut Off: {{i['Finals-Cut Off']}}</li>
     {% endif %}
 
-    {% if r['Finals-Games per Set'] %}
-    <li>Finals Games per Set: {{r['Finals-Games per Set']}}</li>
+    {% if i['Finals-Games per Set'] %}
+    <li>Finals Games per Set: {{i['Finals-Games per Set']}}</li>
     {% endif %}
 
-    {% if r['Rules-Chara Change'] %}
-    <li>{{r['Rules-Chara Change']}}</li>
+    {% if i['Rules-Chara Change'] %}
+    <li>{{i['Rules-Chara Change']}}</li>
     {% endif %}
 
-    {% if r['Rules-Glitches'] %}
-    <li>{{r['Rules-Glitches']}}</li>
+    {% if i['Rules-Glitches'] %}
+    <li>{{i['Rules-Glitches']}}</li>
     {% endif %}
 
-    {% if r['Rules-Disconnect'] %}
-    <li>{{r['Rules-Disconnect']}}</li>
+    {% if i['Rules-Disconnect'] %}
+    <li>{{i['Rules-Disconnect']}}</li>
     {% endif %}
 </ul>
-{% if r['Info-Software Needed'] %}
-<h3>Software Needed</h3>
-<p>{{r['Info-Software Needed'] | newline_to_br }}</p>
-{% endif %}
-{% if r['Rules-Game Settings'] %}
+{% if i['Rules-Game Settings'] %}
 <h3>Game Settings</h3>
-<p>{{ r['Rules-Game Settings'] | newline_to_br }}</p>
+<p>{{ i['Rules-Game Settings'] | newline_to_br }}</p>
 {% endif %}
-{% if r['Rules-Notes'] %}
+{% if i['Rules-Notes'] %}
 <h3>Additional Rules</h3>
-<p>{{r['Rules-Notes'] | newline_to_br }}</p>
+<p>{{ i['Rules-Notes'] | newline_to_br }}</p>
 {% endif %}
+{% for ex in site.extra %}
+{% if ex.game == i['Short Name'] %}
+{{ ex.content | markdownify }}
+{% endif %}
+{% endfor %}

@@ -1,5 +1,6 @@
 ---
 title: "Event Schedule"
-published: false
+published: true
+redirect: '/info#Schedule'
 ---
 {% include vgon25/schedule.html %}
