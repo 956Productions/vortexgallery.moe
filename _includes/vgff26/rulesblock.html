@@ -7,9 +7,9 @@
     {% endif %}
     <li>Bracket start time (CST, GMT-6): {{ i['Time-Start Pools (Website)'] | default: 'See Schedule'}} </li>
     <li>Finals start time (CST, GMT-6): {{ i['Time-Start Finals (Website)'] | default: 'See Schedule'}} </li>
-    <li>Registration Cap: {{i['Info-Cap'] | default: "TBA"}}</li>
-    <li>Registration Fee: ${{i['Info-Entry Fee'] | default: "TBA"}}</li>
-    <li>Registration Closes Jan. 25 11:59 PM Central Time (CST, GMT-6)</li>
+    <li>Registration cap: {{i['Info-Cap'] | default: "TBA"}}</li>
+    <li>Registration fee: ${{i['Info-Entry Fee'] | default: "TBA"}}</li>
+    <li>Registration close (CST, GMT-6): Sun 1/25 11:59pm </li>
     <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
 </ul>
 {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
