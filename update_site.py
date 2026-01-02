@@ -62,6 +62,13 @@ def generate_game_page(subdir,name,label,abbr):
         content = '---\ntitle: "%s (%s)"\npermalink: /events/%s/%s\ngame: "%s"\ngame_name: "%s"\nevent: "%s"\nlayout: %s/game\n---' % (name,subdir.upper(),subdir,abbr.lower(),abbr,name,label,subdir)
         f.write(content)
 
+def generate_dash_page(subdir,abbr):
+    if not os.path.exists('events/' + subdir + '/dash'):
+        os.mkdir('events/' + subdir + '/dash')
+    with open(os.path.join('events/' + subdir + '/dash',"%s.md" % abbr),'w') as f:
+        content = '---\ntitle: "%s Staff Links (%s)"\npermalink: /%sstaff/%s\ngame: "%s"\nlayout: %s/staff\n---' % (abbr,subdir.upper(),subdir,abbr.lower(),abbr,subdir)
+        f.write(content)
+
 def generate_online_schedule(schedule,row,timestamp):
     new_time = datetime.datetime.fromtimestamp(int(timestamp))
     for t in config['schedule']:
@@ -122,6 +129,7 @@ def create_rules_data(atbase,atview,subdir,label,dl_images=True,online_schedule=
             download_game_logo(new_row['Abbr-Game'],new_row['Img-Game Logo'])
             time.sleep(0.1)
         generate_game_page(subdir,new_row['Game Name'],label,new_row['Abbr-Game'])
+        generate_dash_page(subdir,new_row['Abbr-Game'])
 
     if os.path.isfile('./_data/%s/games.csv' % subdir):
         if os.path.isfile('./_data/%s/games.csv.bak' % subdir):
