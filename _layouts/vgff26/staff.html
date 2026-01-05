@@ -55,8 +55,14 @@
                 <p>Players can fill this out as soon as they in the money. <b>{{i['Abbr-Game']}} Prize Split: {{i['$-Pot Split']}}</b></p>
                 <a href="{{i['Matcherino URL']}}" target="_blank" class="button is-danger mb-2">💸 Matcherino Page</a> <a class="modal-trigger" data-target="match-modal">[ QR ]</a><br>
                 <p>Make sure all codes are claimed so we can pay out the bonus pot!</p>
-                <a href="{{i['Smash BR URL']}}" target="_blank" class="button is-info mb-2">📋 {{page.game}} Brackets</a> <a class="modal-trigger" data-target="bracket-modal">[ QR ]</a><br>
+                <a href="{{i['Smash BR URL']}}" target="_blank" class="button is-info mb-2">📋 {{page.game}} Admin Brackets</a> <a class="modal-trigger" data-target="bracket-modal">[ QR ]</a><br>
+                <a href="{{i['Smash URL']}}" target="_blank" class="button is-info mb-2">🏆 {{page.game}} Public Brackets</a> <a class="modal-trigger" data-target="bracket-public-modal">[ QR ]</a><br>
                 <a href="{{i['Stream-Finals URL']}}" target="_blank" class="button is-info mb-2">📺 Stream @ TTV/{{i['Stream-Finals URL'] | split: '/' | last}}</a> <a class="modal-trigger" data-target="stream-modal">[ QR ]</a><br>
+                <hr>
+                <a href="https://956pro.com/vgff26stafffeedback" target="_blank" class="button is-link mb-2">🙋‍♂️ Staff Feedback</a> <a class="modal-trigger" data-target="staff-modal">[ QR ]</a><br>
+                <p>All done? We'd love to hear from you!</p>
+                <a href="https://956pro.com/vgff26playerfeedback" target="_blank" class="button is-link mb-2">🎮 Staff Feedback</a> <a class="modal-trigger" data-target="player-modal">[ QR ]</a><br>
+                <p>Make your community's voice heard with the player feedback form!</p>
                 <hr>
                 {% include vgff26/rulesblock.html i=i %}
                 {{ content }}
@@ -98,11 +104,38 @@
             </div>
             <button class="modal-close is-large" aria-label="close"></button>
         </div>
+        <div class="modal" id="bracket-public-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <p class="image is-square">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=640x640&margin=50&data={{i['Smash URL']}}" alt="">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
         <div class="modal" id="stream-modal">
             <div class="modal-background"></div>
             <div class="modal-content">
                 <p class="image is-square">
                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=640x640&margin=50&data={{i['Stream-Finals URL']}}" alt="">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <div class="modal" id="player-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <p class="image is-square">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=640x640&margin=50&data=https://956pro.com/vgff26playerfeedback" alt="">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <div class="modal" id="staff-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <p class="image is-square">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=640x640&margin=50&data=https://956pro.com/vgff26stafffeedback" alt="">
                 </p>
             </div>
             <button class="modal-close is-large" aria-label="close"></button>
