@@ -13,8 +13,12 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.1)
+    ffi (1.17.1-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     google-protobuf (4.29.3)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.3-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -78,6 +82,7 @@ GEM
     tzinfo-data (1.2025.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -95,6 +100,7 @@ DEPENDENCIES
   logger
   tzinfo (~> 1.2)
   tzinfo-data
+  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
