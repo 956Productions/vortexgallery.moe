@@ -1,6 +1,6 @@
 ---
 title: "REPRESENT YOUR SCENE - Community Tournaments at FFXVIII"
-redirect: "https://form.jotform.com/251889016979173"
+redirect: "https://956pro.com/volunteer"
 ---
 Vortex Gallery is run by volunteers who commit their time and dedication to help plan, produce and ultimately run many of the official, and un-official tournaments throughout the year at events all across the FGC.
 
