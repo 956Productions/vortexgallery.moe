@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top vgff27bg" data-theme="dark">
+    {% include header.html %}
+    <body>
+        {% include navbar.html %}
+        <section class="hero is-link has-text-centered vgff27hero">
+            <div class="hero-body is-align-content-center">
+                <!-- <div class="block">
+                    <div class="box" style="max-width: fit-content; margin: auto;">
+                        <strong>‼️ BRACKETS ARE LIVE! REQUEST CHANGES <a href="https://956pro.com/requests">HERE</a> BY TUESDAY 1/27/2026 ‼️</strong>
+                    </div>
+                </div> -->
+                <div class="block" style="max-width: 800px; height: auto; margin: auto;">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/logo.png">
+                    <img style="image-rendering: -webkit-optimize-contrast;" src="/img/vgff27/tagline_vgff27.png">
+                </div>
+                <div class="buttons is-justify-content-center">
+                    <a href="/volunteer" class="button is-warning is-large is-responsive">
+                        <span class="has-text-weight-bold">Apply Now</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container is-widescreen">
+                <div class="columns is-vcentered">
+                    <div class="column">
+                        <figure class="image">
+                            <img src="/img/vgff27/ffxix_logo.png">
+                        </figure>
+                    </div>
+                    <div class="column is-8-desktop">
+                        <div class="content has-text-white">
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+        <section class="section pt-0">
+            {% include vgff27/lineup_full.html %}
+        </section>
+        <section class="section">
+            <div class="container box">
+                {% include vgff27/byoc_cta.html %}
+            </div>
+        </section>
+        -->
+        <section class="section">
+            <div class="container is-widescreen">
+                {% include vgff27/vghero_ff26.html %}
+            </div>
+        </section>
+    </body>
+    {% include footer.html %}
+</html>

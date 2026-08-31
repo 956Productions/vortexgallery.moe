@@ -1,0 +1,20 @@
+/* VGFF27 */
+
+.vgff27hero {
+	background-image: linear-gradient( to bottom, transparent 80%, #000081), url('/img/vgff27/hero_vgff27.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+    min-height: 50vh;
+}
+
+.vgff27img:hover {
+	filter: drop-shadow(0 0 0.75rem #00a3f8);
+	transition: all 0.25s ease;
+}
+
+.vgff27bg {
+	background-color: #000081;
+	background-image: linear-gradient( to bottom, #000081, #000081 10%, transparent), url('/img/vgff27/topography_ff27.png');
+
+}

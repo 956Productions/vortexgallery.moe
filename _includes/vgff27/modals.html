@@ -1,0 +1,46 @@
+{% assign curGame = '' %}
+{% for i in site.data.vgff26.games %}
+{% if i['Smash URL'] or i['Alt Reg URL'] %}
+{% if i['Abbr-Game'] != curGame %}
+{% assign curGame = i['Abbr-Game'] %}
+<div class="modal has-text-left" id="{{i['Abbr-Game']}}">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head has-background-primary">
+        <p class="modal-card-title m-0">{{ i['Short Name'] }}</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <figure class="image mx-0 mt-0 mb-2 has-text-centered is-flex is-justify-content-center skeleton">
+          <img src="/img/games/{{i['Abbr-Game']}}.png" style="max-height: 150px; width: auto;" loading="lazy">
+        </figure>
+        <hr>
+        <div class="block content">
+          <h2 class="has-text-centered">{{ i['Game Name'] }}</h2>
+          <h3 class="mt-2">General Information</h3>
+          <ul>
+            <li>Platform: {{i['Data-Platform Short Name'] | default: "TBA"}}</li>
+            {% if i['Format-Rollup'] %}
+            <li>Format: {{ i['Format-Rollup'] }}</li>
+            {% endif %}
+            <li>Bracket start time (CST, GMT-6): {{ i['Time-Start Pools (Website)'] | default: 'See Schedule'}} </li>
+            <li>Finals start time (CST, GMT-6): {{ i['Time-Start Finals (Website)'] | default: 'See Schedule'}} </li>
+            <li>Registration cap: {{i['Info-Cap'] | default: "TBA"}}</li>
+            <li>Registration fee: ${{i['Info-Entry Fee'] | default: "TBA"}}</li>
+            <li>Registration close (CST, GMT-6): Sun 1/25 11:59pm </li>
+            <li>Organizer: {{ i['Rollup-Lead TOs'] | replace: ",", ", " | default: '@956Productions'}}</li>
+          </ul>
+        </div>
+      </section>
+      <footer class="modal-card-foot buttons">
+        <a class="button is-warning" href="{{ i['Smash URL'] }}"><b>Register Now</b></a>
+        <a class="button is-info" href="/info#{{i['Abbr-Game']}}">Full Rules</a>
+        {% if i['$-Pot Split'] != 'N/A' and i['Matcherino URL'] %}
+        <a class="button is-danger" href="{{ i['Matcherino URL'] }}">Matcherino</a>
+        {% endif %}
+      </footer>
+    </div>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}

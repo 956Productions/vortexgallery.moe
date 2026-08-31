@@ -1,6 +1,7 @@
 ---
 title: After Hours at Frosty Faustings XVIII
 description: "The after hours brackets and casuals in the 24-hour venue at Frosty Faustings XVIII. January 29 - February 1, 2026."
+published: false
 ---
 One of the best parts of Frosty Faustings is the 24-hour venue, with side brackets and casuals sessions run by players like you! We're compiling all the after hours action we know about here, so find your favorite and check in with the organizers!
 

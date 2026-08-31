@@ -21,12 +21,6 @@ youtube: https://956pro.com/youtube
 nav:
   - title: FAQ
     url: /faq
-  - title: Info
-    url: /info
-  - title: Schedule
-    url: /schedule
-  - title: After Hours
-    url: /afterhours
   - title: Results
     url: https://956.productions/results
 volunteer: /volunteer
