@@ -1,0 +1,8 @@
+{%- comment -%}
+Outputs the URL of a game's logo: the compressed webp icon from
+/img/games-icons/ if one exists at build time, otherwise the original png.
+Usage: <img src="{% include game_icon.html abbr=i.Abbr-Game %}">
+{%- endcomment -%}
+{%- assign game_icon_webp = '/img/games-icons/' | append: include.abbr | append: '.webp' -%}
+{%- assign game_icon_found = site.static_files | where: 'path', game_icon_webp | first -%}
+{%- if game_icon_found -%}{{ game_icon_webp }}{%- else -%}/img/games/{{ include.abbr }}.png{%- endif -%}

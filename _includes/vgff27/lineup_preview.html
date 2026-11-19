@@ -8,7 +8,7 @@
     <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="https://start.gg/vortexgallery">
         <div class="">
             <div style="height:160px; max-width:250px;" class="mt-4 p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                <img class="vgff27img" src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
+                <img class="vgff27img" src="{% include game_icon.html abbr=i.Abbr-Game %}" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
             </div>
         </div>
         <div class="block">

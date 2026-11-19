@@ -1,19 +1,19 @@
 {% assign curGame = '' %}
 <div class="content">
-<h2 class="teko has-text-centered is-size-1" id="tournaments">Vortex Gallery 2026 Tournaments</h2>
+<h2 class="teko has-text-centered is-size-1" id="tournaments">Vortex Gallery 2027 Tournaments</h2>
 <div class="columns is-gapless is-multiline is-centered mt-2 is-hidden-touch">
-    {% for i in site.data.vgff26.games %}
+    {% for i in site.data.vgff27.games %}
     {% if i['Smash URL'] %}
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
     {% if include.modals != false %}
     <a class="modal-trigger column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" data-target="{{i['Abbr-Game']}}">
     {% else %}
-    <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgff26/{{i['Abbr-Game'] | downcase }}">
+    <a class="column mb-2 is-2 is-flex is-flex-direction-column is-align-items-center" href="/events/vgff27/{{i['Abbr-Game'] | downcase }}">
     {% endif %}
         <div class="">
             <div style="height:160px; max-width:250px;" class="mt-4 p-4 vg-box is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-                <img class="vgff26img" src="/img/games/{{i['Abbr-Game']}}.png" style="width: 100%; height: auto; max-width: 200px; image-rendering: -webkit-optimize-contrast;" loading="lazy">
+                <img class="vgff27img" src="{% include game_icon.html abbr=i.Abbr-Game %}" style="width: 100%; height: auto; max-width: 200px;" loading="lazy">
             </div>
         </div>
         <div class="block">
@@ -25,7 +25,7 @@
     {% endfor %}
 </div>
 <div class="columns is-multiline is-centered mt-2 is-hidden-desktop">
-    {% for i in site.data.vgff26.games %}
+    {% for i in site.data.vgff27.games %}
     {% if i['Smash URL'] %}
     {% if i['Abbr-Game'] != curGame %}
     {% assign curGame = i['Abbr-Game'] %}
@@ -38,5 +38,5 @@
 </div>
 </div>
 {% if include.modals != false %}
-{% include vgff26/modals.html %}
+{% include vgff27/modals.html %}
 {% endif %}

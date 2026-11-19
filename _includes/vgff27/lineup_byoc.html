@@ -1,9 +1,9 @@
-{% for i in site.data.vgff26.byoc %}
+{% for i in site.data.vgff27.byoc %}
 {% if i['Status'] == "Confirmed" %}
 <div class="box">
     <div class="columns is-vcentered">
         <div class="column is-3" style="height: 150px;">
-            <img alt="After Hours at Frosty Faustings XVIII" src="/img/games/{{i['Abbr-Game']}}.png" style="height: 100%; width: 100%; object-fit: contain;" loading="lazy">
+            <img alt="After Hours at Frosty Faustings XIX" src="{% include game_icon.html abbr=i.Abbr-Game %}" style="height: 100%; width: 100%; object-fit: contain;" loading="lazy">
         </div>
         <div class="column">
             <div class="block mb-2">

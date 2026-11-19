@@ -12,7 +12,7 @@
       </header>
       <section class="modal-card-body">
         <figure class="image mx-0 mt-0 mb-2 has-text-centered is-flex is-justify-content-center skeleton">
-          <img src="/img/games/{{i['Abbr-Game']}}.png" style="max-height: 150px; width: auto;" loading="lazy">
+          <img src="{% include game_icon.html abbr=i.Abbr-Game %}" style="max-height: 150px; width: auto;" loading="lazy">
         </figure>
         <hr>
         <div class="block content">

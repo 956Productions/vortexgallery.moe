@@ -13,7 +13,7 @@
         <section class="hero is-link has-text-centered has-background-black">
             <div class="hero-body">
                 <figure class="image is-flex is-justify-content-center">
-                    <img src="/img/games/{{r['Abbr-Game']}}.png" loading="lazy" style="max-width: 300px; height: auto;">
+                    <img src="{% include game_icon.html abbr=page.game %}" loading="lazy" style="max-width: 300px; height: auto;">
                 </figure>
                 <h1 class="title exo">{{ page.game_name }}</h1>
                 <h2 class="subtitle">{{page.event}}</h2>

@@ -9,6 +9,11 @@ import sys
 import time, datetime
 from zoneinfo import ZoneInfo
 
+try:
+    from PIL import Image, ImageFile
+except ImportError:
+    Image = None
+
 #subprocess.run('git pull',shell=True) 
 
 with open('airtable.yml','r') as file:
@@ -18,6 +23,11 @@ from pyairtable import Api
 at = Api(config["secret"])
 
 drop_headers = ['Form Base URL','Form Prefill URL','Edit']
+
+GAME_IMG_DIR = './img/games/'
+ICON_DIR = './img/games-icons/'
+ICON_MAX_SIZE = 500
+ICON_QUALITY = 80
 
 def sanitize_input(value):
     new_val = None
@@ -44,9 +54,46 @@ def sanitize_input(value):
     return new_val
 
 def download_game_logo(filename,url):
-    if os.path.isfile('./img/games/' + filename + '.png'):
-        os.remove('./img/games/' + filename + '.png')
-    urllib.request.urlretrieve(url, './img/games/' + filename + '.png')
+    if os.path.isfile(GAME_IMG_DIR + filename + '.png'):
+        os.remove(GAME_IMG_DIR + filename + '.png')
+    urllib.request.urlretrieve(url, GAME_IMG_DIR + filename + '.png')
+    try:
+        convert_game_icon(filename)
+    except Exception as e:
+        print("Could not create icon for %s: %s" % (filename, e))
+
+def open_image(path):
+    try:
+        im = Image.open(path)
+        im.load()
+        return im
+    except OSError:
+        ImageFile.LOAD_TRUNCATED_IMAGES = True
+        try:
+            im = Image.open(path)
+            im.load()
+            print("Opened %s leniently, source file may be damaged" % path)
+            return im
+        finally:
+            ImageFile.LOAD_TRUNCATED_IMAGES = False
+
+def convert_game_icon(filename):
+    if Image is None:
+        print("Pillow is not installed, skipping icon for %s" % filename)
+        return
+    os.makedirs(ICON_DIR, exist_ok=True)
+    im = open_image(GAME_IMG_DIR + filename + '.png')
+    im = im.convert('RGBA')
+    im.thumbnail((ICON_MAX_SIZE, ICON_MAX_SIZE), Image.LANCZOS)
+    # Write to a hidden temp file, then swap it in, so a running `jekyll serve`
+    # never picks up a half-written icon (it ignores dotfiles).
+    tmp_path = ICON_DIR + '.' + filename + '.webp.tmp'              
+    try:
+        im.save(tmp_path, 'WEBP', quality=ICON_QUALITY)
+        os.replace(tmp_path, ICON_DIR + filename + '.webp')
+    finally:
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
 
 def clear_game_pages(subdir="vgon25"):
     subdir = 'events/' + subdir
@@ -58,14 +105,14 @@ def clear_game_pages(subdir="vgon25"):
 def generate_game_page(subdir,name,label,abbr):
     if not os.path.exists('events/' + subdir):
         os.mkdir('events/' + subdir)
-    with open(os.path.join('events/' + subdir,"%s.md" % abbr),'w') as f:
+    with open(os.path.join('events/' + subdir,"%s.md" % abbr),'w', encoding='utf-8') as f:
         content = '---\ntitle: "%s (%s)"\npermalink: /events/%s/%s\ngame: "%s"\ngame_name: "%s"\nevent: "%s"\nlayout: %s/game\n---' % (name,subdir.upper(),subdir,abbr.lower(),abbr,name,label,subdir)
         f.write(content)
 
 def generate_dash_page(subdir,abbr):
     if not os.path.exists('events/' + subdir + '/dash'):
         os.mkdir('events/' + subdir + '/dash')
-    with open(os.path.join('events/' + subdir + '/dash',"%s.md" % abbr),'w') as f:
+    with open(os.path.join('events/' + subdir + '/dash',"%s.md" % abbr),'w', encoding='utf-8') as f:
         content = '---\ntitle: "%s Staff Links (%s)"\npermalink: /%sstaff/%s\ngame: "%s"\nlayout: %s/staff\n---' % (abbr,subdir.upper(),subdir,abbr.lower(),abbr,subdir)
         f.write(content)
 
