@@ -23,6 +23,8 @@ nav:
     url: /faq
   - title: Results
     url: https://956.productions/results
+  - title: After Hours
+    url: /afterhours
 volunteer: /volunteer
 collections:
   - info
